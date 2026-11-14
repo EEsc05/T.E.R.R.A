@@ -1,10 +1,11 @@
-"""Frozen quality_h6_half30_w0; no fitted uncertainty added."""
+"""Quality-aware local smoothing baseline."""
 
+from .base import LocalModel
 from ..preprocessing.interface import prepare, result
 from ..preprocessing.local import LocalFit
 
 
-class SmoothingModel:
+class SmoothingModel(LocalModel):
     def predict(self, forecast_input):
         p = prepare(forecast_input)
         forecast = LocalFit(

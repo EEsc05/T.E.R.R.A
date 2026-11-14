@@ -1,10 +1,11 @@
-"""Frozen30-day half-life; no new smoothing optimization."""
+"""30-day half-life baseline, fitted locally to each supplied history."""
 
+from .base import LocalModel
 from ..preprocessing.interface import prepare, result
 from ..preprocessing.local import LocalFit
 
 
-class EMA30Model:
+class EMA30Model(LocalModel):
     def predict(self, forecast_input):
         p = prepare(forecast_input)
         forecast = LocalFit(

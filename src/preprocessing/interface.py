@@ -76,15 +76,13 @@ def prepare(inp, min_history=6, fixed_grid=False):
             "Acquisition dates must be strictly chronological; no sorting or deduplication is performed."
         )
     if len(maps) < min_history:
-        raise ValueError(
-            f"This frozen model requires at least{min_history} acquisitions."
-        )
+        raise ValueError(f"This model requires at least{min_history} acquisitions.")
     h = float(inp.horizon_days)
     if not np.isfinite(h) or h <= 0:
         raise ValueError("horizon_days must be positive and finite.")
     if fixed_grid and (maps.shape[1:] != (32, 32) or not 1 <= h <= 180):
         raise ValueError(
-            "Trained hybrid/CVAE require native32x32 maps and horizon1–180days; no resizing is performed."
+            "Hybrid/CVAE require native32x32 maps and horizon1–180days; no resizing is performed."
         )
     if not isinstance(inp.metadata, dict):
         raise ValueError("metadata must be a dictionary.")

@@ -1,10 +1,10 @@
-"""Exact research definitions; module imports adapted for isolated inference. See hackathon_stage1/SOURCE_MANIFEST.json for source provenance."""
+"""Forecasting numerical definitions adapted from the original stage 1 scripts."""
 
 import numpy as np
 from scipy.ndimage import uniform_filter
 from .numerics import fill_past
 
-NOISE = 1.8957095278862819
+NOISE = 1.0  # Default numerical noise floor in mm; not a loaded or fitted parameter.
 
 
 def smooth(m, t, half):

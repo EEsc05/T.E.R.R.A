@@ -1,4 +1,4 @@
-"""Exact research definitions; module imports adapted for isolated inference. See hackathon_stage1/SOURCE_MANIFEST.json for source provenance."""
+"""Forecasting numerical definitions adapted from the original stage 1 scripts."""
 
 import numpy as np
 

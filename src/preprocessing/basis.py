@@ -1,10 +1,10 @@
-"""Exact research definitions; module imports adapted for isolated inference. See hackathon_stage1/SOURCE_MANIFEST.json for source provenance."""
+"""Forecasting numerical definitions adapted from the original stage 1 scripts."""
 
 import numpy as np
 from scipy.fft import dctn, idctn
 from sklearn.decomposition import PCA, MiniBatchDictionaryLearning
 
-SEED = 20261106
+SEED = 42
 
 
 class SpatialBasis:

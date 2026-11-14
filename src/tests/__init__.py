@@ -1,1 +1,1 @@
-"""Integration and frozen-output regression tests."""
+"""Fresh training and forecasting workflow tests."""

@@ -1,10 +1,11 @@
 """Exact robust rank3 local spatial fit and ridge coefficient forecast."""
 
+from .base import LocalModel
 from ..preprocessing.interface import prepare, result
 from ..preprocessing.local import LocalFit
 
 
-class RobustModel:
+class RobustModel(LocalModel):
     def predict(self, forecast_input):
         p = prepare(forecast_input)
         forecast = LocalFit(

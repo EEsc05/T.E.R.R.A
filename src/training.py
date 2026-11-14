@@ -1,8 +1,4 @@
-"""Common entry point for the six frozen forecasting models.
-
-The historical TrainingModel name is retained for callers. These models perform
-inference with existing parameters; they do not retrain or save placeholder files.
-"""
+"""Train, evaluate, save and run the six forecasting model families."""
 
 from .input import ForecastInput
 from .models.persistence import PersistenceModel
@@ -11,6 +7,9 @@ from .models.smoothing import SmoothingModel
 from .models.robust import RobustModel
 from .models.four_branch import FourBranchModel
 from .models.cvae import CVAEModel
+from .models.base import evaluate
+from .dataset import validate_split
+from .utils.checkpoints import save_model, load_model
 
 
 class TrainingModel:
@@ -31,6 +30,7 @@ class TrainingModel:
         self.model_name = model_name
         self.parameters = dict(parameters or {})
         self._models = {}
+        self.training_report = None
 
     def __repr__(self):
         return f"TrainingModel(model_name={self.model_name!r}, parameters={self.parameters!r})"
@@ -44,6 +44,53 @@ class TrainingModel:
 
     def get_data(self, v_id, maps, dates, masks, horizon_days, metadata=None):
         return ForecastInput(v_id, maps, dates, masks, horizon_days, metadata or {})
+
+    def fit(self, training, validation=None):
+        self._models = {}
+        self.training_report = None
+        if validation is not None:
+            validate_split(training, validation)
+        # Always construct a fresh estimator. fit() is never a warm start.
+        estimator = self.MODEL_TYPES[self.model_name](**self.parameters)
+        estimator.fit(training, validation)
+        self._models = {self.model_name: estimator}
+        self.training_report = dict(estimator.training_report)
+        if validation is not None and self.model_name == "cvae":
+            self.training_report["validation_metrics"] = evaluate(estimator, validation)
+        return self
+
+    train = fit
+
+    def evaluate(self, dataset):
+        if self.model_name not in self._models:
+            raise ValueError("Fit or explicitly load a trained model before evaluation")
+        return evaluate(self._models[self.model_name], dataset)
+
+    def save(self, path, overwrite=False):
+        if self.training_report is None:
+            raise ValueError("Call fit() before saving a model")
+        return save_model(
+            path,
+            {
+                "format": "terra-trained-model",
+                "format_version": 1,
+                **self.to_dict(),
+                "estimator": self._models[self.model_name],
+                "training_report": self.training_report,
+            },
+            overwrite,
+        )
+
+    @classmethod
+    def load(cls, path):
+        payload = load_model(path)
+        manager = cls(payload["model_name"], payload["parameters"])
+        estimator = payload["estimator"]
+        if not isinstance(estimator, cls.MODEL_TYPES[manager.model_name]):
+            raise ValueError("Saved model family does not match its estimator")
+        manager._models = {manager.model_name: estimator}
+        manager.training_report = payload["training_report"]
+        return manager
 
     def _predict(self, name, data):
         if name not in self._models:
