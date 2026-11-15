@@ -1,0 +1,134 @@
+{
+  "method": "leave-one-physical-volcano-out within all training partitions only",
+  "folds": [
+    {
+      "held_out_site": "ambrym",
+      "fit_examples": 251,
+      "tuning_examples": 3,
+      "best_epoch": 17,
+      "epochs_completed": 32
+    },
+    {
+      "held_out_site": "coropuna",
+      "fit_examples": 218,
+      "tuning_examples": 36,
+      "best_epoch": 46,
+      "epochs_completed": 61
+    },
+    {
+      "held_out_site": "cotopaxi",
+      "fit_examples": 220,
+      "tuning_examples": 34,
+      "best_epoch": 31,
+      "epochs_completed": 46
+    },
+    {
+      "held_out_site": "dabbahu",
+      "fit_examples": 244,
+      "tuning_examples": 10,
+      "best_epoch": 22,
+      "epochs_completed": 37
+    },
+    {
+      "held_out_site": "erta_ale",
+      "fit_examples": 236,
+      "tuning_examples": 18,
+      "best_epoch": 44,
+      "epochs_completed": 59
+    },
+    {
+      "held_out_site": "kilauea",
+      "fit_examples": 224,
+      "tuning_examples": 30,
+      "best_epoch": 24,
+      "epochs_completed": 39
+    },
+    {
+      "held_out_site": "misti",
+      "fit_examples": 244,
+      "tuning_examples": 10,
+      "best_epoch": 4,
+      "epochs_completed": 19
+    },
+    {
+      "held_out_site": "mount_asama",
+      "fit_examples": 251,
+      "tuning_examples": 3,
+      "best_epoch": 36,
+      "epochs_completed": 51
+    },
+    {
+      "held_out_site": "popocatepetl",
+      "fit_examples": 243,
+      "tuning_examples": 11,
+      "best_epoch": 29,
+      "epochs_completed": 44
+    },
+    {
+      "held_out_site": "reykjanes",
+      "fit_examples": 222,
+      "tuning_examples": 32,
+      "best_epoch": 31,
+      "epochs_completed": 46
+    },
+    {
+      "held_out_site": "ruiz_nevado_del",
+      "fit_examples": 218,
+      "tuning_examples": 36,
+      "best_epoch": 20,
+      "epochs_completed": 35
+    },
+    {
+      "held_out_site": "sabancaya",
+      "fit_examples": 244,
+      "tuning_examples": 10,
+      "best_epoch": 41,
+      "epochs_completed": 56
+    },
+    {
+      "held_out_site": "taupo",
+      "fit_examples": 242,
+      "tuning_examples": 12,
+      "best_epoch": 3,
+      "epochs_completed": 18
+    },
+    {
+      "held_out_site": "ubinas",
+      "fit_examples": 245,
+      "tuning_examples": 9,
+      "best_epoch": 25,
+      "epochs_completed": 40
+    }
+  ],
+  "cvae_epochs": 27,
+  "cvae_seed": 42,
+  "four_branch_weights": [
+    [
+      0.28643157266216035,
+      0.2767126384155837,
+      4.336808689942018e-18,
+      0.436855788922256
+    ],
+    [
+      8.374377580278036e-16,
+      0.02564591364288169,
+      1.3097162243624894e-16,
+      0.9743540863571173
+    ],
+    [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ]
+  ],
+  "bin_edges_days": [
+    31,
+    91
+  ],
+  "bins_with_oof_data": [
+    0,
+    1
+  ],
+  "reporting_partition_used_for_selection": false
+}

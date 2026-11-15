@@ -1,0 +1,33 @@
+{
+  "training_examples": 30,
+  "context_pixels": 10000,
+  "seed": 42,
+  "fusion": "training-only leave-one-site-out predictions",
+  "training_metrics": {
+    "mae_mm": 22.282586890700415,
+    "rmse_mm": 42.14446799831506,
+    "bias_mm": -1.4554354606580338,
+    "observed_pixels": 20086
+  },
+  "weights": [
+    [
+      0.6434897984062181,
+      0.3490349835838962,
+      0.007475218009885818,
+      0.0
+    ],
+    [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ]
+  ],
+  "selection_protocol": "reports/selection.json; no reporting targets used for fitting"
+}

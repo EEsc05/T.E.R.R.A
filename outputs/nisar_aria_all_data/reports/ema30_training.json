@@ -1,0 +1,11 @@
+{
+  "training_examples": 254,
+  "global_weights_learned": false,
+  "training_metrics": {
+    "mae_mm": 10.544374026685997,
+    "rmse_mm": 21.84526873940524,
+    "bias_mm": 0.32994026950672983,
+    "observed_pixels": 136073
+  },
+  "selection_protocol": "reports/selection.json; no reporting targets used for fitting"
+}

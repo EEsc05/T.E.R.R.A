@@ -1,0 +1,182 @@
+{
+  "created_utc": "2026-11-15T05:24:20.459060+00:00",
+  "sites": [
+    "sabancaya",
+    "ubinas",
+    "misti",
+    "popocatepetl",
+    "dabbahu"
+  ],
+  "training_examples": 53,
+  "training_examples_by_volcano": {
+    "dabbahu": 10,
+    "misti": 10,
+    "mount_asama": 3,
+    "popocatepetl": 11,
+    "sabancaya": 10,
+    "ubinas": 9
+  },
+  "extra_training_files": [
+    "data/nisar_japan/mount_asama_ascending/examples.npz",
+    "data/nisar_japan/mount_asama_descending/examples.npz"
+  ],
+  "comparison_run": "outputs/nisar_peru_japan_combined",
+  "reporting_set_previously_evaluated": true,
+  "comparison_method": "rescore_reference_models_on_current_holdout",
+  "reporting_examples_by_volcano": {
+    "dabbahu": 3,
+    "misti": 2,
+    "popocatepetl": 3,
+    "sabancaya": 2,
+    "ubinas": 2
+  },
+  "japan_examples_used_only_for_training": true,
+  "temporal_audit": {
+    "latest_training_target_date": "2026-10-21T00:00:00.000000000",
+    "strict_global_forward_time_test": false,
+    "per_case": [
+      {
+        "site": "sabancaya",
+        "origin_date": "2026-09-09T00:00:00.000000000",
+        "later_training_targets": 3
+      },
+      {
+        "site": "sabancaya",
+        "origin_date": "2026-09-21T00:00:00.000000000",
+        "later_training_targets": 3
+      },
+      {
+        "site": "ubinas",
+        "origin_date": "2026-08-26T00:00:00.000000000",
+        "later_training_targets": 3
+      },
+      {
+        "site": "ubinas",
+        "origin_date": "2026-09-19T00:00:00.000000000",
+        "later_training_targets": 3
+      },
+      {
+        "site": "misti",
+        "origin_date": "2026-09-09T00:00:00.000000000",
+        "later_training_targets": 3
+      },
+      {
+        "site": "misti",
+        "origin_date": "2026-09-21T00:00:00.000000000",
+        "later_training_targets": 3
+      },
+      {
+        "site": "popocatepetl",
+        "origin_date": "2026-08-26T00:00:00.000000000",
+        "later_training_targets": 3
+      },
+      {
+        "site": "popocatepetl",
+        "origin_date": "2026-09-07T00:00:00.000000000",
+        "later_training_targets": 3
+      },
+      {
+        "site": "popocatepetl",
+        "origin_date": "2026-09-19T00:00:00.000000000",
+        "later_training_targets": 3
+      },
+      {
+        "site": "dabbahu",
+        "origin_date": "2026-08-24T00:00:00.000000000",
+        "later_training_targets": 3
+      },
+      {
+        "site": "dabbahu",
+        "origin_date": "2026-09-05T00:00:00.000000000",
+        "later_training_targets": 3
+      },
+      {
+        "site": "dabbahu",
+        "origin_date": "2026-09-17T00:00:00.000000000",
+        "later_training_targets": 3
+      }
+    ],
+    "interpretation": "Retrospective row holdout: training includes observations later than reporting forecast origins"
+  },
+  "reporting_examples": 12,
+  "source_reporting_partition": "validation.npz for each selected site, excluded from fitting",
+  "seed": 42,
+  "max_cvae_epochs": 80,
+  "max_context_pixels": 10000,
+  "aggregation": "mean per-window errors within each volcano, then equal volcano weighting; RMSE=sqrt(macro MSE)",
+  "mask": "same finite observed target pixels with historical support for every model",
+  "selection": "leave-one-volcano-out inside training; final weights never fitted to reporting targets",
+  "baseline": "persistence",
+  "source_sha256": {
+    "data/nisar_training_global/sabancaya/train.npz": "fa778c184249eb1195940e5e17f3c73a0a7c635eec648effea95f8bc942730c7",
+    "data/nisar_training_global/sabancaya/validation.npz": "247d659550b3ac01bbea67153f4cf1a71aeb1d24ac22f3cd7c36785af082137c",
+    "data/nisar_training_global/ubinas/train.npz": "400ecb03a84b2ad72cbb0303b6b822768aaf423399645c4dab6bb5b299d1203d",
+    "data/nisar_training_global/ubinas/validation.npz": "7c0c36c8eff99de0f03ad7eb9f77529eb2734377389d822cbc775d859632e6ad",
+    "data/nisar_training_global/misti/train.npz": "201479eae704dcdc64cdd8c12f0ac27aff5b71bb4b1106abd6c5e6819f9a7f8b",
+    "data/nisar_training_global/misti/validation.npz": "de25024cda2527dde54f4c5ca13b4e734c84283c628e58de1a80524e61189333",
+    "data/nisar_training_global/popocatepetl/train.npz": "364cd979ec967f912cf8ae7257a4ca0d486f62bd5b78ca08b1b64d640630e14d",
+    "data/nisar_training_global/popocatepetl/validation.npz": "7fa535408800b2d10c942bfcefdc1755754abde526e84269818a3b7ee4ec087e",
+    "data/nisar_training_global/dabbahu/train.npz": "ed27082ca3d6c23dd34bdfea533e061252cebd89f0c2fb08a33b4e6470307e68",
+    "data/nisar_training_global/dabbahu/validation.npz": "7df6c4806c1ddffeb2d9c83f076b22fde5c199ad26907443af4fc9d25515446c",
+    "data/nisar_japan/mount_asama_ascending/examples.npz": "843c357b667dbdb3bf9e07f284952729d27db1d97780fb3adf3cc4d2b38e8fd0",
+    "data/nisar_japan/mount_asama_descending/examples.npz": "c7e1732c46172cd298a5038a974b3c6b0a5f8af8770fa4536d9e159cb13a3730"
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "torch": "2.9.1+cpu",
+    "joblib": "1.6.0"
+  },
+  "caveat": "12 reporting windows across 5 volcanoes; temporal availability audited separately; not a geographic performance guarantee",
+  "source_code_sha256": {
+    "/home/emily/T.E.R.R.A/src/output.py": "a8e1b96f34a2c074cc3e5eea1f4798efb5304d101943c4953f2905f5ca4fd916",
+    "/home/emily/T.E.R.R.A/src/training.py": "5eea64b340e24c2c14eceef61fa61bba7b98254bc11ff750f942fb3effd6a522",
+    "/home/emily/T.E.R.R.A/src/discover_gunw.py": "cbc010065cf31bccb7ac63280453983929d993d6f49d8513cc4e09ae00374e99",
+    "/home/emily/T.E.R.R.A/src/dataset.py": "2063403dc63004f1b82e5c4f547aa9e429d0c81b4931f2fe6057982cbcc5caf4",
+    "/home/emily/T.E.R.R.A/src/nisar_remote.py": "d2065eb24be1b4474be88fcf7522121be5a3d9c5c2b4b04198a19391bb076e8a",
+    "/home/emily/T.E.R.R.A/src/prepare_nisar.py": "c56520bfc9d9d9226a31264c26f1f05d25fd62ee58c04491eac4ee77899c78b1",
+    "/home/emily/T.E.R.R.A/src/__main__.py": "84f6330c706106c4ed6ab29e9660cc0cf89feebc904272df6e0bf46899abbedf",
+    "/home/emily/T.E.R.R.A/src/main.py": "f381145a0d0beeb802162f2ef1a194e429310e451e0eb490a5a19895e3e5fd8b",
+    "/home/emily/T.E.R.R.A/src/probe_gunw.py": "a8d8653ca24894df27a148d7c131990686ff4fc9b830941fcfab6677a9a6ddaa",
+    "/home/emily/T.E.R.R.A/src/preparation.py": "7e1ed964f02eb850d2bbfce1bfdb765f0d9c1c327e9945b69abefd4bef954fe8",
+    "/home/emily/T.E.R.R.A/src/train.py": "19d731836fd4db2e9d1cd5676f6a2c015fd6594d1e2931411f4e7316962f6c88",
+    "/home/emily/T.E.R.R.A/src/train_all.py": "f7c28bcc34b33d4d5188d14f557c45c8773a5f3c50c85d503435a00cb57aa871",
+    "/home/emily/T.E.R.R.A/src/input.py": "4023e48f390dea111a6ffbff0693efd3a324b18c2758c52da11b69831e9be81b",
+    "/home/emily/T.E.R.R.A/src/models.py": "078ed5cc2724391cf309a9d0de59118ed73b22b7c139238a6d8bfd1a95410697",
+    "/home/emily/T.E.R.R.A/src/nisar_processing.py": "d5f5ebb029fb26cdcdee8f3deeb6cdf9a7cb674b78910cda759baf64cd0e8a0d",
+    "/home/emily/T.E.R.R.A/src/discover_aria_gunw.py": "72283da8f66d77e87712a799393b815d5ceb4f662fc917f6c7742efadf47e06b",
+    "/home/emily/T.E.R.R.A/src/__init__.py": "8f8e250a714942d5c9c338992877196aa289f07e27e3e626ca5eba442d3b4074",
+    "/home/emily/T.E.R.R.A/src/utils/checkpoints.py": "d24de7e4d9020e771cffc9e81949629a9f52eefc66c2d696f301827ec0417a91",
+    "/home/emily/T.E.R.R.A/src/utils/__init__.py": "443ae43852aa285f696571df99c84ce9cab832f9b80cf551d1b2cd1e9d183cc5",
+    "/home/emily/T.E.R.R.A/src/tests/test_nisar_remote.py": "bdec423e960466416d971b49abc27a71282ecbf74cadaa8ab955a1c09644be19",
+    "/home/emily/T.E.R.R.A/src/tests/test_gunw_discovery.py": "ca99c28e5fce21bd0b65d4161399f8aaf68f41fdb488edb78a059fabd7bce62d",
+    "/home/emily/T.E.R.R.A/src/tests/test_nisar.py": "3bbfe2045b8a01c45b699370007a8a89982a0e4427cb611214728185e46dd20a",
+    "/home/emily/T.E.R.R.A/src/tests/test_inference.py": "1fe8d5499a403a7b760b85a5d0febb2648aeee3e10166db2d8cdfbbc96075e1c",
+    "/home/emily/T.E.R.R.A/src/tests/test_pipeline.py": "fcd74832e021eafbdca4e4a2bb3bd69426040c261c4cb0dea5047e5ccd695c52",
+    "/home/emily/T.E.R.R.A/src/tests/test_train_all.py": "f26aa76a79be4916669a017ff37c6aff2895be914b3fc416af5d69cf40c0f267",
+    "/home/emily/T.E.R.R.A/src/tests/helpers.py": "4df0588f4930cc04ada67f33c82f0782bc7cbc5fed46273fc16d98562639c0b4",
+    "/home/emily/T.E.R.R.A/src/tests/__init__.py": "6d42d4d433864607389926482bcfca773dd08b3bc1a0be64f156cf7fb6dd4640",
+    "/home/emily/T.E.R.R.A/src/preprocessing/temporal.py": "34d1e17cce5c12ce228dcbd435dbaf7703265db5a40b67ccb550ae5caebb8c33",
+    "/home/emily/T.E.R.R.A/src/preprocessing/basis.py": "8502e1f4e07b072e33dbeb91b70c5926972b9d8dad3680fd39b9fc875374c86e",
+    "/home/emily/T.E.R.R.A/src/preprocessing/interface.py": "0d1f16659d09c9d62f9a274c1d2c224f830591a006a8127c6bd42443449cc3bb",
+    "/home/emily/T.E.R.R.A/src/preprocessing/numerics.py": "a3caf04db8acb270f6bd1b48121e5cce416de2c2834277fe5c5f59a5a6e4703c",
+    "/home/emily/T.E.R.R.A/src/preprocessing/shared.py": "5348911f4df337377453d4ab55562e9d9c8be99fd18ee799bd9362ea24091e6d",
+    "/home/emily/T.E.R.R.A/src/preprocessing/context.py": "c686d99a555910f4a9ab8ac1da22a850b3d3c86f95867aa4fea1268684bbbc15",
+    "/home/emily/T.E.R.R.A/src/preprocessing/local.py": "e567b12fd4ae058e677ed958da0ef73b0e61e710dcfb608d716edd9a54a739f7",
+    "/home/emily/T.E.R.R.A/src/preprocessing/spatial.py": "8e3465566399e404872f1198c82bd5e0f6f682b15cee433c44a2ae8b42065760",
+    "/home/emily/T.E.R.R.A/src/preprocessing/conditioning.py": "d966f6be439d5f1413aab48aea61c12d642e8ad761637c5f4650785cdcbbe7d5",
+    "/home/emily/T.E.R.R.A/src/preprocessing/features.py": "bdc6eb7556815db12ab51dabeb1bf57e5b02edfba8f0f25f5213f3a4fc84a742",
+    "/home/emily/T.E.R.R.A/src/preprocessing/__init__.py": "443ae43852aa285f696571df99c84ce9cab832f9b80cf551d1b2cd1e9d183cc5",
+    "/home/emily/T.E.R.R.A/src/models/ema30.py": "f484176903df0006d61c0d0ccf029690431452487f5d88150ee29a2ed9d8a71e",
+    "/home/emily/T.E.R.R.A/src/models/persistence.py": "7ff269d32d99913f28bcb8c3897a110d85fc7209c7b2a3abfc1013c8bdc08f54",
+    "/home/emily/T.E.R.R.A/src/models/robust.py": "0786a20a3c7469563c7d33f8f27a0c2957e059df0e7862ad46f6adcd6b9d6c9c",
+    "/home/emily/T.E.R.R.A/src/models/base.py": "c181e60e09c554fe0641fefdc7f331c317dbfc94956fb673da888d20adedac29",
+    "/home/emily/T.E.R.R.A/src/models/cvae_network.py": "944b396ab7f3ed78cae4b3898bc416ff6752ad9b9ddfa1d94a0913d6947bdb9d",
+    "/home/emily/T.E.R.R.A/src/models/smoothing.py": "a8da2719599be4470e80dd66994cd00e46e310ed5bc167e2a967121d8c06b578",
+    "/home/emily/T.E.R.R.A/src/models/cvae.py": "b7cc772a51bb40b13de4ec2cf003689505ae73354b2a0bd79f54ed3d76de5c70",
+    "/home/emily/T.E.R.R.A/src/models/four_branch.py": "9c2b763221ef70f55c94e5d75b7b3ab21a8aa36b275680fc82433fc0a089fecf",
+    "/home/emily/T.E.R.R.A/src/models/__init__.py": "c2d262ca9a9c1184a449a1106b6a830a5cea54412856d7eea937aebf3fd62fc5"
+  },
+  "reporting_reuse_note": "Partly reused: prior Peru reporting periods, with Ubinas rebuilt; six additional reporting windows from Mexico and Ethiopia. The complete current set differs from the previous run."
+}

@@ -1,0 +1,7 @@
+{
+  "saved_prediction_scores_independently_verified": true,
+  "reference_and_current_identical_scoring_masks": true,
+  "local_baselines_unchanged": true,
+  "six_model_artifact_hashes": "artifact_sha256.json",
+  "targeted_tests_passed": 6
+}

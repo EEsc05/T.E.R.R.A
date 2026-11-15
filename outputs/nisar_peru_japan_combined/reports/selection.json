@@ -1,0 +1,63 @@
+{
+  "method": "leave-one-site-out within original training partition only",
+  "folds": [
+    {
+      "held_out_site": "misti",
+      "fit_examples": 23,
+      "tuning_examples": 10,
+      "best_epoch": 33,
+      "epochs_completed": 48
+    },
+    {
+      "held_out_site": "mount_asama",
+      "fit_examples": 30,
+      "tuning_examples": 3,
+      "best_epoch": 60,
+      "epochs_completed": 75
+    },
+    {
+      "held_out_site": "sabancaya",
+      "fit_examples": 23,
+      "tuning_examples": 10,
+      "best_epoch": 43,
+      "epochs_completed": 58
+    },
+    {
+      "held_out_site": "ubinas",
+      "fit_examples": 23,
+      "tuning_examples": 10,
+      "best_epoch": 46,
+      "epochs_completed": 61
+    }
+  ],
+  "cvae_epochs": 44,
+  "cvae_seed": 42,
+  "four_branch_weights": [
+    [
+      0.5776672445269153,
+      0.35651599197135736,
+      0.06581676350172735,
+      0.0
+    ],
+    [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ]
+  ],
+  "bin_edges_days": [
+    31,
+    91
+  ],
+  "bins_with_oof_data": [
+    0
+  ],
+  "reporting_partition_used_for_selection": false
+}

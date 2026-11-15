@@ -1,0 +1,15 @@
+{
+  "saved_prediction_mae_rmse_independently_reproduced_for_all_12_summaries": true,
+  "reporting_cases": 62,
+  "identical_current_reference_masks": true,
+  "local_baseline_predictions_unchanged": true,
+  "tests_passed": 41,
+  "browser_histories_checked": 15,
+  "model_artifact_hashes_verified": true,
+  "dashboard_data_hashes_verified": true,
+  "previous_artifacts_preserved": {
+    "nisar_training_20261115_041618": true,
+    "nisar_peru_japan_combined": true,
+    "nisar_expanded_global": true
+  }
+}

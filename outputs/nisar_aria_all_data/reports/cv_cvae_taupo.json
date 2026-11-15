@@ -1,0 +1,108 @@
+{
+  "training_examples": 242,
+  "validation_examples": 12,
+  "seed": 42,
+  "epochs_completed": 18,
+  "best_epoch": 3,
+  "basis_rank_per_block": 8,
+  "curves": [
+    {
+      "epoch": 1,
+      "training_loss": 2.5867746509611607,
+      "validation_loss": 0.03513260558247566
+    },
+    {
+      "epoch": 2,
+      "training_loss": 2.3441312462091446,
+      "validation_loss": 0.026940487325191498
+    },
+    {
+      "epoch": 3,
+      "training_loss": 2.7574353963136673,
+      "validation_loss": 0.021673215553164482
+    },
+    {
+      "epoch": 4,
+      "training_loss": 2.3988275304436684,
+      "validation_loss": 0.027150742709636688
+    },
+    {
+      "epoch": 5,
+      "training_loss": 1.956613915041089,
+      "validation_loss": 0.03401128947734833
+    },
+    {
+      "epoch": 6,
+      "training_loss": 1.786622267216444,
+      "validation_loss": 0.04581420123577118
+    },
+    {
+      "epoch": 7,
+      "training_loss": 1.7101662829518318,
+      "validation_loss": 0.04339636117219925
+    },
+    {
+      "epoch": 8,
+      "training_loss": 1.4305157028138638,
+      "validation_loss": 0.048882339149713516
+    },
+    {
+      "epoch": 9,
+      "training_loss": 1.2759844399988651,
+      "validation_loss": 0.04766661673784256
+    },
+    {
+      "epoch": 10,
+      "training_loss": 1.4868551921099424,
+      "validation_loss": 0.04586126282811165
+    },
+    {
+      "epoch": 11,
+      "training_loss": 1.0115503938868642,
+      "validation_loss": 0.045775920152664185
+    },
+    {
+      "epoch": 12,
+      "training_loss": 0.9739057254046202,
+      "validation_loss": 0.04453156888484955
+    },
+    {
+      "epoch": 13,
+      "training_loss": 0.8194106332957745,
+      "validation_loss": 0.04569781571626663
+    },
+    {
+      "epoch": 14,
+      "training_loss": 0.7558011033106595,
+      "validation_loss": 0.050929076969623566
+    },
+    {
+      "epoch": 15,
+      "training_loss": 0.6258430406451225,
+      "validation_loss": 0.051838479936122894
+    },
+    {
+      "epoch": 16,
+      "training_loss": 0.5621177441207692,
+      "validation_loss": 0.0493045412003994
+    },
+    {
+      "epoch": 17,
+      "training_loss": 0.5309920739382505,
+      "validation_loss": 0.049208492040634155
+    },
+    {
+      "epoch": 18,
+      "training_loss": 0.42943195160478354,
+      "validation_loss": 0.05377848818898201
+    }
+  ],
+  "missing_target_handling": "Training-only per-pixel residual mean imputation for PCA",
+  "uncertainty_calibrated": false,
+  "validation_metrics": {
+    "mae_mm": 3.882116763892908,
+    "rmse_mm": 4.932180528630528,
+    "bias_mm": -0.6123072111976343,
+    "observed_pixels": 2676
+  }
+}

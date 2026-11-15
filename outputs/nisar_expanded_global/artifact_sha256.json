@@ -1,0 +1,8 @@
+{
+  "cvae.joblib": "d38094f5af6fad6241a2db60444b6264702e3e0842243ea7262d4b9adf1038df",
+  "ema30.joblib": "dbda5d8bb023441d2814a5e3cabbf6bd23c6b5c5ab07d79e599795f008ad526f",
+  "four_branch.joblib": "e290d01ea4d70a4c53941595601a25a4fa9f2417d79b1b5bf7858c85c3807deb",
+  "persistence.joblib": "63cd07fe6b56c0ee2051796d2c9c283e415f6ec7b451a7f43bd7d0b140ccdbf3",
+  "robust.joblib": "b5c71f688b5431f27ffd87dc695b8beac7e0b8c1c7f43a9823a323593b2b7894",
+  "smoothing.joblib": "47875e80f149ce80f9240bd6f0f889ed8e31aa5bd95c44c1bd143cced4dbd6ba"
+}

@@ -1,0 +1,272 @@
+{
+  "sites": [
+    "nisar_dabbahu",
+    "nisar_misti",
+    "nisar_popocatepetl",
+    "nisar_sabancaya",
+    "nisar_ubinas",
+    "aria_coropuna",
+    "aria_cotopaxi",
+    "aria_erta_ale",
+    "aria_kilauea",
+    "aria_reykjanes",
+    "aria_ruiz_nevado_del",
+    "aria_taupo"
+  ],
+  "extra_training": [
+    "data/aria_island/ambrym/examples.npz",
+    "data/nisar_japan/mount_asama_ascending/examples.npz",
+    "data/nisar_japan/mount_asama_descending/examples.npz"
+  ],
+  "datasets": [
+    {
+      "id": "nisar_dabbahu",
+      "source_dir": "data/nisar_global/dabbahu",
+      "sensor": "NISAR",
+      "physical_volcano": "dabbahu",
+      "training_examples": 10,
+      "reporting_examples": 3,
+      "training_only": false
+    },
+    {
+      "id": "nisar_misti",
+      "source_dir": "data/nisar/misti",
+      "sensor": "NISAR",
+      "physical_volcano": "misti",
+      "training_examples": 10,
+      "reporting_examples": 2,
+      "training_only": false
+    },
+    {
+      "id": "nisar_popocatepetl",
+      "source_dir": "data/nisar_global/popocatepetl",
+      "sensor": "NISAR",
+      "physical_volcano": "popocatepetl",
+      "training_examples": 11,
+      "reporting_examples": 3,
+      "training_only": false
+    },
+    {
+      "id": "nisar_sabancaya",
+      "source_dir": "data/nisar/sabancaya",
+      "sensor": "NISAR",
+      "physical_volcano": "sabancaya",
+      "training_examples": 10,
+      "reporting_examples": 2,
+      "training_only": false
+    },
+    {
+      "id": "nisar_ubinas",
+      "source_dir": "data/nisar_training_global/ubinas",
+      "sensor": "NISAR",
+      "physical_volcano": "ubinas",
+      "training_examples": 9,
+      "reporting_examples": 2,
+      "training_only": false
+    },
+    {
+      "id": "aria_coropuna",
+      "source_dir": "data/aria/coropuna",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "coropuna",
+      "training_examples": 36,
+      "reporting_examples": 9,
+      "training_only": false
+    },
+    {
+      "id": "aria_cotopaxi",
+      "source_dir": "data/aria/cotopaxi",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "cotopaxi",
+      "training_examples": 34,
+      "reporting_examples": 9,
+      "training_only": false
+    },
+    {
+      "id": "aria_erta_ale",
+      "source_dir": "data/aria/erta_ale",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "erta_ale",
+      "training_examples": 18,
+      "reporting_examples": 4,
+      "training_only": false
+    },
+    {
+      "id": "aria_kilauea",
+      "source_dir": "data/aria/kilauea",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "kilauea",
+      "training_examples": 30,
+      "reporting_examples": 8,
+      "training_only": false
+    },
+    {
+      "id": "aria_reykjanes",
+      "source_dir": "data/aria/reykjanes",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "reykjanes",
+      "training_examples": 32,
+      "reporting_examples": 8,
+      "training_only": false
+    },
+    {
+      "id": "aria_ruiz_nevado_del",
+      "source_dir": "data/aria/ruiz_nevado_del",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "ruiz_nevado_del",
+      "training_examples": 36,
+      "reporting_examples": 9,
+      "training_only": false
+    },
+    {
+      "id": "aria_taupo",
+      "source_dir": "data/aria/taupo",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "taupo",
+      "training_examples": 12,
+      "reporting_examples": 3,
+      "training_only": false
+    },
+    {
+      "id": "aria_ambrym",
+      "source_dir": "data/aria_island/ambrym",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "ambrym",
+      "training_examples": 3,
+      "reporting_examples": 0,
+      "training_only": true
+    },
+    {
+      "id": "nisar_mount_asama_ascending",
+      "source_dir": "data/nisar_japan/mount_asama_ascending",
+      "sensor": "NISAR",
+      "physical_volcano": "mount_asama",
+      "training_examples": 1,
+      "reporting_examples": 0,
+      "training_only": true
+    },
+    {
+      "id": "nisar_mount_asama_descending",
+      "source_dir": "data/nisar_japan/mount_asama_descending",
+      "sensor": "NISAR",
+      "physical_volcano": "mount_asama",
+      "training_examples": 2,
+      "reporting_examples": 0,
+      "training_only": true
+    }
+  ],
+  "files": {
+    "data/nisar_aria_training/nisar_dabbahu/train.npz": {
+      "source": "data/nisar_training_global/dabbahu/train.npz",
+      "sha256": "ed27082ca3d6c23dd34bdfea533e061252cebd89f0c2fb08a33b4e6470307e68"
+    },
+    "data/nisar_aria_training/nisar_dabbahu/validation.npz": {
+      "source": "data/nisar_training_global/dabbahu/validation.npz",
+      "sha256": "7df6c4806c1ddffeb2d9c83f076b22fde5c199ad26907443af4fc9d25515446c"
+    },
+    "data/nisar_aria_training/nisar_misti/train.npz": {
+      "source": "data/nisar_training_global/misti/train.npz",
+      "sha256": "201479eae704dcdc64cdd8c12f0ac27aff5b71bb4b1106abd6c5e6819f9a7f8b"
+    },
+    "data/nisar_aria_training/nisar_misti/validation.npz": {
+      "source": "data/nisar_training_global/misti/validation.npz",
+      "sha256": "de25024cda2527dde54f4c5ca13b4e734c84283c628e58de1a80524e61189333"
+    },
+    "data/nisar_aria_training/nisar_popocatepetl/train.npz": {
+      "source": "data/nisar_training_global/popocatepetl/train.npz",
+      "sha256": "364cd979ec967f912cf8ae7257a4ca0d486f62bd5b78ca08b1b64d640630e14d"
+    },
+    "data/nisar_aria_training/nisar_popocatepetl/validation.npz": {
+      "source": "data/nisar_training_global/popocatepetl/validation.npz",
+      "sha256": "7fa535408800b2d10c942bfcefdc1755754abde526e84269818a3b7ee4ec087e"
+    },
+    "data/nisar_aria_training/nisar_sabancaya/train.npz": {
+      "source": "data/nisar_training_global/sabancaya/train.npz",
+      "sha256": "fa778c184249eb1195940e5e17f3c73a0a7c635eec648effea95f8bc942730c7"
+    },
+    "data/nisar_aria_training/nisar_sabancaya/validation.npz": {
+      "source": "data/nisar_training_global/sabancaya/validation.npz",
+      "sha256": "247d659550b3ac01bbea67153f4cf1a71aeb1d24ac22f3cd7c36785af082137c"
+    },
+    "data/nisar_aria_training/nisar_ubinas/train.npz": {
+      "source": "data/nisar_training_global/ubinas/train.npz",
+      "sha256": "400ecb03a84b2ad72cbb0303b6b822768aaf423399645c4dab6bb5b299d1203d"
+    },
+    "data/nisar_aria_training/nisar_ubinas/validation.npz": {
+      "source": "data/nisar_training_global/ubinas/validation.npz",
+      "sha256": "7c0c36c8eff99de0f03ad7eb9f77529eb2734377389d822cbc775d859632e6ad"
+    },
+    "data/nisar_aria_training/aria_coropuna/train.npz": {
+      "source": "data/aria/coropuna/train.npz",
+      "sha256": "fccf93a98f19b97d48cea2b9e646e31ca53ce8fef5e1864b80e1b7d2bb776180"
+    },
+    "data/nisar_aria_training/aria_coropuna/validation.npz": {
+      "source": "data/aria/coropuna/validation.npz",
+      "sha256": "59cbb1d8bced7b71d022a137dc2021e95d78e1ebf7e2e6a0e56126bb767d3632"
+    },
+    "data/nisar_aria_training/aria_cotopaxi/train.npz": {
+      "source": "data/aria/cotopaxi/train.npz",
+      "sha256": "b1878caf3bef3e27e52fdcd74fad77171b9ec2407b529375b4fa1a8487a9c5e2"
+    },
+    "data/nisar_aria_training/aria_cotopaxi/validation.npz": {
+      "source": "data/aria/cotopaxi/validation.npz",
+      "sha256": "eba12e8d1a6aefa88b298a803444abad66c387b49edf4d164f17b87968c2949a"
+    },
+    "data/nisar_aria_training/aria_erta_ale/train.npz": {
+      "source": "data/aria/erta_ale/train.npz",
+      "sha256": "6771b98c2edb7bec507c6272981131d119b6f12cf774d7418de270c1715b08be"
+    },
+    "data/nisar_aria_training/aria_erta_ale/validation.npz": {
+      "source": "data/aria/erta_ale/validation.npz",
+      "sha256": "c357731ed2cf8d8c0662dfe71e333f37fd13d62b3f45c17fa5dfc293568db18a"
+    },
+    "data/nisar_aria_training/aria_kilauea/train.npz": {
+      "source": "data/aria/kilauea/train.npz",
+      "sha256": "15b9039a9973da3072f6ce60b6a03acf053a3256d2066ae9610e59e11a493c4a"
+    },
+    "data/nisar_aria_training/aria_kilauea/validation.npz": {
+      "source": "data/aria/kilauea/validation.npz",
+      "sha256": "11f041f169103dd60f08a4af666a53e4d21cf2a6cc7aefce3e7bd5ec3ce0b9ce"
+    },
+    "data/nisar_aria_training/aria_reykjanes/train.npz": {
+      "source": "data/aria/reykjanes/train.npz",
+      "sha256": "4097641268bf67a4e78337cd884aa94a333191608c98c86986a3c51bf6c3b682"
+    },
+    "data/nisar_aria_training/aria_reykjanes/validation.npz": {
+      "source": "data/aria/reykjanes/validation.npz",
+      "sha256": "fc3fdb6adac8afb64eee101936cccc5ccaf491694d75bd03865a5e8a3590cc40"
+    },
+    "data/nisar_aria_training/aria_ruiz_nevado_del/train.npz": {
+      "source": "data/aria/ruiz_nevado_del/train.npz",
+      "sha256": "91baf1e1508b74b5bbbf6ed9699a91120f53bc4b07797f9856421266d78751b9"
+    },
+    "data/nisar_aria_training/aria_ruiz_nevado_del/validation.npz": {
+      "source": "data/aria/ruiz_nevado_del/validation.npz",
+      "sha256": "bc1758822d9f1cffa2a7b18f8203c57c1d7bc58fc6166b94889fa6b2b4d48b6a"
+    },
+    "data/nisar_aria_training/aria_taupo/train.npz": {
+      "source": "data/aria/taupo/train.npz",
+      "sha256": "8d9472a095145b634110175922ae9f80bb03c16ad70600c13aded6df9fe3e3fd"
+    },
+    "data/nisar_aria_training/aria_taupo/validation.npz": {
+      "source": "data/aria/taupo/validation.npz",
+      "sha256": "0846378166f2f7b2b28dd2516dd1dc63ae3d78dd38564337ca2171416fb74615"
+    },
+    "data/aria_island/ambrym/examples.npz": {
+      "source": "data/aria_island/ambrym/examples.npz",
+      "sha256": "93ead236c493574d87ce93b86e404b9a8a7eb6ec927c3eb3ac238691eb861735"
+    },
+    "data/nisar_japan/mount_asama_ascending/examples.npz": {
+      "source": "data/nisar_japan/mount_asama_ascending/examples.npz",
+      "sha256": "843c357b667dbdb3bf9e07f284952729d27db1d97780fb3adf3cc4d2b38e8fd0"
+    },
+    "data/nisar_japan/mount_asama_descending/examples.npz": {
+      "source": "data/nisar_japan/mount_asama_descending/examples.npz",
+      "sha256": "c7e1732c46172cd298a5038a974b3c6b0a5f8af8770fa4536d9e159cb13a3730"
+    }
+  },
+  "training_examples": 254,
+  "reporting_examples": 62,
+  "physical_volcanoes": 14,
+  "note": "Preserved input copies; sensor/orbit histories remain separate. Partitioning is retrospective across sites."
+}

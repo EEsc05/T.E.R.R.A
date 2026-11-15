@@ -1,0 +1,77 @@
+{
+  "persistence": {
+    "cases": 62,
+    "sites": 12,
+    "pixels": 31394,
+    "mae_mm": 13.886804055450893,
+    "mse_mm2": 997.3462960762587,
+    "bias_mm": 0.7597134196768113,
+    "rmse_mm": 31.580789984993388,
+    "training_seconds": 0.04913777299952926,
+    "artifact": "outputs/nisar_aria_all_data/models/persistence.joblib",
+    "mae_skill_vs_persistence_pct": 0.0
+  },
+  "ema30": {
+    "cases": 62,
+    "sites": 12,
+    "pixels": 31394,
+    "mae_mm": 13.208185210142533,
+    "mse_mm2": 780.25768511225,
+    "bias_mm": 0.14786407861953058,
+    "rmse_mm": 27.93309301012421,
+    "training_seconds": 0.11902931099939451,
+    "artifact": "outputs/nisar_aria_all_data/models/ema30.joblib",
+    "mae_skill_vs_persistence_pct": 4.886789232415123
+  },
+  "smoothing": {
+    "cases": 62,
+    "sites": 12,
+    "pixels": 31394,
+    "mae_mm": 13.186906097209492,
+    "mse_mm2": 745.1995795764133,
+    "bias_mm": 0.06350492768892023,
+    "rmse_mm": 27.29834389805384,
+    "training_seconds": 0.22990736599967931,
+    "artifact": "outputs/nisar_aria_all_data/models/smoothing.joblib",
+    "mae_skill_vs_persistence_pct": 5.040021846975473
+  },
+  "robust": {
+    "cases": 62,
+    "sites": 12,
+    "pixels": 31394,
+    "mae_mm": 13.48242370586915,
+    "mse_mm2": 750.8551934260707,
+    "bias_mm": -0.04887399092049716,
+    "rmse_mm": 27.40173705125408,
+    "training_seconds": 0.23220973999923444,
+    "artifact": "outputs/nisar_aria_all_data/models/robust.joblib",
+    "mae_skill_vs_persistence_pct": 2.91197562784804
+  },
+  "four_branch": {
+    "cases": 62,
+    "sites": 12,
+    "pixels": 31394,
+    "mae_mm": 13.171800369323293,
+    "mse_mm2": 771.8425223312048,
+    "bias_mm": 0.16345255903972616,
+    "rmse_mm": 27.782053961707092,
+    "training_seconds": 130.5206047419997,
+    "artifact": "outputs/nisar_aria_all_data/models/four_branch.joblib",
+    "mae_skill_vs_persistence_pct": 5.148799416140282
+  },
+  "cvae": {
+    "cases": 62,
+    "sites": 12,
+    "pixels": 31394,
+    "mae_mm": 14.02205083741019,
+    "mse_mm2": 839.4753203036715,
+    "bias_mm": 0.10674305226887881,
+    "crps_mm": 11.626562411177497,
+    "coverage90": 0.4878824560223805,
+    "interval_width90_mm": 20.252305583969974,
+    "rmse_mm": 28.973700493786975,
+    "training_seconds": 2.362404976000107,
+    "artifact": "outputs/nisar_aria_all_data/models/cvae.joblib",
+    "mae_skill_vs_persistence_pct": -0.9739230237515217
+  }
+}

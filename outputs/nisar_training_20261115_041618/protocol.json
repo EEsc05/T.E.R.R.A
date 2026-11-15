@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-11-15T04:16:18.777486+00:00",
+  "sites": [
+    "sabancaya",
+    "ubinas",
+    "misti"
+  ],
+  "training_examples": 30,
+  "reporting_examples": 6,
+  "source_reporting_partition": "original validation.npz files, untouched by fitting",
+  "seed": 42,
+  "max_cvae_epochs": 80,
+  "max_context_pixels": 10000,
+  "aggregation": "mean per-window errors within each volcano, then equal volcano weighting; RMSE=sqrt(macro MSE)",
+  "mask": "same finite observed target pixels with historical support for every model",
+  "selection": "leave-one-volcano-out inside training; final weights never fitted to reporting targets",
+  "baseline": "persistence",
+  "source_sha256": {
+    "data/nisar/sabancaya/train.npz": "fa778c184249eb1195940e5e17f3c73a0a7c635eec648effea95f8bc942730c7",
+    "data/nisar/sabancaya/validation.npz": "247d659550b3ac01bbea67153f4cf1a71aeb1d24ac22f3cd7c36785af082137c",
+    "data/nisar/ubinas/train.npz": "96de0cf1cb46aa97cb80bf109ed2aee4ff4d3bfb49ed0f869f60cccb09487a93",
+    "data/nisar/ubinas/validation.npz": "ee1c8f6dcc34c9905e1743ab836844788c28b6a35e8afc00d8362060c68c365d",
+    "data/nisar/misti/train.npz": "201479eae704dcdc64cdd8c12f0ac27aff5b71bb4b1106abd6c5e6819f9a7f8b",
+    "data/nisar/misti/validation.npz": "de25024cda2527dde54f4c5ca13b4e734c84283c628e58de1a80524e61189333"
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "torch": "2.9.1+cpu",
+    "joblib": "1.6.0"
+  },
+  "caveat": "Six temporal holdout windows across three volcanoes; not an independent geographic/generalization claim"
+}

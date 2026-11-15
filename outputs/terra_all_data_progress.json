@@ -1,0 +1,11 @@
+{
+  "phase": "complete",
+  "updated_utc": "2026-11-15T06:25:52.732249+00:00",
+  "run": "outputs/nisar_aria_all_data",
+  "dashboard": "outputs/volcano_watch",
+  "training_examples": 254,
+  "reporting_examples": 62,
+  "physical_volcanoes": 14,
+  "tests_passed": 41,
+  "browser_verified": true
+}

@@ -1,0 +1,76 @@
+T.E.R.R.A — WHERE OUR DATA COMES FROM
+===================================
+
+The latest models use satellite radar data from 14 volcanoes in 10 countries.
+There are two data sources:
+
+NISAR GUNW
+  Radar measurements from the NASA–ISRO NISAR satellite mission.
+
+Sentinel-1 ARIA GUNW
+  Radar measurements from ESA's Sentinel-1 satellites, processed into GUNW
+  products by NASA/JPL's ARIA project.
+
+Both are obtained through NASA's Alaska Satellite Facility (ASF) archive.
+GUNW products measure changes between two satellite observations. We prepare
+these measurements as maps of ground movement for the models.
+
+COUNTRY AND VOLCANO LIST
+=======================
+
+COLOMBIA
+  Nevado del Ruiz — Sentinel-1 ARIA GUNW
+
+ECUADOR
+  Cotopaxi — Sentinel-1 ARIA GUNW
+
+ETHIOPIA
+  Dabbahu — NISAR GUNW
+  Erta Ale — Sentinel-1 ARIA GUNW
+
+ICELAND
+  Reykjanes — Sentinel-1 ARIA GUNW
+
+JAPAN
+  Mount Asama (Asamayama) — NISAR GUNW
+  Includes separate ascending and descending satellite histories.
+
+MEXICO
+  Popocatépetl — NISAR GUNW
+
+NEW ZEALAND
+  Taupo — Sentinel-1 ARIA GUNW
+
+PERU
+  Sabancaya — NISAR GUNW
+  El Misti — NISAR GUNW
+  Ubinas — NISAR GUNW
+  Coropuna — Sentinel-1 ARIA GUNW
+
+UNITED STATES
+  Kīlauea, Hawaii — Sentinel-1 ARIA GUNW
+
+VANUATU
+  Ambrym — Sentinel-1 ARIA GUNW
+
+SOURCE LINKS
+============
+
+Find the satellite data in ASF's archive:
+https://search.asf.alaska.edu/
+
+About NISAR GUNW:
+https://nisar-docs.asf.alaska.edu/gunw/
+
+About Sentinel-1 ARIA GUNW:
+https://hyp3-docs.asf.alaska.edu/guides/gunw_product_guide/
+
+Volcano names, locations and country information:
+Smithsonian Global Volcanism Program
+https://volcano.si.edu/
+
+For individual product download links and exact dates, see DATA_SOURCES.txt
+in this same folder.
+
+Note: Mount Asama and Ambrym supplied training data only. The other volcanoes
+also supplied separate reporting data to evaluate the models.

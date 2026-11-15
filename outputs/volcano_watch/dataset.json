@@ -1,0 +1,852 @@
+{
+  "created_utc": "2026-11-15T06:22:35.073707+00:00",
+  "run": "nisar_aria_all_data",
+  "datasets": [
+    {
+      "id": "nisar_dabbahu",
+      "name": "Dabbahu",
+      "country": "Ethiopia",
+      "sensor": "NISAR",
+      "physical_volcano": "dabbahu",
+      "center": [
+        40.48,
+        12.595
+      ],
+      "first_date": "2025-11-09",
+      "last_date": "2026-10-11",
+      "epochs": 28,
+      "training_examples": 10,
+      "reporting_examples": 3,
+      "stack": [
+        165,
+        "D",
+        82
+      ],
+      "half_width_km": 15.0,
+      "mean_valid_fraction": 0.9932338169642857,
+      "file": "data/nisar_dabbahu.js"
+    },
+    {
+      "id": "nisar_misti",
+      "name": "Misti",
+      "country": "Peru",
+      "sensor": "NISAR",
+      "physical_volcano": "misti",
+      "center": [
+        -71.409,
+        -16.294
+      ],
+      "first_date": "2025-11-01",
+      "last_date": "2026-10-15",
+      "epochs": 27,
+      "training_examples": 10,
+      "reporting_examples": 2,
+      "stack": null,
+      "half_width_km": 15,
+      "mean_valid_fraction": 0.5075593171296297,
+      "file": "data/nisar_misti.js"
+    },
+    {
+      "id": "nisar_popocatepetl",
+      "name": "Popocatepetl",
+      "country": "Mexico",
+      "sensor": "NISAR",
+      "physical_volcano": "popocatepetl",
+      "center": [
+        -98.622,
+        19.023
+      ],
+      "first_date": "2025-10-30",
+      "last_date": "2026-10-13",
+      "epochs": 29,
+      "training_examples": 11,
+      "reporting_examples": 3,
+      "stack": [
+        19,
+        "A",
+        11
+      ],
+      "half_width_km": 15.0,
+      "mean_valid_fraction": 0.6440598060344828,
+      "file": "data/nisar_popocatepetl.js"
+    },
+    {
+      "id": "nisar_sabancaya",
+      "name": "Sabancaya",
+      "country": "Peru",
+      "sensor": "NISAR",
+      "physical_volcano": "sabancaya",
+      "center": [
+        -71.86,
+        -15.76
+      ],
+      "first_date": "2025-11-01",
+      "last_date": "2026-10-15",
+      "epochs": 27,
+      "training_examples": 10,
+      "reporting_examples": 2,
+      "stack": null,
+      "half_width_km": 25,
+      "mean_valid_fraction": 0.7028356481481481,
+      "file": "data/nisar_sabancaya.js"
+    },
+    {
+      "id": "nisar_ubinas",
+      "name": "Ubinas",
+      "country": "Peru",
+      "sensor": "NISAR",
+      "physical_volcano": "ubinas",
+      "center": [
+        -70.903,
+        -16.355
+      ],
+      "first_date": "2025-11-11",
+      "last_date": "2026-10-13",
+      "epochs": 26,
+      "training_examples": 9,
+      "reporting_examples": 2,
+      "stack": [
+        25,
+        "D",
+        97
+      ],
+      "half_width_km": 15.0,
+      "mean_valid_fraction": 0.8988506610576923,
+      "file": "data/nisar_ubinas.js"
+    },
+    {
+      "id": "aria_coropuna",
+      "name": "Coropuna",
+      "country": "Peru",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "coropuna",
+      "center": [
+        -72.65,
+        -15.52
+      ],
+      "first_date": "2019-12-22",
+      "last_date": "2021-12-11",
+      "epochs": 60,
+      "training_examples": 36,
+      "reporting_examples": 9,
+      "stack": [
+        25,
+        "DESCENDING",
+        "00074W_00018S"
+      ],
+      "half_width_km": 15.0,
+      "mean_valid_fraction": 0.28859049479166665,
+      "file": "data/aria_coropuna.js"
+    },
+    {
+      "id": "aria_cotopaxi",
+      "name": "Cotopaxi",
+      "country": "Ecuador",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "cotopaxi",
+      "center": [
+        -78.436,
+        -0.677
+      ],
+      "first_date": "2017-12-13",
+      "last_date": "2019-05-01",
+      "epochs": 60,
+      "training_examples": 34,
+      "reporting_examples": 9,
+      "stack": [
+        18,
+        "ASCENDING",
+        "00081W_00002S"
+      ],
+      "half_width_km": 15.0,
+      "mean_valid_fraction": 0.8712890625,
+      "file": "data/aria_cotopaxi.js"
+    },
+    {
+      "id": "aria_erta_ale",
+      "name": "Erta Ale",
+      "country": "Ethiopia",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "erta_ale",
+      "center": [
+        40.666,
+        13.601
+      ],
+      "first_date": "2018-11-20",
+      "last_date": "2020-06-18",
+      "epochs": 48,
+      "training_examples": 18,
+      "reporting_examples": 4,
+      "stack": [
+        14,
+        "ASCENDING",
+        "13849N_11925N"
+      ],
+      "half_width_km": 15.0,
+      "mean_valid_fraction": 0.2490234375,
+      "file": "data/aria_erta_ale.js"
+    },
+    {
+      "id": "aria_kilauea",
+      "name": "Kilauea",
+      "country": "United States",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "kilauea",
+      "center": [
+        -155.287,
+        19.421
+      ],
+      "first_date": "2019-09-27",
+      "last_date": "2020-09-27",
+      "epochs": 60,
+      "training_examples": 30,
+      "reporting_examples": 8,
+      "stack": [
+        87,
+        "DESCENDING",
+        "00157W_00019N"
+      ],
+      "half_width_km": 15.0,
+      "mean_valid_fraction": 0.7899576822916666,
+      "file": "data/aria_kilauea.js"
+    },
+    {
+      "id": "aria_reykjanes",
+      "name": "Reykjanes",
+      "country": "Iceland",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "reykjanes",
+      "center": [
+        -22.717,
+        63.817
+      ],
+      "first_date": "2021-03-21",
+      "last_date": "2022-05-21",
+      "epochs": 60,
+      "training_examples": 32,
+      "reporting_examples": 8,
+      "stack": [
+        16,
+        "ASCENDING",
+        "00024W_00062N"
+      ],
+      "half_width_km": 15.0,
+      "mean_valid_fraction": 0.21692708333333333,
+      "file": "data/aria_reykjanes.js"
+    },
+    {
+      "id": "aria_ruiz_nevado_del",
+      "name": "Ruiz, Nevado Del",
+      "country": "Colombia",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "ruiz_nevado_del",
+      "center": [
+        -75.324,
+        4.892
+      ],
+      "first_date": "2021-08-21",
+      "last_date": "2023-04-07",
+      "epochs": 60,
+      "training_examples": 36,
+      "reporting_examples": 9,
+      "stack": [
+        142,
+        "DESCENDING",
+        "00078W_00004N"
+      ],
+      "half_width_km": 15.0,
+      "mean_valid_fraction": 0.481982421875,
+      "file": "data/aria_ruiz_nevado_del.js"
+    },
+    {
+      "id": "aria_taupo",
+      "name": "Taupo",
+      "country": "New Zealand",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "taupo",
+      "center": [
+        175.893,
+        -38.7811
+      ],
+      "first_date": "2020-12-20",
+      "last_date": "2021-12-03",
+      "epochs": 30,
+      "training_examples": 12,
+      "reporting_examples": 3,
+      "stack": [
+        81,
+        "ASCENDING",
+        "00174E_00040S"
+      ],
+      "half_width_km": 15.0,
+      "mean_valid_fraction": 0.23746744791666666,
+      "file": "data/aria_taupo.js"
+    },
+    {
+      "id": "aria_ambrym",
+      "name": "Ambrym",
+      "country": "Vanuatu",
+      "sensor": "Sentinel-1",
+      "physical_volcano": "ambrym",
+      "center": [
+        168.12,
+        -16.25
+      ],
+      "first_date": "2019-01-06",
+      "last_date": "2019-10-09",
+      "epochs": 43,
+      "training_examples": 3,
+      "reporting_examples": 0,
+      "stack": [
+        81,
+        "ASCENDING",
+        "00167E_00017S"
+      ],
+      "half_width_km": 10,
+      "mean_valid_fraction": 0.22272438226744187,
+      "file": "data/aria_ambrym.js"
+    },
+    {
+      "id": "nisar_mount_asama_ascending",
+      "name": "Mount Asama (Asamayama)",
+      "country": "Japan",
+      "sensor": "NISAR",
+      "physical_volcano": "mount_asama",
+      "center": [
+        138.523,
+        36.406
+      ],
+      "first_date": "2026-06-23",
+      "last_date": "2026-10-21",
+      "epochs": 9,
+      "training_examples": 1,
+      "reporting_examples": 0,
+      "stack": [
+        139,
+        "A",
+        20
+      ],
+      "half_width_km": 20.48,
+      "mean_valid_fraction": 0.08094618055555555,
+      "file": "data/nisar_mount_asama_ascending.js"
+    },
+    {
+      "id": "nisar_mount_asama_descending",
+      "name": "Mount Asama (Asamayama)",
+      "country": "Japan",
+      "sensor": "NISAR",
+      "physical_volcano": "mount_asama",
+      "center": [
+        138.523,
+        36.406
+      ],
+      "first_date": "2026-06-17",
+      "last_date": "2026-10-15",
+      "epochs": 10,
+      "training_examples": 2,
+      "reporting_examples": 0,
+      "stack": [
+        46,
+        "D",
+        70
+      ],
+      "half_width_km": 20.48,
+      "mean_valid_fraction": 0.2978515625,
+      "file": "data/nisar_mount_asama_descending.js"
+    }
+  ],
+  "scores": {
+    "persistence": {
+      "cases": 62,
+      "sites": 12,
+      "pixels": 31394,
+      "mae_mm": 13.886804055450893,
+      "mse_mm2": 997.3462960762587,
+      "bias_mm": 0.7597134196768113,
+      "rmse_mm": 31.580789984993388,
+      "training_seconds": 0.04913777299952926,
+      "artifact": "outputs/nisar_aria_all_data/models/persistence.joblib",
+      "mae_skill_vs_persistence_pct": 0.0
+    },
+    "ema30": {
+      "cases": 62,
+      "sites": 12,
+      "pixels": 31394,
+      "mae_mm": 13.208185210142533,
+      "mse_mm2": 780.25768511225,
+      "bias_mm": 0.14786407861953058,
+      "rmse_mm": 27.93309301012421,
+      "training_seconds": 0.11902931099939451,
+      "artifact": "outputs/nisar_aria_all_data/models/ema30.joblib",
+      "mae_skill_vs_persistence_pct": 4.886789232415123
+    },
+    "smoothing": {
+      "cases": 62,
+      "sites": 12,
+      "pixels": 31394,
+      "mae_mm": 13.186906097209492,
+      "mse_mm2": 745.1995795764133,
+      "bias_mm": 0.06350492768892023,
+      "rmse_mm": 27.29834389805384,
+      "training_seconds": 0.22990736599967931,
+      "artifact": "outputs/nisar_aria_all_data/models/smoothing.joblib",
+      "mae_skill_vs_persistence_pct": 5.040021846975473
+    },
+    "robust": {
+      "cases": 62,
+      "sites": 12,
+      "pixels": 31394,
+      "mae_mm": 13.48242370586915,
+      "mse_mm2": 750.8551934260707,
+      "bias_mm": -0.04887399092049716,
+      "rmse_mm": 27.40173705125408,
+      "training_seconds": 0.23220973999923444,
+      "artifact": "outputs/nisar_aria_all_data/models/robust.joblib",
+      "mae_skill_vs_persistence_pct": 2.91197562784804
+    },
+    "four_branch": {
+      "cases": 62,
+      "sites": 12,
+      "pixels": 31394,
+      "mae_mm": 13.171800369323293,
+      "mse_mm2": 771.8425223312048,
+      "bias_mm": 0.16345255903972616,
+      "rmse_mm": 27.782053961707092,
+      "training_seconds": 130.5206047419997,
+      "artifact": "outputs/nisar_aria_all_data/models/four_branch.joblib",
+      "mae_skill_vs_persistence_pct": 5.148799416140282
+    },
+    "cvae": {
+      "cases": 62,
+      "sites": 12,
+      "pixels": 31394,
+      "mae_mm": 14.02205083741019,
+      "mse_mm2": 839.4753203036715,
+      "bias_mm": 0.10674305226887881,
+      "crps_mm": 11.626562411177497,
+      "coverage90": 0.4878824560223805,
+      "interval_width90_mm": 20.252305583969974,
+      "rmse_mm": 28.973700493786975,
+      "training_seconds": 2.362404976000107,
+      "artifact": "outputs/nisar_aria_all_data/models/cvae.joblib",
+      "mae_skill_vs_persistence_pct": -0.9739230237515217
+    }
+  },
+  "protocol": {
+    "created_utc": "2026-11-15T06:14:38.556949+00:00",
+    "sites": [
+      "nisar_dabbahu",
+      "nisar_misti",
+      "nisar_popocatepetl",
+      "nisar_sabancaya",
+      "nisar_ubinas",
+      "aria_coropuna",
+      "aria_cotopaxi",
+      "aria_erta_ale",
+      "aria_kilauea",
+      "aria_reykjanes",
+      "aria_ruiz_nevado_del",
+      "aria_taupo"
+    ],
+    "training_examples": 254,
+    "training_examples_by_volcano": {
+      "ambrym": 3,
+      "coropuna": 36,
+      "cotopaxi": 34,
+      "dabbahu": 10,
+      "erta_ale": 18,
+      "kilauea": 30,
+      "misti": 10,
+      "mount_asama": 3,
+      "popocatepetl": 11,
+      "reykjanes": 32,
+      "ruiz_nevado_del": 36,
+      "sabancaya": 10,
+      "taupo": 12,
+      "ubinas": 9
+    },
+    "extra_training_files": [
+      "data/aria_island/ambrym/examples.npz",
+      "data/nisar_japan/mount_asama_ascending/examples.npz",
+      "data/nisar_japan/mount_asama_descending/examples.npz"
+    ],
+    "comparison_run": "outputs/nisar_expanded_global",
+    "reporting_set_previously_evaluated": true,
+    "prior_reporting_window_matches": 12,
+    "training_only_volcanoes": [
+      "ambrym",
+      "mount_asama"
+    ],
+    "comparison_method": "rescore_reference_models_on_current_holdout",
+    "reporting_examples_by_volcano": {
+      "coropuna": 9,
+      "cotopaxi": 9,
+      "dabbahu": 3,
+      "erta_ale": 4,
+      "kilauea": 8,
+      "misti": 2,
+      "popocatepetl": 3,
+      "reykjanes": 8,
+      "ruiz_nevado_del": 9,
+      "sabancaya": 2,
+      "taupo": 3,
+      "ubinas": 2
+    },
+    "japan_examples_used_only_for_training": true,
+    "temporal_audit": {
+      "latest_training_target_date": "2026-10-21T00:00:00.000000000",
+      "strict_global_forward_time_test": false,
+      "per_case": [
+        {
+          "site": "dabbahu",
+          "origin_date": "2026-08-24T00:00:00.000000000",
+          "later_training_targets": 3
+        },
+        {
+          "site": "dabbahu",
+          "origin_date": "2026-09-05T00:00:00.000000000",
+          "later_training_targets": 3
+        },
+        {
+          "site": "dabbahu",
+          "origin_date": "2026-09-17T00:00:00.000000000",
+          "later_training_targets": 3
+        },
+        {
+          "site": "misti",
+          "origin_date": "2026-09-09T00:00:00.000000000",
+          "later_training_targets": 3
+        },
+        {
+          "site": "misti",
+          "origin_date": "2026-09-21T00:00:00.000000000",
+          "later_training_targets": 3
+        },
+        {
+          "site": "popocatepetl",
+          "origin_date": "2026-08-26T00:00:00.000000000",
+          "later_training_targets": 3
+        },
+        {
+          "site": "popocatepetl",
+          "origin_date": "2026-09-07T00:00:00.000000000",
+          "later_training_targets": 3
+        },
+        {
+          "site": "popocatepetl",
+          "origin_date": "2026-09-19T00:00:00.000000000",
+          "later_training_targets": 3
+        },
+        {
+          "site": "sabancaya",
+          "origin_date": "2026-09-09T00:00:00.000000000",
+          "later_training_targets": 3
+        },
+        {
+          "site": "sabancaya",
+          "origin_date": "2026-09-21T00:00:00.000000000",
+          "later_training_targets": 3
+        },
+        {
+          "site": "ubinas",
+          "origin_date": "2026-08-26T00:00:00.000000000",
+          "later_training_targets": 3
+        },
+        {
+          "site": "ubinas",
+          "origin_date": "2026-09-19T00:00:00.000000000",
+          "later_training_targets": 3
+        },
+        {
+          "site": "coropuna",
+          "origin_date": "2021-08-01T00:00:00.000000000",
+          "later_training_targets": 110
+        },
+        {
+          "site": "coropuna",
+          "origin_date": "2021-08-13T00:00:00.000000000",
+          "later_training_targets": 107
+        },
+        {
+          "site": "coropuna",
+          "origin_date": "2021-08-25T00:00:00.000000000",
+          "later_training_targets": 105
+        },
+        {
+          "site": "coropuna",
+          "origin_date": "2021-09-06T00:00:00.000000000",
+          "later_training_targets": 103
+        },
+        {
+          "site": "coropuna",
+          "origin_date": "2021-09-18T00:00:00.000000000",
+          "later_training_targets": 101
+        },
+        {
+          "site": "coropuna",
+          "origin_date": "2021-10-12T00:00:00.000000000",
+          "later_training_targets": 97
+        },
+        {
+          "site": "coropuna",
+          "origin_date": "2021-10-24T00:00:00.000000000",
+          "later_training_targets": 95
+        },
+        {
+          "site": "coropuna",
+          "origin_date": "2021-11-05T00:00:00.000000000",
+          "later_training_targets": 91
+        },
+        {
+          "site": "coropuna",
+          "origin_date": "2021-11-17T00:00:00.000000000",
+          "later_training_targets": 87
+        },
+        {
+          "site": "cotopaxi",
+          "origin_date": "2019-01-01T00:00:00.000000000",
+          "later_training_targets": 220
+        },
+        {
+          "site": "cotopaxi",
+          "origin_date": "2019-01-13T00:00:00.000000000",
+          "later_training_targets": 220
+        },
+        {
+          "site": "cotopaxi",
+          "origin_date": "2019-01-25T00:00:00.000000000",
+          "later_training_targets": 220
+        },
+        {
+          "site": "cotopaxi",
+          "origin_date": "2019-02-06T00:00:00.000000000",
+          "later_training_targets": 220
+        },
+        {
+          "site": "cotopaxi",
+          "origin_date": "2019-02-18T00:00:00.000000000",
+          "later_training_targets": 220
+        },
+        {
+          "site": "cotopaxi",
+          "origin_date": "2019-03-02T00:00:00.000000000",
+          "later_training_targets": 219
+        },
+        {
+          "site": "cotopaxi",
+          "origin_date": "2019-03-14T00:00:00.000000000",
+          "later_training_targets": 219
+        },
+        {
+          "site": "cotopaxi",
+          "origin_date": "2019-03-26T00:00:00.000000000",
+          "later_training_targets": 218
+        },
+        {
+          "site": "cotopaxi",
+          "origin_date": "2019-04-07T00:00:00.000000000",
+          "later_training_targets": 218
+        },
+        {
+          "site": "erta_ale",
+          "origin_date": "2020-02-07T00:00:00.000000000",
+          "later_training_targets": 191
+        },
+        {
+          "site": "erta_ale",
+          "origin_date": "2020-02-19T00:00:00.000000000",
+          "later_training_targets": 189
+        },
+        {
+          "site": "erta_ale",
+          "origin_date": "2020-04-19T00:00:00.000000000",
+          "later_training_targets": 177
+        },
+        {
+          "site": "erta_ale",
+          "origin_date": "2020-05-13T00:00:00.000000000",
+          "later_training_targets": 171
+        },
+        {
+          "site": "kilauea",
+          "origin_date": "2020-07-29T00:00:00.000000000",
+          "later_training_targets": 158
+        },
+        {
+          "site": "kilauea",
+          "origin_date": "2020-08-04T00:00:00.000000000",
+          "later_training_targets": 158
+        },
+        {
+          "site": "kilauea",
+          "origin_date": "2020-08-10T00:00:00.000000000",
+          "later_training_targets": 157
+        },
+        {
+          "site": "kilauea",
+          "origin_date": "2020-08-16T00:00:00.000000000",
+          "later_training_targets": 157
+        },
+        {
+          "site": "kilauea",
+          "origin_date": "2020-08-22T00:00:00.000000000",
+          "later_training_targets": 156
+        },
+        {
+          "site": "kilauea",
+          "origin_date": "2020-08-28T00:00:00.000000000",
+          "later_training_targets": 156
+        },
+        {
+          "site": "kilauea",
+          "origin_date": "2020-09-03T00:00:00.000000000",
+          "later_training_targets": 155
+        },
+        {
+          "site": "kilauea",
+          "origin_date": "2020-09-09T00:00:00.000000000",
+          "later_training_targets": 155
+        },
+        {
+          "site": "reykjanes",
+          "origin_date": "2022-02-02T00:00:00.000000000",
+          "later_training_targets": 73
+        },
+        {
+          "site": "reykjanes",
+          "origin_date": "2022-02-14T00:00:00.000000000",
+          "later_training_targets": 72
+        },
+        {
+          "site": "reykjanes",
+          "origin_date": "2022-02-26T00:00:00.000000000",
+          "later_training_targets": 71
+        },
+        {
+          "site": "reykjanes",
+          "origin_date": "2022-03-10T00:00:00.000000000",
+          "later_training_targets": 70
+        },
+        {
+          "site": "reykjanes",
+          "origin_date": "2022-03-22T00:00:00.000000000",
+          "later_training_targets": 69
+        },
+        {
+          "site": "reykjanes",
+          "origin_date": "2022-04-03T00:00:00.000000000",
+          "later_training_targets": 68
+        },
+        {
+          "site": "reykjanes",
+          "origin_date": "2022-04-15T00:00:00.000000000",
+          "later_training_targets": 67
+        },
+        {
+          "site": "reykjanes",
+          "origin_date": "2022-04-27T00:00:00.000000000",
+          "later_training_targets": 66
+        },
+        {
+          "site": "ruiz_nevado_del",
+          "origin_date": "2022-12-08T00:00:00.000000000",
+          "later_training_targets": 53
+        },
+        {
+          "site": "ruiz_nevado_del",
+          "origin_date": "2022-12-20T00:00:00.000000000",
+          "later_training_targets": 53
+        },
+        {
+          "site": "ruiz_nevado_del",
+          "origin_date": "2023-01-01T00:00:00.000000000",
+          "later_training_targets": 53
+        },
+        {
+          "site": "ruiz_nevado_del",
+          "origin_date": "2023-01-13T00:00:00.000000000",
+          "later_training_targets": 53
+        },
+        {
+          "site": "ruiz_nevado_del",
+          "origin_date": "2023-01-25T00:00:00.000000000",
+          "later_training_targets": 53
+        },
+        {
+          "site": "ruiz_nevado_del",
+          "origin_date": "2023-02-06T00:00:00.000000000",
+          "later_training_targets": 53
+        },
+        {
+          "site": "ruiz_nevado_del",
+          "origin_date": "2023-02-18T00:00:00.000000000",
+          "later_training_targets": 53
+        },
+        {
+          "site": "ruiz_nevado_del",
+          "origin_date": "2023-03-02T00:00:00.000000000",
+          "later_training_targets": 53
+        },
+        {
+          "site": "ruiz_nevado_del",
+          "origin_date": "2023-03-14T00:00:00.000000000",
+          "later_training_targets": 53
+        },
+        {
+          "site": "taupo",
+          "origin_date": "2021-10-16T00:00:00.000000000",
+          "later_training_targets": 97
+        },
+        {
+          "site": "taupo",
+          "origin_date": "2021-10-28T00:00:00.000000000",
+          "later_training_targets": 94
+        },
+        {
+          "site": "taupo",
+          "origin_date": "2021-11-09T00:00:00.000000000",
+          "later_training_targets": 90
+        }
+      ],
+      "interpretation": "Retrospective row holdout: training includes observations later than reporting forecast origins"
+    },
+    "reporting_examples": 62,
+    "source_reporting_partition": "validation.npz for each selected site, excluded from fitting",
+    "seed": 42,
+    "max_cvae_epochs": 80,
+    "max_context_pixels": 10000,
+    "aggregation": "mean per-window errors within each volcano, then equal volcano weighting; RMSE=sqrt(macro MSE)",
+    "mask": "same finite observed target pixels with historical support for every model",
+    "selection": "leave-one-volcano-out inside training; final weights never fitted to reporting targets",
+    "baseline": "persistence",
+    "versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "torch": "2.9.1+cpu",
+      "joblib": "1.6.0"
+    },
+    "caveat": "62 reporting windows across 12 volcanoes; temporal availability audited separately; not a geographic performance guarantee"
+  },
+  "reporting_horizons_days": [
+    18.0,
+    24.0,
+    30.0,
+    36.0
+  ],
+  "training": {
+    "examples": 254,
+    "reporting_examples": 62,
+    "volcanoes": 14
+  },
+  "caveats": [
+    "Retrospective comparison; some training observations are later than reporting forecast origins.",
+    "Displacement is relative line-of-sight motion, not vertical motion or an eruption probability.",
+    "Full observed histories are retrospective reconstructions. Reporting comparisons use their original paired targets.",
+    "CVAE uncertainty is uncalibrated; check measured coverage in the detailed view."
+  ],
+  "sources": [
+    "https://hyp3-docs.asf.alaska.edu/guides/gunw_product_guide/",
+    "https://github.com/aria-tools/ARIA-tools#readme"
+  ]
+}

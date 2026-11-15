@@ -1,0 +1,5 @@
+{
+  "status": "superseded_before_final_fit",
+  "reason": "Removed redundant training-score calculations from internal folds; model fitting and selection unchanged.",
+  "replacement": "outputs/nisar_aria_all_data"
+}

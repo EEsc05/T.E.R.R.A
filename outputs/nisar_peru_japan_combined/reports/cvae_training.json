@@ -1,0 +1,233 @@
+{
+  "training_examples": 33,
+  "validation_examples": 0,
+  "seed": 42,
+  "epochs_completed": 44,
+  "best_epoch": 44,
+  "basis_rank_per_block": 8,
+  "curves": [
+    {
+      "epoch": 1,
+      "training_loss": 3.167238712310791,
+      "training_selection_loss": 2.6045520305633545
+    },
+    {
+      "epoch": 2,
+      "training_loss": 2.0039586822191873,
+      "training_selection_loss": 2.533773899078369
+    },
+    {
+      "epoch": 3,
+      "training_loss": 1.985109309355418,
+      "training_selection_loss": 2.465829849243164
+    },
+    {
+      "epoch": 4,
+      "training_loss": 1.7559744268655777,
+      "training_selection_loss": 2.3974266052246094
+    },
+    {
+      "epoch": 5,
+      "training_loss": 1.7034716407457988,
+      "training_selection_loss": 2.3235023021698
+    },
+    {
+      "epoch": 6,
+      "training_loss": 3.5059736569722495,
+      "training_selection_loss": 2.2432711124420166
+    },
+    {
+      "epoch": 7,
+      "training_loss": 2.4601709445317588,
+      "training_selection_loss": 2.157823324203491
+    },
+    {
+      "epoch": 8,
+      "training_loss": 3.2733129262924194,
+      "training_selection_loss": 2.0687053203582764
+    },
+    {
+      "epoch": 9,
+      "training_loss": 3.1596696376800537,
+      "training_selection_loss": 1.9760247468948364
+    },
+    {
+      "epoch": 10,
+      "training_loss": 1.5107486645380657,
+      "training_selection_loss": 1.8793972730636597
+    },
+    {
+      "epoch": 11,
+      "training_loss": 2.304587801297506,
+      "training_selection_loss": 1.7796539068222046
+    },
+    {
+      "epoch": 12,
+      "training_loss": 1.8836758534113567,
+      "training_selection_loss": 1.6772377490997314
+    },
+    {
+      "epoch": 13,
+      "training_loss": 1.208723823229472,
+      "training_selection_loss": 1.5770503282546997
+    },
+    {
+      "epoch": 14,
+      "training_loss": 1.486463228861491,
+      "training_selection_loss": 1.4917118549346924
+    },
+    {
+      "epoch": 15,
+      "training_loss": 3.5829944213231406,
+      "training_selection_loss": 1.4086209535598755
+    },
+    {
+      "epoch": 16,
+      "training_loss": 1.0222845127185185,
+      "training_selection_loss": 1.3231313228607178
+    },
+    {
+      "epoch": 17,
+      "training_loss": 0.7629746397336324,
+      "training_selection_loss": 1.2450975179672241
+    },
+    {
+      "epoch": 18,
+      "training_loss": 0.7117407222588857,
+      "training_selection_loss": 1.1748548746109009
+    },
+    {
+      "epoch": 19,
+      "training_loss": 0.6326945821444193,
+      "training_selection_loss": 1.1122069358825684
+    },
+    {
+      "epoch": 20,
+      "training_loss": 2.8689940174420676,
+      "training_selection_loss": 1.0445386171340942
+    },
+    {
+      "epoch": 21,
+      "training_loss": 0.6244766712188721,
+      "training_selection_loss": 0.9690766930580139
+    },
+    {
+      "epoch": 22,
+      "training_loss": 0.7161761124928793,
+      "training_selection_loss": 0.9119771718978882
+    },
+    {
+      "epoch": 23,
+      "training_loss": 0.6862681756416956,
+      "training_selection_loss": 0.8785742521286011
+    },
+    {
+      "epoch": 24,
+      "training_loss": 0.9468508362770081,
+      "training_selection_loss": 0.8299687504768372
+    },
+    {
+      "epoch": 25,
+      "training_loss": 0.6402121682961782,
+      "training_selection_loss": 0.7699859142303467
+    },
+    {
+      "epoch": 26,
+      "training_loss": 0.8790239890416464,
+      "training_selection_loss": 0.7199490666389465
+    },
+    {
+      "epoch": 27,
+      "training_loss": 0.5113810238738855,
+      "training_selection_loss": 0.6743627190589905
+    },
+    {
+      "epoch": 28,
+      "training_loss": 1.7063308755556743,
+      "training_selection_loss": 0.622254490852356
+    },
+    {
+      "epoch": 29,
+      "training_loss": 0.7382175525029501,
+      "training_selection_loss": 0.567288875579834
+    },
+    {
+      "epoch": 30,
+      "training_loss": 0.5798064569632212,
+      "training_selection_loss": 0.5162712931632996
+    },
+    {
+      "epoch": 31,
+      "training_loss": 0.8993060141801834,
+      "training_selection_loss": 0.467274934053421
+    },
+    {
+      "epoch": 32,
+      "training_loss": 0.31594881787896156,
+      "training_selection_loss": 0.41969817876815796
+    },
+    {
+      "epoch": 33,
+      "training_loss": 0.041298756996790566,
+      "training_selection_loss": 0.36778467893600464
+    },
+    {
+      "epoch": 34,
+      "training_loss": 0.23827553788820902,
+      "training_selection_loss": 0.3199789226055145
+    },
+    {
+      "epoch": 35,
+      "training_loss": 1.2801769338548183,
+      "training_selection_loss": 0.273710697889328
+    },
+    {
+      "epoch": 36,
+      "training_loss": 0.09621855616569519,
+      "training_selection_loss": 0.22767654061317444
+    },
+    {
+      "epoch": 37,
+      "training_loss": 0.11391291519006093,
+      "training_selection_loss": 0.2021840214729309
+    },
+    {
+      "epoch": 38,
+      "training_loss": 0.0748130517701308,
+      "training_selection_loss": 0.19252198934555054
+    },
+    {
+      "epoch": 39,
+      "training_loss": 0.08490405976772308,
+      "training_selection_loss": 0.14511600136756897
+    },
+    {
+      "epoch": 40,
+      "training_loss": -0.08126289894183476,
+      "training_selection_loss": 0.1010347530245781
+    },
+    {
+      "epoch": 41,
+      "training_loss": -0.01650416851043701,
+      "training_selection_loss": 0.07837394624948502
+    },
+    {
+      "epoch": 42,
+      "training_loss": 0.5943803787231445,
+      "training_selection_loss": 0.047694381326436996
+    },
+    {
+      "epoch": 43,
+      "training_loss": -0.054426826536655426,
+      "training_selection_loss": 0.01175256073474884
+    },
+    {
+      "epoch": 44,
+      "training_loss": -0.1521841436624527,
+      "training_selection_loss": -0.02789844572544098
+    }
+  ],
+  "missing_target_handling": "Training-only per-pixel residual mean imputation for PCA",
+  "uncertainty_calibrated": false,
+  "selection_protocol": "reports/selection.json; no reporting targets used for fitting"
+}

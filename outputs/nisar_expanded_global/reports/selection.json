@@ -1,0 +1,77 @@
+{
+  "method": "leave-one-physical-volcano-out within all training partitions only",
+  "folds": [
+    {
+      "held_out_site": "dabbahu",
+      "fit_examples": 43,
+      "tuning_examples": 10,
+      "best_epoch": 34,
+      "epochs_completed": 49
+    },
+    {
+      "held_out_site": "misti",
+      "fit_examples": 43,
+      "tuning_examples": 10,
+      "best_epoch": 47,
+      "epochs_completed": 62
+    },
+    {
+      "held_out_site": "mount_asama",
+      "fit_examples": 50,
+      "tuning_examples": 3,
+      "best_epoch": 48,
+      "epochs_completed": 63
+    },
+    {
+      "held_out_site": "popocatepetl",
+      "fit_examples": 42,
+      "tuning_examples": 11,
+      "best_epoch": 57,
+      "epochs_completed": 72
+    },
+    {
+      "held_out_site": "sabancaya",
+      "fit_examples": 43,
+      "tuning_examples": 10,
+      "best_epoch": 40,
+      "epochs_completed": 55
+    },
+    {
+      "held_out_site": "ubinas",
+      "fit_examples": 44,
+      "tuning_examples": 9,
+      "best_epoch": 4,
+      "epochs_completed": 19
+    }
+  ],
+  "cvae_epochs": 43,
+  "cvae_seed": 42,
+  "four_branch_weights": [
+    [
+      0.3421278159747723,
+      0.30093422103889317,
+      0.0,
+      0.3569379629863345
+    ],
+    [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ]
+  ],
+  "bin_edges_days": [
+    31,
+    91
+  ],
+  "bins_with_oof_data": [
+    0
+  ],
+  "reporting_partition_used_for_selection": false
+}
