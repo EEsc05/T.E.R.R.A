@@ -32,9 +32,9 @@ def prepare_batch(prep):
         raise ValueError(
             "los_vector must contain three finite static projection means."
         )
-    if md.get("grid_convention") != "native_center32":
+    if md.get("grid_convention") not in ("native_center32", "aoi_block_mean32"):
         raise ValueError(
-            "Only the original native central32pixel convention is supported; no resampling/reference conversion."
+            "Declare grid_convention as native_center32 or aoi_block_mean32; the model does not resample maps."
         )
     m = prep.raw
     t = prep.days

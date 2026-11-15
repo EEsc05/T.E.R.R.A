@@ -63,7 +63,7 @@ def build_parser():
     )
     parser.add_argument(
         "--grid-convention",
-        choices=["native_center32"],
+        choices=["native_center32", "aoi_block_mean32"],
         help="Confirm an already-prepared native center32 grid",
     )
     parser.add_argument("--spacing-km", type=float, nargs=2, metavar=("ROW", "COLUMN"))
@@ -96,6 +96,10 @@ def build_parser():
 
 def main(argv=None):
     argv = list(sys.argv[1:] if argv is None else argv)
+    if argv and argv[0] == "prepare-data":
+        from .prepare_nisar import main as prepare_main
+
+        return prepare_main(argv[1:])
     if argv and argv[0] == "train":
         from .train import main as train_main
 

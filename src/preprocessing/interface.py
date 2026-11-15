@@ -82,7 +82,7 @@ def prepare(inp, min_history=6, fixed_grid=False):
         raise ValueError("horizon_days must be positive and finite.")
     if fixed_grid and (maps.shape[1:] != (32, 32) or not 1 <= h <= 180):
         raise ValueError(
-            "Hybrid/CVAE require native32x32 maps and horizon1–180days; no resizing is performed."
+            "Hybrid/CVAE require 32x32 maps and horizon1–180days; no resizing is performed."
         )
     if not isinstance(inp.metadata, dict):
         raise ValueError("metadata must be a dictionary.")

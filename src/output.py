@@ -1,6 +1,7 @@
 """Serialize forecast arrays and their input/model metadata."""
 
 from pathlib import Path
+from datetime import date, datetime
 from tempfile import NamedTemporaryFile
 import json
 import os
@@ -9,6 +10,8 @@ import numpy as np
 
 def _json_value(value):
     """Create standard JSON values; missing/nonfinite numbers become null."""
+    if isinstance(value, (date, datetime, Path)):
+        return str(value)
     if isinstance(value, np.ndarray):
         return _json_value(value.tolist())
     if isinstance(value, (np.datetime64, np.timedelta64)):

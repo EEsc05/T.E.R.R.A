@@ -18,9 +18,10 @@ from .smoothing import SmoothingModel
 
 
 class FourBranchModel:
-    def __init__(self, seed=42, max_context_pixels=10000):
+    def __init__(self, seed=42, max_context_pixels=10000, report_training_metrics=True):
         self.seed = seed
         self.max_context_pixels = max_context_pixels
+        self.report_training_metrics = report_training_metrics
         self.is_fitted = False
 
     def _branches(self, inp):
@@ -131,7 +132,8 @@ class FourBranchModel:
                 "horizon-bin weights fitted on validation; these scores are calibration scores"
             )
             self.training_report["calibration_metrics"] = evaluate(self, validation)
-        self.training_report["training_metrics"] = evaluate(self, training)
+        if self.report_training_metrics:
+            self.training_report["training_metrics"] = evaluate(self, training)
         return self
 
     train = fit
