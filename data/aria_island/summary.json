@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-11-15T05:53:41.813969+00:00",
+  "complete": true,
+  "max_epochs_per_site": 60,
+  "sites_requested": 1,
+  "results": [
+    {
+      "site": "ambrym",
+      "status": "generated",
+      "epochs": 43,
+      "pairs": 44,
+      "examples": 3,
+      "training_examples": 0,
+      "validation_examples": 0,
+      "history_path": "data/aria_island/ambrym/history.npz",
+      "training_ready": false,
+      "note": "No leakage-free train/validation split; collect a longer connected time series",
+      "country": "Vanuatu",
+      "stack": [
+        81,
+        "ASCENDING",
+        "00167E_00017S"
+      ],
+      "catalog_products": 1221,
+      "selected_pairs": 74,
+      "first_date": "2019-01-06",
+      "last_date": "2019-10-09",
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "max_epochs": 60,
+      "mean_pair_valid_fraction": 0.35316051136363635
+    }
+  ]
+}

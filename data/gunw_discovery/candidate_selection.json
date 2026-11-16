@@ -1,0 +1,11 @@
+{
+  "source": "https://webservices.volcano.si.edu/geoserver/GVP-VOTW/ows",
+  "layer": "GVP-VOTW:Smithsonian_VOTW_Holocene_Volcanoes",
+  "global_volcano_records": 1214,
+  "resolved_candidates": 63,
+  "unresolved_requested_names": [
+    "nyamuragira",
+    "uturuncu",
+    "vesuvio"
+  ]
+}

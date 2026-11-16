@@ -1,0 +1,6506 @@
+[
+  {
+    "site": "popocatepetl",
+    "volcano_id": "popocatepetl",
+    "volcano_name": "Popocatepetl",
+    "country": "Mexico",
+    "lon": -98.622,
+    "lat": 19.023,
+    "half_km": 15.0,
+    "volcano_number": 341090,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=341090",
+    "stack": [
+      19,
+      "A",
+      11
+    ],
+    "polarization": "HH",
+    "pairs": 28,
+    "epochs": 29,
+    "first_date": "2025-10-30",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 21,
+    "new_product_ids": 28,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "erta_ale",
+    "volcano_id": "erta_ale",
+    "volcano_name": "Erta Ale",
+    "country": "Ethiopia",
+    "lon": 40.666,
+    "lat": 13.601,
+    "half_km": 15.0,
+    "volcano_number": 221080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221080",
+    "stack": [
+      165,
+      "D",
+      82
+    ],
+    "polarization": "HH",
+    "pairs": 27,
+    "epochs": 28,
+    "first_date": "2025-11-09",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 20,
+    "new_product_ids": 27,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "dabbahu",
+    "volcano_id": "dabbahu",
+    "volcano_name": "Dabbahu",
+    "country": "Ethiopia",
+    "lon": 40.48,
+    "lat": 12.595,
+    "half_km": 15.0,
+    "volcano_number": 221113,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221113",
+    "stack": [
+      165,
+      "D",
+      82
+    ],
+    "polarization": "HH",
+    "pairs": 27,
+    "epochs": 28,
+    "first_date": "2025-11-09",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 20,
+    "new_product_ids": 27,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "grimsvotn",
+    "volcano_id": "grimsvotn",
+    "volcano_name": "Grimsvotn",
+    "country": "Iceland",
+    "lon": -17.316,
+    "lat": 64.416,
+    "half_km": 15.0,
+    "volcano_number": 373010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373010",
+    "stack": [
+      53,
+      "D",
+      56
+    ],
+    "polarization": "HH",
+    "pairs": 27,
+    "epochs": 28,
+    "first_date": "2025-11-01",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 20,
+    "new_product_ids": 27,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "grimsvotn",
+    "volcano_id": "grimsvotn",
+    "volcano_name": "Grimsvotn",
+    "country": "Iceland",
+    "lon": -17.316,
+    "lat": 64.416,
+    "half_km": 15.0,
+    "volcano_number": 373010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373010",
+    "stack": [
+      29,
+      "A",
+      35
+    ],
+    "polarization": "HH",
+    "pairs": 27,
+    "epochs": 28,
+    "first_date": "2025-11-12",
+    "last_date": "2026-10-14",
+    "catalogue_only_potential_examples": 20,
+    "new_product_ids": 27,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "askja",
+    "volcano_id": "askja",
+    "volcano_name": "Askja",
+    "country": "Iceland",
+    "lon": -16.783,
+    "lat": 65.033,
+    "half_km": 15.0,
+    "volcano_number": 373060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373060",
+    "stack": [
+      29,
+      "A",
+      35
+    ],
+    "polarization": "HH",
+    "pairs": 27,
+    "epochs": 28,
+    "first_date": "2025-11-12",
+    "last_date": "2026-10-14",
+    "catalogue_only_potential_examples": 20,
+    "new_product_ids": 27,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "katla",
+    "volcano_id": "katla",
+    "volcano_name": "Katla",
+    "country": "Iceland",
+    "lon": -19.083,
+    "lat": 63.633,
+    "half_km": 15.0,
+    "volcano_number": 372030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372030",
+    "stack": [
+      53,
+      "D",
+      56
+    ],
+    "polarization": "HH",
+    "pairs": 27,
+    "epochs": 28,
+    "first_date": "2025-11-01",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 20,
+    "new_product_ids": 27,
+    "minimum_aoi_coverage": 0.9997142515176375,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "askja",
+    "volcano_id": "askja",
+    "volcano_name": "Askja",
+    "country": "Iceland",
+    "lon": -16.783,
+    "lat": 65.033,
+    "half_km": 15.0,
+    "volcano_number": 373060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373060",
+    "stack": [
+      53,
+      "D",
+      56
+    ],
+    "polarization": "HH",
+    "pairs": 27,
+    "epochs": 28,
+    "first_date": "2025-11-01",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 20,
+    "new_product_ids": 27,
+    "minimum_aoi_coverage": 0.562132262654071,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "taupo",
+    "volcano_id": "taupo",
+    "volcano_name": "Taupo",
+    "country": "New Zealand",
+    "lon": 175.893,
+    "lat": -38.7811,
+    "half_km": 15.0,
+    "volcano_number": 241070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241070",
+    "stack": [
+      166,
+      "A",
+      158
+    ],
+    "polarization": "HH",
+    "pairs": 27,
+    "epochs": 28,
+    "first_date": "2025-11-09",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 20,
+    "new_product_ids": 27,
+    "minimum_aoi_coverage": 0.5252825541455508,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "kilauea",
+    "volcano_id": "kilauea",
+    "volcano_name": "Kilauea",
+    "country": "United States",
+    "lon": -155.287,
+    "lat": 19.421,
+    "half_km": 15.0,
+    "volcano_number": 332010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=332010",
+    "stack": [
+      151,
+      "A",
+      11
+    ],
+    "polarization": "HH",
+    "pairs": 27,
+    "epochs": 28,
+    "first_date": "2025-11-08",
+    "last_date": "2026-11-03",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 27,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1",
+      "NISAR_UR_L2"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "mauna_loa",
+    "volcano_id": "mauna_loa",
+    "volcano_name": "Mauna Loa",
+    "country": "United States",
+    "lon": -155.608,
+    "lat": 19.475,
+    "half_km": 15.0,
+    "volcano_number": 332020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=332020",
+    "stack": [
+      151,
+      "A",
+      11
+    ],
+    "polarization": "HH",
+    "pairs": 27,
+    "epochs": 28,
+    "first_date": "2025-11-08",
+    "last_date": "2026-11-03",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 27,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1",
+      "NISAR_UR_L2"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "taupo",
+    "volcano_id": "taupo",
+    "volcano_name": "Taupo",
+    "country": "New Zealand",
+    "lon": 175.893,
+    "lat": -38.7811,
+    "half_km": 15.0,
+    "volcano_number": 241070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241070",
+    "stack": [
+      87,
+      "D",
+      108
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-04",
+    "last_date": "2026-10-18",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 26,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "taupo",
+    "volcano_id": "taupo",
+    "volcano_name": "Taupo",
+    "country": "New Zealand",
+    "lon": 175.893,
+    "lat": -38.7811,
+    "half_km": 15.0,
+    "volcano_number": 241070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241070",
+    "stack": [
+      94,
+      "A",
+      158
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-04",
+    "last_date": "2026-10-06",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 26,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "tongariro",
+    "volcano_id": "tongariro",
+    "volcano_name": "Tongariro",
+    "country": "New Zealand",
+    "lon": 175.632,
+    "lat": -39.157,
+    "half_km": 15.0,
+    "volcano_number": 241080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241080",
+    "stack": [
+      94,
+      "A",
+      158
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-04",
+    "last_date": "2026-10-06",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 26,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ruapehu",
+    "volcano_id": "ruapehu",
+    "volcano_name": "Ruapehu",
+    "country": "New Zealand",
+    "lon": 175.57,
+    "lat": -39.28,
+    "half_km": 15.0,
+    "volcano_number": 241100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241100",
+    "stack": [
+      94,
+      "A",
+      158
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-04",
+    "last_date": "2026-10-06",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 26,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "sabancaya",
+    "volcano_id": "sabancaya",
+    "volcano_name": "Sabancaya",
+    "country": "Peru",
+    "lon": -71.857,
+    "lat": -15.787,
+    "half_km": 15.0,
+    "volcano_number": 354006,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354006",
+    "stack": [
+      46,
+      "A",
+      170
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-01",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 0,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ubinas",
+    "volcano_id": "ubinas",
+    "volcano_name": "Ubinas",
+    "country": "Peru",
+    "lon": -70.8972,
+    "lat": -16.345,
+    "half_km": 15.0,
+    "volcano_number": 354020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354020",
+    "stack": [
+      46,
+      "A",
+      169
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-01",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 0,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ubinas",
+    "volcano_id": "ubinas",
+    "volcano_name": "Ubinas",
+    "country": "Peru",
+    "lon": -70.8972,
+    "lat": -16.345,
+    "half_km": 15.0,
+    "volcano_number": 354020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354020",
+    "stack": [
+      25,
+      "D",
+      97
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-10-30",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 1,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ticsani",
+    "volcano_id": "ticsani",
+    "volcano_name": "Ticsani",
+    "country": "Peru",
+    "lon": -70.5981,
+    "lat": -16.7586,
+    "half_km": 15.0,
+    "volcano_number": 354031,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354031",
+    "stack": [
+      46,
+      "A",
+      169
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-01",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 0,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ticsani",
+    "volcano_id": "ticsani",
+    "volcano_name": "Ticsani",
+    "country": "Peru",
+    "lon": -70.5981,
+    "lat": -16.7586,
+    "half_km": 15.0,
+    "volcano_number": 354031,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354031",
+    "stack": [
+      25,
+      "D",
+      97
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-10-30",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 1,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "huaynaputina",
+    "volcano_id": "huaynaputina",
+    "volcano_name": "Huaynaputina",
+    "country": "Peru",
+    "lon": -70.8542,
+    "lat": -16.6144,
+    "half_km": 15.0,
+    "volcano_number": 354030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354030",
+    "stack": [
+      46,
+      "A",
+      169
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-01",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 0,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "huaynaputina",
+    "volcano_id": "huaynaputina",
+    "volcano_name": "Huaynaputina",
+    "country": "Peru",
+    "lon": -70.8542,
+    "lat": -16.6144,
+    "half_km": 15.0,
+    "volcano_number": 354030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354030",
+    "stack": [
+      25,
+      "D",
+      97
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-10-30",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 1,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "tutupaca",
+    "volcano_id": "tutupaca",
+    "volcano_name": "Tutupaca",
+    "country": "Peru",
+    "lon": -70.372,
+    "lat": -17.026,
+    "half_km": 15.0,
+    "volcano_number": 354040,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354040",
+    "stack": [
+      46,
+      "A",
+      169
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-01",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 0,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "tutupaca",
+    "volcano_id": "tutupaca",
+    "volcano_name": "Tutupaca",
+    "country": "Peru",
+    "lon": -70.372,
+    "lat": -17.026,
+    "half_km": 15.0,
+    "volcano_number": 354040,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354040",
+    "stack": [
+      25,
+      "D",
+      97
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-10-30",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 1,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "yucamane",
+    "volcano_id": "yucamane",
+    "volcano_name": "Yucamane",
+    "country": "Peru",
+    "lon": -70.196,
+    "lat": -17.184,
+    "half_km": 15.0,
+    "volcano_number": 354050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354050",
+    "stack": [
+      46,
+      "A",
+      169
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-01",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 0,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "yucamane",
+    "volcano_id": "yucamane",
+    "volcano_name": "Yucamane",
+    "country": "Peru",
+    "lon": -70.196,
+    "lat": -17.184,
+    "half_km": 15.0,
+    "volcano_number": 354050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354050",
+    "stack": [
+      25,
+      "D",
+      97
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-10-30",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 1,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "lastarria",
+    "volcano_id": "lastarria",
+    "volcano_name": "Lastarria",
+    "country": "Chile-Argentina",
+    "lon": -68.507,
+    "lat": -25.168,
+    "half_km": 15.0,
+    "volcano_number": 355120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=355120",
+    "stack": [
+      46,
+      "A",
+      165
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-01",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 26,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "katla",
+    "volcano_id": "katla",
+    "volcano_name": "Katla",
+    "country": "Iceland",
+    "lon": -19.083,
+    "lat": 63.633,
+    "half_km": 15.0,
+    "volcano_number": 372030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372030",
+    "stack": [
+      82,
+      "D",
+      56
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-03",
+    "last_date": "2026-10-17",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 26,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "hekla",
+    "volcano_id": "hekla",
+    "volcano_name": "Hekla",
+    "country": "Iceland",
+    "lon": -19.666,
+    "lat": 63.983,
+    "half_km": 15.0,
+    "volcano_number": 372070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372070",
+    "stack": [
+      82,
+      "D",
+      56
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-03",
+    "last_date": "2026-10-17",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 26,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "grimsvotn",
+    "volcano_id": "grimsvotn",
+    "volcano_name": "Grimsvotn",
+    "country": "Iceland",
+    "lon": -17.316,
+    "lat": 64.416,
+    "half_km": 15.0,
+    "volcano_number": 373010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373010",
+    "stack": [
+      82,
+      "D",
+      55
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-03",
+    "last_date": "2026-10-17",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 26,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "askja",
+    "volcano_id": "askja",
+    "volcano_name": "Askja",
+    "country": "Iceland",
+    "lon": -16.783,
+    "lat": 65.033,
+    "half_km": 15.0,
+    "volcano_number": 373060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373060",
+    "stack": [
+      82,
+      "D",
+      55
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-03",
+    "last_date": "2026-10-17",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 26,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "reykjanes",
+    "volcano_id": "reykjanes",
+    "volcano_name": "Reykjanes",
+    "country": "Iceland",
+    "lon": -22.717,
+    "lat": 63.817,
+    "half_km": 15.0,
+    "volcano_number": 371020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=371020",
+    "stack": [
+      82,
+      "D",
+      56
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-03",
+    "last_date": "2026-10-17",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 26,
+    "minimum_aoi_coverage": 0.9828993677403792,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "tongariro",
+    "volcano_id": "tongariro",
+    "volcano_name": "Tongariro",
+    "country": "New Zealand",
+    "lon": 175.632,
+    "lat": -39.157,
+    "half_km": 15.0,
+    "volcano_number": 241080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241080",
+    "stack": [
+      87,
+      "D",
+      108
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-04",
+    "last_date": "2026-10-18",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 26,
+    "minimum_aoi_coverage": 0.9760037018943793,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "misti_el",
+    "volcano_id": "misti",
+    "volcano_name": "Misti, El",
+    "country": "Peru",
+    "lon": -71.4056,
+    "lat": -16.2991,
+    "half_km": 15.0,
+    "volcano_number": 354010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354010",
+    "stack": [
+      46,
+      "A",
+      169
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-01",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 0,
+    "minimum_aoi_coverage": 0.9286480765660433,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ruapehu",
+    "volcano_id": "ruapehu",
+    "volcano_name": "Ruapehu",
+    "country": "New Zealand",
+    "lon": 175.57,
+    "lat": -39.28,
+    "half_km": 15.0,
+    "volcano_number": 241100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241100",
+    "stack": [
+      87,
+      "D",
+      108
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-04",
+    "last_date": "2026-10-18",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 26,
+    "minimum_aoi_coverage": 0.9082808189042465,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "misti_el",
+    "volcano_id": "misti",
+    "volcano_name": "Misti, El",
+    "country": "Peru",
+    "lon": -71.4056,
+    "lat": -16.2991,
+    "half_km": 15.0,
+    "volcano_number": 354010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354010",
+    "stack": [
+      25,
+      "D",
+      97
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-10-30",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 1,
+    "minimum_aoi_coverage": 0.47922193526709567,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "misti_el",
+    "volcano_id": "misti",
+    "volcano_name": "Misti, El",
+    "country": "Peru",
+    "lon": -71.4056,
+    "lat": -16.2991,
+    "half_km": 15.0,
+    "volcano_number": 354010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354010",
+    "stack": [
+      46,
+      "A",
+      170
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-01",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 19,
+    "new_product_ids": 0,
+    "minimum_aoi_coverage": 0.2907351206148973,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "kilauea",
+    "volcano_id": "kilauea",
+    "volcano_name": "Kilauea",
+    "country": "United States",
+    "lon": -155.287,
+    "lat": 19.421,
+    "half_km": 15.0,
+    "volcano_number": 332010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=332010",
+    "stack": [
+      72,
+      "D",
+      79
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-03",
+    "last_date": "2026-10-29",
+    "catalogue_only_potential_examples": 18,
+    "new_product_ids": 26,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1",
+      "NISAR_UR_L2"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "mauna_loa",
+    "volcano_id": "mauna_loa",
+    "volcano_name": "Mauna Loa",
+    "country": "United States",
+    "lon": -155.608,
+    "lat": 19.475,
+    "half_km": 15.0,
+    "volcano_number": 332020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=332020",
+    "stack": [
+      72,
+      "D",
+      79
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-03",
+    "last_date": "2026-10-29",
+    "catalogue_only_potential_examples": 18,
+    "new_product_ids": 26,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1",
+      "NISAR_UR_L2"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "popocatepetl",
+    "volcano_id": "popocatepetl",
+    "volcano_name": "Popocatepetl",
+    "country": "Mexico",
+    "lon": -98.622,
+    "lat": 19.023,
+    "half_km": 15.0,
+    "volcano_number": 341090,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=341090",
+    "stack": [
+      113,
+      "D",
+      79
+    ],
+    "polarization": "HH",
+    "pairs": 26,
+    "epochs": 27,
+    "first_date": "2025-11-06",
+    "last_date": "2026-10-20",
+    "catalogue_only_potential_examples": 18,
+    "new_product_ids": 26,
+    "minimum_aoi_coverage": 0.9943770138967384,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "lascar",
+    "volcano_id": "lascar",
+    "volcano_name": "Lascar",
+    "country": "Chile",
+    "lon": -67.73,
+    "lat": -23.37,
+    "half_km": 15.0,
+    "volcano_number": 355100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=355100",
+    "stack": [
+      169,
+      "D",
+      100
+    ],
+    "polarization": "HH",
+    "pairs": 25,
+    "epochs": 26,
+    "first_date": "2025-11-09",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 18,
+    "new_product_ids": 25,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "reykjanes",
+    "volcano_id": "reykjanes",
+    "volcano_name": "Reykjanes",
+    "country": "Iceland",
+    "lon": -22.717,
+    "lat": 63.817,
+    "half_km": 15.0,
+    "volcano_number": 371020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=371020",
+    "stack": [
+      159,
+      "A",
+      34
+    ],
+    "polarization": "HH",
+    "pairs": 25,
+    "epochs": 26,
+    "first_date": "2025-11-09",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 18,
+    "new_product_ids": 25,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "katla",
+    "volcano_id": "katla",
+    "volcano_name": "Katla",
+    "country": "Iceland",
+    "lon": -19.083,
+    "lat": 63.633,
+    "half_km": 15.0,
+    "volcano_number": 372030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372030",
+    "stack": [
+      159,
+      "A",
+      34
+    ],
+    "polarization": "HH",
+    "pairs": 25,
+    "epochs": 26,
+    "first_date": "2025-11-09",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 18,
+    "new_product_ids": 25,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "hekla",
+    "volcano_id": "hekla",
+    "volcano_name": "Hekla",
+    "country": "Iceland",
+    "lon": -19.666,
+    "lat": 63.983,
+    "half_km": 15.0,
+    "volcano_number": 372070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372070",
+    "stack": [
+      159,
+      "A",
+      34
+    ],
+    "polarization": "HH",
+    "pairs": 25,
+    "epochs": 26,
+    "first_date": "2025-11-09",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 18,
+    "new_product_ids": 25,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "lastarria",
+    "volcano_id": "lastarria",
+    "volcano_name": "Lastarria",
+    "country": "Chile-Argentina",
+    "lon": -68.507,
+    "lat": -25.168,
+    "half_km": 15.0,
+    "volcano_number": 355120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=355120",
+    "stack": [
+      97,
+      "D",
+      101
+    ],
+    "polarization": "HH",
+    "pairs": 25,
+    "epochs": 26,
+    "first_date": "2025-11-04",
+    "last_date": "2026-10-06",
+    "catalogue_only_potential_examples": 18,
+    "new_product_ids": 25,
+    "minimum_aoi_coverage": 0.41751431157233476,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "erta_ale",
+    "volcano_id": "erta_ale",
+    "volcano_name": "Erta Ale",
+    "country": "Ethiopia",
+    "lon": 40.666,
+    "lat": 13.601,
+    "half_km": 15.0,
+    "volcano_number": 221080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221080",
+    "stack": [
+      172,
+      "A",
+      8
+    ],
+    "polarization": "HH",
+    "pairs": 25,
+    "epochs": 26,
+    "first_date": "2025-11-10",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 17,
+    "new_product_ids": 25,
+    "minimum_aoi_coverage": 0.6916465002655842,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "dabbahu",
+    "volcano_id": "dabbahu",
+    "volcano_name": "Dabbahu",
+    "country": "Ethiopia",
+    "lon": 40.48,
+    "lat": 12.595,
+    "half_km": 15.0,
+    "volcano_number": 221113,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221113",
+    "stack": [
+      172,
+      "A",
+      8
+    ],
+    "polarization": "HH",
+    "pairs": 25,
+    "epochs": 26,
+    "first_date": "2025-11-10",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 17,
+    "new_product_ids": 25,
+    "minimum_aoi_coverage": 0.6370225666624207,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "erta_ale",
+    "volcano_id": "erta_ale",
+    "volcano_name": "Erta Ale",
+    "country": "Ethiopia",
+    "lon": 40.666,
+    "lat": 13.601,
+    "half_km": 15.0,
+    "volcano_number": 221080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221080",
+    "stack": [
+      172,
+      "A",
+      9
+    ],
+    "polarization": "HH",
+    "pairs": 25,
+    "epochs": 26,
+    "first_date": "2025-11-10",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 17,
+    "new_product_ids": 25,
+    "minimum_aoi_coverage": 0.281161720946643,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "taupo",
+    "volcano_id": "taupo",
+    "volcano_name": "Taupo",
+    "country": "New Zealand",
+    "lon": 175.893,
+    "lat": -38.7811,
+    "half_km": 15.0,
+    "volcano_number": 241070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241070",
+    "stack": [
+      15,
+      "D",
+      108
+    ],
+    "polarization": "HH",
+    "pairs": 24,
+    "epochs": 25,
+    "first_date": "2025-10-30",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 17,
+    "new_product_ids": 24,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "tongariro",
+    "volcano_id": "tongariro",
+    "volcano_name": "Tongariro",
+    "country": "New Zealand",
+    "lon": 175.632,
+    "lat": -39.157,
+    "half_km": 15.0,
+    "volcano_number": 241080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241080",
+    "stack": [
+      15,
+      "D",
+      108
+    ],
+    "polarization": "HH",
+    "pairs": 24,
+    "epochs": 25,
+    "first_date": "2025-10-30",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 17,
+    "new_product_ids": 24,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ruapehu",
+    "volcano_id": "ruapehu",
+    "volcano_name": "Ruapehu",
+    "country": "New Zealand",
+    "lon": 175.57,
+    "lat": -39.28,
+    "half_km": 15.0,
+    "volcano_number": 241100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241100",
+    "stack": [
+      15,
+      "D",
+      108
+    ],
+    "polarization": "HH",
+    "pairs": 24,
+    "epochs": 25,
+    "first_date": "2025-10-30",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 17,
+    "new_product_ids": 24,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "lastarria",
+    "volcano_id": "lastarria",
+    "volcano_name": "Lastarria",
+    "country": "Chile-Argentina",
+    "lon": -68.507,
+    "lat": -25.168,
+    "half_km": 15.0,
+    "volcano_number": 355120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=355120",
+    "stack": [
+      169,
+      "D",
+      101
+    ],
+    "polarization": "HH",
+    "pairs": 24,
+    "epochs": 25,
+    "first_date": "2025-11-09",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 17,
+    "new_product_ids": 24,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "lascar",
+    "volcano_id": "lascar",
+    "volcano_name": "Lascar",
+    "country": "Chile",
+    "lon": -67.73,
+    "lat": -23.37,
+    "half_km": 15.0,
+    "volcano_number": 355100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=355100",
+    "stack": [
+      118,
+      "A",
+      166
+    ],
+    "polarization": "HH",
+    "pairs": 24,
+    "epochs": 25,
+    "first_date": "2025-11-06",
+    "last_date": "2026-10-20",
+    "catalogue_only_potential_examples": 16,
+    "new_product_ids": 24,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "chillan_nevados_de",
+    "volcano_id": "chillan_nevados_de",
+    "volcano_name": "Chillan, Nevados de",
+    "country": "Chile",
+    "lon": -71.378,
+    "lat": -36.868,
+    "half_km": 15.0,
+    "volcano_number": 357070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=357070",
+    "stack": [
+      3,
+      "A",
+      159
+    ],
+    "polarization": "HH",
+    "pairs": 18,
+    "epochs": 19,
+    "first_date": "2026-02-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 11,
+    "new_product_ids": 18,
+    "minimum_aoi_coverage": 0.5221971247604316,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "erta_ale",
+    "volcano_id": "erta_ale",
+    "volcano_name": "Erta Ale",
+    "country": "Ethiopia",
+    "lon": 40.666,
+    "lat": 13.601,
+    "half_km": 15.0,
+    "volcano_number": 221080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221080",
+    "stack": [
+      165,
+      "D",
+      81
+    ],
+    "polarization": "HH",
+    "pairs": 12,
+    "epochs": 13,
+    "first_date": "2026-04-02",
+    "last_date": "2026-09-05",
+    "catalogue_only_potential_examples": 5,
+    "new_product_ids": 12,
+    "minimum_aoi_coverage": 4.552934879900646e-05,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "askja",
+    "volcano_id": "askja",
+    "volcano_name": "Askja",
+    "country": "Iceland",
+    "lon": -16.783,
+    "lat": 65.033,
+    "half_km": 15.0,
+    "volcano_number": 373060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373060",
+    "stack": [
+      53,
+      "D",
+      55
+    ],
+    "polarization": "HH",
+    "pairs": 10,
+    "epochs": 11,
+    "first_date": "2025-11-01",
+    "last_date": "2026-03-01",
+    "catalogue_only_potential_examples": 3,
+    "new_product_ids": 10,
+    "minimum_aoi_coverage": 0.6483040949416542,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "etna",
+    "volcano_id": "etna",
+    "volcano_name": "Etna",
+    "country": "Italy",
+    "lon": 14.999,
+    "lat": 37.748,
+    "half_km": 15.0,
+    "volcano_number": 211060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=211060",
+    "stack": [
+      51,
+      "D",
+      69
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-17",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "nyiragongo",
+    "volcano_id": "nyiragongo",
+    "volcano_name": "Nyiragongo",
+    "country": "DR Congo",
+    "lon": 29.25,
+    "lat": -1.52,
+    "half_km": 15.0,
+    "volcano_number": 223030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=223030",
+    "stack": [
+      50,
+      "D",
+      89
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-17",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "rabaul",
+    "volcano_id": "rabaul",
+    "volcano_name": "Rabaul",
+    "country": "Papua New Guinea",
+    "lon": 152.1937,
+    "lat": -4.2459,
+    "half_km": 15.0,
+    "volcano_number": 252140,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=252140",
+    "stack": [
+      45,
+      "D",
+      91
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-17",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "sinabung",
+    "volcano_id": "sinabung",
+    "volcano_name": "Sinabung",
+    "country": "Indonesia",
+    "lon": 98.392,
+    "lat": 3.17,
+    "half_km": 15.0,
+    "volcano_number": 261080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=261080",
+    "stack": [
+      141,
+      "A",
+      3
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1",
+      "NISAR_L2_GUNW_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "kanlaon",
+    "volcano_id": "kanlaon",
+    "volcano_name": "Kanlaon",
+    "country": "Philippines",
+    "lon": 123.13,
+    "lat": 10.4096,
+    "half_km": 15.0,
+    "volcano_number": 272020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=272020",
+    "stack": [
+      104,
+      "D",
+      83
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "mayon",
+    "volcano_id": "mayon",
+    "volcano_name": "Mayon",
+    "country": "Philippines",
+    "lon": 123.685,
+    "lat": 13.257,
+    "half_km": 15.0,
+    "volcano_number": 273030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=273030",
+    "stack": [
+      104,
+      "D",
+      82
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "pinatubo",
+    "volcano_id": "pinatubo",
+    "volcano_name": "Pinatubo",
+    "country": "Philippines",
+    "lon": 120.35,
+    "lat": 15.13,
+    "half_km": 15.0,
+    "volcano_number": 273083,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=273083",
+    "stack": [
+      140,
+      "A",
+      9
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1",
+      "NISAR_L2_GUNW_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "pinatubo",
+    "volcano_id": "pinatubo",
+    "volcano_name": "Pinatubo",
+    "country": "Philippines",
+    "lon": 120.35,
+    "lat": 15.13,
+    "half_km": 15.0,
+    "volcano_number": 273083,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=273083",
+    "stack": [
+      133,
+      "D",
+      81
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "asamayama",
+    "volcano_id": "mount_asama",
+    "volcano_name": "Asamayama",
+    "country": "Japan",
+    "lon": 138.523,
+    "lat": 36.406,
+    "half_km": 15.0,
+    "volcano_number": 283110,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=283110",
+    "stack": [
+      46,
+      "D",
+      70
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-17",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 0,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "colima",
+    "volcano_id": "colima",
+    "volcano_name": "Colima",
+    "country": "Mexico",
+    "lon": -103.62,
+    "lat": 19.514,
+    "half_km": 15.0,
+    "volcano_number": 341040,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=341040",
+    "stack": [
+      48,
+      "A",
+      11
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-17",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "santa_maria",
+    "volcano_id": "santa_maria",
+    "volcano_name": "Santa Maria",
+    "country": "Guatemala",
+    "lon": -91.552,
+    "lat": 14.757,
+    "half_km": 15.0,
+    "volcano_number": 342030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=342030",
+    "stack": [
+      62,
+      "A",
+      9
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-18",
+    "last_date": "2026-10-16",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "santa_maria",
+    "volcano_id": "santa_maria",
+    "volcano_name": "Santa Maria",
+    "country": "Guatemala",
+    "lon": -91.552,
+    "lat": 14.757,
+    "half_km": 15.0,
+    "volcano_number": 342030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=342030",
+    "stack": [
+      55,
+      "D",
+      81
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-18",
+    "last_date": "2026-10-16",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "fuego",
+    "volcano_id": "fuego",
+    "volcano_name": "Fuego",
+    "country": "Guatemala",
+    "lon": -90.8806,
+    "lat": 14.4748,
+    "half_km": 15.0,
+    "volcano_number": 342090,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=342090",
+    "stack": [
+      134,
+      "A",
+      9
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "pacaya",
+    "volcano_id": "pacaya",
+    "volcano_name": "Pacaya",
+    "country": "Guatemala",
+    "lon": -90.601,
+    "lat": 14.382,
+    "half_km": 15.0,
+    "volcano_number": 342110,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=342110",
+    "stack": [
+      134,
+      "A",
+      9
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "masaya",
+    "volcano_id": "masaya",
+    "volcano_name": "Masaya",
+    "country": "Nicaragua",
+    "lon": -86.1688,
+    "lat": 11.9844,
+    "half_km": 15.0,
+    "volcano_number": 344100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=344100",
+    "stack": [
+      98,
+      "D",
+      82
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "concepcion",
+    "volcano_id": "concepcion",
+    "volcano_name": "Concepcion",
+    "country": "Nicaragua",
+    "lon": -85.622,
+    "lat": 11.538,
+    "half_km": 15.0,
+    "volcano_number": 344120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=344120",
+    "stack": [
+      105,
+      "A",
+      7
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "cotopaxi",
+    "volcano_id": "cotopaxi",
+    "volcano_name": "Cotopaxi",
+    "country": "Ecuador",
+    "lon": -78.436,
+    "lat": -0.677,
+    "half_km": 15.0,
+    "volcano_number": 352050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=352050",
+    "stack": [
+      76,
+      "A",
+      1
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-19",
+    "last_date": "2026-10-17",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "tungurahua",
+    "volcano_id": "tungurahua",
+    "volcano_name": "Tungurahua",
+    "country": "Ecuador",
+    "lon": -78.442,
+    "lat": -1.467,
+    "half_km": 15.0,
+    "volcano_number": 352080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=352080",
+    "stack": [
+      76,
+      "A",
+      1
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-19",
+    "last_date": "2026-10-17",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "soufriere_st_vincent",
+    "volcano_id": "soufriere_st_vincent",
+    "volcano_name": "Soufriere St. Vincent",
+    "country": "Saint Vincent and the Grenadines",
+    "lon": -61.18,
+    "lat": 13.33,
+    "half_km": 15.0,
+    "volcano_number": 360150,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=360150",
+    "stack": [
+      104,
+      "A",
+      8
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "reykjanes",
+    "volcano_id": "reykjanes",
+    "volcano_name": "Reykjanes",
+    "country": "Iceland",
+    "lon": -22.717,
+    "lat": 63.817,
+    "half_km": 15.0,
+    "volcano_number": 371020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=371020",
+    "stack": [
+      111,
+      "D",
+      56
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "reykjanes",
+    "volcano_id": "reykjanes",
+    "volcano_name": "Reykjanes",
+    "country": "Iceland",
+    "lon": -22.717,
+    "lat": 63.817,
+    "half_km": 15.0,
+    "volcano_number": 371020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=371020",
+    "stack": [
+      87,
+      "A",
+      34
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-20",
+    "last_date": "2026-10-18",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "katla",
+    "volcano_id": "katla",
+    "volcano_name": "Katla",
+    "country": "Iceland",
+    "lon": -19.083,
+    "lat": 63.633,
+    "half_km": 15.0,
+    "volcano_number": 372030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372030",
+    "stack": [
+      58,
+      "A",
+      34
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-18",
+    "last_date": "2026-10-16",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "hekla",
+    "volcano_id": "hekla",
+    "volcano_name": "Hekla",
+    "country": "Iceland",
+    "lon": -19.666,
+    "lat": 63.983,
+    "half_km": 15.0,
+    "volcano_number": 372070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372070",
+    "stack": [
+      58,
+      "A",
+      34
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-18",
+    "last_date": "2026-10-16",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "grimsvotn",
+    "volcano_id": "grimsvotn",
+    "volcano_name": "Grimsvotn",
+    "country": "Iceland",
+    "lon": -17.316,
+    "lat": 64.416,
+    "half_km": 15.0,
+    "volcano_number": 373010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373010",
+    "stack": [
+      58,
+      "A",
+      34
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-18",
+    "last_date": "2026-10-16",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "askja",
+    "volcano_id": "askja",
+    "volcano_name": "Askja",
+    "country": "Iceland",
+    "lon": -16.783,
+    "lat": 65.033,
+    "half_km": 15.0,
+    "volcano_number": 373060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373060",
+    "stack": [
+      130,
+      "A",
+      35
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ruiz_nevado_del",
+    "volcano_id": "ruiz_nevado_del",
+    "volcano_name": "Ruiz, Nevado del",
+    "country": "Colombia",
+    "lon": -75.324,
+    "lat": 4.892,
+    "half_km": 15.0,
+    "volcano_number": 351020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=351020",
+    "stack": [
+      47,
+      "A",
+      4
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-17",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "chillan_nevados_de",
+    "volcano_id": "chillan_nevados_de",
+    "volcano_name": "Chillan, Nevados de",
+    "country": "Chile",
+    "lon": -71.378,
+    "lat": -36.868,
+    "half_km": 15.0,
+    "volcano_number": 357070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=357070",
+    "stack": [
+      75,
+      "A",
+      159
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-19",
+    "last_date": "2026-10-17",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "askja",
+    "volcano_id": "askja",
+    "volcano_name": "Askja",
+    "country": "Iceland",
+    "lon": -16.783,
+    "lat": 65.033,
+    "half_km": 15.0,
+    "volcano_number": 373060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373060",
+    "stack": [
+      101,
+      "A",
+      35
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.9995486661930921,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "mayon",
+    "volcano_id": "mayon",
+    "volcano_name": "Mayon",
+    "country": "Philippines",
+    "lon": 123.685,
+    "lat": 13.257,
+    "half_km": 15.0,
+    "volcano_number": 273030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=273030",
+    "stack": [
+      111,
+      "A",
+      8
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.9981513928360558,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "masaya",
+    "volcano_id": "masaya",
+    "volcano_name": "Masaya",
+    "country": "Nicaragua",
+    "lon": -86.1688,
+    "lat": 11.9844,
+    "half_km": 15.0,
+    "volcano_number": 344100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=344100",
+    "stack": [
+      105,
+      "A",
+      8
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.9962202414584812,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "grimsvotn",
+    "volcano_id": "grimsvotn",
+    "volcano_name": "Grimsvotn",
+    "country": "Iceland",
+    "lon": -17.316,
+    "lat": 64.416,
+    "half_km": 15.0,
+    "volcano_number": 373010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373010",
+    "stack": [
+      130,
+      "A",
+      34
+    ],
+    "polarization": "HH",
+    "pairs": 10,
+    "epochs": 10,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 10,
+    "minimum_aoi_coverage": 0.9902297048825414,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "agung",
+    "volcano_id": "agung",
+    "volcano_name": "Agung",
+    "country": "Indonesia",
+    "lon": 115.508,
+    "lat": -8.343,
+    "half_km": 15.0,
+    "volcano_number": 264020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=264020",
+    "stack": [
+      133,
+      "D",
+      93
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.8872041459541591,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "fuego",
+    "volcano_id": "fuego",
+    "volcano_name": "Fuego",
+    "country": "Guatemala",
+    "lon": -90.8806,
+    "lat": 14.4748,
+    "half_km": 15.0,
+    "volcano_number": 342090,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=342090",
+    "stack": [
+      62,
+      "A",
+      9
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-18",
+    "last_date": "2026-10-16",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.8679209283451945,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "semeru",
+    "volcano_id": "semeru",
+    "volcano_name": "Semeru",
+    "country": "Indonesia",
+    "lon": 112.922,
+    "lat": -8.108,
+    "half_km": 15.0,
+    "volcano_number": 263300,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=263300",
+    "stack": [
+      61,
+      "D",
+      92
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-18",
+    "last_date": "2026-10-16",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.7798124344215941,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "semeru",
+    "volcano_id": "semeru",
+    "volcano_name": "Semeru",
+    "country": "Indonesia",
+    "lon": 112.922,
+    "lat": -8.108,
+    "half_km": 15.0,
+    "volcano_number": 263300,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=263300",
+    "stack": [
+      53,
+      "A",
+      173
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-17",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.7456781164736351,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "taal",
+    "volcano_id": "taal",
+    "volcano_name": "Taal",
+    "country": "Philippines",
+    "lon": 120.9975,
+    "lat": 14.0106,
+    "half_km": 15.0,
+    "volcano_number": 273070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=273070",
+    "stack": [
+      140,
+      "A",
+      9
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.6931192129813756,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1",
+      "NISAR_L2_GUNW_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "galeras",
+    "volcano_id": "galeras",
+    "volcano_name": "Galeras",
+    "country": "Colombia",
+    "lon": -77.37,
+    "lat": 1.22,
+    "half_km": 15.0,
+    "volcano_number": 351080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=351080",
+    "stack": [
+      76,
+      "A",
+      2
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-19",
+    "last_date": "2026-10-17",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.6843354495093548,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "katla",
+    "volcano_id": "katla",
+    "volcano_name": "Katla",
+    "country": "Iceland",
+    "lon": -19.083,
+    "lat": 63.633,
+    "half_km": 15.0,
+    "volcano_number": 372030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372030",
+    "stack": [
+      130,
+      "A",
+      34
+    ],
+    "polarization": "HH",
+    "pairs": 10,
+    "epochs": 10,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 10,
+    "minimum_aoi_coverage": 0.5575817492651554,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ambrym",
+    "volcano_id": "ambrym",
+    "volcano_name": "Ambrym",
+    "country": "Vanuatu",
+    "lon": 168.12,
+    "lat": -16.25,
+    "half_km": 15.0,
+    "volcano_number": 257040,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=257040",
+    "stack": [
+      102,
+      "D",
+      96
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.523613327765438,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "semeru",
+    "volcano_id": "semeru",
+    "volcano_name": "Semeru",
+    "country": "Indonesia",
+    "lon": 112.922,
+    "lat": -8.108,
+    "half_km": 15.0,
+    "volcano_number": 263300,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=263300",
+    "stack": [
+      61,
+      "D",
+      93
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-18",
+    "last_date": "2026-10-16",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.4939909849974142,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "semeru",
+    "volcano_id": "semeru",
+    "volcano_name": "Semeru",
+    "country": "Indonesia",
+    "lon": 112.922,
+    "lat": -8.108,
+    "half_km": 15.0,
+    "volcano_number": 263300,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=263300",
+    "stack": [
+      53,
+      "A",
+      174
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-17",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.4442036558625776,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "hekla",
+    "volcano_id": "hekla",
+    "volcano_name": "Hekla",
+    "country": "Iceland",
+    "lon": -19.666,
+    "lat": 63.983,
+    "half_km": 15.0,
+    "volcano_number": 372070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372070",
+    "stack": [
+      130,
+      "A",
+      35
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.42032862780029556,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "taal",
+    "volcano_id": "taal",
+    "volcano_name": "Taal",
+    "country": "Philippines",
+    "lon": 120.9975,
+    "lat": 14.0106,
+    "half_km": 15.0,
+    "volcano_number": 273070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=273070",
+    "stack": [
+      140,
+      "A",
+      8
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.39566685192999884,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1",
+      "NISAR_L2_GUNW_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "popocatepetl",
+    "volcano_id": "popocatepetl",
+    "volcano_name": "Popocatepetl",
+    "country": "Mexico",
+    "lon": -98.622,
+    "lat": 19.023,
+    "half_km": 15.0,
+    "volcano_number": 341090,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=341090",
+    "stack": [
+      91,
+      "A",
+      11
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-20",
+    "last_date": "2026-10-18",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.3922689688796684,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "hekla",
+    "volcano_id": "hekla",
+    "volcano_name": "Hekla",
+    "country": "Iceland",
+    "lon": -19.666,
+    "lat": 63.983,
+    "half_km": 15.0,
+    "volcano_number": 372070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372070",
+    "stack": [
+      87,
+      "A",
+      34
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-20",
+    "last_date": "2026-10-18",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.26007678521016564,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "manam",
+    "volcano_id": "manam",
+    "volcano_name": "Manam",
+    "country": "Papua New Guinea",
+    "lon": 145.037,
+    "lat": -4.08,
+    "half_km": 15.0,
+    "volcano_number": 251020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=251020",
+    "stack": [
+      103,
+      "D",
+      91
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.24689302318434614,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "agung",
+    "volcano_id": "agung",
+    "volcano_name": "Agung",
+    "country": "Indonesia",
+    "lon": 115.508,
+    "lat": -8.343,
+    "half_km": 15.0,
+    "volcano_number": 264020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=264020",
+    "stack": [
+      133,
+      "D",
+      92
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.21091015365477428,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "hekla",
+    "volcano_id": "hekla",
+    "volcano_name": "Hekla",
+    "country": "Iceland",
+    "lon": -19.666,
+    "lat": 63.983,
+    "half_km": 15.0,
+    "volcano_number": 372070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372070",
+    "stack": [
+      130,
+      "A",
+      34
+    ],
+    "polarization": "HH",
+    "pairs": 10,
+    "epochs": 10,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 10,
+    "minimum_aoi_coverage": 0.1805422051246982,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ruiz_nevado_del",
+    "volcano_id": "ruiz_nevado_del",
+    "volcano_name": "Ruiz, Nevado del",
+    "country": "Colombia",
+    "lon": -75.324,
+    "lat": 4.892,
+    "half_km": 15.0,
+    "volcano_number": 351020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=351020",
+    "stack": [
+      83,
+      "D",
+      86
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-19",
+    "last_date": "2026-10-17",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.15449355818745864,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "askja",
+    "volcano_id": "askja",
+    "volcano_name": "Askja",
+    "country": "Iceland",
+    "lon": -16.783,
+    "lat": 65.033,
+    "half_km": 15.0,
+    "volcano_number": 373060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373060",
+    "stack": [
+      58,
+      "A",
+      34
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-18",
+    "last_date": "2026-10-16",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.12746912792738935,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "katla",
+    "volcano_id": "katla",
+    "volcano_name": "Katla",
+    "country": "Iceland",
+    "lon": -19.083,
+    "lat": 63.633,
+    "half_km": 15.0,
+    "volcano_number": 372030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372030",
+    "stack": [
+      87,
+      "A",
+      34
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-20",
+    "last_date": "2026-10-18",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.1117803409947007,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "grimsvotn",
+    "volcano_id": "grimsvotn",
+    "volcano_name": "Grimsvotn",
+    "country": "Iceland",
+    "lon": -17.316,
+    "lat": 64.416,
+    "half_km": 15.0,
+    "volcano_number": 373010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373010",
+    "stack": [
+      130,
+      "A",
+      35
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.07651990927050295,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "campi_flegrei",
+    "volcano_id": "campi_flegrei",
+    "volcano_name": "Campi Flegrei",
+    "country": "Italy",
+    "lon": 14.139,
+    "lat": 40.827,
+    "half_km": 15.0,
+    "volcano_number": 211010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=211010",
+    "stack": [
+      51,
+      "D",
+      68
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-17",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.016629661196211523,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "lengai_ol_doinyo",
+    "volcano_id": "lengai_ol_doinyo",
+    "volcano_name": "Lengai, Ol Doinyo",
+    "country": "Tanzania",
+    "lon": 35.914,
+    "lat": -2.764,
+    "half_km": 15.0,
+    "volcano_number": 222120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=222120",
+    "stack": [
+      56,
+      "A",
+      176
+    ],
+    "polarization": "HH",
+    "pairs": 10,
+    "epochs": 10,
+    "first_date": "2026-06-18",
+    "last_date": "2026-10-16",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 10,
+    "minimum_aoi_coverage": 0.015727856756468372,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "pacaya",
+    "volcano_id": "pacaya",
+    "volcano_name": "Pacaya",
+    "country": "Guatemala",
+    "lon": -90.601,
+    "lat": 14.382,
+    "half_km": 15.0,
+    "volcano_number": 342110,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=342110",
+    "stack": [
+      62,
+      "A",
+      9
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-18",
+    "last_date": "2026-10-16",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.010164775116233423,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "villarrica",
+    "volcano_id": "villarrica",
+    "volcano_name": "Villarrica",
+    "country": "Chile",
+    "lon": -71.93,
+    "lat": -39.42,
+    "half_km": 15.0,
+    "volcano_number": 357120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=357120",
+    "stack": [
+      75,
+      "A",
+      158
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-19",
+    "last_date": "2026-10-17",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.007253940606950481,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "concepcion",
+    "volcano_id": "concepcion",
+    "volcano_name": "Concepcion",
+    "country": "Nicaragua",
+    "lon": -85.622,
+    "lat": 11.538,
+    "half_km": 15.0,
+    "volcano_number": 344120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=344120",
+    "stack": [
+      105,
+      "A",
+      8
+    ],
+    "polarization": "HH",
+    "pairs": 9,
+    "epochs": 10,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 2,
+    "new_product_ids": 9,
+    "minimum_aoi_coverage": 0.0009862775374080359,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "campi_flegrei",
+    "volcano_id": "campi_flegrei",
+    "volcano_name": "Campi Flegrei",
+    "country": "Italy",
+    "lon": 14.139,
+    "lat": 40.827,
+    "half_km": 15.0,
+    "volcano_number": 211010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=211010",
+    "stack": [
+      43,
+      "A",
+      22
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-17",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "campi_flegrei",
+    "volcano_id": "campi_flegrei",
+    "volcano_name": "Campi Flegrei",
+    "country": "Italy",
+    "lon": 14.139,
+    "lat": 40.827,
+    "half_km": 15.0,
+    "volcano_number": 211010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=211010",
+    "stack": [
+      152,
+      "D",
+      68
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-24",
+    "last_date": "2026-10-10",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "etna",
+    "volcano_id": "etna",
+    "volcano_name": "Etna",
+    "country": "Italy",
+    "lon": 14.999,
+    "lat": 37.748,
+    "half_km": 15.0,
+    "volcano_number": 211060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=211060",
+    "stack": [
+      43,
+      "A",
+      21
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-17",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "dabbahu",
+    "volcano_id": "dabbahu",
+    "volcano_name": "Dabbahu",
+    "country": "Ethiopia",
+    "lon": 40.48,
+    "lat": 12.595,
+    "half_km": 15.0,
+    "volcano_number": 221113,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221113",
+    "stack": [
+      100,
+      "A",
+      8
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "fentale",
+    "volcano_id": "fentale",
+    "volcano_name": "Fentale",
+    "country": "Ethiopia",
+    "lon": 39.906,
+    "lat": 8.985,
+    "half_km": 15.0,
+    "volcano_number": 221190,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221190",
+    "stack": [
+      100,
+      "A",
+      6
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "fentale",
+    "volcano_id": "fentale",
+    "volcano_name": "Fentale",
+    "country": "Ethiopia",
+    "lon": 39.906,
+    "lat": 8.985,
+    "half_km": 15.0,
+    "volcano_number": 221190,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221190",
+    "stack": [
+      165,
+      "D",
+      84
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-25",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "aluto",
+    "volcano_id": "aluto",
+    "volcano_name": "Aluto",
+    "country": "Ethiopia",
+    "lon": 38.78,
+    "lat": 7.77,
+    "half_km": 15.0,
+    "volcano_number": 221270,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221270",
+    "stack": [
+      165,
+      "D",
+      85
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-25",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "corbetti",
+    "volcano_id": "corbetti",
+    "volcano_name": "Corbetti",
+    "country": "Ethiopia",
+    "lon": 38.39,
+    "lat": 7.193,
+    "half_km": 15.0,
+    "volcano_number": 221290,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221290",
+    "stack": [
+      165,
+      "D",
+      85
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-25",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "rabaul",
+    "volcano_id": "rabaul",
+    "volcano_name": "Rabaul",
+    "country": "Papua New Guinea",
+    "lon": 152.1937,
+    "lat": -4.2459,
+    "half_km": 15.0,
+    "volcano_number": 252140,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=252140",
+    "stack": [
+      37,
+      "A",
+      175
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-28",
+    "last_date": "2026-10-14",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ambrym",
+    "volcano_id": "ambrym",
+    "volcano_name": "Ambrym",
+    "country": "Vanuatu",
+    "lon": 168.12,
+    "lat": -16.25,
+    "half_km": 15.0,
+    "volcano_number": 257040,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=257040",
+    "stack": [
+      1,
+      "D",
+      97
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "yasur",
+    "volcano_id": "yasur",
+    "volcano_name": "Yasur",
+    "country": "Vanuatu",
+    "lon": 169.447,
+    "lat": -19.532,
+    "half_km": 15.0,
+    "volcano_number": 257100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=257100",
+    "stack": [
+      22,
+      "A",
+      168
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-27",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "yasur",
+    "volcano_id": "yasur",
+    "volcano_name": "Yasur",
+    "country": "Vanuatu",
+    "lon": 169.447,
+    "lat": -19.532,
+    "half_km": 15.0,
+    "volcano_number": 257100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=257100",
+    "stack": [
+      1,
+      "D",
+      98
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "sinabung",
+    "volcano_id": "sinabung",
+    "volcano_name": "Sinabung",
+    "country": "Indonesia",
+    "lon": 98.392,
+    "lat": 3.17,
+    "half_km": 15.0,
+    "volcano_number": 261080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=261080",
+    "stack": [
+      4,
+      "D",
+      87
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "krakatau",
+    "volcano_id": "krakatau",
+    "volcano_name": "Krakatau",
+    "country": "Indonesia",
+    "lon": 105.4233,
+    "lat": -6.1009,
+    "half_km": 15.0,
+    "volcano_number": 262000,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=262000",
+    "stack": [
+      119,
+      "D",
+      91
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-22",
+    "last_date": "2026-10-20",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "krakatau",
+    "volcano_id": "krakatau",
+    "volcano_name": "Krakatau",
+    "country": "Indonesia",
+    "lon": 105.4233,
+    "lat": -6.1009,
+    "half_km": 15.0,
+    "volcano_number": 262000,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=262000",
+    "stack": [
+      10,
+      "A",
+      175
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "merapi",
+    "volcano_id": "merapi",
+    "volcano_name": "Merapi",
+    "country": "Indonesia",
+    "lon": 110.446,
+    "lat": -7.54,
+    "half_km": 15.0,
+    "volcano_number": 263250,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=263250",
+    "stack": [
+      162,
+      "D",
+      92
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-25",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "merapi",
+    "volcano_id": "merapi",
+    "volcano_name": "Merapi",
+    "country": "Indonesia",
+    "lon": 110.446,
+    "lat": -7.54,
+    "half_km": 15.0,
+    "volcano_number": 263250,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=263250",
+    "stack": [
+      154,
+      "A",
+      174
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-24",
+    "last_date": "2026-10-10",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "agung",
+    "volcano_id": "agung",
+    "volcano_name": "Agung",
+    "country": "Indonesia",
+    "lon": 115.508,
+    "lat": -8.343,
+    "half_km": 15.0,
+    "volcano_number": 264020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=264020",
+    "stack": [
+      125,
+      "A",
+      173
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-22",
+    "last_date": "2026-10-20",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "kanlaon",
+    "volcano_id": "kanlaon",
+    "volcano_name": "Kanlaon",
+    "country": "Philippines",
+    "lon": 123.13,
+    "lat": 10.4096,
+    "half_km": 15.0,
+    "volcano_number": 272020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=272020",
+    "stack": [
+      39,
+      "A",
+      7
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-28",
+    "last_date": "2026-10-14",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "asamayama",
+    "volcano_id": "mount_asama",
+    "volcano_name": "Asamayama",
+    "country": "Japan",
+    "lon": 138.523,
+    "lat": 36.406,
+    "half_km": 15.0,
+    "volcano_number": 283110,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=283110",
+    "stack": [
+      139,
+      "A",
+      20
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 0,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "colima",
+    "volcano_id": "colima",
+    "volcano_name": "Colima",
+    "country": "Mexico",
+    "lon": -103.62,
+    "lat": 19.514,
+    "half_km": 15.0,
+    "volcano_number": 341040,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=341040",
+    "stack": [
+      142,
+      "D",
+      79
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-24",
+    "last_date": "2026-10-10",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "popocatepetl",
+    "volcano_id": "popocatepetl",
+    "volcano_name": "Popocatepetl",
+    "country": "Mexico",
+    "lon": -98.622,
+    "lat": 19.023,
+    "half_km": 15.0,
+    "volcano_number": 341090,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=341090",
+    "stack": [
+      12,
+      "D",
+      79
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-27",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "fuego",
+    "volcano_id": "fuego",
+    "volcano_name": "Fuego",
+    "country": "Guatemala",
+    "lon": -90.8806,
+    "lat": 14.4748,
+    "half_km": 15.0,
+    "volcano_number": 342090,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=342090",
+    "stack": [
+      127,
+      "D",
+      81
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "pacaya",
+    "volcano_id": "pacaya",
+    "volcano_name": "Pacaya",
+    "country": "Guatemala",
+    "lon": -90.601,
+    "lat": 14.382,
+    "half_km": 15.0,
+    "volcano_number": 342110,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=342110",
+    "stack": [
+      127,
+      "D",
+      81
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "concepcion",
+    "volcano_id": "concepcion",
+    "volcano_name": "Concepcion",
+    "country": "Nicaragua",
+    "lon": -85.622,
+    "lat": 11.538,
+    "half_km": 15.0,
+    "volcano_number": 344120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=344120",
+    "stack": [
+      170,
+      "D",
+      83
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "galeras",
+    "volcano_id": "galeras",
+    "volcano_name": "Galeras",
+    "country": "Colombia",
+    "lon": -77.37,
+    "lat": 1.22,
+    "half_km": 15.0,
+    "volcano_number": 351080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=351080",
+    "stack": [
+      11,
+      "D",
+      88
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "galeras",
+    "volcano_id": "galeras",
+    "volcano_name": "Galeras",
+    "country": "Colombia",
+    "lon": -77.37,
+    "lat": 1.22,
+    "half_km": 15.0,
+    "volcano_number": 351080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=351080",
+    "stack": [
+      148,
+      "A",
+      2
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-24",
+    "last_date": "2026-10-10",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "cotopaxi",
+    "volcano_id": "cotopaxi",
+    "volcano_name": "Cotopaxi",
+    "country": "Ecuador",
+    "lon": -78.436,
+    "lat": -0.677,
+    "half_km": 15.0,
+    "volcano_number": 352050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=352050",
+    "stack": [
+      112,
+      "D",
+      89
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "tungurahua",
+    "volcano_id": "tungurahua",
+    "volcano_name": "Tungurahua",
+    "country": "Ecuador",
+    "lon": -78.442,
+    "lat": -1.467,
+    "half_km": 15.0,
+    "volcano_number": 352080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=352080",
+    "stack": [
+      11,
+      "D",
+      89
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "wolf",
+    "volcano_id": "wolf",
+    "volcano_name": "Wolf",
+    "country": "Ecuador",
+    "lon": -91.35,
+    "lat": 0.02,
+    "half_km": 15.0,
+    "volcano_number": 353020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=353020",
+    "stack": [
+      163,
+      "A",
+      2
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-25",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "coropuna",
+    "volcano_id": "coropuna",
+    "volcano_name": "Coropuna",
+    "country": "Peru",
+    "lon": -72.65,
+    "lat": -15.52,
+    "half_km": 15.0,
+    "volcano_number": 354003,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354003",
+    "stack": [
+      126,
+      "D",
+      96
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-22",
+    "last_date": "2026-10-20",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "coropuna",
+    "volcano_id": "coropuna",
+    "volcano_name": "Coropuna",
+    "country": "Peru",
+    "lon": -72.65,
+    "lat": -15.52,
+    "half_km": 15.0,
+    "volcano_number": 354003,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354003",
+    "stack": [
+      147,
+      "A",
+      170
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-24",
+    "last_date": "2026-10-10",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "sabancaya",
+    "volcano_id": "sabancaya",
+    "volcano_name": "Sabancaya",
+    "country": "Peru",
+    "lon": -71.857,
+    "lat": -15.787,
+    "half_km": 15.0,
+    "volcano_number": 354006,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354006",
+    "stack": [
+      126,
+      "D",
+      96
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-22",
+    "last_date": "2026-10-20",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "villarrica",
+    "volcano_id": "villarrica",
+    "volcano_name": "Villarrica",
+    "country": "Chile",
+    "lon": -71.93,
+    "lat": -39.42,
+    "half_km": 15.0,
+    "volcano_number": 357120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=357120",
+    "stack": [
+      3,
+      "A",
+      158
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "villarrica",
+    "volcano_id": "villarrica",
+    "volcano_name": "Villarrica",
+    "country": "Chile",
+    "lon": -71.93,
+    "lat": -39.42,
+    "half_km": 15.0,
+    "volcano_number": 357120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=357120",
+    "stack": [
+      97,
+      "D",
+      108
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-20",
+    "last_date": "2026-10-06",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "soufriere_hills",
+    "volcano_id": "soufriere_hills",
+    "volcano_name": "Soufriere Hills",
+    "country": "United Kingdom",
+    "lon": -62.18,
+    "lat": 16.72,
+    "half_km": 15.0,
+    "volcano_number": 360050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=360050",
+    "stack": [
+      104,
+      "A",
+      10
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "soufriere_hills",
+    "volcano_id": "soufriere_hills",
+    "volcano_name": "Soufriere Hills",
+    "country": "United Kingdom",
+    "lon": -62.18,
+    "lat": 16.72,
+    "half_km": 15.0,
+    "volcano_number": 360050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=360050",
+    "stack": [
+      25,
+      "D",
+      80
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-27",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "reykjanes",
+    "volcano_id": "reykjanes",
+    "volcano_name": "Reykjanes",
+    "country": "Iceland",
+    "lon": -22.717,
+    "lat": 63.817,
+    "half_km": 15.0,
+    "volcano_number": 371020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=371020",
+    "stack": [
+      15,
+      "A",
+      34
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-27",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "katla",
+    "volcano_id": "katla",
+    "volcano_name": "Katla",
+    "country": "Iceland",
+    "lon": -19.083,
+    "lat": 63.633,
+    "half_km": 15.0,
+    "volcano_number": 372030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372030",
+    "stack": [
+      154,
+      "D",
+      56
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-24",
+    "last_date": "2026-10-10",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "hekla",
+    "volcano_id": "hekla",
+    "volcano_name": "Hekla",
+    "country": "Iceland",
+    "lon": -19.666,
+    "lat": 63.983,
+    "half_km": 15.0,
+    "volcano_number": 372070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372070",
+    "stack": [
+      154,
+      "D",
+      56
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-24",
+    "last_date": "2026-10-10",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "askja",
+    "volcano_id": "askja",
+    "volcano_name": "Askja",
+    "country": "Iceland",
+    "lon": -16.783,
+    "lat": 65.033,
+    "half_km": 15.0,
+    "volcano_number": 373060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373060",
+    "stack": [
+      154,
+      "D",
+      55
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-24",
+    "last_date": "2026-10-10",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ruiz_nevado_del",
+    "volcano_id": "ruiz_nevado_del",
+    "volcano_name": "Ruiz, Nevado del",
+    "country": "Colombia",
+    "lon": -75.324,
+    "lat": 4.892,
+    "half_km": 15.0,
+    "volcano_number": 351020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=351020",
+    "stack": [
+      11,
+      "D",
+      86
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "negra_sierra",
+    "volcano_id": "negra_sierra",
+    "volcano_name": "Negra, Sierra",
+    "country": "Ecuador",
+    "lon": -91.17,
+    "lat": -0.83,
+    "half_km": 15.0,
+    "volcano_number": 353050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=353050",
+    "stack": [
+      163,
+      "A",
+      1
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-25",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "lengai_ol_doinyo",
+    "volcano_id": "lengai_ol_doinyo",
+    "volcano_name": "Lengai, Ol Doinyo",
+    "country": "Tanzania",
+    "lon": 35.914,
+    "lat": -2.764,
+    "half_km": 15.0,
+    "volcano_number": 222120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=222120",
+    "stack": [
+      165,
+      "D",
+      90
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-25",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "chillan_nevados_de",
+    "volcano_id": "chillan_nevados_de",
+    "volcano_name": "Chillan, Nevados de",
+    "country": "Chile",
+    "lon": -71.378,
+    "lat": -36.868,
+    "half_km": 15.0,
+    "volcano_number": 357070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=357070",
+    "stack": [
+      97,
+      "D",
+      107
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-20",
+    "last_date": "2026-10-06",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "mayon",
+    "volcano_id": "mayon",
+    "volcano_name": "Mayon",
+    "country": "Philippines",
+    "lon": 123.685,
+    "lat": 13.257,
+    "half_km": 15.0,
+    "volcano_number": 273030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=273030",
+    "stack": [
+      39,
+      "A",
+      8
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-28",
+    "last_date": "2026-10-14",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.9944877072373512,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "grimsvotn",
+    "volcano_id": "grimsvotn",
+    "volcano_name": "Grimsvotn",
+    "country": "Iceland",
+    "lon": -17.316,
+    "lat": 64.416,
+    "half_km": 15.0,
+    "volcano_number": 373010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373010",
+    "stack": [
+      154,
+      "D",
+      56
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-24",
+    "last_date": "2026-10-10",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.9802968867056715,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "fernandina",
+    "volcano_id": "fernandina",
+    "volcano_name": "Fernandina",
+    "country": "Ecuador",
+    "lon": -91.55,
+    "lat": -0.37,
+    "half_km": 15.0,
+    "volcano_number": 353010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=353010",
+    "stack": [
+      163,
+      "A",
+      1
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-25",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.9563801532720542,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "nyiragongo",
+    "volcano_id": "nyiragongo",
+    "volcano_name": "Nyiragongo",
+    "country": "DR Congo",
+    "lon": 29.25,
+    "lat": -1.52,
+    "half_km": 15.0,
+    "volcano_number": 223030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=223030",
+    "stack": [
+      115,
+      "A",
+      1
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-22",
+    "last_date": "2026-10-20",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.94951388304737,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ambrym",
+    "volcano_id": "ambrym",
+    "volcano_name": "Ambrym",
+    "country": "Vanuatu",
+    "lon": 168.12,
+    "lat": -16.25,
+    "half_km": 15.0,
+    "volcano_number": 257040,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=257040",
+    "stack": [
+      22,
+      "A",
+      169
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-27",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.9369500327083735,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "masaya",
+    "volcano_id": "masaya",
+    "volcano_name": "Masaya",
+    "country": "Nicaragua",
+    "lon": -86.1688,
+    "lat": 11.9844,
+    "half_km": 15.0,
+    "volcano_number": 344100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=344100",
+    "stack": [
+      33,
+      "A",
+      7
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-28",
+    "last_date": "2026-10-14",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.9237848284133516,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "sabancaya",
+    "volcano_id": "sabancaya",
+    "volcano_name": "Sabancaya",
+    "country": "Peru",
+    "lon": -71.857,
+    "lat": -15.787,
+    "half_km": 15.0,
+    "volcano_number": 354006,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354006",
+    "stack": [
+      147,
+      "A",
+      170
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-24",
+    "last_date": "2026-10-10",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.8969092511208544,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "manam",
+    "volcano_id": "manam",
+    "volcano_name": "Manam",
+    "country": "Papua New Guinea",
+    "lon": 145.037,
+    "lat": -4.08,
+    "half_km": 15.0,
+    "volcano_number": 251020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=251020",
+    "stack": [
+      167,
+      "A",
+      176
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-25",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.8419708004689975,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "santa_maria",
+    "volcano_id": "santa_maria",
+    "volcano_name": "Santa Maria",
+    "country": "Guatemala",
+    "lon": -91.552,
+    "lat": 14.757,
+    "half_km": 15.0,
+    "volcano_number": 342030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=342030",
+    "stack": [
+      127,
+      "D",
+      81
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-23",
+    "last_date": "2026-10-21",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.8412685241792112,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "cotopaxi",
+    "volcano_id": "cotopaxi",
+    "volcano_name": "Cotopaxi",
+    "country": "Ecuador",
+    "lon": -78.436,
+    "lat": -0.677,
+    "half_km": 15.0,
+    "volcano_number": 352050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=352050",
+    "stack": [
+      11,
+      "D",
+      89
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.8128420782305379,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "agung",
+    "volcano_id": "agung",
+    "volcano_name": "Agung",
+    "country": "Indonesia",
+    "lon": 115.508,
+    "lat": -8.343,
+    "half_km": 15.0,
+    "volcano_number": 264020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=264020",
+    "stack": [
+      32,
+      "D",
+      93
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-28",
+    "last_date": "2026-10-14",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.7141135390166746,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "taal",
+    "volcano_id": "taal",
+    "volcano_name": "Taal",
+    "country": "Philippines",
+    "lon": 120.9975,
+    "lat": 14.0106,
+    "half_km": 15.0,
+    "volcano_number": 273070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=273070",
+    "stack": [
+      32,
+      "D",
+      82
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-28",
+    "last_date": "2026-10-14",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.6526701170810798,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "taal",
+    "volcano_id": "taal",
+    "volcano_name": "Taal",
+    "country": "Philippines",
+    "lon": 120.9975,
+    "lat": 14.0106,
+    "half_km": 15.0,
+    "volcano_number": 273070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=273070",
+    "stack": [
+      32,
+      "D",
+      81
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-28",
+    "last_date": "2026-10-14",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.6438470329357635,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "tungurahua",
+    "volcano_id": "tungurahua",
+    "volcano_name": "Tungurahua",
+    "country": "Ecuador",
+    "lon": -78.442,
+    "lat": -1.467,
+    "half_km": 15.0,
+    "volcano_number": 352080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=352080",
+    "stack": [
+      112,
+      "D",
+      89
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.5525848323185666,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "lengai_ol_doinyo",
+    "volcano_id": "lengai_ol_doinyo",
+    "volcano_name": "Lengai, Ol Doinyo",
+    "country": "Tanzania",
+    "lon": 35.914,
+    "lat": -2.764,
+    "half_km": 15.0,
+    "volcano_number": 222120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=222120",
+    "stack": [
+      157,
+      "A",
+      176
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-25",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.35780256045184305,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "manam",
+    "volcano_id": "manam",
+    "volcano_name": "Manam",
+    "country": "Papua New Guinea",
+    "lon": 145.037,
+    "lat": -4.08,
+    "half_km": 15.0,
+    "volcano_number": 251020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=251020",
+    "stack": [
+      167,
+      "A",
+      175
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-25",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.3346684547929578,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ambrym",
+    "volcano_id": "ambrym",
+    "volcano_name": "Ambrym",
+    "country": "Vanuatu",
+    "lon": 168.12,
+    "lat": -16.25,
+    "half_km": 15.0,
+    "volcano_number": 257040,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=257040",
+    "stack": [
+      22,
+      "A",
+      170
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-27",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.32875181608015186,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "masaya",
+    "volcano_id": "masaya",
+    "volcano_name": "Masaya",
+    "country": "Nicaragua",
+    "lon": -86.1688,
+    "lat": 11.9844,
+    "half_km": 15.0,
+    "volcano_number": 344100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=344100",
+    "stack": [
+      33,
+      "A",
+      8
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-28",
+    "last_date": "2026-10-14",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.3181820804977204,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "hekla",
+    "volcano_id": "hekla",
+    "volcano_name": "Hekla",
+    "country": "Iceland",
+    "lon": -19.666,
+    "lat": 63.983,
+    "half_km": 15.0,
+    "volcano_number": 372070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372070",
+    "stack": [
+      10,
+      "D",
+      55
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.30799998157968733,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "fernandina",
+    "volcano_id": "fernandina",
+    "volcano_name": "Fernandina",
+    "country": "Ecuador",
+    "lon": -91.55,
+    "lat": -0.37,
+    "half_km": 15.0,
+    "volcano_number": 353010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=353010",
+    "stack": [
+      163,
+      "A",
+      2
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-25",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.28864662938238844,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "misti_el",
+    "volcano_id": "misti",
+    "volcano_name": "Misti, El",
+    "country": "Peru",
+    "lon": -71.4056,
+    "lat": -16.2991,
+    "half_km": 15.0,
+    "volcano_number": 354010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354010",
+    "stack": [
+      126,
+      "D",
+      96
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-22",
+    "last_date": "2026-10-20",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.2810956358622559,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "sabancaya",
+    "volcano_id": "sabancaya",
+    "volcano_name": "Sabancaya",
+    "country": "Peru",
+    "lon": -71.857,
+    "lat": -15.787,
+    "half_km": 15.0,
+    "volcano_number": 354006,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354006",
+    "stack": [
+      147,
+      "A",
+      169
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-24",
+    "last_date": "2026-10-10",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.26945736260118425,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "krakatau",
+    "volcano_id": "krakatau",
+    "volcano_name": "Krakatau",
+    "country": "Indonesia",
+    "lon": 105.4233,
+    "lat": -6.1009,
+    "half_km": 15.0,
+    "volcano_number": 262000,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=262000",
+    "stack": [
+      18,
+      "D",
+      92
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-27",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.18786365851916131,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "grimsvotn",
+    "volcano_id": "grimsvotn",
+    "volcano_name": "Grimsvotn",
+    "country": "Iceland",
+    "lon": -17.316,
+    "lat": 64.416,
+    "half_km": 15.0,
+    "volcano_number": 373010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373010",
+    "stack": [
+      154,
+      "D",
+      55
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-24",
+    "last_date": "2026-10-10",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.15521212668124396,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "masaya",
+    "volcano_id": "masaya",
+    "volcano_name": "Masaya",
+    "country": "Nicaragua",
+    "lon": -86.1688,
+    "lat": 11.9844,
+    "half_km": 15.0,
+    "volcano_number": 344100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=344100",
+    "stack": [
+      170,
+      "D",
+      83
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.15383371567143728,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "krakatau",
+    "volcano_id": "krakatau",
+    "volcano_name": "Krakatau",
+    "country": "Indonesia",
+    "lon": 105.4233,
+    "lat": -6.1009,
+    "half_km": 15.0,
+    "volcano_number": 262000,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=262000",
+    "stack": [
+      10,
+      "A",
+      174
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.08012146986799012,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "krakatau",
+    "volcano_id": "krakatau",
+    "volcano_name": "Krakatau",
+    "country": "Indonesia",
+    "lon": 105.4233,
+    "lat": -6.1009,
+    "half_km": 15.0,
+    "volcano_number": 262000,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=262000",
+    "stack": [
+      119,
+      "D",
+      92
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-22",
+    "last_date": "2026-10-20",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.06297511773682918,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "aluto",
+    "volcano_id": "aluto",
+    "volcano_name": "Aluto",
+    "country": "Ethiopia",
+    "lon": 38.78,
+    "lat": 7.77,
+    "half_km": 15.0,
+    "volcano_number": 221270,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221270",
+    "stack": [
+      165,
+      "D",
+      84
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-25",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.06186025654678346,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "krakatau",
+    "volcano_id": "krakatau",
+    "volcano_name": "Krakatau",
+    "country": "Indonesia",
+    "lon": 105.4233,
+    "lat": -6.1009,
+    "half_km": 15.0,
+    "volcano_number": 262000,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=262000",
+    "stack": [
+      111,
+      "A",
+      174
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.04113407707547263,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "bagana",
+    "volcano_id": "bagana",
+    "volcano_name": "Bagana",
+    "country": "Papua New Guinea",
+    "lon": 155.196,
+    "lat": -6.137,
+    "half_km": 15.0,
+    "volcano_number": 255020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=255020",
+    "stack": [
+      8,
+      "A",
+      174
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.03784941669088822,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "erta_ale",
+    "volcano_id": "erta_ale",
+    "volcano_name": "Erta Ale",
+    "country": "Ethiopia",
+    "lon": 40.666,
+    "lat": 13.601,
+    "half_km": 15.0,
+    "volcano_number": 221080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221080",
+    "stack": [
+      100,
+      "A",
+      8
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-19",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.015479454502406875,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "etna",
+    "volcano_id": "etna",
+    "volcano_name": "Etna",
+    "country": "Italy",
+    "lon": 14.999,
+    "lat": 37.748,
+    "half_km": 15.0,
+    "volcano_number": 211060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=211060",
+    "stack": [
+      43,
+      "A",
+      20
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-29",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.005462431109496334,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "misti_el",
+    "volcano_id": "misti",
+    "volcano_name": "Misti, El",
+    "country": "Peru",
+    "lon": -71.4056,
+    "lat": -16.2991,
+    "half_km": 15.0,
+    "volcano_number": 354010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354010",
+    "stack": [
+      147,
+      "A",
+      169
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-24",
+    "last_date": "2026-10-10",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.005189117428844341,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "asamayama",
+    "volcano_id": "mount_asama",
+    "volcano_name": "Asamayama",
+    "country": "Japan",
+    "lon": 138.523,
+    "lat": 36.406,
+    "half_km": 15.0,
+    "volcano_number": 283110,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=283110",
+    "stack": [
+      147,
+      "D",
+      70
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-24",
+    "last_date": "2026-10-10",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.002634422694058159,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ubinas",
+    "volcano_id": "ubinas",
+    "volcano_name": "Ubinas",
+    "country": "Peru",
+    "lon": -70.8972,
+    "lat": -16.345,
+    "half_km": 15.0,
+    "volcano_number": 354020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354020",
+    "stack": [
+      126,
+      "D",
+      96
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-22",
+    "last_date": "2026-10-20",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.001628784435584073,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "soufriere_hills",
+    "volcano_id": "soufriere_hills",
+    "volcano_name": "Soufriere Hills",
+    "country": "United Kingdom",
+    "lon": -62.18,
+    "lat": 16.72,
+    "half_km": 15.0,
+    "volcano_number": 360050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=360050",
+    "stack": [
+      97,
+      "D",
+      80
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-20",
+    "last_date": "2026-10-06",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.001523826608438409,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "masaya",
+    "volcano_id": "masaya",
+    "volcano_name": "Masaya",
+    "country": "Nicaragua",
+    "lon": -86.1688,
+    "lat": 11.9844,
+    "half_km": 15.0,
+    "volcano_number": 344100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=344100",
+    "stack": [
+      170,
+      "D",
+      82
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.001508643494716869,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "campi_flegrei",
+    "volcano_id": "campi_flegrei",
+    "volcano_name": "Campi Flegrei",
+    "country": "Italy",
+    "lon": 14.139,
+    "lat": 40.827,
+    "half_km": 15.0,
+    "volcano_number": 211010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=211010",
+    "stack": [
+      115,
+      "A",
+      22
+    ],
+    "polarization": "HH",
+    "pairs": 8,
+    "epochs": 9,
+    "first_date": "2026-06-22",
+    "last_date": "2026-10-20",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 8,
+    "minimum_aoi_coverage": 0.0010233928478580272,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "nyiragongo",
+    "volcano_id": "nyiragongo",
+    "volcano_name": "Nyiragongo",
+    "country": "DR Congo",
+    "lon": 29.25,
+    "lat": -1.52,
+    "half_km": 15.0,
+    "volcano_number": 223030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=223030",
+    "stack": [
+      14,
+      "A",
+      1
+    ],
+    "polarization": "HH",
+    "pairs": 7,
+    "epochs": 8,
+    "first_date": "2026-06-27",
+    "last_date": "2026-10-13",
+    "catalogue_only_potential_examples": 1,
+    "new_product_ids": 7,
+    "minimum_aoi_coverage": 0.8661332063149441,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "bagana",
+    "volcano_id": "bagana",
+    "volcano_name": "Bagana",
+    "country": "Papua New Guinea",
+    "lon": 155.196,
+    "lat": -6.137,
+    "half_km": 15.0,
+    "volcano_number": 255020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=255020",
+    "stack": [
+      8,
+      "A",
+      175
+    ],
+    "polarization": "HH",
+    "pairs": 7,
+    "epochs": 8,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 7,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "reykjanes",
+    "volcano_id": "reykjanes",
+    "volcano_name": "Reykjanes",
+    "country": "Iceland",
+    "lon": -22.717,
+    "lat": 63.817,
+    "half_km": 15.0,
+    "volcano_number": 371020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=371020",
+    "stack": [
+      10,
+      "D",
+      56
+    ],
+    "polarization": "HH",
+    "pairs": 7,
+    "epochs": 8,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 7,
+    "minimum_aoi_coverage": 0.9987956607596633,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "hekla",
+    "volcano_id": "hekla",
+    "volcano_name": "Hekla",
+    "country": "Iceland",
+    "lon": -19.666,
+    "lat": 63.983,
+    "half_km": 15.0,
+    "volcano_number": 372070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372070",
+    "stack": [
+      10,
+      "D",
+      56
+    ],
+    "polarization": "HH",
+    "pairs": 7,
+    "epochs": 8,
+    "first_date": "2026-06-26",
+    "last_date": "2026-10-12",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 7,
+    "minimum_aoi_coverage": 0.9151738965780656,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "bagana",
+    "volcano_id": "bagana",
+    "volcano_name": "Bagana",
+    "country": "Papua New Guinea",
+    "lon": 155.196,
+    "lat": -6.137,
+    "half_km": 15.0,
+    "volcano_number": 255020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=255020",
+    "stack": [
+      109,
+      "A",
+      174
+    ],
+    "polarization": "HH",
+    "pairs": 7,
+    "epochs": 8,
+    "first_date": "2026-06-21",
+    "last_date": "2026-10-07",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 7,
+    "minimum_aoi_coverage": 0.5113951025896376,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "soufriere_hills",
+    "volcano_id": "soufriere_hills",
+    "volcano_name": "Soufriere Hills",
+    "country": "United Kingdom",
+    "lon": -62.18,
+    "lat": 16.72,
+    "half_km": 15.0,
+    "volcano_number": 360050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=360050",
+    "stack": [
+      32,
+      "A",
+      10
+    ],
+    "polarization": "HH",
+    "pairs": 7,
+    "epochs": 8,
+    "first_date": "2026-06-28",
+    "last_date": "2026-10-14",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 7,
+    "minimum_aoi_coverage": 0.012298054567597012,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "etna",
+    "volcano_id": "etna",
+    "volcano_name": "Etna",
+    "country": "Italy",
+    "lon": 14.999,
+    "lat": 37.748,
+    "half_km": 15.0,
+    "volcano_number": 211060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=211060",
+    "stack": [
+      51,
+      "D",
+      70
+    ],
+    "polarization": "HH",
+    "pairs": 7,
+    "epochs": 8,
+    "first_date": "2026-07-11",
+    "last_date": "2026-10-15",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 7,
+    "minimum_aoi_coverage": 5.680907418584825e-06,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "corbetti",
+    "volcano_id": "corbetti",
+    "volcano_name": "Corbetti",
+    "country": "Ethiopia",
+    "lon": 38.39,
+    "lat": 7.193,
+    "half_km": 15.0,
+    "volcano_number": 221290,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221290",
+    "stack": [
+      28,
+      "A",
+      5
+    ],
+    "polarization": "HH",
+    "pairs": 6,
+    "epochs": 7,
+    "first_date": "2026-06-28",
+    "last_date": "2026-10-02",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 6,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "villarrica",
+    "volcano_id": "villarrica",
+    "volcano_name": "Villarrica",
+    "country": "Chile",
+    "lon": -71.93,
+    "lat": -39.42,
+    "half_km": 15.0,
+    "volcano_number": 357120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=357120",
+    "stack": [
+      169,
+      "D",
+      108
+    ],
+    "polarization": "HH",
+    "pairs": 6,
+    "epochs": 7,
+    "first_date": "2026-07-07",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 6,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "chillan_nevados_de",
+    "volcano_id": "chillan_nevados_de",
+    "volcano_name": "Chillan, Nevados de",
+    "country": "Chile",
+    "lon": -71.378,
+    "lat": -36.868,
+    "half_km": 15.0,
+    "volcano_number": 357070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=357070",
+    "stack": [
+      169,
+      "D",
+      107
+    ],
+    "polarization": "HH",
+    "pairs": 6,
+    "epochs": 7,
+    "first_date": "2026-07-07",
+    "last_date": "2026-10-11",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 6,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "aluto",
+    "volcano_id": "aluto",
+    "volcano_name": "Aluto",
+    "country": "Ethiopia",
+    "lon": 38.78,
+    "lat": 7.77,
+    "half_km": 15.0,
+    "volcano_number": 221270,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221270",
+    "stack": [
+      28,
+      "A",
+      5
+    ],
+    "polarization": "HH",
+    "pairs": 6,
+    "epochs": 7,
+    "first_date": "2026-06-28",
+    "last_date": "2026-10-02",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 6,
+    "minimum_aoi_coverage": 0.9943928857115596,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "aluto",
+    "volcano_id": "aluto",
+    "volcano_name": "Aluto",
+    "country": "Ethiopia",
+    "lon": 38.78,
+    "lat": 7.77,
+    "half_km": 15.0,
+    "volcano_number": 221270,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221270",
+    "stack": [
+      28,
+      "A",
+      6
+    ],
+    "polarization": "HH",
+    "pairs": 6,
+    "epochs": 7,
+    "first_date": "2026-06-28",
+    "last_date": "2026-10-02",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 6,
+    "minimum_aoi_coverage": 0.20376976621438192,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "fernandina",
+    "volcano_id": "fernandina",
+    "volcano_name": "Fernandina",
+    "country": "Ecuador",
+    "lon": -91.55,
+    "lat": -0.37,
+    "half_km": 15.0,
+    "volcano_number": 353010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=353010",
+    "stack": [
+      26,
+      "D",
+      89
+    ],
+    "polarization": "HH",
+    "pairs": 4,
+    "epochs": 5,
+    "first_date": "2026-06-28",
+    "last_date": "2026-10-02",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 4,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "negra_sierra",
+    "volcano_id": "negra_sierra",
+    "volcano_name": "Negra, Sierra",
+    "country": "Ecuador",
+    "lon": -91.17,
+    "lat": -0.83,
+    "half_km": 15.0,
+    "volcano_number": 353050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=353050",
+    "stack": [
+      26,
+      "D",
+      89
+    ],
+    "polarization": "HH",
+    "pairs": 4,
+    "epochs": 5,
+    "first_date": "2026-06-28",
+    "last_date": "2026-10-02",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 4,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "manam",
+    "volcano_id": "manam",
+    "volcano_name": "Manam",
+    "country": "Papua New Guinea",
+    "lon": 145.037,
+    "lat": -4.08,
+    "half_km": 15.0,
+    "volcano_number": 251020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=251020",
+    "stack": [
+      103,
+      "D",
+      90
+    ],
+    "polarization": "HH",
+    "pairs": 4,
+    "epochs": 5,
+    "first_date": "2026-07-03",
+    "last_date": "2026-10-07",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 4,
+    "minimum_aoi_coverage": 0.9375371782974178,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ambrym",
+    "volcano_id": "ambrym",
+    "volcano_name": "Ambrym",
+    "country": "Vanuatu",
+    "lon": 168.12,
+    "lat": -16.25,
+    "half_km": 15.0,
+    "volcano_number": 257040,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=257040",
+    "stack": [
+      102,
+      "D",
+      97
+    ],
+    "polarization": "HH",
+    "pairs": 4,
+    "epochs": 5,
+    "first_date": "2026-07-03",
+    "last_date": "2026-10-07",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 4,
+    "minimum_aoi_coverage": 0.6453577365148987,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "negra_sierra",
+    "volcano_id": "negra_sierra",
+    "volcano_name": "Negra, Sierra",
+    "country": "Ecuador",
+    "lon": -91.17,
+    "lat": -0.83,
+    "half_km": 15.0,
+    "volcano_number": 353050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=353050",
+    "stack": [
+      98,
+      "D",
+      89
+    ],
+    "polarization": "HH",
+    "pairs": 4,
+    "epochs": 5,
+    "first_date": "2026-07-03",
+    "last_date": "2026-10-07",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 4,
+    "minimum_aoi_coverage": 0.00455162667560136,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "wolf",
+    "volcano_id": "wolf",
+    "volcano_name": "Wolf",
+    "country": "Ecuador",
+    "lon": -91.35,
+    "lat": 0.02,
+    "half_km": 15.0,
+    "volcano_number": 353020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=353020",
+    "stack": [
+      26,
+      "D",
+      89
+    ],
+    "polarization": "HH",
+    "pairs": 4,
+    "epochs": 5,
+    "first_date": "2026-06-28",
+    "last_date": "2026-10-02",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 4,
+    "minimum_aoi_coverage": 0.0016919684109848075,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "wolf",
+    "volcano_id": "wolf",
+    "volcano_name": "Wolf",
+    "country": "Ecuador",
+    "lon": -91.35,
+    "lat": 0.02,
+    "half_km": 15.0,
+    "volcano_number": 353020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=353020",
+    "stack": [
+      26,
+      "D",
+      88
+    ],
+    "polarization": "HH",
+    "pairs": 3,
+    "epochs": 4,
+    "first_date": "2026-07-22",
+    "last_date": "2026-10-02",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 3,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "soufriere_st_vincent",
+    "volcano_id": "soufriere_st_vincent",
+    "volcano_name": "Soufriere St. Vincent",
+    "country": "Saint Vincent and the Grenadines",
+    "lon": -61.18,
+    "lat": 13.33,
+    "half_km": 15.0,
+    "volcano_number": 360150,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=360150",
+    "stack": [
+      97,
+      "D",
+      82
+    ],
+    "polarization": "HH",
+    "pairs": 3,
+    "epochs": 4,
+    "first_date": "2026-07-26",
+    "last_date": "2026-10-06",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 3,
+    "minimum_aoi_coverage": 0.6184560775083453,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "misti_el",
+    "volcano_id": "misti",
+    "volcano_name": "Misti, El",
+    "country": "Peru",
+    "lon": -71.4056,
+    "lat": -16.2991,
+    "half_km": 15.0,
+    "volcano_number": 354010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354010",
+    "stack": [
+      126,
+      "D",
+      97
+    ],
+    "polarization": "HH",
+    "pairs": 2,
+    "epochs": 3,
+    "first_date": "2026-08-21",
+    "last_date": "2026-10-08",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 2,
+    "minimum_aoi_coverage": 1.0,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "bagana",
+    "volcano_id": "bagana",
+    "volcano_name": "Bagana",
+    "country": "Papua New Guinea",
+    "lon": 155.196,
+    "lat": -6.137,
+    "half_km": 15.0,
+    "volcano_number": 255020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=255020",
+    "stack": [
+      117,
+      "D",
+      92
+    ],
+    "polarization": "HH",
+    "pairs": 2,
+    "epochs": 3,
+    "first_date": "2026-08-21",
+    "last_date": "2026-10-08",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 2,
+    "minimum_aoi_coverage": 0.4879805274472366,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "askja",
+    "volcano_id": "askja",
+    "volcano_name": "Askja",
+    "country": "Iceland",
+    "lon": -16.783,
+    "lat": 65.033,
+    "half_km": 15.0,
+    "volcano_number": 373060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373060",
+    "stack": [
+      130,
+      "A",
+      34
+    ],
+    "polarization": "HH",
+    "pairs": 3,
+    "epochs": 3,
+    "first_date": "2026-06-23",
+    "last_date": "2026-07-17",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 3,
+    "minimum_aoi_coverage": 0.00449650226879142,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "soufriere_st_vincent",
+    "volcano_id": "soufriere_st_vincent",
+    "volcano_name": "Soufriere St. Vincent",
+    "country": "Saint Vincent and the Grenadines",
+    "lon": -61.18,
+    "lat": 13.33,
+    "half_km": 15.0,
+    "volcano_number": 360150,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=360150",
+    "stack": [
+      97,
+      "D",
+      81
+    ],
+    "polarization": "HH",
+    "pairs": 2,
+    "epochs": 3,
+    "first_date": "2026-07-26",
+    "last_date": "2026-08-31",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 2,
+    "minimum_aoi_coverage": 0.001178425804559844,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ubinas",
+    "volcano_id": "ubinas",
+    "volcano_name": "Ubinas",
+    "country": "Peru",
+    "lon": -70.8972,
+    "lat": -16.345,
+    "half_km": 15.0,
+    "volcano_number": 354020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354020",
+    "stack": [
+      126,
+      "D",
+      97
+    ],
+    "polarization": "HH",
+    "pairs": 2,
+    "epochs": 3,
+    "first_date": "2026-08-21",
+    "last_date": "2026-10-08",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 2,
+    "minimum_aoi_coverage": 0.0009855424834285483,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "ubinas",
+    "volcano_id": "ubinas",
+    "volcano_name": "Ubinas",
+    "country": "Peru",
+    "lon": -70.8972,
+    "lat": -16.345,
+    "half_km": 15.0,
+    "volcano_number": 354020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354020",
+    "stack": [
+      46,
+      "A",
+      170
+    ],
+    "polarization": "HH",
+    "pairs": 2,
+    "epochs": 3,
+    "first_date": "2026-05-12",
+    "last_date": "2026-06-05",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 0,
+    "minimum_aoi_coverage": 0.00017036513392831322,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": true,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "bagana",
+    "volcano_id": "bagana",
+    "volcano_name": "Bagana",
+    "country": "Papua New Guinea",
+    "lon": 155.196,
+    "lat": -6.137,
+    "half_km": 15.0,
+    "volcano_number": 255020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=255020",
+    "stack": [
+      117,
+      "D",
+      91
+    ],
+    "polarization": "HH",
+    "pairs": 1,
+    "epochs": 2,
+    "first_date": "2026-09-14",
+    "last_date": "2026-10-20",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 1,
+    "minimum_aoi_coverage": 0.9584387974987238,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  },
+  {
+    "site": "wolf",
+    "volcano_id": "wolf",
+    "volcano_name": "Wolf",
+    "country": "Ecuador",
+    "lon": -91.35,
+    "lat": 0.02,
+    "half_km": 15.0,
+    "volcano_number": 353020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=353020",
+    "stack": [
+      163,
+      "A",
+      1
+    ],
+    "polarization": "HH",
+    "pairs": 1,
+    "epochs": 2,
+    "first_date": "2026-07-07",
+    "last_date": "2026-08-12",
+    "catalogue_only_potential_examples": 0,
+    "new_product_ids": 1,
+    "minimum_aoi_coverage": 8.799830521282287e-07,
+    "collections": [
+      "NISAR_L2_GUNW_PROVISIONAL_V1"
+    ],
+    "already_sampled_physical_site": false,
+    "pixel_quality_verified": false
+  }
+]

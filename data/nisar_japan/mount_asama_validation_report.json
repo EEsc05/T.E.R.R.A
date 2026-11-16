@@ -1,0 +1,52 @@
+{
+  "mount_asama_ascending": {
+    "volcano_id": "mount_asama",
+    "volcano_name": "Mount Asama (Asamayama)",
+    "country": "Japan",
+    "stack": [
+      139,
+      "A",
+      20
+    ],
+    "epochs": 9,
+    "supervised_examples": 1,
+    "history_shape": [
+      6,
+      32,
+      32
+    ],
+    "history_origin": "2026-10-21T00:00:00.000000000",
+    "history_valid_fraction": 0.07112630208333333,
+    "target_horizons_days": [
+      24.0
+    ],
+    "min_pair_valid_fraction": 0.05,
+    "standalone_train_validation_ready": false,
+    "validation": "labels, masks, target dates and model input contract passed"
+  },
+  "mount_asama_descending": {
+    "volcano_id": "mount_asama",
+    "volcano_name": "Mount Asama (Asamayama)",
+    "country": "Japan",
+    "stack": [
+      46,
+      "D",
+      70
+    ],
+    "epochs": 10,
+    "supervised_examples": 2,
+    "history_shape": [
+      6,
+      32,
+      32
+    ],
+    "history_origin": "2026-10-15T00:00:00.000000000",
+    "history_valid_fraction": 0.17740885416666666,
+    "target_horizons_days": [
+      24.0
+    ],
+    "min_pair_valid_fraction": 0.05,
+    "standalone_train_validation_ready": false,
+    "validation": "labels, masks, target dates and model input contract passed"
+  }
+}

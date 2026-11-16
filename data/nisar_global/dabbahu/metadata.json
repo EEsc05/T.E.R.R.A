@@ -1,0 +1,237 @@
+{
+  "units": "mm",
+  "grid_convention": "aoi_block_mean32",
+  "spacing_km": [
+    0.9375,
+    0.9375
+  ],
+  "geometry_available": false,
+  "geometry_note": "Product XY vectors are retained raw; no unverified ENU conversion",
+  "raw_geometry": {
+    "incidenceAngle": 43.07280349731445,
+    "losUnitVectorX": -0.6593389511108398,
+    "losUnitVectorY": 0.177936851978302
+  },
+  "source": "NISAR L2 GUNW via ASF",
+  "source_collections": [
+    "NISAR_L2_GUNW_PROVISIONAL_V1"
+  ],
+  "beta_products_included": false,
+  "volcano_id": "dabbahu",
+  "volcano_name": "Dabbahu",
+  "country": "Ethiopia",
+  "volcano_number": 221113,
+  "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221113",
+  "stack_id": "dabbahu",
+  "stack": [
+    165,
+    "D",
+    82
+  ],
+  "source_notebook": "NISAR_forecast_pipeline_v2.ipynb",
+  "source_analysis": null,
+  "source_native_roi": null,
+  "reference_product": null,
+  "grid": {
+    "epsg": 32637,
+    "x0": 645765.7589688643,
+    "x1": 675765.7589688643,
+    "y0": 1377801.828992346,
+    "y1": 1407801.828992346,
+    "H": 32,
+    "W": 32
+  },
+  "center_lonlat": [
+    40.48,
+    12.595
+  ],
+  "half_width_km": 15.0,
+  "phase_to_los_sign": -1,
+  "los_sign_convention": "notebook assumed positive toward satellite; unverified",
+  "coherence_threshold": 0.4,
+  "min_pair_valid_fraction": 0.2,
+  "min_block_valid_fraction": 0.5,
+  "reference_area": "per-pair valid-pixel median",
+  "iono_mode": "none",
+  "ramp_removed": false,
+  "product_info": {
+    "wavelength_m": 0.24393202441008952,
+    "center_frequency_hz": 1229000000.0,
+    "orbit_pass_direction": "Descending",
+    "look_direction": "Left",
+    "track_number": 165,
+    "frame_number": 82,
+    "product_version": "1.0.11",
+    "product_doi": "10.5067/NIL2GUNW-P1",
+    "corrections_applied": {
+      "rangeIonosphericCorrectionApplied": "True",
+      "azimuthIonosphericCorrectionApplied": "True",
+      "wetTroposphericCorrectionApplied": "True",
+      "hydrostaticTroposphericCorrectionApplied": "True"
+    }
+  },
+  "pairs": [
+    {
+      "reference": "2025-11-09",
+      "secondary": "2025-11-21",
+      "file": "NISAR_L2_PR_GUNW_004_165_D_082_005_2000_SH_20251109T154910_20251109T154944_20251121T154910_20251121T154944_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 1.0
+    },
+    {
+      "reference": "2025-11-21",
+      "secondary": "2025-12-03",
+      "file": "NISAR_L2_PR_GUNW_005_165_D_082_006_2000_SH_20251121T154910_20251121T154944_20251203T154910_20251203T154945_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 1.0
+    },
+    {
+      "reference": "2025-12-03",
+      "secondary": "2025-12-15",
+      "file": "NISAR_L2_PR_GUNW_006_165_D_082_007_2000_SH_20251203T154910_20251203T154945_20251215T154911_20251215T154945_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 1.0
+    },
+    {
+      "reference": "2025-12-15",
+      "secondary": "2025-12-27",
+      "file": "NISAR_L2_PR_GUNW_007_165_D_082_008_2000_SH_20251215T154911_20251215T154945_20251227T154911_20251227T154946_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 1.0
+    },
+    {
+      "reference": "2025-12-27",
+      "secondary": "2026-01-08",
+      "file": "NISAR_L2_PR_GUNW_008_165_D_082_009_2000_SH_20251227T154911_20251227T154946_20260108T154912_20260108T154946_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.9990234375
+    },
+    {
+      "reference": "2026-01-08",
+      "secondary": "2026-01-20",
+      "file": "NISAR_L2_PR_GUNW_009_165_D_082_010_2000_SH_20260108T154912_20260108T154946_20260120T154913_20260120T154947_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.9990234375
+    },
+    {
+      "reference": "2026-01-20",
+      "secondary": "2026-02-01",
+      "file": "NISAR_L2_PR_GUNW_010_165_D_082_011_2000_SH_20260120T154913_20260120T154947_20260201T154913_20260201T154947_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 1.0
+    },
+    {
+      "reference": "2026-02-01",
+      "secondary": "2026-02-13",
+      "file": "NISAR_L2_PR_GUNW_011_165_D_082_012_2000_SH_20260201T154913_20260201T154947_20260213T154914_20260213T154948_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 1.0
+    },
+    {
+      "reference": "2026-02-13",
+      "secondary": "2026-02-25",
+      "file": "NISAR_L2_PR_GUNW_012_165_D_082_013_2000_SH_20260213T154914_20260213T154948_20260225T154914_20260225T154949_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 1.0
+    },
+    {
+      "reference": "2026-02-25",
+      "secondary": "2026-03-09",
+      "file": "NISAR_L2_PR_GUNW_013_165_D_082_014_2000_SH_20260225T154914_20260225T154949_20260309T154915_20260309T154949_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 1.0
+    },
+    {
+      "reference": "2026-03-09",
+      "secondary": "2026-03-21",
+      "file": "NISAR_L2_PR_GUNW_014_165_D_082_015_2000_SH_20260309T154915_20260309T154949_20260321T154915_20260321T154949_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 1.0
+    },
+    {
+      "reference": "2026-03-21",
+      "secondary": "2026-04-02",
+      "file": "NISAR_L2_PR_GUNW_015_165_D_082_016_2000_SH_20260321T154915_20260321T154949_20260402T154915_20260402T154950_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.9970703125
+    },
+    {
+      "reference": "2026-04-02",
+      "secondary": "2026-04-14",
+      "file": "NISAR_L2_PR_GUNW_016_165_D_082_017_2000_SH_20260402T154915_20260402T154950_20260414T154915_20260414T154950_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.9931640625
+    },
+    {
+      "reference": "2026-04-14",
+      "secondary": "2026-04-26",
+      "file": "NISAR_L2_PR_GUNW_017_165_D_082_018_2000_SH_20260414T154915_20260414T154950_20260426T154915_20260426T154949_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.998046875
+    },
+    {
+      "reference": "2026-04-26",
+      "secondary": "2026-05-08",
+      "file": "NISAR_L2_PR_GUNW_018_165_D_082_019_2000_SH_20260426T154915_20260426T154949_20260508T154915_20260508T154949_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.9970703125
+    },
+    {
+      "reference": "2026-05-08",
+      "secondary": "2026-05-20",
+      "file": "NISAR_L2_PR_GUNW_019_165_D_082_020_2000_SH_20260508T154915_20260508T154949_20260520T154914_20260520T154948_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.998046875
+    },
+    {
+      "reference": "2026-05-20",
+      "secondary": "2026-06-01",
+      "file": "NISAR_L2_PR_GUNW_020_165_D_082_021_2000_SH_20260520T154914_20260520T154948_20260601T154913_20260601T154948_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 1.0
+    },
+    {
+      "reference": "2026-06-01",
+      "secondary": "2026-06-13",
+      "file": "NISAR_L2_PR_GUNW_021_165_D_082_022_2000_SH_20260601T154913_20260601T154948_20260613T154913_20260613T154947_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 1.0
+    },
+    {
+      "reference": "2026-06-13",
+      "secondary": "2026-06-25",
+      "file": "NISAR_L2_PR_GUNW_022_165_D_082_023_2000_SH_20260613T154913_20260613T154947_20260625T154912_20260625T154946_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 1.0
+    },
+    {
+      "reference": "2026-06-25",
+      "secondary": "2026-07-07",
+      "file": "NISAR_L2_PR_GUNW_023_165_D_082_024_2000_SH_20260625T154912_20260625T154946_20260707T154911_20260707T154946_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 1.0
+    },
+    {
+      "reference": "2026-07-07",
+      "secondary": "2026-07-19",
+      "file": "NISAR_L2_PR_GUNW_024_165_D_082_025_2000_SH_20260707T154911_20260707T154946_20260719T154911_20260719T154945_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 1.0
+    },
+    {
+      "reference": "2026-07-19",
+      "secondary": "2026-08-12",
+      "file": "NISAR_L2_PR_GUNW_025_165_D_082_027_2000_SH_20260719T154911_20260719T154945_20260812T154909_20260812T154944_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.9931640625
+    },
+    {
+      "reference": "2026-08-12",
+      "secondary": "2026-08-24",
+      "file": "NISAR_L2_PR_GUNW_027_165_D_082_028_2000_SH_20260812T154909_20260812T154944_20260824T154909_20260824T154943_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.9951171875
+    },
+    {
+      "reference": "2026-08-24",
+      "secondary": "2026-09-05",
+      "file": "NISAR_L2_PR_GUNW_028_165_D_082_029_2000_SH_20260824T154909_20260824T154943_20260905T154908_20260905T154943_P05023_N_F_J_002.h5",
+      "valid_pixel_fraction": 0.9931640625
+    },
+    {
+      "reference": "2026-09-05",
+      "secondary": "2026-09-17",
+      "file": "NISAR_L2_PR_GUNW_029_165_D_082_030_2000_SH_20260905T154908_20260905T154943_20260917T154908_20260917T154943_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.9970703125
+    },
+    {
+      "reference": "2026-09-17",
+      "secondary": "2026-09-29",
+      "file": "NISAR_L2_PR_GUNW_030_165_D_082_031_2000_SH_20260917T154908_20260917T154943_20260929T154908_20260929T154943_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.99609375
+    },
+    {
+      "reference": "2026-09-29",
+      "secondary": "2026-10-11",
+      "file": "NISAR_L2_PR_GUNW_031_165_D_082_032_2000_SH_20260929T154908_20260929T154943_20261011T154908_20261011T154943_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.9990234375
+    }
+  ]
+}

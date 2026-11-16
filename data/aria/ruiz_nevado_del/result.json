@@ -1,0 +1,25 @@
+{
+  "site": "ruiz_nevado_del",
+  "status": "generated",
+  "epochs": 60,
+  "pairs": 174,
+  "examples": 52,
+  "training_examples": 36,
+  "validation_examples": 9,
+  "history_path": "data/aria/ruiz_nevado_del/history.npz",
+  "training_ready": true,
+  "note": null,
+  "country": "Colombia",
+  "stack": [
+    142,
+    "DESCENDING",
+    "00078W_00004N"
+  ],
+  "catalog_products": 2825,
+  "selected_pairs": 174,
+  "first_date": "2021-08-21",
+  "last_date": "2023-04-07",
+  "sensor": "Sentinel-1 ARIA GUNW",
+  "max_epochs": 60,
+  "mean_pair_valid_fraction": 0.47556910021551724
+}

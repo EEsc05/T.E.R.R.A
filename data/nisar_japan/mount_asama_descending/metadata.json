@@ -1,0 +1,125 @@
+{
+  "units": "mm",
+  "grid_convention": "aoi_block_mean32",
+  "spacing_km": [
+    1.28,
+    1.28
+  ],
+  "geometry_available": false,
+  "geometry_note": "Product XY vectors are retained raw; no unverified ENU conversion",
+  "raw_geometry": {
+    "incidenceAngle": 39.29072570800781,
+    "losUnitVectorX": -0.6001142859458923,
+    "losUnitVectorY": 0.20217697322368622
+  },
+  "source": "NISAR L2 GUNW via ASF",
+  "volcano_id": "mount_asama",
+  "volcano_name": "Mount Asama (Asamayama)",
+  "country": "Japan",
+  "volcano_number": 283110,
+  "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=283110",
+  "stack_id": "mount_asama_descending",
+  "stack": [
+    46,
+    "D",
+    70
+  ],
+  "source_notebook": "NISAR_forecast_pipeline_v2.ipynb",
+  "source_analysis": "nisar_analysis.py",
+  "source_native_roi": null,
+  "reference_product": null,
+  "grid": {
+    "epsg": 32654,
+    "x0": 257403.15397746844,
+    "x1": 298363.15397746844,
+    "y0": 4011351.9062229833,
+    "y1": 4052311.9062229833,
+    "H": 32,
+    "W": 32
+  },
+  "center_lonlat": [
+    138.523,
+    36.406
+  ],
+  "half_width_km": 20.48,
+  "phase_to_los_sign": -1,
+  "los_sign_convention": "notebook assumed positive toward satellite; unverified",
+  "coherence_threshold": 0.4,
+  "min_pair_valid_fraction": 0.05,
+  "min_block_valid_fraction": 0.5,
+  "reference_area": "per-pair valid-pixel median",
+  "iono_mode": "none",
+  "ramp_removed": false,
+  "product_info": {
+    "wavelength_m": 0.2419632429378531,
+    "center_frequency_hz": 1239000000.0,
+    "orbit_pass_direction": "Descending",
+    "look_direction": "Left",
+    "track_number": 46,
+    "frame_number": 70,
+    "product_version": "1.0.11",
+    "product_doi": "10.5067/NIL2GUNW-P1",
+    "corrections_applied": {
+      "rangeIonosphericCorrectionApplied": "True",
+      "azimuthIonosphericCorrectionApplied": "True",
+      "wetTroposphericCorrectionApplied": "True",
+      "hydrostaticTroposphericCorrectionApplied": "True"
+    }
+  },
+  "pairs": [
+    {
+      "reference": "2026-06-17",
+      "secondary": "2026-06-29",
+      "file": "NISAR_L2_PR_GUNW_023_046_D_070_024_4000_SH_20260617T093614_20260617T093649_20260629T093613_20260629T093648_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.48046875
+    },
+    {
+      "reference": "2026-06-29",
+      "secondary": "2026-07-11",
+      "file": "NISAR_L2_PR_GUNW_024_046_D_070_025_4000_SH_20260629T093613_20260629T093648_20260711T093613_20260711T093647_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.931640625
+    },
+    {
+      "reference": "2026-07-11",
+      "secondary": "2026-07-23",
+      "file": "NISAR_L2_PR_GUNW_025_046_D_070_026_4000_SH_20260711T093613_20260711T093647_20260723T093612_20260723T093647_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.986328125
+    },
+    {
+      "reference": "2026-07-23",
+      "secondary": "2026-08-16",
+      "file": "NISAR_L2_PR_GUNW_026_046_D_070_028_4000_SH_20260723T093612_20260723T093647_20260816T093611_20260816T093646_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.583984375
+    },
+    {
+      "reference": "2026-08-16",
+      "secondary": "2026-08-28",
+      "file": "NISAR_L2_PR_GUNW_028_046_D_070_029_4000_SH_20260816T093611_20260816T093646_20260828T093611_20260828T093645_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.86328125
+    },
+    {
+      "reference": "2026-08-28",
+      "secondary": "2026-09-09",
+      "file": "NISAR_L2_PR_GUNW_029_046_D_070_030_4000_SH_20260828T093611_20260828T093645_20260909T093610_20260909T093645_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.0908203125
+    },
+    {
+      "reference": "2026-09-09",
+      "secondary": "2026-09-21",
+      "file": "NISAR_L2_PR_GUNW_030_046_D_070_031_4000_SH_20260909T093610_20260909T093645_20260921T093610_20260921T093645_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.2802734375
+    },
+    {
+      "reference": "2026-09-21",
+      "secondary": "2026-10-03",
+      "file": "NISAR_L2_PR_GUNW_031_046_D_070_032_4000_SH_20260921T093610_20260921T093645_20261003T093610_20261003T093645_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.2333984375
+    },
+    {
+      "reference": "2026-10-03",
+      "secondary": "2026-10-15",
+      "file": "NISAR_L2_PR_GUNW_032_046_D_070_033_4000_SH_20261003T093610_20261003T093645_20261015T093611_20261015T093645_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.9990234375
+    }
+  ]
+}

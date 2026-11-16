@@ -1,0 +1,16 @@
+{
+  "ubinas": {
+    "lon": -70.903,
+    "lat": -16.355,
+    "half_km": 15.0,
+    "stack": [
+      25,
+      "D",
+      97
+    ],
+    "volcano_id": "ubinas",
+    "volcano_name": "Ubinas",
+    "country": "Peru",
+    "data_version_note": "Rebuilt without two legacy BETA pairs; original version preserved"
+  }
+}

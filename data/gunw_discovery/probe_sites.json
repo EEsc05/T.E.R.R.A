@@ -1,0 +1,107 @@
+{
+  "popocatepetl": {
+    "lon": -98.622,
+    "lat": 19.023,
+    "half_km": 15.0,
+    "stack": [
+      19,
+      "A",
+      11
+    ],
+    "volcano_id": "popocatepetl",
+    "volcano_name": "Popocatepetl",
+    "country": "Mexico",
+    "volcano_number": 341090,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=341090"
+  },
+  "dabbahu": {
+    "lon": 40.48,
+    "lat": 12.595,
+    "half_km": 15.0,
+    "stack": [
+      165,
+      "D",
+      82
+    ],
+    "volcano_id": "dabbahu",
+    "volcano_name": "Dabbahu",
+    "country": "Ethiopia",
+    "volcano_number": 221113,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221113"
+  },
+  "hekla": {
+    "lon": -19.666,
+    "lat": 63.983,
+    "half_km": 15.0,
+    "stack": [
+      82,
+      "D",
+      56
+    ],
+    "volcano_id": "hekla",
+    "volcano_name": "Hekla",
+    "country": "Iceland",
+    "volcano_number": 372070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372070"
+  },
+  "askja": {
+    "lon": -16.783,
+    "lat": 65.033,
+    "half_km": 15.0,
+    "stack": [
+      29,
+      "A",
+      35
+    ],
+    "volcano_id": "askja",
+    "volcano_name": "Askja",
+    "country": "Iceland",
+    "volcano_number": 373060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373060"
+  },
+  "kilauea": {
+    "lon": -155.287,
+    "lat": 19.421,
+    "half_km": 15.0,
+    "stack": [
+      151,
+      "A",
+      11
+    ],
+    "volcano_id": "kilauea",
+    "volcano_name": "Kilauea",
+    "country": "United States",
+    "volcano_number": 332010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=332010"
+  },
+  "tongariro": {
+    "lon": 175.632,
+    "lat": -39.157,
+    "half_km": 15.0,
+    "stack": [
+      94,
+      "A",
+      158
+    ],
+    "volcano_id": "tongariro",
+    "volcano_name": "Tongariro",
+    "country": "New Zealand",
+    "volcano_number": 241080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241080"
+  },
+  "lascar": {
+    "lon": -67.73,
+    "lat": -23.37,
+    "half_km": 15.0,
+    "stack": [
+      169,
+      "D",
+      100
+    ],
+    "volcano_id": "lascar",
+    "volcano_name": "Lascar",
+    "country": "Chile",
+    "volcano_number": 355100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=355100"
+  }
+}

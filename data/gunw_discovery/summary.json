@@ -1,0 +1,69 @@
+{
+  "authentication": "successful",
+  "nisar_volcanoes_queried": 63,
+  "nisar_volcanoes_with_catalogue_products": 62,
+  "nisar_country_labels_queried": 23,
+  "nisar_country_labels_with_products": 22,
+  "unique_nisar_gunw_ids_in_survey": 1913,
+  "nisar_stack_candidates": 224,
+  "sample_screened_sites": 7,
+  "sample_screen_passes": 6,
+  "new_prepared_datasets": {
+    "popocatepetl": {
+      "country": "Mexico",
+      "volcano_name": "Popocatepetl",
+      "epochs": 29,
+      "supervised_examples": 21,
+      "training_examples": 11,
+      "validation_examples": 3,
+      "purged_windows": 7,
+      "training_valid_fraction": 0.9412434895833333,
+      "horizons_days": [
+        24.0,
+        36.0
+      ],
+      "collections": [
+        "NISAR_L2_GUNW_PROVISIONAL_V1"
+      ],
+      "beta_included": false,
+      "common_input_and_temporal_split_checks": "passed",
+      "source_hashes": {
+        "train.npz": "364cd979ec967f912cf8ae7257a4ca0d486f62bd5b78ca08b1b64d640630e14d",
+        "validation.npz": "7fa535408800b2d10c942bfcefdc1755754abde526e84269818a3b7ee4ec087e",
+        "examples.npz": "59559a312530a3e895a34030d321fc7d3bca30ccff2bad8ba4c643ca42681075"
+      }
+    },
+    "dabbahu": {
+      "country": "Ethiopia",
+      "volcano_name": "Dabbahu",
+      "epochs": 28,
+      "supervised_examples": 20,
+      "training_examples": 10,
+      "validation_examples": 3,
+      "purged_windows": 7,
+      "training_valid_fraction": 0.9982096354166666,
+      "horizons_days": [
+        24.0,
+        36.0
+      ],
+      "collections": [
+        "NISAR_L2_GUNW_PROVISIONAL_V1"
+      ],
+      "beta_included": false,
+      "common_input_and_temporal_split_checks": "passed",
+      "source_hashes": {
+        "train.npz": "ed27082ca3d6c23dd34bdfea533e061252cebd89f0c2fb08a33b4e6470307e68",
+        "validation.npz": "7df6c4806c1ddffeb2d9c83f076b22fde5c199ad26907443af4fc9d25515446c",
+        "examples.npz": "90a594792486923d6fabc9c83c9c37e96c6219df30abfbd196e855c576389530"
+      }
+    }
+  },
+  "aria_sites_queried": 23,
+  "aria_sites_with_products": 10,
+  "limitations": [
+    "Catalogue counts do not imply usable pixels or training examples.",
+    "ARIA inventory is not a NISAR dataset; a separate reader/phase/coordinate adapter is required.",
+    "The Iceland ARIA query hit its 5000-product limit and is incomplete.",
+    "Existing Ubinas selection has two BETA pairs; original inputs and models were preserved."
+  ]
+}

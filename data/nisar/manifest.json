@@ -1,0 +1,74 @@
+[
+  {
+    "site": "sabancaya",
+    "catalog_products": 60,
+    "stack": [
+      46,
+      "A",
+      170
+    ],
+    "selected_pairs": 26,
+    "selected_epochs": 27,
+    "selected_bytes": 64604864512,
+    "download_bytes": 52294582272,
+    "range_bytes_fetched": 1782579221,
+    "transfer_mode": "aoi_ranges",
+    "status": "generated",
+    "epochs": 27,
+    "pairs": 26,
+    "examples": 19,
+    "training_examples": 10,
+    "validation_examples": 2,
+    "history_path": "data/nisar/sabancaya/history.npz",
+    "training_ready": true,
+    "note": null
+  },
+  {
+    "site": "ubinas",
+    "catalog_products": 76,
+    "stack": [
+      25,
+      "D",
+      97
+    ],
+    "selected_pairs": 27,
+    "selected_epochs": 27,
+    "selected_bytes": 61576577024,
+    "download_bytes": 61576577024,
+    "range_bytes_fetched": 1736441883,
+    "transfer_mode": "aoi_ranges",
+    "status": "generated",
+    "epochs": 27,
+    "pairs": 27,
+    "examples": 19,
+    "training_examples": 10,
+    "validation_examples": 2,
+    "history_path": "data/nisar/ubinas/history.npz",
+    "training_ready": true,
+    "note": null
+  },
+  {
+    "site": "misti",
+    "catalog_products": 109,
+    "stack": [
+      46,
+      "A",
+      169
+    ],
+    "selected_pairs": 26,
+    "selected_epochs": 27,
+    "selected_bytes": 61073260544,
+    "download_bytes": 61073260544,
+    "range_bytes_fetched": 2252341274,
+    "transfer_mode": "aoi_ranges",
+    "status": "generated",
+    "epochs": 27,
+    "pairs": 26,
+    "examples": 19,
+    "training_examples": 10,
+    "validation_examples": 2,
+    "history_path": "data/nisar/misti/history.npz",
+    "training_ready": true,
+    "note": null
+  }
+]

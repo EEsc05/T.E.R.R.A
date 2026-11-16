@@ -1,0 +1,46 @@
+{
+  "note": "Copies preserve original versions; Ubinas rebuilt separately without BETA pairs. Japan remains explicit extra-training inputs.",
+  "files": {
+    "data/nisar_training_global/sabancaya/train.npz": {
+      "source": "data/nisar/sabancaya/train.npz",
+      "sha256": "fa778c184249eb1195940e5e17f3c73a0a7c635eec648effea95f8bc942730c7"
+    },
+    "data/nisar_training_global/sabancaya/validation.npz": {
+      "source": "data/nisar/sabancaya/validation.npz",
+      "sha256": "247d659550b3ac01bbea67153f4cf1a71aeb1d24ac22f3cd7c36785af082137c"
+    },
+    "data/nisar_training_global/misti/train.npz": {
+      "source": "data/nisar/misti/train.npz",
+      "sha256": "201479eae704dcdc64cdd8c12f0ac27aff5b71bb4b1106abd6c5e6819f9a7f8b"
+    },
+    "data/nisar_training_global/misti/validation.npz": {
+      "source": "data/nisar/misti/validation.npz",
+      "sha256": "de25024cda2527dde54f4c5ca13b4e734c84283c628e58de1a80524e61189333"
+    },
+    "data/nisar_training_global/popocatepetl/train.npz": {
+      "source": "data/nisar_global/popocatepetl/train.npz",
+      "sha256": "364cd979ec967f912cf8ae7257a4ca0d486f62bd5b78ca08b1b64d640630e14d"
+    },
+    "data/nisar_training_global/popocatepetl/validation.npz": {
+      "source": "data/nisar_global/popocatepetl/validation.npz",
+      "sha256": "7fa535408800b2d10c942bfcefdc1755754abde526e84269818a3b7ee4ec087e"
+    },
+    "data/nisar_training_global/dabbahu/train.npz": {
+      "source": "data/nisar_global/dabbahu/train.npz",
+      "sha256": "ed27082ca3d6c23dd34bdfea533e061252cebd89f0c2fb08a33b4e6470307e68"
+    },
+    "data/nisar_training_global/dabbahu/validation.npz": {
+      "source": "data/nisar_global/dabbahu/validation.npz",
+      "sha256": "7df6c4806c1ddffeb2d9c83f076b22fde5c199ad26907443af4fc9d25515446c"
+    },
+    "data/nisar_training_global/ubinas/train.npz": {
+      "source": "rebuilt from existing Ubinas HDF5 subsets excluding BETA",
+      "sha256": "400ecb03a84b2ad72cbb0303b6b822768aaf423399645c4dab6bb5b299d1203d"
+    },
+    "data/nisar_training_global/ubinas/validation.npz": {
+      "source": "rebuilt from existing Ubinas HDF5 subsets excluding BETA",
+      "sha256": "7c0c36c8eff99de0f03ad7eb9f77529eb2734377389d822cbc775d859632e6ad"
+    }
+  },
+  "ubinas_clean_source": "data/nisar/ubinas/subsets (25 provisional pairs; two BETA pairs excluded)"
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "file": "S1-GUNW-A-R-111-tops-20220913_20220901-083939-00144E_00006S-PP-5bab-v2_0_5.nc",
+    "track": 111,
+    "direction": "ASCENDING",
+    "tile": "00144E_00006S",
+    "baseline_days": 12,
+    "earlier_date": "2022-09-01",
+    "later_date": "2022-09-13"
+  },
+  {
+    "file": "S1-GUNW-A-R-111-tops-20220913_20220820-083939-00144E_00006S-PP-b889-v2_0_5.nc",
+    "track": 111,
+    "direction": "ASCENDING",
+    "tile": "00144E_00006S",
+    "baseline_days": 24,
+    "earlier_date": "2022-08-20",
+    "later_date": "2022-09-13"
+  },
+  {
+    "file": "S1-GUNW-A-R-111-tops-20220901_20220820-083939-00144E_00006S-PP-8c44-v2_0_5.nc",
+    "track": 111,
+    "direction": "ASCENDING",
+    "tile": "00144E_00006S",
+    "baseline_days": 12,
+    "earlier_date": "2022-08-20",
+    "later_date": "2022-09-01"
+  }
+]

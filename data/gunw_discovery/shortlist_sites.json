@@ -1,0 +1,77 @@
+{
+  "popocatepetl": {
+    "lon": -98.622,
+    "lat": 19.023,
+    "half_km": 15.0,
+    "stack": [
+      19,
+      "A",
+      11
+    ],
+    "volcano_id": "popocatepetl",
+    "volcano_name": "Popocatepetl",
+    "country": "Mexico",
+    "volcano_number": 341090,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=341090"
+  },
+  "erta_ale": {
+    "lon": 40.666,
+    "lat": 13.601,
+    "half_km": 15.0,
+    "stack": [
+      165,
+      "D",
+      82
+    ],
+    "volcano_id": "erta_ale",
+    "volcano_name": "Erta Ale",
+    "country": "Ethiopia",
+    "volcano_number": 221080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221080"
+  },
+  "grimsvotn": {
+    "lon": -17.316,
+    "lat": 64.416,
+    "half_km": 15.0,
+    "stack": [
+      53,
+      "D",
+      56
+    ],
+    "volcano_id": "grimsvotn",
+    "volcano_name": "Grimsvotn",
+    "country": "Iceland",
+    "volcano_number": 373010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373010"
+  },
+  "kilauea": {
+    "lon": -155.287,
+    "lat": 19.421,
+    "half_km": 15.0,
+    "stack": [
+      151,
+      "A",
+      11
+    ],
+    "volcano_id": "kilauea",
+    "volcano_name": "Kilauea",
+    "country": "United States",
+    "volcano_number": 332010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=332010"
+  },
+  "taupo": {
+    "lon": 175.893,
+    "lat": -38.7811,
+    "half_km": 15.0,
+    "stack": [
+      87,
+      "D",
+      108
+    ],
+    "volcano_id": "taupo",
+    "volcano_name": "Taupo",
+    "country": "New Zealand",
+    "volcano_number": 241070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241070"
+  }
+}

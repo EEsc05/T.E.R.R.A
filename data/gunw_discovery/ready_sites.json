@@ -1,0 +1,32 @@
+{
+  "popocatepetl": {
+    "lon": -98.622,
+    "lat": 19.023,
+    "half_km": 15.0,
+    "stack": [
+      19,
+      "A",
+      11
+    ],
+    "volcano_id": "popocatepetl",
+    "volcano_name": "Popocatepetl",
+    "country": "Mexico",
+    "volcano_number": 341090,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=341090"
+  },
+  "dabbahu": {
+    "lon": 40.48,
+    "lat": 12.595,
+    "half_km": 15.0,
+    "stack": [
+      165,
+      "D",
+      82
+    ],
+    "volcano_id": "dabbahu",
+    "volcano_name": "Dabbahu",
+    "country": "Ethiopia",
+    "volcano_number": 221113,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221113"
+  }
+}

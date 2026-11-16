@@ -1,0 +1,47 @@
+[
+  {
+    "site": "popocatepetl",
+    "catalog_products": 83,
+    "stack": [
+      19,
+      "A",
+      11
+    ],
+    "selected_pairs": 28,
+    "selected_epochs": 29,
+    "selected_bytes": 64571310080,
+    "download_bytes": 6824132608,
+    "range_bytes_fetched": 192937987,
+    "transfer_mode": "aoi_ranges",
+    "status": "generated",
+    "epochs": 29,
+    "pairs": 28,
+    "examples": 21,
+    "training_examples": 11,
+    "validation_examples": 3,
+    "history_path": "data/nisar_global/popocatepetl/history.npz",
+    "training_ready": true,
+    "note": null
+  },
+  {
+    "site": "dabbahu",
+    "catalog_products": 75,
+    "stack": [
+      165,
+      "D",
+      82
+    ],
+    "selected_pairs": 27,
+    "selected_epochs": 28,
+    "selected_bytes": 60045656064,
+    "status": "generated",
+    "epochs": 28,
+    "pairs": 27,
+    "examples": 20,
+    "training_examples": 10,
+    "validation_examples": 3,
+    "history_path": "data/nisar_global/dabbahu/history.npz",
+    "training_ready": true,
+    "note": null
+  }
+]

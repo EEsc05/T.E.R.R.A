@@ -1,0 +1,25 @@
+{
+  "site": "reykjanes",
+  "status": "generated",
+  "epochs": 60,
+  "pairs": 182,
+  "examples": 46,
+  "training_examples": 32,
+  "validation_examples": 8,
+  "history_path": "data/aria/reykjanes/history.npz",
+  "training_ready": true,
+  "note": null,
+  "country": "Iceland",
+  "stack": [
+    16,
+    "ASCENDING",
+    "00024W_00062N"
+  ],
+  "catalog_products": 5000,
+  "selected_pairs": 192,
+  "first_date": "2021-03-21",
+  "last_date": "2022-05-21",
+  "sensor": "Sentinel-1 ARIA GUNW",
+  "max_epochs": 60,
+  "mean_pair_valid_fraction": 0.21748905391483517
+}

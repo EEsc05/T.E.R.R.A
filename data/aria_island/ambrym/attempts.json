@@ -1,0 +1,35 @@
+[
+  {
+    "stack": [
+      81,
+      "ASCENDING",
+      "00167E_00017S"
+    ],
+    "selected_pairs": 74,
+    "resolved_products": 74,
+    "processed_pairs": 74,
+    "usable_pairs": 69,
+    "failures": [
+      {
+        "file": "S1-GUNW-A-R-081-tops-20181219_20181201-071323-00167E_00017S-PP-0140-v2_0_5.nc",
+        "error": "AOI valid fraction 0.060 below 0.2"
+      },
+      {
+        "file": "S1-GUNW-A-R-081-tops-20181219_20181213-071323-00167E_00017S-PP-fc46-v2_0_5.nc",
+        "error": "AOI valid fraction 0.056 below 0.2"
+      },
+      {
+        "file": "S1-GUNW-A-R-081-tops-20181225_20181213-071401-00167E_00017S-PP-4619-v2_0_5.nc",
+        "error": "AOI valid fraction 0.024 below 0.2"
+      },
+      {
+        "file": "S1-GUNW-A-R-081-tops-20181225_20181219-071401-00167E_00017S-PP-6c63-v2_0_5.nc",
+        "error": "AOI valid fraction 0.084 below 0.2"
+      },
+      {
+        "file": "S1-GUNW-A-R-081-tops-20190106_20181225-071401-00167E_00017S-PP-2e47-v2_0_5.nc",
+        "error": "AOI valid fraction 0.116 below 0.2"
+      }
+    ]
+  }
+]

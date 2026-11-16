@@ -1,0 +1,13 @@
+{
+  "sakurajima": {
+    "volcano_id": "sakurajima",
+    "volcano_name": "Sakurajima (Aira)",
+    "country": "Japan",
+    "lon": 130.6589,
+    "lat": 31.5772,
+    "half_km": 7.5,
+    "volcano_number": 282080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=282080",
+    "aoi_note": "15 km square centered on the GVP Sakurajima/Aira coordinate; intended to limit ocean coverage while retaining volcanic flanks."
+  }
+}

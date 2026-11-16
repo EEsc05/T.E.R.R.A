@@ -1,0 +1,77 @@
+[
+  {
+    "stack": [
+      83,
+      "DESCENDING",
+      "00069W_00028S"
+    ],
+    "selected_pairs": 32,
+    "resolved_products": 32,
+    "processed_pairs": 3,
+    "usable_pairs": 0,
+    "failures": [
+      {
+        "file": "S1-GUNW-D-R-083-tops-20210531_20210513-095422-00069W_00028S-PP-dc88-v2_0_5.nc",
+        "error": "AOI valid fraction 0.006 below 0.2"
+      },
+      {
+        "file": "S1-GUNW-D-R-083-tops-20210823_20210817-095427-00069W_00028S-PP-3a8a-v2_0_5.nc",
+        "error": "AOI valid fraction 0.006 below 0.2"
+      },
+      {
+        "file": "S1-GUNW-D-R-083-tops-20211103_20211022-095429-00069W_00028S-PP-bc79-v2_0_5.nc",
+        "error": "AOI valid fraction 0.006 below 0.2"
+      }
+    ]
+  },
+  {
+    "stack": [
+      83,
+      "DESCENDING",
+      "25249S_27414S"
+    ],
+    "selected_pairs": 33,
+    "resolved_products": 33,
+    "processed_pairs": 3,
+    "usable_pairs": 0,
+    "failures": [
+      {
+        "file": "S1-GUNW-D-R-083-tops-20190412_20190325-095408-25249S_27414S-PP-7a77-v2_0_3.nc",
+        "error": "AOI valid fraction 0.006 below 0.2"
+      },
+      {
+        "file": "S1-GUNW-D-R-083-tops-20190611_20190530-095410-25249S_27414S-PP-1b59-v2_0_3.nc",
+        "error": "AOI valid fraction 0.006 below 0.2"
+      },
+      {
+        "file": "S1-GUNW-D-R-083-tops-20190810_20190804-095415-25249S_27414S-PP-c1ff-v2_0_2.nc",
+        "error": "AOI valid fraction 0.006 below 0.2"
+      }
+    ]
+  },
+  {
+    "stack": [
+      83,
+      "DESCENDING",
+      "24090S_26270S"
+    ],
+    "selected_pairs": 49,
+    "resolved_products": 49,
+    "processed_pairs": 3,
+    "usable_pairs": 0,
+    "failures": [
+      {
+        "file": "S1-GUNW-D-R-083-tops-20170826_20170721-095302-24090S_26270S-PP-9ead-v2_0_2.nc",
+        "error": "AOI valid fraction 0.014 below 0.2"
+      },
+      {
+        "file": "S1-GUNW-D-R-083-tops-20171212_20171106-095302-24090S_26270S-PP-ca7b-v2_0_2.nc",
+        "error": "AOI valid fraction 0.015 below 0.2"
+      },
+      {
+        "file": "S1-GUNW-D-R-083-tops-20180517_20180505-095302-24090S_26270S-PP-49a7-v2_0_3.nc",
+        "error": "AOI valid fraction 0.013 below 0.2"
+      }
+    ]
+  }
+]

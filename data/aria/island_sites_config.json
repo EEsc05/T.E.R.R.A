@@ -1,0 +1,13 @@
+{
+  "ambrym": {
+    "volcano_id": "ambrym",
+    "volcano_name": "Ambrym",
+    "country": "Vanuatu",
+    "lon": 168.12,
+    "lat": -16.25,
+    "half_km": 10,
+    "volcano_number": 257040,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=257040",
+    "aoi_note": "Smaller 20 km square around the same GVP volcano center, to reduce ocean coverage in this island setting. Quality thresholds unchanged."
+  }
+}

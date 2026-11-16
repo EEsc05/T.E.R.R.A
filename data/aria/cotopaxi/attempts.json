@@ -1,0 +1,14 @@
+[
+  {
+    "stack": [
+      18,
+      "ASCENDING",
+      "00081W_00002S"
+    ],
+    "selected_pairs": 101,
+    "resolved_products": 101,
+    "processed_pairs": 101,
+    "usable_pairs": 101,
+    "failures": []
+  }
+]

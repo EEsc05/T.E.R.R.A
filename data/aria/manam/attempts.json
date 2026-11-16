@@ -1,0 +1,27 @@
+[
+  {
+    "stack": [
+      111,
+      "ASCENDING",
+      "00144E_00006S"
+    ],
+    "selected_pairs": 3,
+    "resolved_products": 3,
+    "processed_pairs": 3,
+    "usable_pairs": 0,
+    "failures": [
+      {
+        "file": "S1-GUNW-A-R-111-tops-20220901_20220820-083939-00144E_00006S-PP-8c44-v2_0_5.nc",
+        "error": "No coherent connected pixels in AOI"
+      },
+      {
+        "file": "S1-GUNW-A-R-111-tops-20220913_20220820-083939-00144E_00006S-PP-b889-v2_0_5.nc",
+        "error": "No coherent connected pixels in AOI"
+      },
+      {
+        "file": "S1-GUNW-A-R-111-tops-20220913_20220901-083939-00144E_00006S-PP-5bab-v2_0_5.nc",
+        "error": "No coherent connected pixels in AOI"
+      }
+    ]
+  }
+]

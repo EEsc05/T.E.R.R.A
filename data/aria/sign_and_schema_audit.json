@@ -1,0 +1,14 @@
+{
+  "target_representation": "six dated 32x32 LOS displacement maps in mm with validity masks and actual future targets",
+  "aria_native_phase_to_toward_los_sign": 1,
+  "nisar_native_phase_to_toward_los_sign": -1,
+  "aria_source_date_order": "newer reference, older secondary",
+  "network_order": "chronological earlier to later",
+  "sources": [
+    "https://hyp3-docs.asf.alaska.edu/guides/gunw_product_guide/",
+    "https://github.com/aria-tools/ARIA-tools#readme"
+  ],
+  "existing_nisar_values_modified": false,
+  "existing_models_modified": false,
+  "archive_publication_latency_modeled": false
+}

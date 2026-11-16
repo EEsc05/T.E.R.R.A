@@ -1,0 +1,23 @@
+[
+  {
+    "site": "ubinas",
+    "catalog_products": 27,
+    "stack": [
+      25,
+      "D",
+      97
+    ],
+    "selected_pairs": 25,
+    "selected_epochs": 26,
+    "selected_bytes": 0,
+    "status": "generated",
+    "epochs": 26,
+    "pairs": 25,
+    "examples": 18,
+    "training_examples": 9,
+    "validation_examples": 2,
+    "history_path": "data/nisar_training_global/ubinas/history.npz",
+    "training_ready": true,
+    "note": null
+  }
+]

@@ -1,0 +1,269 @@
+{
+  "created_utc": "2026-11-15T06:10:19.674092+00:00",
+  "complete": true,
+  "max_epochs_per_site": 60,
+  "sites_requested": 23,
+  "results": [
+    {
+      "site": "nyiragongo",
+      "status": "no_archived_products_in_survey",
+      "training_ready": false
+    },
+    {
+      "site": "campi_flegrei",
+      "status": "no_archived_products_in_survey",
+      "training_ready": false
+    },
+    {
+      "site": "fournaise_piton_de_la",
+      "status": "no_archived_products_in_survey",
+      "training_ready": false
+    },
+    {
+      "site": "lengai_ol_doinyo",
+      "status": "no_archived_products_in_survey",
+      "training_ready": false
+    },
+    {
+      "site": "sinabung",
+      "status": "no_archived_products_in_survey",
+      "training_ready": false
+    },
+    {
+      "site": "kanlaon",
+      "status": "no_archived_products_in_survey",
+      "training_ready": false
+    },
+    {
+      "site": "asamayama",
+      "status": "no_archived_products_in_survey",
+      "training_ready": false
+    },
+    {
+      "site": "colima",
+      "status": "no_archived_products_in_survey",
+      "training_ready": false
+    },
+    {
+      "site": "santa_maria",
+      "status": "no_archived_products_in_survey",
+      "training_ready": false
+    },
+    {
+      "site": "masaya",
+      "status": "no_archived_products_in_survey",
+      "training_ready": false
+    },
+    {
+      "site": "lascar",
+      "status": "no_archived_products_in_survey",
+      "training_ready": false
+    },
+    {
+      "site": "soufriere_hills",
+      "status": "no_archived_products_in_survey",
+      "training_ready": false
+    },
+    {
+      "site": "soufriere_st_vincent",
+      "status": "no_archived_products_in_survey",
+      "training_ready": false
+    },
+    {
+      "site": "lastarria",
+      "country": "Chile-Argentina",
+      "status": "insufficient_quality_or_connected_history",
+      "training_ready": false,
+      "attempts": 3
+    },
+    {
+      "site": "ambrym",
+      "country": "Vanuatu",
+      "status": "insufficient_quality_or_connected_history",
+      "training_ready": false,
+      "attempts": 3
+    },
+    {
+      "site": "manam",
+      "country": "Papua New Guinea",
+      "status": "insufficient_quality_or_connected_history",
+      "training_ready": false,
+      "attempts": 1
+    },
+    {
+      "site": "erta_ale",
+      "status": "generated",
+      "epochs": 48,
+      "pairs": 111,
+      "examples": 27,
+      "training_examples": 18,
+      "validation_examples": 4,
+      "history_path": "data/aria/erta_ale/history.npz",
+      "training_ready": true,
+      "note": null,
+      "country": "Ethiopia",
+      "stack": [
+        14,
+        "ASCENDING",
+        "13849N_11925N"
+      ],
+      "catalog_products": 1380,
+      "selected_pairs": 111,
+      "first_date": "2018-11-20",
+      "last_date": "2020-06-18",
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "max_epochs": 60,
+      "mean_pair_valid_fraction": 0.24923458614864866
+    },
+    {
+      "site": "coropuna",
+      "status": "generated",
+      "epochs": 60,
+      "pairs": 112,
+      "examples": 52,
+      "training_examples": 36,
+      "validation_examples": 9,
+      "history_path": "data/aria/coropuna/history.npz",
+      "training_ready": true,
+      "note": null,
+      "country": "Peru",
+      "stack": [
+        25,
+        "DESCENDING",
+        "00074W_00018S"
+      ],
+      "catalog_products": 937,
+      "selected_pairs": 112,
+      "first_date": "2019-12-22",
+      "last_date": "2021-12-11",
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "max_epochs": 60,
+      "mean_pair_valid_fraction": 0.2920619419642857
+    },
+    {
+      "site": "cotopaxi",
+      "status": "generated",
+      "epochs": 60,
+      "pairs": 101,
+      "examples": 52,
+      "training_examples": 34,
+      "validation_examples": 9,
+      "history_path": "data/aria/cotopaxi/history.npz",
+      "training_ready": true,
+      "note": null,
+      "country": "Ecuador",
+      "stack": [
+        18,
+        "ASCENDING",
+        "00081W_00002S"
+      ],
+      "catalog_products": 1856,
+      "selected_pairs": 101,
+      "first_date": "2017-12-13",
+      "last_date": "2019-05-01",
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "max_epochs": 60,
+      "mean_pair_valid_fraction": 0.9082127939356436
+    },
+    {
+      "site": "taupo",
+      "status": "generated",
+      "epochs": 30,
+      "pairs": 48,
+      "examples": 22,
+      "training_examples": 12,
+      "validation_examples": 3,
+      "history_path": "data/aria/taupo/history.npz",
+      "training_ready": true,
+      "note": null,
+      "country": "New Zealand",
+      "stack": [
+        81,
+        "ASCENDING",
+        "00174E_00040S"
+      ],
+      "catalog_products": 1046,
+      "selected_pairs": 115,
+      "first_date": "2020-12-20",
+      "last_date": "2021-12-03",
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "max_epochs": 60,
+      "mean_pair_valid_fraction": 0.3748372395833333
+    },
+    {
+      "site": "kilauea",
+      "status": "generated",
+      "epochs": 60,
+      "pairs": 133,
+      "examples": 47,
+      "training_examples": 30,
+      "validation_examples": 8,
+      "history_path": "data/aria/kilauea/history.npz",
+      "training_ready": true,
+      "note": null,
+      "country": "United States",
+      "stack": [
+        87,
+        "DESCENDING",
+        "00157W_00019N"
+      ],
+      "catalog_products": 2689,
+      "selected_pairs": 133,
+      "first_date": "2019-09-27",
+      "last_date": "2020-09-27",
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "max_epochs": 60,
+      "mean_pair_valid_fraction": 0.8972480028195489
+    },
+    {
+      "site": "reykjanes",
+      "status": "generated",
+      "epochs": 60,
+      "pairs": 182,
+      "examples": 46,
+      "training_examples": 32,
+      "validation_examples": 8,
+      "history_path": "data/aria/reykjanes/history.npz",
+      "training_ready": true,
+      "note": null,
+      "country": "Iceland",
+      "stack": [
+        16,
+        "ASCENDING",
+        "00024W_00062N"
+      ],
+      "catalog_products": 5000,
+      "selected_pairs": 192,
+      "first_date": "2021-03-21",
+      "last_date": "2022-05-21",
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "max_epochs": 60,
+      "mean_pair_valid_fraction": 0.21748905391483517
+    },
+    {
+      "site": "ruiz_nevado_del",
+      "status": "generated",
+      "epochs": 60,
+      "pairs": 174,
+      "examples": 52,
+      "training_examples": 36,
+      "validation_examples": 9,
+      "history_path": "data/aria/ruiz_nevado_del/history.npz",
+      "training_ready": true,
+      "note": null,
+      "country": "Colombia",
+      "stack": [
+        142,
+        "DESCENDING",
+        "00078W_00004N"
+      ],
+      "catalog_products": 2825,
+      "selected_pairs": 174,
+      "first_date": "2021-08-21",
+      "last_date": "2023-04-07",
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "max_epochs": 60,
+      "mean_pair_valid_fraction": 0.47556910021551724
+    }
+  ]
+}

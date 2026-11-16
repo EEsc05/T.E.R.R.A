@@ -1,0 +1,2421 @@
+{
+  "created_utc": "2026-11-15T05:02:49.668224+00:00",
+  "start": "2014-01-01",
+  "end": "2026-11-15",
+  "site_count": 23,
+  "max_baseline_days_for_connectivity": 48,
+  "note": "Existing archive only; separate sensor, format, wavelength and grid. Not fed to NISAR models.",
+  "results": [
+    {
+      "site": "nyiragongo",
+      "country": "DR Congo",
+      "volcano_name": "Nyiragongo",
+      "products": 0,
+      "truncated_at_limit": false,
+      "parsed_products": 0,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": []
+    },
+    {
+      "site": "campi_flegrei",
+      "country": "Italy",
+      "volcano_name": "Campi Flegrei",
+      "products": 0,
+      "truncated_at_limit": false,
+      "parsed_products": 0,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": []
+    },
+    {
+      "site": "fournaise_piton_de_la",
+      "country": "France",
+      "volcano_name": "Fournaise, Piton de la",
+      "products": 0,
+      "truncated_at_limit": false,
+      "parsed_products": 0,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": []
+    },
+    {
+      "site": "lengai_ol_doinyo",
+      "country": "Tanzania",
+      "volcano_name": "Lengai, Ol Doinyo",
+      "products": 0,
+      "truncated_at_limit": false,
+      "parsed_products": 0,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": []
+    },
+    {
+      "site": "manam",
+      "country": "Papua New Guinea",
+      "volcano_name": "Manam",
+      "products": 3,
+      "truncated_at_limit": false,
+      "parsed_products": 3,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": [
+        {
+          "track": 111,
+          "direction": "ASCENDING",
+          "nominal_tile": "00144E_00006S",
+          "connected_dates": 3,
+          "first_date": "2022-08-20",
+          "last_date": "2022-09-13",
+          "unique_pairs": 3
+        }
+      ]
+    },
+    {
+      "site": "sinabung",
+      "country": "Indonesia",
+      "volcano_name": "Sinabung",
+      "products": 0,
+      "truncated_at_limit": false,
+      "parsed_products": 0,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": []
+    },
+    {
+      "site": "kanlaon",
+      "country": "Philippines",
+      "volcano_name": "Kanlaon",
+      "products": 0,
+      "truncated_at_limit": false,
+      "parsed_products": 0,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": []
+    },
+    {
+      "site": "asamayama",
+      "country": "Japan",
+      "volcano_name": "Asamayama",
+      "products": 0,
+      "truncated_at_limit": false,
+      "parsed_products": 0,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": []
+    },
+    {
+      "site": "taupo",
+      "country": "New Zealand",
+      "volcano_name": "Taupo",
+      "products": 1046,
+      "truncated_at_limit": false,
+      "parsed_products": 1046,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": [
+        {
+          "track": 81,
+          "direction": "ASCENDING",
+          "nominal_tile": "00174E_00040S",
+          "connected_dates": 185,
+          "first_date": "2014-11-04",
+          "last_date": "2021-12-15",
+          "unique_pairs": 361
+        },
+        {
+          "track": 175,
+          "direction": "DESCENDING",
+          "nominal_tile": "00176E_00039S",
+          "connected_dates": 177,
+          "first_date": "2015-10-12",
+          "last_date": "2022-05-20",
+          "unique_pairs": 348
+        },
+        {
+          "track": 73,
+          "direction": "DESCENDING",
+          "nominal_tile": "00174E_00040S",
+          "connected_dates": 59,
+          "first_date": "2018-06-15",
+          "last_date": "2020-05-11",
+          "unique_pairs": 115
+        },
+        {
+          "track": 175,
+          "direction": "DESCENDING",
+          "nominal_tile": "00176E_00040S",
+          "connected_dates": 15,
+          "first_date": "2014-10-17",
+          "last_date": "2015-10-12",
+          "unique_pairs": 25
+        }
+      ]
+    },
+    {
+      "site": "colima",
+      "country": "Mexico",
+      "volcano_name": "Colima",
+      "products": 0,
+      "truncated_at_limit": false,
+      "parsed_products": 0,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": []
+    },
+    {
+      "site": "ambrym",
+      "country": "Vanuatu",
+      "volcano_name": "Ambrym",
+      "products": 1221,
+      "truncated_at_limit": false,
+      "parsed_products": 1221,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": [
+        {
+          "track": 81,
+          "direction": "ASCENDING",
+          "nominal_tile": "00168E_00018S",
+          "connected_dates": 252,
+          "first_date": "2016-10-18",
+          "last_date": "2022-05-14",
+          "unique_pairs": 497
+        },
+        {
+          "track": 81,
+          "direction": "ASCENDING",
+          "nominal_tile": "00167E_00016S",
+          "connected_dates": 103,
+          "first_date": "2019-01-18",
+          "last_date": "2020-10-09",
+          "unique_pairs": 146
+        },
+        {
+          "track": 81,
+          "direction": "ASCENDING",
+          "nominal_tile": "00167E_00017S",
+          "connected_dates": 97,
+          "first_date": "2017-04-10",
+          "last_date": "2019-10-09",
+          "unique_pairs": 143
+        },
+        {
+          "track": 59,
+          "direction": "DESCENDING",
+          "nominal_tile": "00166E_00018S",
+          "connected_dates": 86,
+          "first_date": "2019-02-27",
+          "last_date": "2021-12-13",
+          "unique_pairs": 142
+        },
+        {
+          "track": 59,
+          "direction": "DESCENDING",
+          "nominal_tile": "00166E_00017S",
+          "connected_dates": 6,
+          "first_date": "2018-12-11",
+          "last_date": "2019-03-11",
+          "unique_pairs": 5
+        },
+        {
+          "track": 59,
+          "direction": "DESCENDING",
+          "nominal_tile": "00167E_00017S",
+          "connected_dates": 4,
+          "first_date": "2018-12-11",
+          "last_date": "2019-02-03",
+          "unique_pairs": 3
+        },
+        {
+          "track": 81,
+          "direction": "ASCENDING",
+          "nominal_tile": "00168E_00017S",
+          "connected_dates": 3,
+          "first_date": "2021-12-15",
+          "last_date": "2022-01-02",
+          "unique_pairs": 2
+        }
+      ]
+    },
+    {
+      "site": "santa_maria",
+      "country": "Guatemala",
+      "volcano_name": "Santa Maria",
+      "products": 0,
+      "truncated_at_limit": false,
+      "parsed_products": 0,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": []
+    },
+    {
+      "site": "masaya",
+      "country": "Nicaragua",
+      "volcano_name": "Masaya",
+      "products": 0,
+      "truncated_at_limit": false,
+      "parsed_products": 0,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": []
+    },
+    {
+      "site": "erta_ale",
+      "country": "Ethiopia",
+      "volcano_name": "Erta Ale",
+      "products": 1380,
+      "truncated_at_limit": false,
+      "parsed_products": 1380,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": [
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "13849N_11925N",
+          "connected_dates": 48,
+          "first_date": "2018-11-20",
+          "last_date": "2020-06-18",
+          "unique_pairs": 111
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14086N_12062N",
+          "connected_dates": 23,
+          "first_date": "2019-07-17",
+          "last_date": "2020-04-18",
+          "unique_pairs": 33
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "15346N_13427N",
+          "connected_dates": 23,
+          "first_date": "2019-06-12",
+          "last_date": "2020-03-02",
+          "unique_pairs": 43
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14086N_12061N",
+          "connected_dates": 16,
+          "first_date": "2018-06-04",
+          "last_date": "2018-12-01",
+          "unique_pairs": 36
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14087N_12062N",
+          "connected_dates": 12,
+          "first_date": "2019-03-19",
+          "last_date": "2019-08-10",
+          "unique_pairs": 24
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "15347N_13427N",
+          "connected_dates": 10,
+          "first_date": "2018-09-09",
+          "last_date": "2019-01-07",
+          "unique_pairs": 12
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "15345N_13426N",
+          "connected_dates": 9,
+          "first_date": "2020-04-19",
+          "last_date": "2020-07-24",
+          "unique_pairs": 15
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "13848N_11925N",
+          "connected_dates": 9,
+          "first_date": "2020-04-19",
+          "last_date": "2020-07-24",
+          "unique_pairs": 12
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "13850N_11926N",
+          "connected_dates": 9,
+          "first_date": "2018-08-28",
+          "last_date": "2018-12-14",
+          "unique_pairs": 12
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14420N_12563N",
+          "connected_dates": 9,
+          "first_date": "2015-02-08",
+          "last_date": "2015-08-19",
+          "unique_pairs": 8
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "15345N_13427N",
+          "connected_dates": 8,
+          "first_date": "2019-05-19",
+          "last_date": "2019-08-11",
+          "unique_pairs": 11
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14751N_12729N",
+          "connected_dates": 8,
+          "first_date": "2016-08-13",
+          "last_date": "2017-01-28",
+          "unique_pairs": 10
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "15180N_13260N",
+          "connected_dates": 6,
+          "first_date": "2015-06-15",
+          "last_date": "2015-10-13",
+          "unique_pairs": 8
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14420N_12396N",
+          "connected_dates": 5,
+          "first_date": "2014-10-23",
+          "last_date": "2015-01-27",
+          "unique_pairs": 4
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "15180N_13261N",
+          "connected_dates": 5,
+          "first_date": "2015-03-11",
+          "last_date": "2015-06-15",
+          "unique_pairs": 6
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14087N_12063N",
+          "connected_dates": 4,
+          "first_date": "2020-06-05",
+          "last_date": "2020-07-11",
+          "unique_pairs": 3
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "15346N_13426N",
+          "connected_dates": 4,
+          "first_date": "2020-02-19",
+          "last_date": "2020-03-26",
+          "unique_pairs": 3
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "13849N_11926N",
+          "connected_dates": 4,
+          "first_date": "2019-11-27",
+          "last_date": "2020-01-02",
+          "unique_pairs": 3
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "15347N_13428N",
+          "connected_dates": 4,
+          "first_date": "2019-09-04",
+          "last_date": "2019-10-10",
+          "unique_pairs": 3
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14087N_12061N",
+          "connected_dates": 4,
+          "first_date": "2019-01-30",
+          "last_date": "2019-03-19",
+          "unique_pairs": 3
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "13850N_11925N",
+          "connected_dates": 4,
+          "first_date": "2018-12-02",
+          "last_date": "2019-01-07",
+          "unique_pairs": 3
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14085N_12061N",
+          "connected_dates": 4,
+          "first_date": "2018-01-11",
+          "last_date": "2018-02-16",
+          "unique_pairs": 3
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14085N_12060N",
+          "connected_dates": 4,
+          "first_date": "2017-01-04",
+          "last_date": "2017-02-21",
+          "unique_pairs": 5
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "15014N_13095N",
+          "connected_dates": 4,
+          "first_date": "2016-10-31",
+          "last_date": "2017-02-04",
+          "unique_pairs": 4
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14753N_12730N",
+          "connected_dates": 4,
+          "first_date": "2016-02-27",
+          "last_date": "2016-05-09",
+          "unique_pairs": 4
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "14847N_12927N",
+          "connected_dates": 4,
+          "first_date": "2015-11-30",
+          "last_date": "2016-02-10",
+          "unique_pairs": 4
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14419N_12562N",
+          "connected_dates": 4,
+          "first_date": "2015-07-26",
+          "last_date": "2015-10-06",
+          "unique_pairs": 4
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14420N_12395N",
+          "connected_dates": 4,
+          "first_date": "2015-01-15",
+          "last_date": "2015-03-04",
+          "unique_pairs": 3
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14752N_12729N",
+          "connected_dates": 3,
+          "first_date": "2016-09-30",
+          "last_date": "2016-11-17",
+          "unique_pairs": 2
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "14682N_13095N",
+          "connected_dates": 3,
+          "first_date": "2016-08-20",
+          "last_date": "2016-10-07",
+          "unique_pairs": 2
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14585N_12562N",
+          "connected_dates": 3,
+          "first_date": "2016-07-20",
+          "last_date": "2016-09-06",
+          "unique_pairs": 2
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "15013N_13095N",
+          "connected_dates": 3,
+          "first_date": "2016-05-16",
+          "last_date": "2016-07-03",
+          "unique_pairs": 2
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "14848N_13094N",
+          "connected_dates": 3,
+          "first_date": "2016-03-29",
+          "last_date": "2016-05-16",
+          "unique_pairs": 2
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "14847N_12926N",
+          "connected_dates": 3,
+          "first_date": "2016-03-05",
+          "last_date": "2016-04-22",
+          "unique_pairs": 2
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "14846N_12926N",
+          "connected_dates": 3,
+          "first_date": "2016-02-10",
+          "last_date": "2016-03-29",
+          "unique_pairs": 2
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14752N_12730N",
+          "connected_dates": 3,
+          "first_date": "2016-02-03",
+          "last_date": "2016-03-22",
+          "unique_pairs": 2
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "14848N_12927N",
+          "connected_dates": 3,
+          "first_date": "2016-01-17",
+          "last_date": "2016-03-05",
+          "unique_pairs": 2
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14420N_12562N",
+          "connected_dates": 3,
+          "first_date": "2015-06-08",
+          "last_date": "2015-07-26",
+          "unique_pairs": 2
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "15181N_13261N",
+          "connected_dates": 3,
+          "first_date": "2015-05-22",
+          "last_date": "2015-07-09",
+          "unique_pairs": 2
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14419N_12561N",
+          "connected_dates": 3,
+          "first_date": "2015-04-21",
+          "last_date": "2015-06-08",
+          "unique_pairs": 2
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14419N_12563N",
+          "connected_dates": 3,
+          "first_date": "2015-03-04",
+          "last_date": "2015-04-21",
+          "unique_pairs": 2
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14422N_12395N",
+          "connected_dates": 3,
+          "first_date": "2015-01-15",
+          "last_date": "2015-02-08",
+          "unique_pairs": 2
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "14184N_12260N",
+          "connected_dates": 3,
+          "first_date": "2014-11-23",
+          "last_date": "2014-12-29",
+          "unique_pairs": 2
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "15014N_13094N",
+          "connected_dates": 2,
+          "first_date": "2016-10-07",
+          "last_date": "2016-10-31",
+          "unique_pairs": 1
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "14681N_13094N",
+          "connected_dates": 2,
+          "first_date": "2016-09-13",
+          "last_date": "2016-10-31",
+          "unique_pairs": 1
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "15013N_13094N",
+          "connected_dates": 2,
+          "first_date": "2016-07-03",
+          "last_date": "2016-08-20",
+          "unique_pairs": 1
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14585N_12561N",
+          "connected_dates": 2,
+          "first_date": "2016-07-20",
+          "last_date": "2016-08-13",
+          "unique_pairs": 1
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "150125N_13094N",
+          "connected_dates": 2,
+          "first_date": "2016-05-16",
+          "last_date": "2016-06-09",
+          "unique_pairs": 1
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "14846N_13094N",
+          "connected_dates": 2,
+          "first_date": "2016-04-22",
+          "last_date": "2016-06-09",
+          "unique_pairs": 1
+        },
+        {
+          "track": 14,
+          "direction": "ASCENDING",
+          "nominal_tile": "14849N_12928N",
+          "connected_dates": 2,
+          "first_date": "2015-10-13",
+          "last_date": "2015-11-30",
+          "unique_pairs": 1
+        },
+        {
+          "track": 79,
+          "direction": "DESCENDING",
+          "nominal_tile": "14423N_12395N",
+          "connected_dates": 2,
+          "first_date": "2014-12-10",
+          "last_date": "2015-01-15",
+          "unique_pairs": 1
+        }
+      ]
+    },
+    {
+      "site": "coropuna",
+      "country": "Peru",
+      "volcano_name": "Coropuna",
+      "products": 937,
+      "truncated_at_limit": false,
+      "parsed_products": 937,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": [
+        {
+          "track": 25,
+          "direction": "DESCENDING",
+          "nominal_tile": "00074W_00016S",
+          "connected_dates": 150,
+          "first_date": "2016-10-26",
+          "last_date": "2021-12-11",
+          "unique_pairs": 270
+        },
+        {
+          "track": 47,
+          "direction": "ASCENDING",
+          "nominal_tile": "00073W_00017S",
+          "connected_dates": 150,
+          "first_date": "2016-02-12",
+          "last_date": "2021-12-12",
+          "unique_pairs": 291
+        },
+        {
+          "track": 25,
+          "direction": "DESCENDING",
+          "nominal_tile": "00074W_00018S",
+          "connected_dates": 126,
+          "first_date": "2017-10-09",
+          "last_date": "2021-12-11",
+          "unique_pairs": 238
+        },
+        {
+          "track": 25,
+          "direction": "DESCENDING",
+          "nominal_tile": "00074W_00017S",
+          "connected_dates": 18,
+          "first_date": "2017-01-30",
+          "last_date": "2017-09-03",
+          "unique_pairs": 23
+        },
+        {
+          "track": 47,
+          "direction": "ASCENDING",
+          "nominal_tile": "00073W_00016S",
+          "connected_dates": 8,
+          "first_date": "2022-02-16",
+          "last_date": "2022-05-11",
+          "unique_pairs": 13
+        }
+      ]
+    },
+    {
+      "site": "lascar",
+      "country": "Chile",
+      "volcano_name": "Lascar",
+      "products": 0,
+      "truncated_at_limit": false,
+      "parsed_products": 0,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": []
+    },
+    {
+      "site": "kilauea",
+      "country": "United States",
+      "volcano_name": "Kilauea",
+      "products": 2689,
+      "truncated_at_limit": false,
+      "parsed_products": 2689,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": [
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "00157W_00018N",
+          "connected_dates": 140,
+          "first_date": "2015-05-30",
+          "last_date": "2018-11-28",
+          "unique_pairs": 283
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "00157W_00019N",
+          "connected_dates": 93,
+          "first_date": "2018-11-01",
+          "last_date": "2020-09-27",
+          "unique_pairs": 190
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21159N_19086N",
+          "connected_dates": 24,
+          "first_date": "2019-01-27",
+          "last_date": "2019-07-14",
+          "unique_pairs": 30
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20992N_19086N",
+          "connected_dates": 22,
+          "first_date": "2019-04-27",
+          "last_date": "2019-08-31",
+          "unique_pairs": 22
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20992N_18920N",
+          "connected_dates": 22,
+          "first_date": "2019-04-03",
+          "last_date": "2019-08-13",
+          "unique_pairs": 32
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19661N_17420N",
+          "connected_dates": 20,
+          "first_date": "2019-01-27",
+          "last_date": "2019-05-27",
+          "unique_pairs": 24
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "00157W_00019N",
+          "connected_dates": 19,
+          "first_date": "2018-10-17",
+          "last_date": "2019-04-09",
+          "unique_pairs": 18
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20645N_18637N",
+          "connected_dates": 19,
+          "first_date": "2018-12-25",
+          "last_date": "2019-04-12",
+          "unique_pairs": 26
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20645N_18638N",
+          "connected_dates": 18,
+          "first_date": "2019-03-13",
+          "last_date": "2019-06-29",
+          "unique_pairs": 20
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20479N_18470N",
+          "connected_dates": 18,
+          "first_date": "2016-05-09",
+          "last_date": "2016-11-29",
+          "unique_pairs": 24
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20480N_18471N",
+          "connected_dates": 17,
+          "first_date": "2018-05-05",
+          "last_date": "2018-08-09",
+          "unique_pairs": 19
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19495N_17420N",
+          "connected_dates": 15,
+          "first_date": "2020-04-27",
+          "last_date": "2020-07-26",
+          "unique_pairs": 14
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "00157W_00017N",
+          "connected_dates": 15,
+          "first_date": "2018-11-04",
+          "last_date": "2019-04-09",
+          "unique_pairs": 19
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20810N_18470N",
+          "connected_dates": 15,
+          "first_date": "2018-07-10",
+          "last_date": "2018-10-02",
+          "unique_pairs": 16
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20993N_18920N",
+          "connected_dates": 13,
+          "first_date": "2019-01-03",
+          "last_date": "2019-04-15",
+          "unique_pairs": 16
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19496N_17420N",
+          "connected_dates": 13,
+          "first_date": "2019-07-26",
+          "last_date": "2019-10-12",
+          "unique_pairs": 12
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20993N_190875N",
+          "connected_dates": 13,
+          "first_date": "2019-09-06",
+          "last_date": "2019-11-23",
+          "unique_pairs": 15
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19662N_17420N",
+          "connected_dates": 11,
+          "first_date": "2019-07-26",
+          "last_date": "2019-09-24",
+          "unique_pairs": 13
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19495N_17253N",
+          "connected_dates": 8,
+          "first_date": "2020-05-03",
+          "last_date": "2020-07-26",
+          "unique_pairs": 7
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20991N_18920N",
+          "connected_dates": 8,
+          "first_date": "2020-04-27",
+          "last_date": "2020-06-08",
+          "unique_pairs": 9
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21160N_19087N",
+          "connected_dates": 8,
+          "first_date": "2019-09-06",
+          "last_date": "2019-10-18",
+          "unique_pairs": 8
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20161N_18088N",
+          "connected_dates": 8,
+          "first_date": "2017-01-07",
+          "last_date": "2017-04-25",
+          "unique_pairs": 7
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20993N_19086N",
+          "connected_dates": 7,
+          "first_date": "2020-02-21",
+          "last_date": "2020-04-03",
+          "unique_pairs": 6
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19496N_17254N",
+          "connected_dates": 7,
+          "first_date": "2019-08-01",
+          "last_date": "2019-10-12",
+          "unique_pairs": 6
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19994N_17920N",
+          "connected_dates": 7,
+          "first_date": "2016-02-06",
+          "last_date": "2016-04-30",
+          "unique_pairs": 9
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20313N_18304N",
+          "connected_dates": 7,
+          "first_date": "2015-06-08",
+          "last_date": "2015-08-31",
+          "unique_pairs": 8
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20990N_18630N",
+          "connected_dates": 7,
+          "first_date": "2014-11-16",
+          "last_date": "2015-01-27",
+          "unique_pairs": 9
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19495N_17254N",
+          "connected_dates": 6,
+          "first_date": "2019-02-02",
+          "last_date": "2019-04-03",
+          "unique_pairs": 5
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21158N_19086N",
+          "connected_dates": 6,
+          "first_date": "2019-07-08",
+          "last_date": "2019-08-07",
+          "unique_pairs": 6
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19663N_17420N",
+          "connected_dates": 6,
+          "first_date": "2019-09-18",
+          "last_date": "2019-10-18",
+          "unique_pairs": 6
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21159N_19087N",
+          "connected_dates": 6,
+          "first_date": "2019-10-12",
+          "last_date": "2019-11-11",
+          "unique_pairs": 6
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20161N_18087N",
+          "connected_dates": 6,
+          "first_date": "2018-08-24",
+          "last_date": "2018-09-29",
+          "unique_pairs": 5
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20327N_18254N",
+          "connected_dates": 6,
+          "first_date": "2015-07-17",
+          "last_date": "2015-10-09",
+          "unique_pairs": 8
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20994N_18921N",
+          "connected_dates": 5,
+          "first_date": "2019-01-15",
+          "last_date": "2019-02-14",
+          "unique_pairs": 4
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21160N_19086N",
+          "connected_dates": 5,
+          "first_date": "2018-11-04",
+          "last_date": "2018-11-28",
+          "unique_pairs": 4
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "21310N_19304N",
+          "connected_dates": 5,
+          "first_date": "2018-04-23",
+          "last_date": "2018-05-23",
+          "unique_pairs": 4
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20976N_18637N",
+          "connected_dates": 5,
+          "first_date": "2015-03-28",
+          "last_date": "2015-05-15",
+          "unique_pairs": 4
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20994N_18920N",
+          "connected_dates": 4,
+          "first_date": "2020-08-13",
+          "last_date": "2020-08-31",
+          "unique_pairs": 3
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21158N_19085N",
+          "connected_dates": 4,
+          "first_date": "2020-08-07",
+          "last_date": "2020-08-25",
+          "unique_pairs": 3
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20993N_18921N",
+          "connected_dates": 4,
+          "first_date": "2020-08-01",
+          "last_date": "2020-08-19",
+          "unique_pairs": 3
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20992N_19087N",
+          "connected_dates": 4,
+          "first_date": "2019-10-12",
+          "last_date": "2019-11-05",
+          "unique_pairs": 3
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20810N_18469N",
+          "connected_dates": 4,
+          "first_date": "2018-09-26",
+          "last_date": "2018-10-14",
+          "unique_pairs": 3
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20479N_18471N",
+          "connected_dates": 4,
+          "first_date": "2017-04-28",
+          "last_date": "2017-05-22",
+          "unique_pairs": 4
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20480N_18470N",
+          "connected_dates": 4,
+          "first_date": "2017-03-29",
+          "last_date": "2017-04-28",
+          "unique_pairs": 4
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20478N_18470N",
+          "connected_dates": 4,
+          "first_date": "2016-11-17",
+          "last_date": "2016-12-23",
+          "unique_pairs": 4
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20160N_18086N",
+          "connected_dates": 4,
+          "first_date": "2016-04-18",
+          "last_date": "2016-06-05",
+          "unique_pairs": 3
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20328N_18255N",
+          "connected_dates": 4,
+          "first_date": "2015-05-30",
+          "last_date": "2015-07-05",
+          "unique_pairs": 3
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20978N_18638N",
+          "connected_dates": 4,
+          "first_date": "2015-03-04",
+          "last_date": "2015-04-09",
+          "unique_pairs": 4
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21490N_19253N",
+          "connected_dates": 4,
+          "first_date": "2015-02-23",
+          "last_date": "2015-03-31",
+          "unique_pairs": 4
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19496N_17421N",
+          "connected_dates": 3,
+          "first_date": "2020-08-25",
+          "last_date": "2020-09-12",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19497N_17421N",
+          "connected_dates": 3,
+          "first_date": "2020-08-13",
+          "last_date": "2020-08-31",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20992N_19085N",
+          "connected_dates": 3,
+          "first_date": "2020-08-07",
+          "last_date": "2020-08-25",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20644N_18637N",
+          "connected_dates": 3,
+          "first_date": "2020-03-01",
+          "last_date": "2020-03-13",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19496N_17253N",
+          "connected_dates": 3,
+          "first_date": "2019-05-21",
+          "last_date": "2019-06-14",
+          "unique_pairs": 3
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20644N_18636N",
+          "connected_dates": 3,
+          "first_date": "2019-10-09",
+          "last_date": "2019-10-21",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20645N_18635N",
+          "connected_dates": 3,
+          "first_date": "2019-01-30",
+          "last_date": "2019-02-11",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20993N_19087N",
+          "connected_dates": 3,
+          "first_date": "2019-01-15",
+          "last_date": "2019-02-02",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19662N_18087N",
+          "connected_dates": 3,
+          "first_date": "2018-10-23",
+          "last_date": "2018-11-04",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20160N_18088N",
+          "connected_dates": 3,
+          "first_date": "2018-09-11",
+          "last_date": "2018-09-23",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20160N_18087N",
+          "connected_dates": 3,
+          "first_date": "2018-07-31",
+          "last_date": "2018-08-12",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20811N_18470N",
+          "connected_dates": 3,
+          "first_date": "2018-06-28",
+          "last_date": "2018-07-10",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20480N_19304N",
+          "connected_dates": 3,
+          "first_date": "2018-05-23",
+          "last_date": "2018-06-10",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20811N_18471N",
+          "connected_dates": 3,
+          "first_date": "2018-05-23",
+          "last_date": "2018-06-04",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "19645N_18470N",
+          "connected_dates": 3,
+          "first_date": "2018-04-23",
+          "last_date": "2018-05-11",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20162N_18088N",
+          "connected_dates": 3,
+          "first_date": "2017-02-12",
+          "last_date": "2017-03-08",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20161N_18086N",
+          "connected_dates": 3,
+          "first_date": "2017-04-01",
+          "last_date": "2017-05-01",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20477N_18470N",
+          "connected_dates": 3,
+          "first_date": "2017-02-21",
+          "last_date": "2017-03-17",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20476N_18469N",
+          "connected_dates": 3,
+          "first_date": "2017-01-28",
+          "last_date": "2017-02-21",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20163N_18089N",
+          "connected_dates": 3,
+          "first_date": "2016-09-21",
+          "last_date": "2016-10-15",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20828N_18588N",
+          "connected_dates": 3,
+          "first_date": "2016-10-27",
+          "last_date": "2016-11-14",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20829N_18921N",
+          "connected_dates": 3,
+          "first_date": "2016-09-09",
+          "last_date": "2016-10-03",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20480N_18638N",
+          "connected_dates": 3,
+          "first_date": "2016-04-27",
+          "last_date": "2016-05-21",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20646N_18638N",
+          "connected_dates": 3,
+          "first_date": "2016-04-03",
+          "last_date": "2016-04-27",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20645N_18636N",
+          "connected_dates": 3,
+          "first_date": "2016-01-22",
+          "last_date": "2016-02-15",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19995N_17920N",
+          "connected_dates": 3,
+          "first_date": "2015-12-08",
+          "last_date": "2016-01-01",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20646N_18637N",
+          "connected_dates": 3,
+          "first_date": "2015-12-05",
+          "last_date": "2015-12-29",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20314N_18305N",
+          "connected_dates": 3,
+          "first_date": "2015-10-06",
+          "last_date": "2015-10-30",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20313N_18303N",
+          "connected_dates": 3,
+          "first_date": "2015-09-12",
+          "last_date": "2015-10-06",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20312N_18304N",
+          "connected_dates": 3,
+          "first_date": "2015-08-31",
+          "last_date": "2015-09-24",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20313N_18305N",
+          "connected_dates": 3,
+          "first_date": "2015-07-26",
+          "last_date": "2015-08-19",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20326N_18254N",
+          "connected_dates": 3,
+          "first_date": "2015-07-05",
+          "last_date": "2015-07-29",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20328N_18254N",
+          "connected_dates": 3,
+          "first_date": "2015-06-23",
+          "last_date": "2015-07-17",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20314N_18638N",
+          "connected_dates": 3,
+          "first_date": "2015-05-03",
+          "last_date": "2015-05-27",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21158N_19253N",
+          "connected_dates": 3,
+          "first_date": "2015-04-12",
+          "last_date": "2015-05-06",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20977N_18638N",
+          "connected_dates": 3,
+          "first_date": "2015-04-09",
+          "last_date": "2015-05-03",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21491N_19254N",
+          "connected_dates": 3,
+          "first_date": "2015-03-31",
+          "last_date": "2015-04-24",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21491N_19253N",
+          "connected_dates": 3,
+          "first_date": "2015-03-19",
+          "last_date": "2015-04-12",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21502N_19246N",
+          "connected_dates": 3,
+          "first_date": "2015-02-11",
+          "last_date": "2015-03-07",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21503N_19246N",
+          "connected_dates": 3,
+          "first_date": "2015-01-30",
+          "last_date": "2015-02-23",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20986N_18628N",
+          "connected_dates": 3,
+          "first_date": "2015-01-27",
+          "last_date": "2015-02-20",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21170N_19245N",
+          "connected_dates": 3,
+          "first_date": "2015-01-18",
+          "last_date": "2015-02-11",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20989N_18630N",
+          "connected_dates": 3,
+          "first_date": "2015-01-15",
+          "last_date": "2015-02-08",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21501N_19246N",
+          "connected_dates": 3,
+          "first_date": "2015-01-06",
+          "last_date": "2015-01-30",
+          "unique_pairs": 2
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20989N_18628N",
+          "connected_dates": 3,
+          "first_date": "2014-12-10",
+          "last_date": "2015-01-03",
+          "unique_pairs": 2
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19496N_17255N",
+          "connected_dates": 2,
+          "first_date": "2020-08-31",
+          "last_date": "2020-09-12",
+          "unique_pairs": 1
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19497N_17255N",
+          "connected_dates": 2,
+          "first_date": "2020-08-19",
+          "last_date": "2020-08-31",
+          "unique_pairs": 1
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20994N_19087N",
+          "connected_dates": 2,
+          "first_date": "2019-12-29",
+          "last_date": "2020-01-04",
+          "unique_pairs": 1
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20994N_19088N",
+          "connected_dates": 2,
+          "first_date": "2019-02-08",
+          "last_date": "2019-02-14",
+          "unique_pairs": 1
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19496N_18088N",
+          "connected_dates": 2,
+          "first_date": "2018-11-10",
+          "last_date": "2018-11-22",
+          "unique_pairs": 1
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20644N_18470N",
+          "connected_dates": 2,
+          "first_date": "2018-11-01",
+          "last_date": "2018-11-07",
+          "unique_pairs": 1
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19995N_18087N",
+          "connected_dates": 2,
+          "first_date": "2018-08-18",
+          "last_date": "2018-08-24",
+          "unique_pairs": 1
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "19646N_18304N",
+          "connected_dates": 2,
+          "first_date": "2018-05-11",
+          "last_date": "2018-05-23",
+          "unique_pairs": 1
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "19646N_18470N",
+          "connected_dates": 2,
+          "first_date": "2018-05-17",
+          "last_date": "2018-05-23",
+          "unique_pairs": 1
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20480N_19305N",
+          "connected_dates": 2,
+          "first_date": "2018-05-11",
+          "last_date": "2018-05-17",
+          "unique_pairs": 1
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20162N_18089N",
+          "connected_dates": 2,
+          "first_date": "2016-12-02",
+          "last_date": "2016-12-26",
+          "unique_pairs": 1
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20163N_18589N",
+          "connected_dates": 2,
+          "first_date": "2016-11-14",
+          "last_date": "2016-12-02",
+          "unique_pairs": 1
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20162N_18588N",
+          "connected_dates": 2,
+          "first_date": "2016-11-14",
+          "last_date": "2016-11-20",
+          "unique_pairs": 1
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20479N_18638N",
+          "connected_dates": 2,
+          "first_date": "2016-10-30",
+          "last_date": "2016-11-17",
+          "unique_pairs": 1
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "20160N_18587N",
+          "connected_dates": 2,
+          "first_date": "2016-10-21",
+          "last_date": "2016-11-08",
+          "unique_pairs": 1
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20479N_18637N",
+          "connected_dates": 2,
+          "first_date": "2016-10-30",
+          "last_date": "2016-11-05",
+          "unique_pairs": 1
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19995N_17921N",
+          "connected_dates": 2,
+          "first_date": "2015-11-14",
+          "last_date": "2015-12-08",
+          "unique_pairs": 1
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "19995N_18254N",
+          "connected_dates": 2,
+          "first_date": "2015-10-09",
+          "last_date": "2015-11-14",
+          "unique_pairs": 1
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20311N_18303N",
+          "connected_dates": 2,
+          "first_date": "2015-05-27",
+          "last_date": "2015-06-08",
+          "unique_pairs": 1
+        },
+        {
+          "track": 87,
+          "direction": "DESCENDING",
+          "nominal_tile": "20311N_18636N",
+          "connected_dates": 2,
+          "first_date": "2015-05-15",
+          "last_date": "2015-06-08",
+          "unique_pairs": 1
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21159N_18921N",
+          "connected_dates": 2,
+          "first_date": "2015-05-06",
+          "last_date": "2015-05-18",
+          "unique_pairs": 1
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21159N_19254N",
+          "connected_dates": 2,
+          "first_date": "2015-04-24",
+          "last_date": "2015-05-18",
+          "unique_pairs": 1
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21169N_19246N",
+          "connected_dates": 2,
+          "first_date": "2014-12-25",
+          "last_date": "2015-01-06",
+          "unique_pairs": 1
+        },
+        {
+          "track": 124,
+          "direction": "ASCENDING",
+          "nominal_tile": "21169N_18913N",
+          "connected_dates": 2,
+          "first_date": "2014-12-13",
+          "last_date": "2015-01-06",
+          "unique_pairs": 1
+        }
+      ]
+    },
+    {
+      "site": "soufriere_hills",
+      "country": "United Kingdom",
+      "volcano_name": "Soufriere Hills",
+      "products": 0,
+      "truncated_at_limit": false,
+      "parsed_products": 0,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": []
+    },
+    {
+      "site": "soufriere_st_vincent",
+      "country": "Saint Vincent and the Grenadines",
+      "volcano_name": "Soufriere St. Vincent",
+      "products": 0,
+      "truncated_at_limit": false,
+      "parsed_products": 0,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": []
+    },
+    {
+      "site": "cotopaxi",
+      "country": "Ecuador",
+      "volcano_name": "Cotopaxi",
+      "products": 1856,
+      "truncated_at_limit": false,
+      "parsed_products": 1856,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": [
+        {
+          "track": 142,
+          "direction": "DESCENDING",
+          "nominal_tile": "00079W_00002S",
+          "connected_dates": 268,
+          "first_date": "2015-06-12",
+          "last_date": "2022-05-18",
+          "unique_pairs": 753
+        },
+        {
+          "track": 18,
+          "direction": "ASCENDING",
+          "nominal_tile": "00081W_00002S",
+          "connected_dates": 113,
+          "first_date": "2016-10-01",
+          "last_date": "2019-05-01",
+          "unique_pairs": 207
+        },
+        {
+          "track": 142,
+          "direction": "DESCENDING",
+          "nominal_tile": "00079W_00003S",
+          "connected_dates": 13,
+          "first_date": "2015-11-27",
+          "last_date": "2016-09-10",
+          "unique_pairs": 19
+        },
+        {
+          "track": 142,
+          "direction": "DESCENDING",
+          "nominal_tile": "00079W_00001S",
+          "connected_dates": 5,
+          "first_date": "2015-06-24",
+          "last_date": "2015-10-22",
+          "unique_pairs": 5
+        }
+      ]
+    },
+    {
+      "site": "lastarria",
+      "country": "Chile-Argentina",
+      "volcano_name": "Lastarria",
+      "products": 1287,
+      "truncated_at_limit": false,
+      "parsed_products": 1287,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": [
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "00069W_00028S",
+          "connected_dates": 26,
+          "first_date": "2021-05-13",
+          "last_date": "2021-11-03",
+          "unique_pairs": 32
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "25249S_27414S",
+          "connected_dates": 23,
+          "first_date": "2019-03-25",
+          "last_date": "2019-08-10",
+          "unique_pairs": 33
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24090S_26270S",
+          "connected_dates": 23,
+          "first_date": "2017-07-21",
+          "last_date": "2018-05-17",
+          "unique_pairs": 49
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "00069W_00027S",
+          "connected_dates": 15,
+          "first_date": "2020-11-26",
+          "last_date": "2021-03-02",
+          "unique_pairs": 17
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "25240S_27100S",
+          "connected_dates": 11,
+          "first_date": "2019-10-21",
+          "last_date": "2019-12-26",
+          "unique_pairs": 10
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "25241S_27101S",
+          "connected_dates": 7,
+          "first_date": "2019-09-15",
+          "last_date": "2019-10-27",
+          "unique_pairs": 6
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "25240S_26270S",
+          "connected_dates": 7,
+          "first_date": "2019-01-06",
+          "last_date": "2019-02-17",
+          "unique_pairs": 6
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24089S_26269S",
+          "connected_dates": 7,
+          "first_date": "2017-04-16",
+          "last_date": "2017-06-27",
+          "unique_pairs": 9
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24419S_26600S",
+          "connected_dates": 6,
+          "first_date": "2015-06-08",
+          "last_date": "2015-10-06",
+          "unique_pairs": 8
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24087S_26269S",
+          "connected_dates": 6,
+          "first_date": "2014-10-23",
+          "last_date": "2015-02-20",
+          "unique_pairs": 7
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24911S_27100S",
+          "connected_dates": 5,
+          "first_date": "2019-04-06",
+          "last_date": "2019-06-05",
+          "unique_pairs": 4
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24088S_26270S",
+          "connected_dates": 5,
+          "first_date": "2018-09-14",
+          "last_date": "2018-12-07",
+          "unique_pairs": 4
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24089S_26270S",
+          "connected_dates": 5,
+          "first_date": "2017-06-15",
+          "last_date": "2017-08-02",
+          "unique_pairs": 6
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "25248S_27414S",
+          "connected_dates": 4,
+          "first_date": "2020-02-06",
+          "last_date": "2020-03-01",
+          "unique_pairs": 3
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24912S_27101S",
+          "connected_dates": 4,
+          "first_date": "2019-09-21",
+          "last_date": "2019-10-27",
+          "unique_pairs": 3
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "25249S_27415S",
+          "connected_dates": 4,
+          "first_date": "2019-08-16",
+          "last_date": "2019-09-03",
+          "unique_pairs": 3
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "25250S_27415S",
+          "connected_dates": 4,
+          "first_date": "2019-08-04",
+          "last_date": "2019-08-22",
+          "unique_pairs": 3
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24088S_26269S",
+          "connected_dates": 4,
+          "first_date": "2018-11-01",
+          "last_date": "2018-12-19",
+          "unique_pairs": 3
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24086S_26268S",
+          "connected_dates": 4,
+          "first_date": "2015-01-27",
+          "last_date": "2015-03-28",
+          "unique_pairs": 4
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "25240S_26269S",
+          "connected_dates": 3,
+          "first_date": "2019-03-19",
+          "last_date": "2019-04-06",
+          "unique_pairs": 2
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24255S_26434S",
+          "connected_dates": 3,
+          "first_date": "2016-04-15",
+          "last_date": "2016-06-02",
+          "unique_pairs": 2
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24090S_26268S",
+          "connected_dates": 3,
+          "first_date": "2016-03-22",
+          "last_date": "2016-05-09",
+          "unique_pairs": 2
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24089S_26268S",
+          "connected_dates": 3,
+          "first_date": "2016-02-27",
+          "last_date": "2016-04-15",
+          "unique_pairs": 3
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24420S_26600S",
+          "connected_dates": 3,
+          "first_date": "2015-09-12",
+          "last_date": "2015-10-30",
+          "unique_pairs": 2
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24087S_26268S",
+          "connected_dates": 3,
+          "first_date": "2014-10-23",
+          "last_date": "2014-12-10",
+          "unique_pairs": 2
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24912S_27100S",
+          "connected_dates": 2,
+          "first_date": "2019-12-02",
+          "last_date": "2019-12-14",
+          "unique_pairs": 1
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "00069W_00026S",
+          "connected_dates": 2,
+          "first_date": "2018-08-09",
+          "last_date": "2018-09-26",
+          "unique_pairs": 1
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24255S_26435S",
+          "connected_dates": 2,
+          "first_date": "2016-06-02",
+          "last_date": "2016-07-20",
+          "unique_pairs": 1
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24090S_26269S",
+          "connected_dates": 2,
+          "first_date": "2016-01-10",
+          "last_date": "2016-02-27",
+          "unique_pairs": 1
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24418S_26268S",
+          "connected_dates": 2,
+          "first_date": "2015-10-30",
+          "last_date": "2015-12-17",
+          "unique_pairs": 1
+        },
+        {
+          "track": 83,
+          "direction": "DESCENDING",
+          "nominal_tile": "24418S_26599S",
+          "connected_dates": 2,
+          "first_date": "2015-06-08",
+          "last_date": "2015-07-02",
+          "unique_pairs": 1
+        }
+      ]
+    },
+    {
+      "site": "ruiz_nevado_del",
+      "country": "Colombia",
+      "volcano_name": "Ruiz, Nevado del",
+      "products": 2825,
+      "truncated_at_limit": false,
+      "parsed_products": 2825,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": [
+        {
+          "track": 142,
+          "direction": "DESCENDING",
+          "nominal_tile": "00078W_00004N",
+          "connected_dates": 306,
+          "first_date": "2016-08-05",
+          "last_date": "2023-04-07",
+          "unique_pairs": 988
+        },
+        {
+          "track": 69,
+          "direction": "DESCENDING",
+          "nominal_tile": "00076W_00003N",
+          "connected_dates": 93,
+          "first_date": "2018-10-31",
+          "last_date": "2021-12-14",
+          "unique_pairs": 269
+        },
+        {
+          "track": 150,
+          "direction": "ASCENDING",
+          "nominal_tile": "00076W_00004N",
+          "connected_dates": 64,
+          "first_date": "2019-08-08",
+          "last_date": "2021-12-07",
+          "unique_pairs": 182
+        },
+        {
+          "track": 69,
+          "direction": "DESCENDING",
+          "nominal_tile": "00076W_00004N",
+          "connected_dates": 34,
+          "first_date": "2014-10-10",
+          "last_date": "2016-12-04",
+          "unique_pairs": 61
+        },
+        {
+          "track": 150,
+          "direction": "ASCENDING",
+          "nominal_tile": "00076W_00005N",
+          "connected_dates": 28,
+          "first_date": "2015-10-10",
+          "last_date": "2017-05-14",
+          "unique_pairs": 49
+        },
+        {
+          "track": 150,
+          "direction": "ASCENDING",
+          "nominal_tile": "00076W_00003N",
+          "connected_dates": 24,
+          "first_date": "2015-11-27",
+          "last_date": "2017-05-14",
+          "unique_pairs": 42
+        },
+        {
+          "track": 142,
+          "direction": "DESCENDING",
+          "nominal_tile": "00078W_00003N",
+          "connected_dates": 8,
+          "first_date": "2015-05-07",
+          "last_date": "2015-10-22",
+          "unique_pairs": 13
+        },
+        {
+          "track": 142,
+          "direction": "DESCENDING",
+          "nominal_tile": "00077W_00005N",
+          "connected_dates": 7,
+          "first_date": "2015-05-07",
+          "last_date": "2015-10-22",
+          "unique_pairs": 9
+        }
+      ]
+    },
+    {
+      "site": "reykjanes",
+      "country": "Iceland",
+      "volcano_name": "Reykjanes",
+      "products": 5000,
+      "truncated_at_limit": true,
+      "parsed_products": 5000,
+      "sensor": "Sentinel-1 ARIA GUNW",
+      "format": "netCDF",
+      "requires_separate_input_adapter": true,
+      "stacks": [
+        {
+          "track": 16,
+          "direction": "ASCENDING",
+          "nominal_tile": "00025W_00064N",
+          "connected_dates": 248,
+          "first_date": "2018-02-05",
+          "last_date": "2022-05-21",
+          "unique_pairs": 810
+        },
+        {
+          "track": 16,
+          "direction": "ASCENDING",
+          "nominal_tile": "00024W_00062N",
+          "connected_dates": 248,
+          "first_date": "2018-01-30",
+          "last_date": "2022-05-21",
+          "unique_pairs": 811
+        },
+        {
+          "track": 155,
+          "direction": "DESCENDING",
+          "nominal_tile": "00025W_00064N",
+          "connected_dates": 241,
+          "first_date": "2018-02-09",
+          "last_date": "2022-05-19",
+          "unique_pairs": 405
+        },
+        {
+          "track": 155,
+          "direction": "DESCENDING",
+          "nominal_tile": "00025W_00063N",
+          "connected_dates": 238,
+          "first_date": "2018-02-03",
+          "last_date": "2022-01-31",
+          "unique_pairs": 603
+        },
+        {
+          "track": 155,
+          "direction": "DESCENDING",
+          "nominal_tile": "00026W_00063N",
+          "connected_dates": 103,
+          "first_date": "2018-05-28",
+          "last_date": "2021-10-15",
+          "unique_pairs": 174
+        },
+        {
+          "track": 16,
+          "direction": "ASCENDING",
+          "nominal_tile": "00024W_00063N",
+          "connected_dates": 8,
+          "first_date": "2019-09-10",
+          "last_date": "2019-10-28",
+          "unique_pairs": 7
+        },
+        {
+          "track": 155,
+          "direction": "DESCENDING",
+          "nominal_tile": "00026W_00062N",
+          "connected_dates": 7,
+          "first_date": "2018-02-09",
+          "last_date": "2018-05-04",
+          "unique_pairs": 8
+        }
+      ]
+    }
+  ],
+  "date_order_for_connectivity": "Endpoints are sorted chronologically only for graph counts; phase/reference convention must be read by the separate ARIA adapter"
+}

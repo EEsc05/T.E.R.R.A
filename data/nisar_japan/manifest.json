@@ -1,0 +1,44 @@
+[
+  {
+    "site": "mount_asama_ascending",
+    "catalog_products": 29,
+    "stack": [
+      139,
+      "A",
+      20
+    ],
+    "selected_pairs": 8,
+    "selected_epochs": 9,
+    "selected_bytes": 19054723072,
+    "status": "generated",
+    "epochs": 9,
+    "pairs": 8,
+    "examples": 1,
+    "training_examples": 0,
+    "validation_examples": 0,
+    "history_path": "data/nisar_japan/mount_asama_ascending/history.npz",
+    "training_ready": false,
+    "note": "No leakage-free train/validation split; collect a longer connected time series"
+  },
+  {
+    "site": "mount_asama_descending",
+    "catalog_products": 29,
+    "stack": [
+      46,
+      "D",
+      70
+    ],
+    "selected_pairs": 9,
+    "selected_epochs": 10,
+    "selected_bytes": 21596471296,
+    "status": "generated",
+    "epochs": 10,
+    "pairs": 9,
+    "examples": 2,
+    "training_examples": 0,
+    "validation_examples": 0,
+    "history_path": "data/nisar_japan/mount_asama_descending/history.npz",
+    "training_ready": false,
+    "note": "No leakage-free train/validation split; collect a longer connected time series"
+  }
+]

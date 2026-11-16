@@ -1,0 +1,588 @@
+{
+  "checked_utc": "2026-11-15T17:53:33Z",
+  "countries": {
+    "Colombia": [
+      {
+        "title": "Government: UNGRD volcano preparedness",
+        "url": "https://portal.gestiondelriesgo.gov.co/Paginas/old_noticias/1661.aspx",
+        "description": "Archived national preparedness guidance about drills, evacuation routes and official risk management; not a current warning.",
+        "authority_type": "government",
+        "government_name": "Government of Colombia — UNGRD",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Government: Colombian Geological Survey alert explanations",
+        "url": "https://www2.sgc.gov.co/Paginas/estados-de-alerta-volcanes.aspx",
+        "description": "Official volcanic alert definitions and monitoring guidance; consult the agency for current bulletins.",
+        "authority_type": "government",
+        "government_name": "Government of Colombia — Servicio Geológico Colombiano",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Official search-index content verified; direct fetch restricted"
+      }
+    ],
+    "Ecuador": [
+      {
+        "title": "Government: volcano preparedness",
+        "url": "https://alertasecuador.gob.ec/volcanes",
+        "description": "Government preparedness resources and links for volcanic hazards; historical alert text may remain on this site.",
+        "authority_type": "government",
+        "government_name": "Government of Ecuador — national risk-management authority",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Official monitoring: IG-EPN",
+        "url": "https://www.igepn.edu.ec/",
+        "description": "Volcano reports, seismic monitoring and scientific hazard information from Ecuador’s public university monitoring institute.",
+        "authority_type": "official_monitoring",
+        "government_name": "Instituto Geofísico, Escuela Politécnica Nacional (public university; not an emergency-management ministry)",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "Ethiopia": [
+      {
+        "title": "Government: Afar regional disaster management",
+        "url": "https://afardrmc.gov.et/",
+        "description": "Regional preparedness, early-warning and government contact resources for Afar; no verified volcano-specific evacuation map was found.",
+        "authority_type": "government",
+        "government_name": "Afar National Regional State — Afar Disaster Risk Management Commission",
+        "scope": "Afar Region",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Government: EDRMC preparedness and response plans",
+        "url": "https://edrmc.gov.et/early-warning-response/early-warning-preparedness-response-plan/emergency-preparedness-and-response-plan",
+        "description": "National preparedness-plan repository; general disaster planning rather than a local volcano evacuation or shelter directory.",
+        "authority_type": "government",
+        "government_name": "Government of Ethiopia — Ethiopian Disaster Risk Management Commission",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "Iceland": [
+      {
+        "title": "Government: Civil Protection / Reykjanes information",
+        "url": "https://www.almannavarnir.is/english/",
+        "description": "Government civil-protection information with links to preparedness and evacuation planning; follow current authority instructions.",
+        "authority_type": "government",
+        "government_name": "Government of Iceland — Civil Protection and Emergency Management",
+        "scope": "National / Reykjanes",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Government: Icelandic Met Office monitoring",
+        "url": "https://en.vedur.is/about-imo/news/ground-uplift-and-magma-accumulation-continue-beneath-svartsengi",
+        "description": "Official evolving Reykjanes monitoring report; read the provider’s dated update rather than treating this link as a live feed.",
+        "authority_type": "government",
+        "government_name": "Government of Iceland — Icelandic Meteorological Office",
+        "scope": "Reykjanes",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "Japan": [
+      {
+        "title": "Government: JMA volcano warnings",
+        "url": "https://www.jma.go.jp/bosai/volcano/",
+        "description": "Official national volcano-warning dashboard; interactive page requires JavaScript.",
+        "authority_type": "government",
+        "government_name": "Government of Japan — Japan Meteorological Agency",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Official dashboard opened; JavaScript interface has no readable static content"
+      }
+    ],
+    "Mexico": [
+      {
+        "title": "Government: Popocatépetl evacuation routes",
+        "url": "https://preparados.gob.mx/apps/rutasvolcan/",
+        "description": "Civil-protection route maps and plans; displayed plans span older publication years, so confirm current routing with local authorities.",
+        "authority_type": "government",
+        "government_name": "Government of Mexico — Sistema Nacional de Protección Civil / CENAPRED",
+        "scope": "Popocatépetl",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Government: volcanic alert explanations",
+        "url": "https://www.gob.mx/cenapred/articulos/conoce-el-semaforo-de-alerta-volcanica",
+        "description": "CENAPRED explains the volcanic alert system and preparedness; this is not a current alert snapshot.",
+        "authority_type": "government",
+        "government_name": "Government of Mexico — CENAPRED",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "New Zealand": [
+      {
+        "title": "Government: Get Ready volcanic activity",
+        "url": "https://getready.govt.nz/emergency/volcanic-activity",
+        "description": "National volcano preparedness and guidance on finding local civil-defence instructions.",
+        "authority_type": "government",
+        "government_name": "New Zealand Government — National Emergency Management Agency",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Official monitoring: GeoNet Taupō",
+        "url": "https://www.geonet.org.nz/volcano/taupo",
+        "description": "Official volcano monitoring, bulletins and explanations for Taupō; scientific monitoring is separate from evacuation decisions.",
+        "authority_type": "official_monitoring",
+        "government_name": "GeoNet / Earth Sciences New Zealand (public research organisation; not a government emergency-management department)",
+        "scope": "Taupō",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "Peru": [
+      {
+        "title": "Government: INDECI preparedness guidance service",
+        "url": "https://www.gob.pe/10148-recibir-informacion-u-orientacion-sobre-preparacion-ante-emergencias-y-desastres",
+        "description": "National civil-defence preparedness information and orientation; local authorities provide location-specific evacuation and shelter instructions.",
+        "authority_type": "government",
+        "government_name": "Government of Peru — Instituto Nacional de Defensa Civil",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Official search-index content verified; direct fetch returned HTTP 418"
+      },
+      {
+        "title": "Government: IGP national volcano monitoring",
+        "url": "https://cenvul.igp.gob.pe/",
+        "description": "National volcano monitoring centre with scientific bulletins and reports for Peru’s volcanoes.",
+        "authority_type": "government",
+        "government_name": "Government of Peru — Instituto Geofísico del Perú / CENVUL",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "United States": [
+      {
+        "title": "Government: Hawaiʻi emergency information",
+        "url": "https://portal.ehawaii.gov/residents/emergency-information/",
+        "description": "State portal directs residents to county civil defence, preparedness and official hazard information.",
+        "authority_type": "government",
+        "government_name": "State of Hawaiʻi government",
+        "scope": "Hawaiʻi",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Official search-index content verified"
+      },
+      {
+        "title": "Government: Hawaiʻi County Civil Defense",
+        "url": "https://www.hawaiicounty.gov/departments/civil-defense",
+        "description": "County emergency-management authority for evacuation instructions and shelter announcements; no opening status is imported into TERRA.",
+        "authority_type": "government",
+        "government_name": "County of Hawaiʻi government — Civil Defense Agency",
+        "scope": "Hawaiʻi Island",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Official search-index content and state-government referral verified; direct fetch returned HTTP 403"
+      },
+      {
+        "title": "Government: USGS Hawaiian Volcano Observatory",
+        "url": "https://www.usgs.gov/observatories/hvo",
+        "description": "Official Kīlauea monitoring, maps and scientific updates; follow county authorities for public protective actions.",
+        "authority_type": "government",
+        "government_name": "United States federal government — USGS",
+        "scope": "Hawaiʻi",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "Vanuatu": [
+      {
+        "title": "Government: NDMO disaster preparation",
+        "url": "https://ndmo.gov.vu/community/preparation-for-disasters",
+        "description": "National preparedness messages and community disaster-risk-reduction handbook; consult local authorities for evacuation arrangements.",
+        "authority_type": "government",
+        "government_name": "Government of Vanuatu — National Disaster Management Office",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Government: VMGD volcano monitoring",
+        "url": "https://www.vmgd.gov.vu/geohazards/volcanoes",
+        "description": "Official volcano bulletins, including Ambrym’s Benbow and Marum; current alert values remain on the provider’s site.",
+        "authority_type": "government",
+        "government_name": "Government of Vanuatu — Meteorology and Geo-Hazards Department",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ]
+  },
+  "regions": {
+    "dabbahu": [
+      {
+        "title": "Government: Afar regional disaster management",
+        "url": "https://afardrmc.gov.et/",
+        "description": "Regional preparedness, early-warning and government contact resources for Afar; no verified volcano-specific evacuation map was found.",
+        "authority_type": "government",
+        "government_name": "Afar National Regional State — Afar Disaster Risk Management Commission",
+        "scope": "Afar Region",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Government: EDRMC preparedness and response plans",
+        "url": "https://edrmc.gov.et/early-warning-response/early-warning-preparedness-response-plan/emergency-preparedness-and-response-plan",
+        "description": "National preparedness-plan repository; general disaster planning rather than a local volcano evacuation or shelter directory.",
+        "authority_type": "government",
+        "government_name": "Government of Ethiopia — Ethiopian Disaster Risk Management Commission",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "misti": [
+      {
+        "title": "Government: INDECI preparedness guidance service",
+        "url": "https://www.gob.pe/10148-recibir-informacion-u-orientacion-sobre-preparacion-ante-emergencias-y-desastres",
+        "description": "National civil-defence preparedness information and orientation; local authorities provide location-specific evacuation and shelter instructions.",
+        "authority_type": "government",
+        "government_name": "Government of Peru — Instituto Nacional de Defensa Civil",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Official search-index content verified; direct fetch returned HTTP 418"
+      },
+      {
+        "title": "Government: IGP national volcano monitoring",
+        "url": "https://cenvul.igp.gob.pe/",
+        "description": "National volcano monitoring centre with scientific bulletins and reports for Peru’s volcanoes.",
+        "authority_type": "government",
+        "government_name": "Government of Peru — Instituto Geofísico del Perú / CENVUL",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "popocatepetl": [
+      {
+        "title": "Government: Popocatépetl evacuation routes",
+        "url": "https://preparados.gob.mx/apps/rutasvolcan/",
+        "description": "Civil-protection route maps and plans; displayed plans span older publication years, so confirm current routing with local authorities.",
+        "authority_type": "government",
+        "government_name": "Government of Mexico — Sistema Nacional de Protección Civil / CENAPRED",
+        "scope": "Popocatépetl",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Government: volcanic alert explanations",
+        "url": "https://www.gob.mx/cenapred/articulos/conoce-el-semaforo-de-alerta-volcanica",
+        "description": "CENAPRED explains the volcanic alert system and preparedness; this is not a current alert snapshot.",
+        "authority_type": "government",
+        "government_name": "Government of Mexico — CENAPRED",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "sabancaya": [
+      {
+        "title": "Government: INDECI preparedness guidance service",
+        "url": "https://www.gob.pe/10148-recibir-informacion-u-orientacion-sobre-preparacion-ante-emergencias-y-desastres",
+        "description": "National civil-defence preparedness information and orientation; local authorities provide location-specific evacuation and shelter instructions.",
+        "authority_type": "government",
+        "government_name": "Government of Peru — Instituto Nacional de Defensa Civil",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Official search-index content verified; direct fetch returned HTTP 418"
+      },
+      {
+        "title": "Government: IGP national volcano monitoring",
+        "url": "https://cenvul.igp.gob.pe/",
+        "description": "National volcano monitoring centre with scientific bulletins and reports for Peru’s volcanoes.",
+        "authority_type": "government",
+        "government_name": "Government of Peru — Instituto Geofísico del Perú / CENVUL",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "ubinas": [
+      {
+        "title": "Government: INDECI preparedness guidance service",
+        "url": "https://www.gob.pe/10148-recibir-informacion-u-orientacion-sobre-preparacion-ante-emergencias-y-desastres",
+        "description": "National civil-defence preparedness information and orientation; local authorities provide location-specific evacuation and shelter instructions.",
+        "authority_type": "government",
+        "government_name": "Government of Peru — Instituto Nacional de Defensa Civil",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Official search-index content verified; direct fetch returned HTTP 418"
+      },
+      {
+        "title": "Government: IGP national volcano monitoring",
+        "url": "https://cenvul.igp.gob.pe/",
+        "description": "National volcano monitoring centre with scientific bulletins and reports for Peru’s volcanoes.",
+        "authority_type": "government",
+        "government_name": "Government of Peru — Instituto Geofísico del Perú / CENVUL",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "coropuna": [
+      {
+        "title": "Government: INDECI preparedness guidance service",
+        "url": "https://www.gob.pe/10148-recibir-informacion-u-orientacion-sobre-preparacion-ante-emergencias-y-desastres",
+        "description": "National civil-defence preparedness information and orientation; local authorities provide location-specific evacuation and shelter instructions.",
+        "authority_type": "government",
+        "government_name": "Government of Peru — Instituto Nacional de Defensa Civil",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Official search-index content verified; direct fetch returned HTTP 418"
+      },
+      {
+        "title": "Government: IGP national volcano monitoring",
+        "url": "https://cenvul.igp.gob.pe/",
+        "description": "National volcano monitoring centre with scientific bulletins and reports for Peru’s volcanoes.",
+        "authority_type": "government",
+        "government_name": "Government of Peru — Instituto Geofísico del Perú / CENVUL",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "cotopaxi": [
+      {
+        "title": "Government: Cotopaxi preparedness",
+        "url": "https://alertasecuador.gob.ec/volcan_cotopaxi",
+        "description": "Cotopaxi-specific government preparedness information; includes historical alert text, which must not be read as current status.",
+        "authority_type": "government",
+        "government_name": "Government of Ecuador — national risk-management authority",
+        "scope": "Cotopaxi",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Government: volcano preparedness",
+        "url": "https://alertasecuador.gob.ec/volcanes",
+        "description": "Government preparedness resources and links for volcanic hazards; historical alert text may remain on this site.",
+        "authority_type": "government",
+        "government_name": "Government of Ecuador — national risk-management authority",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Official monitoring: IG-EPN",
+        "url": "https://www.igepn.edu.ec/",
+        "description": "Volcano reports, seismic monitoring and scientific hazard information from Ecuador’s public university monitoring institute.",
+        "authority_type": "official_monitoring",
+        "government_name": "Instituto Geofísico, Escuela Politécnica Nacional (public university; not an emergency-management ministry)",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "erta_ale": [
+      {
+        "title": "Government: Afar regional disaster management",
+        "url": "https://afardrmc.gov.et/",
+        "description": "Regional preparedness, early-warning and government contact resources for Afar; no verified volcano-specific evacuation map was found.",
+        "authority_type": "government",
+        "government_name": "Afar National Regional State — Afar Disaster Risk Management Commission",
+        "scope": "Afar Region",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Government: EDRMC preparedness and response plans",
+        "url": "https://edrmc.gov.et/early-warning-response/early-warning-preparedness-response-plan/emergency-preparedness-and-response-plan",
+        "description": "National preparedness-plan repository; general disaster planning rather than a local volcano evacuation or shelter directory.",
+        "authority_type": "government",
+        "government_name": "Government of Ethiopia — Ethiopian Disaster Risk Management Commission",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "kilauea": [
+      {
+        "title": "Government: Hawaiʻi emergency information",
+        "url": "https://portal.ehawaii.gov/residents/emergency-information/",
+        "description": "State portal directs residents to county civil defence, preparedness and official hazard information.",
+        "authority_type": "government",
+        "government_name": "State of Hawaiʻi government",
+        "scope": "Hawaiʻi",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Official search-index content verified"
+      },
+      {
+        "title": "Government: Hawaiʻi County Civil Defense",
+        "url": "https://www.hawaiicounty.gov/departments/civil-defense",
+        "description": "County emergency-management authority for evacuation instructions and shelter announcements; no opening status is imported into TERRA.",
+        "authority_type": "government",
+        "government_name": "County of Hawaiʻi government — Civil Defense Agency",
+        "scope": "Hawaiʻi Island",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Official search-index content and state-government referral verified; direct fetch returned HTTP 403"
+      },
+      {
+        "title": "Government: USGS Hawaiian Volcano Observatory",
+        "url": "https://www.usgs.gov/observatories/hvo",
+        "description": "Official Kīlauea monitoring, maps and scientific updates; follow county authorities for public protective actions.",
+        "authority_type": "government",
+        "government_name": "United States federal government — USGS",
+        "scope": "Hawaiʻi",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "reykjanes": [
+      {
+        "title": "Government: Civil Protection / Reykjanes information",
+        "url": "https://www.almannavarnir.is/english/",
+        "description": "Government civil-protection information with links to preparedness and evacuation planning; follow current authority instructions.",
+        "authority_type": "government",
+        "government_name": "Government of Iceland — Civil Protection and Emergency Management",
+        "scope": "National / Reykjanes",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Government: Icelandic Met Office monitoring",
+        "url": "https://en.vedur.is/about-imo/news/ground-uplift-and-magma-accumulation-continue-beneath-svartsengi",
+        "description": "Official evolving Reykjanes monitoring report; read the provider’s dated update rather than treating this link as a live feed.",
+        "authority_type": "government",
+        "government_name": "Government of Iceland — Icelandic Meteorological Office",
+        "scope": "Reykjanes",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "ruiz_nevado_del": [
+      {
+        "title": "Government: UNGRD volcano preparedness",
+        "url": "https://portal.gestiondelriesgo.gov.co/Paginas/old_noticias/1661.aspx",
+        "description": "Archived national preparedness guidance about drills, evacuation routes and official risk management; not a current warning.",
+        "authority_type": "government",
+        "government_name": "Government of Colombia — UNGRD",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Government: Colombian Geological Survey alert explanations",
+        "url": "https://www2.sgc.gov.co/Paginas/estados-de-alerta-volcanes.aspx",
+        "description": "Official volcanic alert definitions and monitoring guidance; consult the agency for current bulletins.",
+        "authority_type": "government",
+        "government_name": "Government of Colombia — Servicio Geológico Colombiano",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Official search-index content verified; direct fetch restricted"
+      }
+    ],
+    "taupo": [
+      {
+        "title": "Government: Taupō District Council volcanic hazards",
+        "url": "https://www.taupodc.govt.nz/community/civil-defence-and-emergency/1hazards-in-the-taupo-district/volcanic-activity",
+        "description": "District-council volcanic-hazard preparedness and local civil-defence information for Taupō.",
+        "authority_type": "government",
+        "government_name": "Taupō District Council — local government",
+        "scope": "Taupō District",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Government: Get Ready volcanic activity",
+        "url": "https://getready.govt.nz/emergency/volcanic-activity",
+        "description": "National volcano preparedness and guidance on finding local civil-defence instructions.",
+        "authority_type": "government",
+        "government_name": "New Zealand Government — National Emergency Management Agency",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Official monitoring: GeoNet Taupō",
+        "url": "https://www.geonet.org.nz/volcano/taupo",
+        "description": "Official volcano monitoring, bulletins and explanations for Taupō; scientific monitoring is separate from evacuation decisions.",
+        "authority_type": "official_monitoring",
+        "government_name": "GeoNet / Earth Sciences New Zealand (public research organisation; not a government emergency-management department)",
+        "scope": "Taupō",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "ambrym": [
+      {
+        "title": "Government: NDMO disaster preparation",
+        "url": "https://ndmo.gov.vu/community/preparation-for-disasters",
+        "description": "National preparedness messages and community disaster-risk-reduction handbook; consult local authorities for evacuation arrangements.",
+        "authority_type": "government",
+        "government_name": "Government of Vanuatu — National Disaster Management Office",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Government: VMGD volcano monitoring",
+        "url": "https://www.vmgd.gov.vu/geohazards/volcanoes",
+        "description": "Official volcano bulletins, including Ambrym’s Benbow and Marum; current alert values remain on the provider’s site.",
+        "authority_type": "government",
+        "government_name": "Government of Vanuatu — Meteorology and Geo-Hazards Department",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      }
+    ],
+    "mount_asama": [
+      {
+        "title": "Government: Asama hazard maps and preparedness",
+        "url": "https://www.town.karuizawa.lg.jp/site/bousai/9077.html",
+        "description": "Municipal Asama hazard maps and preparedness handbook; maps describe scenarios rather than current evacuation orders.",
+        "authority_type": "government",
+        "government_name": "Karuizawa Town government / Asama Volcano Disaster Prevention Council",
+        "scope": "Mount Asama / Karuizawa",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Primary page opened or official search-index content verified"
+      },
+      {
+        "title": "Government: JMA volcano warnings",
+        "url": "https://www.jma.go.jp/bosai/volcano/",
+        "description": "Official national volcano-warning dashboard; interactive page requires JavaScript.",
+        "authority_type": "government",
+        "government_name": "Government of Japan — Japan Meteorological Agency",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Official dashboard opened; JavaScript interface has no readable static content"
+      }
+    ],
+    "sakurajima": [
+      {
+        "title": "Government: Kagoshima City hazard / evacuation map (2023)",
+        "url": "https://www.city.kagoshima.lg.jp/kikikanri/kurashi/bosai/bosai/map/documents/hazardmap-eng2023.pdf",
+        "description": "City English hazard and evacuation map; dated 2023. Designated facilities are not necessarily currently open shelters.",
+        "authority_type": "government",
+        "government_name": "Kagoshima City government",
+        "scope": "Sakurajima / Kagoshima City",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Official city PDF URL verified; web text fetch rejected its 12.6 MB size; source map dated 2023"
+      },
+      {
+        "title": "Government: JMA volcano warnings",
+        "url": "https://www.jma.go.jp/bosai/volcano/",
+        "description": "Official national volcano-warning dashboard; interactive page requires JavaScript.",
+        "authority_type": "government",
+        "government_name": "Government of Japan — Japan Meteorological Agency",
+        "scope": "National",
+        "checked_utc": "2026-11-15T17:53:33Z",
+        "verification_status": "Official dashboard opened; JavaScript interface has no readable static content"
+      }
+    ]
+  },
+  "note": "No live shelter-opening or official alert feed connected; contact linked authority for current instructions"
+}

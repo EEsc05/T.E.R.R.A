@@ -1,0 +1,26 @@
+[
+  {
+    "site": "sakurajima_125_a17",
+    "catalog_products": 40,
+    "stack": [
+      125,
+      "A",
+      17
+    ],
+    "selected_pairs": 8,
+    "selected_epochs": 9,
+    "selected_bytes": 13136560128,
+    "download_bytes": 9831448576,
+    "range_bytes_fetched": 314572806,
+    "transfer_mode": "aoi_ranges",
+    "status": "generated",
+    "epochs": 9,
+    "pairs": 8,
+    "examples": 1,
+    "training_examples": 0,
+    "validation_examples": 0,
+    "history_path": "data/nisar_sakurajima_20261115/sakurajima_125_a17/history.npz",
+    "training_ready": false,
+    "note": "No leakage-free train/validation split; collect a longer connected time series"
+  }
+]

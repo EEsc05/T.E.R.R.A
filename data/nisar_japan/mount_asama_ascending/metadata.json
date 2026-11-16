@@ -1,0 +1,119 @@
+{
+  "units": "mm",
+  "grid_convention": "aoi_block_mean32",
+  "spacing_km": [
+    1.28,
+    1.28
+  ],
+  "geometry_available": false,
+  "geometry_note": "Product XY vectors are retained raw; no unverified ENU conversion",
+  "raw_geometry": {
+    "incidenceAngle": 40.88927459716797,
+    "losUnitVectorX": 0.6299981474876404,
+    "losUnitVectorY": 0.17777124047279358
+  },
+  "source": "NISAR L2 GUNW via ASF",
+  "volcano_id": "mount_asama",
+  "volcano_name": "Mount Asama (Asamayama)",
+  "country": "Japan",
+  "volcano_number": 283110,
+  "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=283110",
+  "stack_id": "mount_asama_ascending",
+  "stack": [
+    139,
+    "A",
+    20
+  ],
+  "source_notebook": "NISAR_forecast_pipeline_v2.ipynb",
+  "source_analysis": "nisar_analysis.py",
+  "source_native_roi": null,
+  "reference_product": null,
+  "grid": {
+    "epsg": 32654,
+    "x0": 257403.15397746844,
+    "x1": 298363.15397746844,
+    "y0": 4011351.9062229833,
+    "y1": 4052311.9062229833,
+    "H": 32,
+    "W": 32
+  },
+  "center_lonlat": [
+    138.523,
+    36.406
+  ],
+  "half_width_km": 20.48,
+  "phase_to_los_sign": -1,
+  "los_sign_convention": "notebook assumed positive toward satellite; unverified",
+  "coherence_threshold": 0.4,
+  "min_pair_valid_fraction": 0.05,
+  "min_block_valid_fraction": 0.5,
+  "reference_area": "per-pair valid-pixel median",
+  "iono_mode": "none",
+  "ramp_removed": false,
+  "product_info": {
+    "wavelength_m": 0.2419632429378531,
+    "center_frequency_hz": 1239000000.0,
+    "orbit_pass_direction": "Ascending",
+    "look_direction": "Left",
+    "track_number": 139,
+    "frame_number": 20,
+    "product_version": "1.0.11",
+    "product_doi": "10.5067/NIL2GUNW-P1",
+    "corrections_applied": {
+      "rangeIonosphericCorrectionApplied": "True",
+      "azimuthIonosphericCorrectionApplied": "True",
+      "wetTroposphericCorrectionApplied": "True",
+      "hydrostaticTroposphericCorrectionApplied": "True"
+    }
+  },
+  "pairs": [
+    {
+      "reference": "2026-06-23",
+      "secondary": "2026-07-05",
+      "file": "NISAR_L2_PR_GUNW_023_139_A_020_024_4000_SH_20260623T195651_20260623T195726_20260705T195651_20260705T195726_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.1044921875
+    },
+    {
+      "reference": "2026-07-05",
+      "secondary": "2026-07-17",
+      "file": "NISAR_L2_PR_GUNW_024_139_A_020_025_4000_SH_20260705T195651_20260705T195726_20260717T195650_20260717T195725_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.3837890625
+    },
+    {
+      "reference": "2026-07-17",
+      "secondary": "2026-08-22",
+      "file": "NISAR_L2_PR_GUNW_025_139_A_020_028_4000_SH_20260717T195650_20260717T195725_20260822T195648_20260822T195723_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.1875
+    },
+    {
+      "reference": "2026-08-22",
+      "secondary": "2026-09-03",
+      "file": "NISAR_L2_PR_GUNW_028_139_A_020_029_4000_SH_20260822T195648_20260822T195723_20260903T195648_20260903T195723_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.4990234375
+    },
+    {
+      "reference": "2026-09-03",
+      "secondary": "2026-09-15",
+      "file": "NISAR_L2_PR_GUNW_029_139_A_020_030_4000_SH_20260903T195648_20260903T195723_20260915T195648_20260915T195723_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.4052734375
+    },
+    {
+      "reference": "2026-09-15",
+      "secondary": "2026-09-27",
+      "file": "NISAR_L2_PR_GUNW_030_139_A_020_031_4000_SH_20260915T195648_20260915T195723_20260927T195648_20260927T195723_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.2978515625
+    },
+    {
+      "reference": "2026-09-27",
+      "secondary": "2026-10-09",
+      "file": "NISAR_L2_PR_GUNW_031_139_A_020_032_4000_SH_20260927T195648_20260927T195723_20261009T195648_20261009T195723_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.54296875
+    },
+    {
+      "reference": "2026-10-09",
+      "secondary": "2026-10-21",
+      "file": "NISAR_L2_PR_GUNW_032_139_A_020_033_4000_SH_20261009T195648_20261009T195723_20261021T195648_20261021T195723_P05023_N_F_J_001.h5",
+      "valid_pixel_fraction": 0.5712890625
+    }
+  ]
+}

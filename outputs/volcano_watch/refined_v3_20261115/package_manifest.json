@@ -1,0 +1,199 @@
+{
+  "format": "terra-website-v3-local",
+  "checkpoint_sha256": "e3c734a611171e5fcd176fde2b27bb943457fca993b84887b8a9d05c0f431da5",
+  "prior_site_and_engine_hashes_preserved": 176,
+  "files": {
+    "README.md": {
+      "sha256": "e88a62d3b0b226d48fbacc36eddfb0d430bf9d55e259419026f05209593bb909",
+      "bytes": 6467
+    },
+    "about.html": {
+      "sha256": "cfa8436769cc3461647533606a536404be002e7f984bc5f243203bc27fd8e245",
+      "bytes": 2567
+    },
+    "activity_sources.json": {
+      "sha256": "43f1b0e573fd68ecb62d580b152193ebfd5400ffbaf09dfaaab685125e35a5da",
+      "bytes": 35445
+    },
+    "assets/D3-LICENSE": {
+      "sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4",
+      "bytes": 731
+    },
+    "assets/SOURCES.json": {
+      "sha256": "d23e8847dd4fd84231017083b46a99afe563a2ef872eb8a0eb5a7cec84383bee",
+      "bytes": 425
+    },
+    "assets/d3.min.js": {
+      "sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539",
+      "bytes": 279706
+    },
+    "assets/model-four-branch.js": {
+      "sha256": "b7e371f0630b715f2049d3b0f7156ac92a803340e328441cafc13f8e8ff4242e",
+      "bytes": 4039204
+    },
+    "assets/terra-logo.png": {
+      "sha256": "f33afc881b99f654e2dc4fb472cc3d9f759b18604b713f0add7eb54782e3ea02",
+      "bytes": 301538
+    },
+    "assets/terra-mark.svg": {
+      "sha256": "62d6ad4f485138ff601f46fc75a5fe7da8a2c6ed7f3d8ae10bb9435a806b06dc",
+      "bytes": 387
+    },
+    "assets/world.js": {
+      "sha256": "b80acccf5b5a6a1499b6af3d1ef2abdec72c20120fc3d5b6a81825c89b12a334",
+      "bytes": 838747
+    },
+    "brand-config.js": {
+      "sha256": "12d9e21a703b28eeba3c58bd1eb3dd59186ea6124924300bf0a75c71f094f1f4",
+      "bytes": 299
+    },
+    "browser_verification_v3.json": {
+      "sha256": "a286d5bde42ae6001eabccf690ba7bbea76cd98e61b7b806acde96af1532c872",
+      "bytes": 1316
+    },
+    "causal_input_provenance.json": {
+      "sha256": "8248ed53026fe6bf466e53033a1db1e482812b6985df3ac7d04dbb87441f71ee",
+      "bytes": 3904
+    },
+    "data/activity.js": {
+      "sha256": "3c0c3da0d5f57aeb3ed4a06698199933f4dd07d501abd4c59e7f7b279186c56d",
+      "bytes": 29941
+    },
+    "data/aria_ambrym.js": {
+      "sha256": "abad96f9a008a03d78b3bd87be137472f0a8f8b2f6a781a8ac22e7feacc0ae6b",
+      "bytes": 398445
+    },
+    "data/aria_coropuna.js": {
+      "sha256": "de6a0659de5085a4c48e1250f21f25d05732cd7736d67956dc488fefac66fc00",
+      "bytes": 789723
+    },
+    "data/aria_cotopaxi.js": {
+      "sha256": "4da4aa5b6bf7cf005134a8976bd486cf37e469216e4cdc41aec87d21378e48a1",
+      "bytes": 997711
+    },
+    "data/aria_erta_ale.js": {
+      "sha256": "381c4ca7e2e4791b24cc90cf458581b030b55e30599f475be2b7fdf180f11b42",
+      "bytes": 587096
+    },
+    "data/aria_kilauea.js": {
+      "sha256": "664c4596c3b53274989aa3a0b85146ac9eb1ea4f177bf772aceec3141a3bb7c1",
+      "bytes": 989707
+    },
+    "data/aria_reykjanes.js": {
+      "sha256": "0bebd1f7323dd96506d41e9cdc35a4223a5145f3f8cb6bf7fcf40845073c121f",
+      "bytes": 813327
+    },
+    "data/aria_ruiz_nevado_del.js": {
+      "sha256": "78cd6b447c87c32f6b79d8d067d5c3be0689e2a7f30ac21337cb84b51622d0b0",
+      "bytes": 915829
+    },
+    "data/aria_taupo.js": {
+      "sha256": "1044a491f86b69a3987e84305a63d7d1877c3769a6af369fd7132a9053a2f3da",
+      "bytes": 394240
+    },
+    "data/index.js": {
+      "sha256": "5665f293ca094b44e333c8cc60b230ed40d38a7c2cb80d12433da6552e16aae9",
+      "bytes": 15764
+    },
+    "data/nisar_dabbahu.js": {
+      "sha256": "ff8905e6b3416febb38ce1496d87de69bca90a60f0ed61c633cd257f973a27c7",
+      "bytes": 523993
+    },
+    "data/nisar_misti.js": {
+      "sha256": "abd5e5b9cc0940ef4009660f24cae87b2cf8dae85b06f7271002d858718d1ead",
+      "bytes": 364104
+    },
+    "data/nisar_mount_asama_ascending.js": {
+      "sha256": "6b3b7b30000975544fddaa4aa3955fb1706b2c7b751b4f4ef816a371d213072f",
+      "bytes": 146043
+    },
+    "data/nisar_mount_asama_descending.js": {
+      "sha256": "050d31f9e24d1708d33e76d6419e7193f5d8c6a42364a54c087143fe5c063556",
+      "bytes": 164879
+    },
+    "data/nisar_popocatepetl.js": {
+      "sha256": "1eaa1a89d29954cb695cd8199ab498b053fad43eace4902cefdfeb6463c5c030",
+      "bytes": 370329
+    },
+    "data/nisar_sabancaya.js": {
+      "sha256": "87ce920ad71300f055a2e54b4f2a4e809de83c6488c7df639d90de371fb6497b",
+      "bytes": 409291
+    },
+    "data/nisar_sakurajima_125_a17.js": {
+      "sha256": "eecc730a85e0845c83dcff2003b556f20ff927052a25c6cc00a9c6901faee377",
+      "bytes": 164197
+    },
+    "data/nisar_ubinas.js": {
+      "sha256": "f768ebe33d5a65d9b51f58b2b14e439a9037ef44bbc73d9b8356dd60618288ad",
+      "bytes": 442997
+    },
+    "dataset.json": {
+      "sha256": "9a01ea3ee616661ac839fb5e5b8811ed0ba967ac2461778ee6a9c928808c723e",
+      "bytes": 22900
+    },
+    "engine_README.md": {
+      "sha256": "bfbc141125c29cdaf0691e3b127dd234d96356aeb15eaec4710d342beb892992",
+      "bytes": 4850
+    },
+    "engine_contract_verification.json": {
+      "sha256": "c0bbd40cd9fe3508e6cefc156999e7aac08e2b8605bd877cc4284c2eda696468",
+      "bytes": 106
+    },
+    "engine_recursive_browser_feedback_verification.json": {
+      "sha256": "095821ccf347de00eae4db44e56739baba73291c8f5dd394e92e042dd2e1c6e2",
+      "bytes": 1640
+    },
+    "engine_sparse_recursive_verification.json": {
+      "sha256": "838267b8679939c7a2f662ad42a5821176c2368f0c2f4502853cc8dd6326fe7a",
+      "bytes": 1642
+    },
+    "engine_verification.json": {
+      "sha256": "0a38988709e9747f953e4565f078417cc681d36677b30fd753b11a4b109b0150",
+      "bytes": 3682
+    },
+    "explore.html": {
+      "sha256": "42390999397f44696109454557071da41fe810e8dd22615e9e2401b0feacff76",
+      "bytes": 10600
+    },
+    "explore.js": {
+      "sha256": "c91a637df151e6c6a2ccf6d9afc836761c9dd2eb8b670338fcf0f367cf9fb653",
+      "bytes": 38226
+    },
+    "final_progression_verification.json": {
+      "sha256": "15fd2cd5e2d8b997ab40d71df5a5e84aae58d36af4e9027d5ebaf4876c3d4077",
+      "bytes": 805
+    },
+    "forecast-engine.js": {
+      "sha256": "e8db5acd885a0f2a9c949855c87d6ce054f1ddd714c86f11450ee86cbbc59cc1",
+      "bytes": 10307
+    },
+    "government_resources.json": {
+      "sha256": "d079640c9fff8d3d518c157e1600147959d583e4cd843872d8c9a40343910635",
+      "bytes": 33165
+    },
+    "government_sources.md": {
+      "sha256": "2aabdff32a2d936b3b04152aac40c78926ffa0edeccf661fd25fb1ec383d5906",
+      "bytes": 12170
+    },
+    "index.html": {
+      "sha256": "a2747db191bc9b752e617ba3120e1b9f2ab245ea897a41258b9a0644fe388fc4",
+      "bytes": 4382
+    },
+    "learn.html": {
+      "sha256": "5f66ccb06be40b7f8ce35a25c5ff5d21d893fa2316ed9d2ad7418e783744f5db",
+      "bytes": 7951
+    },
+    "shared.js": {
+      "sha256": "f197bbb6d0dc7da992ddf484365b9311359fbfa2ac465008304448f455d3e05c",
+      "bytes": 5000
+    },
+    "style.css": {
+      "sha256": "2b45eebddf0b8242fe41959370e501c790cc3b132cf637e7e7c2bf3e0813bf2c",
+      "bytes": 25406
+    },
+    "site_sha256.json": {
+      "sha256": "75cbef0526e22e9994bc738f31847818e9954c81e32c9040cdb2464ed5b796e8",
+      "bytes": 4474
+    }
+  }
+}

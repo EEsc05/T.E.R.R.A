@@ -1,0 +1,25 @@
+{
+  "site": "erta_ale",
+  "status": "generated",
+  "epochs": 48,
+  "pairs": 111,
+  "examples": 27,
+  "training_examples": 18,
+  "validation_examples": 4,
+  "history_path": "data/aria/erta_ale/history.npz",
+  "training_ready": true,
+  "note": null,
+  "country": "Ethiopia",
+  "stack": [
+    14,
+    "ASCENDING",
+    "13849N_11925N"
+  ],
+  "catalog_products": 1380,
+  "selected_pairs": 111,
+  "first_date": "2018-11-20",
+  "last_date": "2020-06-18",
+  "sensor": "Sentinel-1 ARIA GUNW",
+  "max_epochs": 60,
+  "mean_pair_valid_fraction": 0.24923458614864866
+}

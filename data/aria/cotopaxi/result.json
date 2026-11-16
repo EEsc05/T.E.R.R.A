@@ -1,0 +1,25 @@
+{
+  "site": "cotopaxi",
+  "status": "generated",
+  "epochs": 60,
+  "pairs": 101,
+  "examples": 52,
+  "training_examples": 34,
+  "validation_examples": 9,
+  "history_path": "data/aria/cotopaxi/history.npz",
+  "training_ready": true,
+  "note": null,
+  "country": "Ecuador",
+  "stack": [
+    18,
+    "ASCENDING",
+    "00081W_00002S"
+  ],
+  "catalog_products": 1856,
+  "selected_pairs": 101,
+  "first_date": "2017-12-13",
+  "last_date": "2019-05-01",
+  "sensor": "Sentinel-1 ARIA GUNW",
+  "max_epochs": 60,
+  "mean_pair_valid_fraction": 0.9082127939356436
+}

@@ -1,0 +1,98 @@
+{
+  "nisar_dabbahu": {
+    "real_history_maps": 6,
+    "latest_history_date": "2026-10-11",
+    "source_history_sha256": "547ec2f6289c4e6d7c2afcc6ce8a56d2a0c88322fa1e8b4ee1ad445d67aa4d0f",
+    "reporting_cases_with_causal_origin_maps": 3
+  },
+  "nisar_misti": {
+    "real_history_maps": 6,
+    "latest_history_date": "2026-10-15",
+    "source_history_sha256": "b77cb6df2e41b0dec96f85dfd92eedc68b88c5b779bb7f738568d839a7fc1bd3",
+    "reporting_cases_with_causal_origin_maps": 2
+  },
+  "nisar_popocatepetl": {
+    "real_history_maps": 6,
+    "latest_history_date": "2026-10-13",
+    "source_history_sha256": "217ff1c303999262e313098da8a27fd7793c43f98ee56a9a7cbd55a513f70ce6",
+    "reporting_cases_with_causal_origin_maps": 3
+  },
+  "nisar_sabancaya": {
+    "real_history_maps": 6,
+    "latest_history_date": "2026-10-15",
+    "source_history_sha256": "a974614ee5b25adff5041c4fd9de7ced0d4476d04fa33af89dd416bad236d650",
+    "reporting_cases_with_causal_origin_maps": 2
+  },
+  "nisar_ubinas": {
+    "real_history_maps": 6,
+    "latest_history_date": "2026-10-13",
+    "source_history_sha256": "15c8dd7f03781e4cebb5d1bdacb646e00b4dccf43680774836daeb26f876af8d",
+    "reporting_cases_with_causal_origin_maps": 2
+  },
+  "aria_coropuna": {
+    "real_history_maps": 6,
+    "latest_history_date": "2021-12-11",
+    "source_history_sha256": "d90ae003f364d1f0f710a60b373c0f0856a3cea8edf76a1e3cbb8abfaed76d33",
+    "reporting_cases_with_causal_origin_maps": 9
+  },
+  "aria_cotopaxi": {
+    "real_history_maps": 6,
+    "latest_history_date": "2019-05-01",
+    "source_history_sha256": "87f44dc6fcdcc6a15a225cff04d60d07bef88f982d6aa91e56cc4dd31f88dd5e",
+    "reporting_cases_with_causal_origin_maps": 9
+  },
+  "aria_erta_ale": {
+    "real_history_maps": 6,
+    "latest_history_date": "2020-06-18",
+    "source_history_sha256": "abede3408f341ce9b7e575494f84e7de4be3656d832f1800af202189030ccb37",
+    "reporting_cases_with_causal_origin_maps": 4
+  },
+  "aria_kilauea": {
+    "real_history_maps": 6,
+    "latest_history_date": "2020-09-27",
+    "source_history_sha256": "1631e9b5f69ecd13f2f0b0c14ac5b09f6e6b6a7e2f147d8db555186b41a2df70",
+    "reporting_cases_with_causal_origin_maps": 8
+  },
+  "aria_reykjanes": {
+    "real_history_maps": 6,
+    "latest_history_date": "2022-05-21",
+    "source_history_sha256": "339882c70f53f4f66461ea9108fa08f6a080b4065544413f0812d07cc6d636f0",
+    "reporting_cases_with_causal_origin_maps": 8
+  },
+  "aria_ruiz_nevado_del": {
+    "real_history_maps": 6,
+    "latest_history_date": "2023-04-07",
+    "source_history_sha256": "b86e74119e68a1325f5ad69cd0678bf22ba42b7245ae111b357d19fdeff533cf",
+    "reporting_cases_with_causal_origin_maps": 9
+  },
+  "aria_taupo": {
+    "real_history_maps": 6,
+    "latest_history_date": "2021-12-03",
+    "source_history_sha256": "23311ff838cac619024fe5ea54573922c5965b6e8e480c6c49fa022fcf104ac3",
+    "reporting_cases_with_causal_origin_maps": 3
+  },
+  "aria_ambrym": {
+    "real_history_maps": 6,
+    "latest_history_date": "2019-10-09",
+    "source_history_sha256": "0f3d6408addedc4dd21860e7d1c3a2d1138ad762440209a6addf9bbef6a817d4",
+    "reporting_cases_with_causal_origin_maps": 0
+  },
+  "nisar_mount_asama_ascending": {
+    "real_history_maps": 6,
+    "latest_history_date": "2026-10-21",
+    "source_history_sha256": "584397138d928234e11179b1044c5164788ee3741a44b2bbba8a117d8b403afd",
+    "reporting_cases_with_causal_origin_maps": 0
+  },
+  "nisar_mount_asama_descending": {
+    "real_history_maps": 6,
+    "latest_history_date": "2026-10-15",
+    "source_history_sha256": "cc7e5891cd06a61183c1434e3f459835e82bc6acba419ebef2202f261cd85918",
+    "reporting_cases_with_causal_origin_maps": 0
+  },
+  "nisar_sakurajima_125_a17": {
+    "real_history_maps": 6,
+    "latest_history_date": "2026-10-20",
+    "source_history_sha256": "d4c79a4e0a9a6533213e0cb0b2b2f844654e89b5d60ea76e91f3bc9c4d17c426",
+    "reporting_cases_with_causal_origin_maps": 0
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "source_analysis": "nisar_analysis.py",
+  "source_notebook": "NISAR_forecast_pipeline_v2.ipynb",
+  "source_sha256": {
+    "nisar_analysis.py": "ab55bdad69cb00a1ed62b1cf4d243d51031ae77190a09646f35f6bb5189ba7e4",
+    "NISAR_forecast_pipeline_v2.ipynb": "d5861f16be0ba0233fcb52484ef145b232bba1e4e8a8a439957b07f5bc2feeb3"
+  },
+  "requested_products": 17,
+  "matched_products": 16,
+  "unmatched_product_ids": [
+    "NISAR_L2_PR_GUNW_029_046_D_070_029_4000_SH_20260828T093611_20260828T093645_20260909T093610_20260909T093645_P05023_N_F_J_001"
+  ],
+  "frames": [
+    [
+      139,
+      "A",
+      20
+    ],
+    [
+      46,
+      "D",
+      70
+    ]
+  ],
+  "status": "mount_asama_inputs_generated",
+  "note": "Summit-centered Mount Asama inputs generated in two separate LOS stacks. Three supervised examples; insufficient temporal coverage for standalone train/validation.",
+  "possible_catalog_corrections": [
+    {
+      "supplied": "NISAR_L2_PR_GUNW_029_046_D_070_029_4000_SH_20260828T093611_20260828T093645_20260909T093610_20260909T093645_P05023_N_F_J_001",
+      "actual_catalog_product": "NISAR_L2_PR_GUNW_029_046_D_070_030_4000_SH_20260828T093611_20260828T093645_20260909T093610_20260909T093645_P05023_N_F_J_001.h5"
+    }
+  ],
+  "volcano_id": "mount_asama",
+  "volcano_name": "Mount Asama (Asamayama)",
+  "country": "Japan",
+  "final_site_definitions": "data/nisar_japan/mount_asama_sites.json",
+  "annotated_source_sha256": {
+    "nisar_analysis.py": "f59c96b23ea15fd7351e9eccb0fc6df2349744f17b284c7b3705642b1940146a",
+    "NISAR_forecast_pipeline_v2.ipynb": "e85db89e0ca05bb873793197ed8c40188f9d6396f317f2f1c25c96b9bde32c46"
+  },
+  "source_filename_correction_applied": true,
+  "final_validation_report": "data/nisar_japan/mount_asama_validation_report.json",
+  "matched_products_after_correction": 17,
+  "unmatched_after_correction": []
+}

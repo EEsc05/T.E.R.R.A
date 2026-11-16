@@ -1,0 +1,25 @@
+{
+  "site": "coropuna",
+  "status": "generated",
+  "epochs": 60,
+  "pairs": 112,
+  "examples": 52,
+  "training_examples": 36,
+  "validation_examples": 9,
+  "history_path": "data/aria/coropuna/history.npz",
+  "training_ready": true,
+  "note": null,
+  "country": "Peru",
+  "stack": [
+    25,
+    "DESCENDING",
+    "00074W_00018S"
+  ],
+  "catalog_products": 937,
+  "selected_pairs": 112,
+  "first_date": "2019-12-22",
+  "last_date": "2021-12-11",
+  "sensor": "Sentinel-1 ARIA GUNW",
+  "max_epochs": 60,
+  "mean_pair_valid_fraction": 0.2920619419642857
+}

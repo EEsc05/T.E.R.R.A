@@ -1,0 +1,632 @@
+{
+  "campi_flegrei": {
+    "volcano_id": "campi_flegrei",
+    "volcano_name": "Campi Flegrei",
+    "country": "Italy",
+    "lon": 14.139,
+    "lat": 40.827,
+    "half_km": 15.0,
+    "volcano_number": 211010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=211010"
+  },
+  "etna": {
+    "volcano_id": "etna",
+    "volcano_name": "Etna",
+    "country": "Italy",
+    "lon": 14.999,
+    "lat": 37.748,
+    "half_km": 15.0,
+    "volcano_number": 211060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=211060"
+  },
+  "erta_ale": {
+    "volcano_id": "erta_ale",
+    "volcano_name": "Erta Ale",
+    "country": "Ethiopia",
+    "lon": 40.666,
+    "lat": 13.601,
+    "half_km": 15.0,
+    "volcano_number": 221080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221080"
+  },
+  "dabbahu": {
+    "volcano_id": "dabbahu",
+    "volcano_name": "Dabbahu",
+    "country": "Ethiopia",
+    "lon": 40.48,
+    "lat": 12.595,
+    "half_km": 15.0,
+    "volcano_number": 221113,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221113"
+  },
+  "fentale": {
+    "volcano_id": "fentale",
+    "volcano_name": "Fentale",
+    "country": "Ethiopia",
+    "lon": 39.906,
+    "lat": 8.985,
+    "half_km": 15.0,
+    "volcano_number": 221190,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221190"
+  },
+  "aluto": {
+    "volcano_id": "aluto",
+    "volcano_name": "Aluto",
+    "country": "Ethiopia",
+    "lon": 38.78,
+    "lat": 7.77,
+    "half_km": 15.0,
+    "volcano_number": 221270,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221270"
+  },
+  "corbetti": {
+    "volcano_id": "corbetti",
+    "volcano_name": "Corbetti",
+    "country": "Ethiopia",
+    "lon": 38.39,
+    "lat": 7.193,
+    "half_km": 15.0,
+    "volcano_number": 221290,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221290"
+  },
+  "lengai_ol_doinyo": {
+    "volcano_id": "lengai_ol_doinyo",
+    "volcano_name": "Lengai, Ol Doinyo",
+    "country": "Tanzania",
+    "lon": 35.914,
+    "lat": -2.764,
+    "half_km": 15.0,
+    "volcano_number": 222120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=222120"
+  },
+  "nyiragongo": {
+    "volcano_id": "nyiragongo",
+    "volcano_name": "Nyiragongo",
+    "country": "DR Congo",
+    "lon": 29.25,
+    "lat": -1.52,
+    "half_km": 15.0,
+    "volcano_number": 223030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=223030"
+  },
+  "fournaise_piton_de_la": {
+    "volcano_id": "fournaise_piton_de_la",
+    "volcano_name": "Fournaise, Piton de la",
+    "country": "France",
+    "lon": 55.708,
+    "lat": -21.244,
+    "half_km": 15.0,
+    "volcano_number": 233020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=233020"
+  },
+  "taupo": {
+    "volcano_id": "taupo",
+    "volcano_name": "Taupo",
+    "country": "New Zealand",
+    "lon": 175.893,
+    "lat": -38.7811,
+    "half_km": 15.0,
+    "volcano_number": 241070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241070"
+  },
+  "tongariro": {
+    "volcano_id": "tongariro",
+    "volcano_name": "Tongariro",
+    "country": "New Zealand",
+    "lon": 175.632,
+    "lat": -39.157,
+    "half_km": 15.0,
+    "volcano_number": 241080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241080"
+  },
+  "ruapehu": {
+    "volcano_id": "ruapehu",
+    "volcano_name": "Ruapehu",
+    "country": "New Zealand",
+    "lon": 175.57,
+    "lat": -39.28,
+    "half_km": 15.0,
+    "volcano_number": 241100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241100"
+  },
+  "manam": {
+    "volcano_id": "manam",
+    "volcano_name": "Manam",
+    "country": "Papua New Guinea",
+    "lon": 145.037,
+    "lat": -4.08,
+    "half_km": 15.0,
+    "volcano_number": 251020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=251020"
+  },
+  "rabaul": {
+    "volcano_id": "rabaul",
+    "volcano_name": "Rabaul",
+    "country": "Papua New Guinea",
+    "lon": 152.1937,
+    "lat": -4.2459,
+    "half_km": 15.0,
+    "volcano_number": 252140,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=252140"
+  },
+  "bagana": {
+    "volcano_id": "bagana",
+    "volcano_name": "Bagana",
+    "country": "Papua New Guinea",
+    "lon": 155.196,
+    "lat": -6.137,
+    "half_km": 15.0,
+    "volcano_number": 255020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=255020"
+  },
+  "ambrym": {
+    "volcano_id": "ambrym",
+    "volcano_name": "Ambrym",
+    "country": "Vanuatu",
+    "lon": 168.12,
+    "lat": -16.25,
+    "half_km": 15.0,
+    "volcano_number": 257040,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=257040"
+  },
+  "yasur": {
+    "volcano_id": "yasur",
+    "volcano_name": "Yasur",
+    "country": "Vanuatu",
+    "lon": 169.447,
+    "lat": -19.532,
+    "half_km": 15.0,
+    "volcano_number": 257100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=257100"
+  },
+  "sinabung": {
+    "volcano_id": "sinabung",
+    "volcano_name": "Sinabung",
+    "country": "Indonesia",
+    "lon": 98.392,
+    "lat": 3.17,
+    "half_km": 15.0,
+    "volcano_number": 261080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=261080"
+  },
+  "krakatau": {
+    "volcano_id": "krakatau",
+    "volcano_name": "Krakatau",
+    "country": "Indonesia",
+    "lon": 105.4233,
+    "lat": -6.1009,
+    "half_km": 15.0,
+    "volcano_number": 262000,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=262000"
+  },
+  "merapi": {
+    "volcano_id": "merapi",
+    "volcano_name": "Merapi",
+    "country": "Indonesia",
+    "lon": 110.446,
+    "lat": -7.54,
+    "half_km": 15.0,
+    "volcano_number": 263250,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=263250"
+  },
+  "semeru": {
+    "volcano_id": "semeru",
+    "volcano_name": "Semeru",
+    "country": "Indonesia",
+    "lon": 112.922,
+    "lat": -8.108,
+    "half_km": 15.0,
+    "volcano_number": 263300,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=263300"
+  },
+  "agung": {
+    "volcano_id": "agung",
+    "volcano_name": "Agung",
+    "country": "Indonesia",
+    "lon": 115.508,
+    "lat": -8.343,
+    "half_km": 15.0,
+    "volcano_number": 264020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=264020"
+  },
+  "kanlaon": {
+    "volcano_id": "kanlaon",
+    "volcano_name": "Kanlaon",
+    "country": "Philippines",
+    "lon": 123.13,
+    "lat": 10.4096,
+    "half_km": 15.0,
+    "volcano_number": 272020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=272020"
+  },
+  "mayon": {
+    "volcano_id": "mayon",
+    "volcano_name": "Mayon",
+    "country": "Philippines",
+    "lon": 123.685,
+    "lat": 13.257,
+    "half_km": 15.0,
+    "volcano_number": 273030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=273030"
+  },
+  "taal": {
+    "volcano_id": "taal",
+    "volcano_name": "Taal",
+    "country": "Philippines",
+    "lon": 120.9975,
+    "lat": 14.0106,
+    "half_km": 15.0,
+    "volcano_number": 273070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=273070"
+  },
+  "pinatubo": {
+    "volcano_id": "pinatubo",
+    "volcano_name": "Pinatubo",
+    "country": "Philippines",
+    "lon": 120.35,
+    "lat": 15.13,
+    "half_km": 15.0,
+    "volcano_number": 273083,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=273083"
+  },
+  "asamayama": {
+    "volcano_id": "mount_asama",
+    "volcano_name": "Asamayama",
+    "country": "Japan",
+    "lon": 138.523,
+    "lat": 36.406,
+    "half_km": 15.0,
+    "volcano_number": 283110,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=283110"
+  },
+  "kilauea": {
+    "volcano_id": "kilauea",
+    "volcano_name": "Kilauea",
+    "country": "United States",
+    "lon": -155.287,
+    "lat": 19.421,
+    "half_km": 15.0,
+    "volcano_number": 332010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=332010"
+  },
+  "mauna_loa": {
+    "volcano_id": "mauna_loa",
+    "volcano_name": "Mauna Loa",
+    "country": "United States",
+    "lon": -155.608,
+    "lat": 19.475,
+    "half_km": 15.0,
+    "volcano_number": 332020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=332020"
+  },
+  "colima": {
+    "volcano_id": "colima",
+    "volcano_name": "Colima",
+    "country": "Mexico",
+    "lon": -103.62,
+    "lat": 19.514,
+    "half_km": 15.0,
+    "volcano_number": 341040,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=341040"
+  },
+  "popocatepetl": {
+    "volcano_id": "popocatepetl",
+    "volcano_name": "Popocatepetl",
+    "country": "Mexico",
+    "lon": -98.622,
+    "lat": 19.023,
+    "half_km": 15.0,
+    "volcano_number": 341090,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=341090"
+  },
+  "santa_maria": {
+    "volcano_id": "santa_maria",
+    "volcano_name": "Santa Maria",
+    "country": "Guatemala",
+    "lon": -91.552,
+    "lat": 14.757,
+    "half_km": 15.0,
+    "volcano_number": 342030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=342030"
+  },
+  "fuego": {
+    "volcano_id": "fuego",
+    "volcano_name": "Fuego",
+    "country": "Guatemala",
+    "lon": -90.8806,
+    "lat": 14.4748,
+    "half_km": 15.0,
+    "volcano_number": 342090,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=342090"
+  },
+  "pacaya": {
+    "volcano_id": "pacaya",
+    "volcano_name": "Pacaya",
+    "country": "Guatemala",
+    "lon": -90.601,
+    "lat": 14.382,
+    "half_km": 15.0,
+    "volcano_number": 342110,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=342110"
+  },
+  "masaya": {
+    "volcano_id": "masaya",
+    "volcano_name": "Masaya",
+    "country": "Nicaragua",
+    "lon": -86.1688,
+    "lat": 11.9844,
+    "half_km": 15.0,
+    "volcano_number": 344100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=344100"
+  },
+  "concepcion": {
+    "volcano_id": "concepcion",
+    "volcano_name": "Concepcion",
+    "country": "Nicaragua",
+    "lon": -85.622,
+    "lat": 11.538,
+    "half_km": 15.0,
+    "volcano_number": 344120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=344120"
+  },
+  "ruiz_nevado_del": {
+    "volcano_id": "ruiz_nevado_del",
+    "volcano_name": "Ruiz, Nevado del",
+    "country": "Colombia",
+    "lon": -75.324,
+    "lat": 4.892,
+    "half_km": 15.0,
+    "volcano_number": 351020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=351020"
+  },
+  "galeras": {
+    "volcano_id": "galeras",
+    "volcano_name": "Galeras",
+    "country": "Colombia",
+    "lon": -77.37,
+    "lat": 1.22,
+    "half_km": 15.0,
+    "volcano_number": 351080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=351080"
+  },
+  "cotopaxi": {
+    "volcano_id": "cotopaxi",
+    "volcano_name": "Cotopaxi",
+    "country": "Ecuador",
+    "lon": -78.436,
+    "lat": -0.677,
+    "half_km": 15.0,
+    "volcano_number": 352050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=352050"
+  },
+  "tungurahua": {
+    "volcano_id": "tungurahua",
+    "volcano_name": "Tungurahua",
+    "country": "Ecuador",
+    "lon": -78.442,
+    "lat": -1.467,
+    "half_km": 15.0,
+    "volcano_number": 352080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=352080"
+  },
+  "fernandina": {
+    "volcano_id": "fernandina",
+    "volcano_name": "Fernandina",
+    "country": "Ecuador",
+    "lon": -91.55,
+    "lat": -0.37,
+    "half_km": 15.0,
+    "volcano_number": 353010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=353010"
+  },
+  "wolf": {
+    "volcano_id": "wolf",
+    "volcano_name": "Wolf",
+    "country": "Ecuador",
+    "lon": -91.35,
+    "lat": 0.02,
+    "half_km": 15.0,
+    "volcano_number": 353020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=353020"
+  },
+  "negra_sierra": {
+    "volcano_id": "negra_sierra",
+    "volcano_name": "Negra, Sierra",
+    "country": "Ecuador",
+    "lon": -91.17,
+    "lat": -0.83,
+    "half_km": 15.0,
+    "volcano_number": 353050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=353050"
+  },
+  "coropuna": {
+    "volcano_id": "coropuna",
+    "volcano_name": "Coropuna",
+    "country": "Peru",
+    "lon": -72.65,
+    "lat": -15.52,
+    "half_km": 15.0,
+    "volcano_number": 354003,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354003"
+  },
+  "sabancaya": {
+    "volcano_id": "sabancaya",
+    "volcano_name": "Sabancaya",
+    "country": "Peru",
+    "lon": -71.857,
+    "lat": -15.787,
+    "half_km": 15.0,
+    "volcano_number": 354006,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354006"
+  },
+  "misti_el": {
+    "volcano_id": "misti",
+    "volcano_name": "Misti, El",
+    "country": "Peru",
+    "lon": -71.4056,
+    "lat": -16.2991,
+    "half_km": 15.0,
+    "volcano_number": 354010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354010"
+  },
+  "ubinas": {
+    "volcano_id": "ubinas",
+    "volcano_name": "Ubinas",
+    "country": "Peru",
+    "lon": -70.8972,
+    "lat": -16.345,
+    "half_km": 15.0,
+    "volcano_number": 354020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354020"
+  },
+  "ticsani": {
+    "volcano_id": "ticsani",
+    "volcano_name": "Ticsani",
+    "country": "Peru",
+    "lon": -70.5981,
+    "lat": -16.7586,
+    "half_km": 15.0,
+    "volcano_number": 354031,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354031"
+  },
+  "huaynaputina": {
+    "volcano_id": "huaynaputina",
+    "volcano_name": "Huaynaputina",
+    "country": "Peru",
+    "lon": -70.8542,
+    "lat": -16.6144,
+    "half_km": 15.0,
+    "volcano_number": 354030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354030"
+  },
+  "tutupaca": {
+    "volcano_id": "tutupaca",
+    "volcano_name": "Tutupaca",
+    "country": "Peru",
+    "lon": -70.372,
+    "lat": -17.026,
+    "half_km": 15.0,
+    "volcano_number": 354040,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354040"
+  },
+  "yucamane": {
+    "volcano_id": "yucamane",
+    "volcano_name": "Yucamane",
+    "country": "Peru",
+    "lon": -70.196,
+    "lat": -17.184,
+    "half_km": 15.0,
+    "volcano_number": 354050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354050"
+  },
+  "lascar": {
+    "volcano_id": "lascar",
+    "volcano_name": "Lascar",
+    "country": "Chile",
+    "lon": -67.73,
+    "lat": -23.37,
+    "half_km": 15.0,
+    "volcano_number": 355100,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=355100"
+  },
+  "lastarria": {
+    "volcano_id": "lastarria",
+    "volcano_name": "Lastarria",
+    "country": "Chile-Argentina",
+    "lon": -68.507,
+    "lat": -25.168,
+    "half_km": 15.0,
+    "volcano_number": 355120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=355120"
+  },
+  "chillan_nevados_de": {
+    "volcano_id": "chillan_nevados_de",
+    "volcano_name": "Chillan, Nevados de",
+    "country": "Chile",
+    "lon": -71.378,
+    "lat": -36.868,
+    "half_km": 15.0,
+    "volcano_number": 357070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=357070"
+  },
+  "villarrica": {
+    "volcano_id": "villarrica",
+    "volcano_name": "Villarrica",
+    "country": "Chile",
+    "lon": -71.93,
+    "lat": -39.42,
+    "half_km": 15.0,
+    "volcano_number": 357120,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=357120"
+  },
+  "soufriere_hills": {
+    "volcano_id": "soufriere_hills",
+    "volcano_name": "Soufriere Hills",
+    "country": "United Kingdom",
+    "lon": -62.18,
+    "lat": 16.72,
+    "half_km": 15.0,
+    "volcano_number": 360050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=360050"
+  },
+  "soufriere_st_vincent": {
+    "volcano_id": "soufriere_st_vincent",
+    "volcano_name": "Soufriere St. Vincent",
+    "country": "Saint Vincent and the Grenadines",
+    "lon": -61.18,
+    "lat": 13.33,
+    "half_km": 15.0,
+    "volcano_number": 360150,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=360150"
+  },
+  "reykjanes": {
+    "volcano_id": "reykjanes",
+    "volcano_name": "Reykjanes",
+    "country": "Iceland",
+    "lon": -22.717,
+    "lat": 63.817,
+    "half_km": 15.0,
+    "volcano_number": 371020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=371020"
+  },
+  "katla": {
+    "volcano_id": "katla",
+    "volcano_name": "Katla",
+    "country": "Iceland",
+    "lon": -19.083,
+    "lat": 63.633,
+    "half_km": 15.0,
+    "volcano_number": 372030,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372030"
+  },
+  "hekla": {
+    "volcano_id": "hekla",
+    "volcano_name": "Hekla",
+    "country": "Iceland",
+    "lon": -19.666,
+    "lat": 63.983,
+    "half_km": 15.0,
+    "volcano_number": 372070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372070"
+  },
+  "grimsvotn": {
+    "volcano_id": "grimsvotn",
+    "volcano_name": "Grimsvotn",
+    "country": "Iceland",
+    "lon": -17.316,
+    "lat": 64.416,
+    "half_km": 15.0,
+    "volcano_number": 373010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373010"
+  },
+  "askja": {
+    "volcano_id": "askja",
+    "volcano_name": "Askja",
+    "country": "Iceland",
+    "lon": -16.783,
+    "lat": 65.033,
+    "half_km": 15.0,
+    "volcano_number": 373060,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373060"
+  }
+}

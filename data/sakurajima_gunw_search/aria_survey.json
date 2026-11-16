@@ -1,0 +1,13 @@
+{
+  "site": "sakurajima",
+  "country": "Japan",
+  "volcano_name": "Sakurajima (Aira)",
+  "products": 0,
+  "truncated_at_limit": false,
+  "parsed_products": 0,
+  "sensor": "Sentinel-1 ARIA GUNW",
+  "format": "netCDF",
+  "requires_separate_input_adapter": true,
+  "dates_for_connectivity_only": "Chronological endpoints, not the product phase/reference convention",
+  "stacks": []
+}

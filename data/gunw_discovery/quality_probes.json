@@ -1,0 +1,268 @@
+{
+  "popocatepetl": {
+    "config": {
+      "lon": -98.622,
+      "lat": 19.023,
+      "half_km": 15.0,
+      "stack": [
+        19,
+        "A",
+        11
+      ],
+      "volcano_id": "popocatepetl",
+      "volcano_name": "Popocatepetl",
+      "country": "Mexico",
+      "volcano_number": 341090,
+      "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=341090"
+    },
+    "samples": [
+      {
+        "file": "NISAR_L2_PR_GUNW_004_019_A_011_005_4000_SH_20251030T120539_20251030T120613_20251111T120539_20251111T120614_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 58720257,
+        "valid_fraction": 0.9677734375,
+        "valid_pixels": 991
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_017_019_A_011_018_4000_SH_20260404T120545_20260404T120619_20260416T120544_20260416T120619_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 62914561,
+        "valid_fraction": 0.970703125,
+        "valid_pixels": 994
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_032_019_A_011_033_4000_SH_20261001T120538_20261001T120612_20261013T120538_20261013T120612_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 62914561,
+        "valid_fraction": 0.9326171875,
+        "valid_pixels": 955
+      }
+    ],
+    "passes_three_sample_coverage_check": true
+  },
+  "dabbahu": {
+    "config": {
+      "lon": 40.48,
+      "lat": 12.595,
+      "half_km": 15.0,
+      "stack": [
+        165,
+        "D",
+        82
+      ],
+      "volcano_id": "dabbahu",
+      "volcano_name": "Dabbahu",
+      "country": "Ethiopia",
+      "volcano_number": 221113,
+      "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221113"
+    },
+    "samples": [
+      {
+        "file": "NISAR_L2_PR_GUNW_004_165_D_082_005_2000_SH_20251109T154910_20251109T154944_20251121T154910_20251121T154944_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 88080385,
+        "valid_fraction": 1.0,
+        "valid_pixels": 1024
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_017_165_D_082_018_2000_SH_20260414T154915_20260414T154950_20260426T154915_20260426T154949_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 88080385,
+        "valid_fraction": 0.998046875,
+        "valid_pixels": 1022
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_031_165_D_082_032_2000_SH_20260929T154908_20260929T154943_20261011T154908_20261011T154943_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 88080385,
+        "valid_fraction": 0.9990234375,
+        "valid_pixels": 1023
+      }
+    ],
+    "passes_three_sample_coverage_check": true
+  },
+  "hekla": {
+    "config": {
+      "lon": -19.666,
+      "lat": 63.983,
+      "half_km": 15.0,
+      "stack": [
+        82,
+        "D",
+        56
+      ],
+      "volcano_id": "hekla",
+      "volcano_name": "Hekla",
+      "country": "Iceland",
+      "volcano_number": 372070,
+      "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=372070"
+    },
+    "samples": [
+      {
+        "file": "NISAR_L2_PR_GUNW_004_082_D_056_005_4000_SH_20251103T212359_20251103T212426_20251115T212359_20251115T212426_P05023_N_P_J_001.h5",
+        "range_bytes_fetched": 79691777,
+        "valid_fraction": 0.2880859375,
+        "valid_pixels": 295
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_019_082_D_056_020_4000_SH_20260502T212404_20260502T212430_20260514T212404_20260514T212430_P05023_N_P_J_001.h5",
+        "range_bytes_fetched": 71303169,
+        "valid_fraction": 0.4365234375,
+        "valid_pixels": 447
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_032_082_D_056_033_4000_SH_20261005T212358_20261005T212425_20261017T212358_20261017T212425_P05023_N_P_J_001.h5",
+        "range_bytes_fetched": 71303169,
+        "valid_fraction": 0.6767578125,
+        "valid_pixels": 693
+      }
+    ],
+    "passes_three_sample_coverage_check": true
+  },
+  "askja": {
+    "config": {
+      "lon": -16.783,
+      "lat": 65.033,
+      "half_km": 15.0,
+      "stack": [
+        29,
+        "A",
+        35
+      ],
+      "volcano_id": "askja",
+      "volcano_name": "Askja",
+      "country": "Iceland",
+      "volcano_number": 373060,
+      "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=373060"
+    },
+    "samples": [
+      {
+        "file": "NISAR_L2_PR_GUNW_005_029_A_035_006_4000_SH_20251112T045809_20251112T045846_20251124T045809_20251124T045847_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 58720257,
+        "valid_fraction": 0.1533203125,
+        "valid_pixels": 157
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_018_029_A_035_019_4000_SH_20260417T045814_20260417T045851_20260429T045814_20260429T045851_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 58720257,
+        "valid_fraction": 0.0,
+        "valid_pixels": 0
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_032_029_A_035_033_4000_SH_20261002T045808_20261002T045845_20261014T045808_20261014T045845_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 58720257,
+        "valid_fraction": 0.5166015625,
+        "valid_pixels": 529
+      }
+    ],
+    "passes_three_sample_coverage_check": false
+  },
+  "kilauea": {
+    "config": {
+      "lon": -155.287,
+      "lat": 19.421,
+      "half_km": 15.0,
+      "stack": [
+        151,
+        "A",
+        11
+      ],
+      "volcano_id": "kilauea",
+      "volcano_name": "Kilauea",
+      "country": "United States",
+      "volcano_number": 332010,
+      "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=332010"
+    },
+    "samples": [
+      {
+        "file": "NISAR_L2_UR_GUNW_033_151_A_011_034_4000_SH_20261022T155040_20261022T155057_20261103T155041_20261103T155057_P05023_F_P_J_001.h5",
+        "range_bytes_fetched": 62914561,
+        "valid_fraction": 0.98046875,
+        "valid_pixels": 1004
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_004_151_A_011_005_4000_SH_20251108T155041_20251108T155058_20251120T155041_20251120T155058_P05023_N_P_J_001.h5",
+        "range_bytes_fetched": 67108865,
+        "valid_fraction": 0.5625,
+        "valid_pixels": 576
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_019_151_A_011_020_4000_SH_20260507T155045_20260507T155103_20260519T155045_20260519T155102_P05023_N_P_J_001.h5",
+        "range_bytes_fetched": 62914561,
+        "valid_fraction": 0.7705078125,
+        "valid_pixels": 789
+      }
+    ],
+    "passes_three_sample_coverage_check": true
+  },
+  "tongariro": {
+    "config": {
+      "lon": 175.632,
+      "lat": -39.157,
+      "half_km": 15.0,
+      "stack": [
+        94,
+        "A",
+        158
+      ],
+      "volcano_id": "tongariro",
+      "volcano_name": "Tongariro",
+      "country": "New Zealand",
+      "volcano_number": 241080,
+      "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241080"
+    },
+    "samples": [
+      {
+        "file": "NISAR_L2_PR_GUNW_004_094_A_158_005_2000_SH_20251104T182039_20251104T182114_20251116T182039_20251116T182114_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 88080385,
+        "valid_fraction": 0.93359375,
+        "valid_pixels": 956
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_017_094_A_158_018_2000_SH_20260409T182044_20260409T182119_20260421T182044_20260421T182119_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 67108865,
+        "valid_fraction": 0.8046875,
+        "valid_pixels": 824
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_031_094_A_158_032_2000_SH_20260924T182038_20260924T182112_20261006T182038_20261006T182112_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 88080385,
+        "valid_fraction": 0.9560546875,
+        "valid_pixels": 979
+      }
+    ],
+    "passes_three_sample_coverage_check": true
+  },
+  "lascar": {
+    "config": {
+      "lon": -67.73,
+      "lat": -23.37,
+      "half_km": 15.0,
+      "stack": [
+        169,
+        "D",
+        100
+      ],
+      "volcano_id": "lascar",
+      "volcano_name": "Lascar",
+      "country": "Chile",
+      "volcano_number": 355100,
+      "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=355100"
+    },
+    "samples": [
+      {
+        "file": "NISAR_L2_PR_GUNW_004_169_D_100_005_2000_SH_20251109T223844_20251109T223919_20251121T223845_20251121T223919_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 83886081,
+        "valid_fraction": 0.986328125,
+        "valid_pixels": 1010
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_017_169_D_100_018_2000_SH_20260414T223850_20260414T223925_20260426T223850_20260426T223924_P05023_F_F_J_001.h5",
+        "range_bytes_fetched": 79691777,
+        "valid_fraction": 0.9892578125,
+        "valid_pixels": 1013
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_031_169_D_100_032_2000_SH_20260929T223843_20260929T223918_20261011T223843_20261011T223918_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 83886081,
+        "valid_fraction": 0.9638671875,
+        "valid_pixels": 987
+      }
+    ],
+    "passes_three_sample_coverage_check": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "status": "flagged; original archives and models preserved",
+  "new_dataset_policy": "exclude BETA by default unless --include-beta explicitly requested",
+  "legacy_pairs": [
+    {
+      "source_file": "data/nisar/ubinas/selected_pairs.json",
+      "result_idx": 74,
+      "file": "NISAR_L2_PR_GUNW_004_025_D_097_005_2000_SH_20251030T225343_20251030T225417_20251111T225343_20251111T225417_X05010_N_F_J_001.h5",
+      "track": 25,
+      "direction": "D",
+      "frame": 97,
+      "ref_date": "2025-10-30",
+      "sec_date": "2025-11-11",
+      "baseline_days": 12,
+      "covers_aoi": true,
+      "collection": "NISAR_L2_GUNW_BETA_V1"
+    },
+    {
+      "source_file": "data/nisar/ubinas/selected_pairs.json",
+      "result_idx": 63,
+      "file": "NISAR_L2_PR_GUNW_008_025_D_097_010_2000_SH_20251217T225344_20251217T225419_20260110T225346_20260110T225420_X05010_N_F_J_001.h5",
+      "track": 25,
+      "direction": "D",
+      "frame": 97,
+      "ref_date": "2025-12-17",
+      "sec_date": "2026-01-10",
+      "baseline_days": 24,
+      "covers_aoi": true,
+      "collection": "NISAR_L2_GUNW_BETA_V1"
+    }
+  ]
+}

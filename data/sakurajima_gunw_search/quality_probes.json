@@ -1,0 +1,224 @@
+{
+  "sakurajima_125_a17": {
+    "config": {
+      "site": "sakurajima",
+      "volcano_id": "sakurajima",
+      "volcano_name": "Sakurajima (Aira)",
+      "country": "Japan",
+      "lon": 130.6589,
+      "lat": 31.5772,
+      "half_km": 7.5,
+      "volcano_number": 282080,
+      "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=282080",
+      "aoi_note": "15 km square centered on the GVP Sakurajima/Aira coordinate; intended to limit ocean coverage while retaining volcanic flanks.",
+      "stack": [
+        125,
+        "A",
+        17
+      ],
+      "polarization": "HH",
+      "pairs": 8,
+      "epochs": 9,
+      "first_date": "2026-06-22",
+      "last_date": "2026-10-20",
+      "catalogue_only_potential_examples": 1,
+      "new_product_ids": 8,
+      "minimum_aoi_coverage": 1.0,
+      "collections": [
+        "NISAR_L2_GUNW_PROVISIONAL_V1"
+      ],
+      "already_sampled_physical_site": false,
+      "pixel_quality_verified": false
+    },
+    "samples": [
+      {
+        "file": "NISAR_L2_PR_GUNW_023_125_A_017_024_4000_SH_20260622T203702_20260622T203722_20260704T203702_20260704T203721_P05023_N_P_J_001.h5",
+        "range_bytes_fetched": 50331649,
+        "valid_fraction": 0.3486328125,
+        "valid_pixels": 357,
+        "native_spacing_m": [
+          80.0,
+          -80.0
+        ],
+        "source_url": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GUNW_PROVISIONAL_V1/NISAR_L2_PR_GUNW_023_125_A_017_024_4000_SH_20260622T203702_20260622T203722_20260704T203702_20260704T203721_P05023_N_P_J_001/NISAR_L2_PR_GUNW_023_125_A_017_024_4000_SH_20260622T203702_20260622T203722_20260704T203702_20260704T203721_P05023_N_P_J_001.h5",
+        "mean_coherence_valid_blocks": 0.6405759510955541,
+        "passes_pair_coverage_threshold": true
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_029_125_A_017_030_4000_SH_20260902T203659_20260902T203719_20260914T203659_20260914T203719_P05023_N_P_J_001.h5",
+        "range_bytes_fetched": 54525953,
+        "valid_fraction": 0.3857421875,
+        "valid_pixels": 395,
+        "native_spacing_m": [
+          80.0,
+          -80.0
+        ],
+        "source_url": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GUNW_PROVISIONAL_V1/NISAR_L2_PR_GUNW_029_125_A_017_030_4000_SH_20260902T203659_20260902T203719_20260914T203659_20260914T203719_P05023_N_P_J_001/NISAR_L2_PR_GUNW_029_125_A_017_030_4000_SH_20260902T203659_20260902T203719_20260914T203659_20260914T203719_P05023_N_P_J_001.h5",
+        "mean_coherence_valid_blocks": 0.5990051231999308,
+        "passes_pair_coverage_threshold": true
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_032_125_A_017_033_2000_SH_20261008T203644_20261008T203719_20261020T203644_20261020T203719_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 54525953,
+        "valid_fraction": 0.42578125,
+        "valid_pixels": 436,
+        "native_spacing_m": [
+          80.0,
+          -80.0
+        ],
+        "source_url": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GUNW_PROVISIONAL_V1/NISAR_L2_PR_GUNW_032_125_A_017_033_2000_SH_20261008T203644_20261008T203719_20261020T203644_20261020T203719_P05023_N_F_J_001/NISAR_L2_PR_GUNW_032_125_A_017_033_2000_SH_20261008T203644_20261008T203719_20261020T203644_20261020T203719_P05023_N_F_J_001.h5",
+        "mean_coherence_valid_blocks": 0.6399210925075351,
+        "passes_pair_coverage_threshold": true
+      }
+    ],
+    "passes_three_sample_coverage_check": true
+  },
+  "sakurajima_24_a18": {
+    "config": {
+      "site": "sakurajima",
+      "volcano_id": "sakurajima",
+      "volcano_name": "Sakurajima (Aira)",
+      "country": "Japan",
+      "lon": 130.6589,
+      "lat": 31.5772,
+      "half_km": 7.5,
+      "volcano_number": 282080,
+      "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=282080",
+      "aoi_note": "15 km square centered on the GVP Sakurajima/Aira coordinate; intended to limit ocean coverage while retaining volcanic flanks.",
+      "stack": [
+        24,
+        "A",
+        18
+      ],
+      "polarization": "HH",
+      "pairs": 8,
+      "epochs": 9,
+      "first_date": "2026-06-27",
+      "last_date": "2026-10-13",
+      "catalogue_only_potential_examples": 1,
+      "new_product_ids": 8,
+      "minimum_aoi_coverage": 1.0,
+      "collections": [
+        "NISAR_L2_GUNW_PROVISIONAL_V1"
+      ],
+      "already_sampled_physical_site": false,
+      "pixel_quality_verified": false
+    },
+    "samples": [
+      {
+        "file": "NISAR_L2_PR_GUNW_032_024_A_018_033_4000_SH_20261001T202858_20261001T202933_20261013T202858_20261013T202933_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 50331649,
+        "valid_fraction": 0.4541015625,
+        "valid_pixels": 465,
+        "native_spacing_m": [
+          80.0,
+          -80.0
+        ],
+        "source_url": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GUNW_PROVISIONAL_V1/NISAR_L2_PR_GUNW_032_024_A_018_033_4000_SH_20261001T202858_20261001T202933_20261013T202858_20261013T202933_P05023_N_F_J_001/NISAR_L2_PR_GUNW_032_024_A_018_033_4000_SH_20261001T202858_20261001T202933_20261013T202858_20261013T202933_P05023_N_F_J_001.h5",
+        "mean_coherence_valid_blocks": 0.7015350873238141,
+        "passes_pair_coverage_threshold": true
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_024_024_A_018_025_4000_SH_20260627T202901_20260627T202936_20260709T202900_20260709T202935_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 50331649,
+        "valid_fraction": 0.423828125,
+        "valid_pixels": 434,
+        "native_spacing_m": [
+          80.0,
+          -80.0
+        ],
+        "source_url": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GUNW_PROVISIONAL_V1/NISAR_L2_PR_GUNW_024_024_A_018_025_4000_SH_20260627T202901_20260627T202936_20260709T202900_20260709T202935_P05023_N_F_J_001/NISAR_L2_PR_GUNW_024_024_A_018_025_4000_SH_20260627T202901_20260627T202936_20260709T202900_20260709T202935_P05023_N_F_J_001.h5",
+        "mean_coherence_valid_blocks": 0.6096154324650447,
+        "passes_pair_coverage_threshold": true
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_029_024_A_018_030_4000_SH_20260826T202858_20260826T202933_20260907T202858_20260907T202933_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 50331649,
+        "valid_fraction": 0.0107421875,
+        "valid_pixels": 11,
+        "native_spacing_m": [
+          80.0,
+          -80.0
+        ],
+        "source_url": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GUNW_PROVISIONAL_V1/NISAR_L2_PR_GUNW_029_024_A_018_030_4000_SH_20260826T202858_20260826T202933_20260907T202858_20260907T202933_P05023_N_F_J_001/NISAR_L2_PR_GUNW_029_024_A_018_030_4000_SH_20260826T202858_20260826T202933_20260907T202858_20260907T202933_P05023_N_F_J_001.h5",
+        "mean_coherence_valid_blocks": 0.6165228825271698,
+        "passes_pair_coverage_threshold": false
+      }
+    ],
+    "passes_three_sample_coverage_check": false
+  },
+  "sakurajima_3_d73": {
+    "config": {
+      "site": "sakurajima",
+      "volcano_id": "sakurajima",
+      "volcano_name": "Sakurajima (Aira)",
+      "country": "Japan",
+      "lon": 130.6589,
+      "lat": 31.5772,
+      "half_km": 7.5,
+      "volcano_number": 282080,
+      "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=282080",
+      "aoi_note": "15 km square centered on the GVP Sakurajima/Aira coordinate; intended to limit ocean coverage while retaining volcanic flanks.",
+      "stack": [
+        3,
+        "D",
+        73
+      ],
+      "polarization": "HH",
+      "pairs": 8,
+      "epochs": 9,
+      "first_date": "2026-06-26",
+      "last_date": "2026-10-12",
+      "catalogue_only_potential_examples": 1,
+      "new_product_ids": 8,
+      "minimum_aoi_coverage": 1.0,
+      "collections": [
+        "NISAR_L2_GUNW_PROVISIONAL_V1"
+      ],
+      "already_sampled_physical_site": false,
+      "pixel_quality_verified": false
+    },
+    "samples": [
+      {
+        "file": "NISAR_L2_PR_GUNW_029_003_D_073_030_2000_SH_20260825T100250_20260825T100325_20260906T100250_20260906T100325_P05023_N_F_J_002.h5",
+        "range_bytes_fetched": 50331649,
+        "valid_fraction": 0.0087890625,
+        "valid_pixels": 9,
+        "native_spacing_m": [
+          80.0,
+          -80.0
+        ],
+        "source_url": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GUNW_PROVISIONAL_V1/NISAR_L2_PR_GUNW_029_003_D_073_030_2000_SH_20260825T100250_20260825T100325_20260906T100250_20260906T100325_P05023_N_F_J_002/NISAR_L2_PR_GUNW_029_003_D_073_030_2000_SH_20260825T100250_20260825T100325_20260906T100250_20260906T100325_P05023_N_F_J_002.h5",
+        "mean_coherence_valid_blocks": 0.5729459565810047,
+        "passes_pair_coverage_threshold": false
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_032_003_D_073_033_2000_SH_20260930T100250_20260930T100325_20261012T100250_20261012T100325_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 50331649,
+        "valid_fraction": 0.44921875,
+        "valid_pixels": 460,
+        "native_spacing_m": [
+          80.0,
+          -80.0
+        ],
+        "source_url": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GUNW_PROVISIONAL_V1/NISAR_L2_PR_GUNW_032_003_D_073_033_2000_SH_20260930T100250_20260930T100325_20261012T100250_20261012T100325_P05023_N_F_J_001/NISAR_L2_PR_GUNW_032_003_D_073_033_2000_SH_20260930T100250_20260930T100325_20261012T100250_20261012T100325_P05023_N_F_J_001.h5",
+        "mean_coherence_valid_blocks": 0.694680037691052,
+        "passes_pair_coverage_threshold": true
+      },
+      {
+        "file": "NISAR_L2_PR_GUNW_024_003_D_073_025_2000_SH_20260626T100253_20260626T100327_20260708T100252_20260708T100327_P05023_N_F_J_001.h5",
+        "range_bytes_fetched": 54525953,
+        "valid_fraction": 0.0,
+        "valid_pixels": 0,
+        "native_spacing_m": [
+          80.0,
+          -80.0
+        ],
+        "source_url": "https://nisar.asf.earthdatacloud.nasa.gov/NISAR/NISAR_L2_GUNW_PROVISIONAL_V1/NISAR_L2_PR_GUNW_024_003_D_073_025_2000_SH_20260626T100253_20260626T100327_20260708T100252_20260708T100327_P05023_N_F_J_001/NISAR_L2_PR_GUNW_024_003_D_073_025_2000_SH_20260626T100253_20260626T100327_20260708T100252_20260708T100327_P05023_N_F_J_001.h5",
+        "mean_coherence_valid_blocks": null,
+        "passes_pair_coverage_threshold": false
+      }
+    ],
+    "passes_three_sample_coverage_check": false
+  }
+}

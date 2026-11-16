@@ -1,0 +1,25 @@
+{
+  "site": "kilauea",
+  "status": "generated",
+  "epochs": 60,
+  "pairs": 133,
+  "examples": 47,
+  "training_examples": 30,
+  "validation_examples": 8,
+  "history_path": "data/aria/kilauea/history.npz",
+  "training_ready": true,
+  "note": null,
+  "country": "United States",
+  "stack": [
+    87,
+    "DESCENDING",
+    "00157W_00019N"
+  ],
+  "catalog_products": 2689,
+  "selected_pairs": 133,
+  "first_date": "2019-09-27",
+  "last_date": "2020-09-27",
+  "sensor": "Sentinel-1 ARIA GUNW",
+  "max_epochs": 60,
+  "mean_pair_valid_fraction": 0.8972480028195489
+}

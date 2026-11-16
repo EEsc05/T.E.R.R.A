@@ -1,0 +1,77 @@
+{
+  "sites": [
+    {
+      "site": "erta_ale",
+      "training": 18,
+      "reporting": 4,
+      "hashes": {
+        "train.npz": "6771b98c2edb7bec507c6272981131d119b6f12cf774d7418de270c1715b08be",
+        "validation.npz": "c357731ed2cf8d8c0662dfe71e333f37fd13d62b3f45c17fa5dfc293568db18a",
+        "examples.npz": "211cd0e581a4e606fd071ed789d64ffd09ffdde783a0c84238aba4d4adce5b54"
+      }
+    },
+    {
+      "site": "coropuna",
+      "training": 36,
+      "reporting": 9,
+      "hashes": {
+        "train.npz": "fccf93a98f19b97d48cea2b9e646e31ca53ce8fef5e1864b80e1b7d2bb776180",
+        "validation.npz": "59cbb1d8bced7b71d022a137dc2021e95d78e1ebf7e2e6a0e56126bb767d3632",
+        "examples.npz": "bc86822fd5b2f090215e0c030a6dca02f07a7e6a6b3e7dedea93f503e3e65644"
+      }
+    },
+    {
+      "site": "cotopaxi",
+      "training": 34,
+      "reporting": 9,
+      "hashes": {
+        "train.npz": "b1878caf3bef3e27e52fdcd74fad77171b9ec2407b529375b4fa1a8487a9c5e2",
+        "validation.npz": "eba12e8d1a6aefa88b298a803444abad66c387b49edf4d164f17b87968c2949a",
+        "examples.npz": "a3cc3c8993c7a3c6bfa4179fc3804618f36aa96df13ac0e5a062beaed479d49a"
+      }
+    },
+    {
+      "site": "taupo",
+      "training": 12,
+      "reporting": 3,
+      "hashes": {
+        "train.npz": "8d9472a095145b634110175922ae9f80bb03c16ad70600c13aded6df9fe3e3fd",
+        "validation.npz": "0846378166f2f7b2b28dd2516dd1dc63ae3d78dd38564337ca2171416fb74615",
+        "examples.npz": "11475ba5f093465c99ab26045c26526bbf2daba781e8bcedba7ce06e410dba3b"
+      }
+    },
+    {
+      "site": "kilauea",
+      "training": 30,
+      "reporting": 8,
+      "hashes": {
+        "train.npz": "15b9039a9973da3072f6ce60b6a03acf053a3256d2066ae9610e59e11a493c4a",
+        "validation.npz": "11f041f169103dd60f08a4af666a53e4d21cf2a6cc7aefce3e7bd5ec3ce0b9ce",
+        "examples.npz": "c1e6331d277401064a51d0d43adf4d7ae9977eda06b436548805c2f46e5e13d1"
+      }
+    },
+    {
+      "site": "reykjanes",
+      "training": 32,
+      "reporting": 8,
+      "hashes": {
+        "train.npz": "4097641268bf67a4e78337cd884aa94a333191608c98c86986a3c51bf6c3b682",
+        "validation.npz": "fc3fdb6adac8afb64eee101936cccc5ccaf491694d75bd03865a5e8a3590cc40",
+        "examples.npz": "3695cba5d4029f590179c5b1b4cb15ad5919b923e332b116f2c764888de5c007"
+      }
+    },
+    {
+      "site": "ruiz_nevado_del",
+      "training": 36,
+      "reporting": 9,
+      "hashes": {
+        "train.npz": "91baf1e1508b74b5bbbf6ed9699a91120f53bc4b07797f9856421266d78751b9",
+        "validation.npz": "bc1758822d9f1cffa2a7b18f8203c57c1d7bc58fc6166b94889fa6b2b4d48b6a",
+        "examples.npz": "a514b003cad2d38794eae62e1fb5090589511187a21929c1b0016f52b23034ff"
+      }
+    }
+  ],
+  "training_with_reporting": 198,
+  "training_only": 3,
+  "reporting": 50
+}

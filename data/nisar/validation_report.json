@@ -1,0 +1,59 @@
+{
+  "sabancaya": {
+    "training_examples": 10,
+    "validation_examples": 2,
+    "maps_shape": [
+      10,
+      6,
+      32,
+      32
+    ],
+    "observed_training_horizons_days": [
+      24.0
+    ],
+    "history_origin": "2026-10-15T00:00:00.000000000",
+    "training_valid_fraction": 0.6974446614583333,
+    "observed_targets_verified": true,
+    "causal_origins_verified": true,
+    "purged_temporal_split_verified": true,
+    "model_preparation_verified": true
+  },
+  "ubinas": {
+    "training_examples": 10,
+    "validation_examples": 2,
+    "maps_shape": [
+      10,
+      6,
+      32,
+      32
+    ],
+    "observed_training_horizons_days": [
+      24.0
+    ],
+    "history_origin": "2026-10-13T00:00:00.000000000",
+    "training_valid_fraction": 0.918017578125,
+    "observed_targets_verified": true,
+    "causal_origins_verified": true,
+    "purged_temporal_split_verified": true,
+    "model_preparation_verified": true
+  },
+  "misti": {
+    "training_examples": 10,
+    "validation_examples": 2,
+    "maps_shape": [
+      10,
+      6,
+      32,
+      32
+    ],
+    "observed_training_horizons_days": [
+      24.0
+    ],
+    "history_origin": "2026-10-15T00:00:00.000000000",
+    "training_valid_fraction": 0.5060546875,
+    "observed_targets_verified": true,
+    "causal_origins_verified": true,
+    "purged_temporal_split_verified": true,
+    "model_preparation_verified": true
+  }
+}

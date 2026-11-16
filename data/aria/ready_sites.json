@@ -1,0 +1,114 @@
+{
+  "erta_ale": {
+    "volcano_id": "erta_ale",
+    "volcano_name": "Erta Ale",
+    "country": "Ethiopia",
+    "lon": 40.666,
+    "lat": 13.601,
+    "half_km": 15.0,
+    "volcano_number": 221080,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=221080",
+    "sensor": "Sentinel-1",
+    "stack": [
+      14,
+      "ASCENDING",
+      "13849N_11925N"
+    ]
+  },
+  "coropuna": {
+    "volcano_id": "coropuna",
+    "volcano_name": "Coropuna",
+    "country": "Peru",
+    "lon": -72.65,
+    "lat": -15.52,
+    "half_km": 15.0,
+    "volcano_number": 354003,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354003",
+    "sensor": "Sentinel-1",
+    "stack": [
+      25,
+      "DESCENDING",
+      "00074W_00018S"
+    ]
+  },
+  "cotopaxi": {
+    "volcano_id": "cotopaxi",
+    "volcano_name": "Cotopaxi",
+    "country": "Ecuador",
+    "lon": -78.436,
+    "lat": -0.677,
+    "half_km": 15.0,
+    "volcano_number": 352050,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=352050",
+    "sensor": "Sentinel-1",
+    "stack": [
+      18,
+      "ASCENDING",
+      "00081W_00002S"
+    ]
+  },
+  "taupo": {
+    "volcano_id": "taupo",
+    "volcano_name": "Taupo",
+    "country": "New Zealand",
+    "lon": 175.893,
+    "lat": -38.7811,
+    "half_km": 15.0,
+    "volcano_number": 241070,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=241070",
+    "sensor": "Sentinel-1",
+    "stack": [
+      81,
+      "ASCENDING",
+      "00174E_00040S"
+    ]
+  },
+  "kilauea": {
+    "volcano_id": "kilauea",
+    "volcano_name": "Kilauea",
+    "country": "United States",
+    "lon": -155.287,
+    "lat": 19.421,
+    "half_km": 15.0,
+    "volcano_number": 332010,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=332010",
+    "sensor": "Sentinel-1",
+    "stack": [
+      87,
+      "DESCENDING",
+      "00157W_00019N"
+    ]
+  },
+  "reykjanes": {
+    "volcano_id": "reykjanes",
+    "volcano_name": "Reykjanes",
+    "country": "Iceland",
+    "lon": -22.717,
+    "lat": 63.817,
+    "half_km": 15.0,
+    "volcano_number": 371020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=371020",
+    "sensor": "Sentinel-1",
+    "stack": [
+      16,
+      "ASCENDING",
+      "00024W_00062N"
+    ]
+  },
+  "ruiz_nevado_del": {
+    "volcano_id": "ruiz_nevado_del",
+    "volcano_name": "Ruiz, Nevado del",
+    "country": "Colombia",
+    "lon": -75.324,
+    "lat": 4.892,
+    "half_km": 15.0,
+    "volcano_number": 351020,
+    "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=351020",
+    "sensor": "Sentinel-1",
+    "stack": [
+      142,
+      "DESCENDING",
+      "00078W_00004N"
+    ]
+  }
+}

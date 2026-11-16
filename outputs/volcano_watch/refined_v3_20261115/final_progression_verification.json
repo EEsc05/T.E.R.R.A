@@ -1,0 +1,19 @@
+{
+  "recursive_series_keeps_all_earlier_prediction_dates": true,
+  "sequence_frames_after_two_generations": 11,
+  "recursive_counts": {
+    "observed": 5,
+    "predicted": 1,
+    "missing": 0
+  },
+  "populated_first_middle_and_final_maps": true,
+  "mobile_recursive_series_no_overflow": true,
+  "browser_errors": [],
+  "final_runtime_sha256": {
+    "explore.html": "42390999397f44696109454557071da41fe810e8dd22615e9e2401b0feacff76",
+    "explore.js": "c91a637df151e6c6a2ccf6d9afc836761c9dd2eb8b670338fcf0f367cf9fb653",
+    "style.css": "2b45eebddf0b8242fe41959370e501c790cc3b132cf637e7e7c2bf3e0813bf2c",
+    "forecast-engine.js": "e8db5acd885a0f2a9c949855c87d6ce054f1ddd714c86f11450ee86cbbc59cc1",
+    "assets/model-four-branch.js": "b7e371f0630b715f2049d3b0f7156ac92a803340e328441cafc13f8e8ff4242e"
+  }
+}

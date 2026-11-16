@@ -1,0 +1,107 @@
+{
+  "site": "sakurajima",
+  "volcano_id": "sakurajima",
+  "volcano_name": "Sakurajima (Aira)",
+  "country": "Japan",
+  "lon": 130.6589,
+  "lat": 31.5772,
+  "half_km": 7.5,
+  "volcano_number": 282080,
+  "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=282080",
+  "aoi_note": "15 km square centered on the GVP Sakurajima/Aira coordinate; intended to limit ocean coverage while retaining volcanic flanks.",
+  "products": 41,
+  "parsed_products": 41,
+  "truncated_at_limit": false,
+  "stacks": [
+    {
+      "site": "sakurajima",
+      "volcano_id": "sakurajima",
+      "volcano_name": "Sakurajima (Aira)",
+      "country": "Japan",
+      "lon": 130.6589,
+      "lat": 31.5772,
+      "half_km": 7.5,
+      "volcano_number": 282080,
+      "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=282080",
+      "aoi_note": "15 km square centered on the GVP Sakurajima/Aira coordinate; intended to limit ocean coverage while retaining volcanic flanks.",
+      "stack": [
+        125,
+        "A",
+        17
+      ],
+      "polarization": "HH",
+      "pairs": 8,
+      "epochs": 9,
+      "first_date": "2026-06-22",
+      "last_date": "2026-10-20",
+      "catalogue_only_potential_examples": 1,
+      "new_product_ids": 8,
+      "minimum_aoi_coverage": 1.0,
+      "collections": [
+        "NISAR_L2_GUNW_PROVISIONAL_V1"
+      ],
+      "already_sampled_physical_site": false,
+      "pixel_quality_verified": false
+    },
+    {
+      "site": "sakurajima",
+      "volcano_id": "sakurajima",
+      "volcano_name": "Sakurajima (Aira)",
+      "country": "Japan",
+      "lon": 130.6589,
+      "lat": 31.5772,
+      "half_km": 7.5,
+      "volcano_number": 282080,
+      "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=282080",
+      "aoi_note": "15 km square centered on the GVP Sakurajima/Aira coordinate; intended to limit ocean coverage while retaining volcanic flanks.",
+      "stack": [
+        24,
+        "A",
+        18
+      ],
+      "polarization": "HH",
+      "pairs": 8,
+      "epochs": 9,
+      "first_date": "2026-06-27",
+      "last_date": "2026-10-13",
+      "catalogue_only_potential_examples": 1,
+      "new_product_ids": 8,
+      "minimum_aoi_coverage": 1.0,
+      "collections": [
+        "NISAR_L2_GUNW_PROVISIONAL_V1"
+      ],
+      "already_sampled_physical_site": false,
+      "pixel_quality_verified": false
+    },
+    {
+      "site": "sakurajima",
+      "volcano_id": "sakurajima",
+      "volcano_name": "Sakurajima (Aira)",
+      "country": "Japan",
+      "lon": 130.6589,
+      "lat": 31.5772,
+      "half_km": 7.5,
+      "volcano_number": 282080,
+      "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=282080",
+      "aoi_note": "15 km square centered on the GVP Sakurajima/Aira coordinate; intended to limit ocean coverage while retaining volcanic flanks.",
+      "stack": [
+        3,
+        "D",
+        73
+      ],
+      "polarization": "HH",
+      "pairs": 8,
+      "epochs": 9,
+      "first_date": "2026-06-26",
+      "last_date": "2026-10-12",
+      "catalogue_only_potential_examples": 1,
+      "new_product_ids": 8,
+      "minimum_aoi_coverage": 1.0,
+      "collections": [
+        "NISAR_L2_GUNW_PROVISIONAL_V1"
+      ],
+      "already_sampled_physical_site": false,
+      "pixel_quality_verified": false
+    }
+  ]
+}

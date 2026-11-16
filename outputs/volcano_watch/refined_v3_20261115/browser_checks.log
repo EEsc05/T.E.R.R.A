@@ -1,0 +1,60 @@
+PASS nisar_dabbahu
+PASS nisar_misti
+PASS nisar_popocatepetl
+PASS nisar_sabancaya
+PASS nisar_ubinas
+PASS aria_coropuna
+PASS aria_cotopaxi
+PASS aria_erta_ale
+PASS aria_kilauea
+PASS aria_reykjanes
+PASS aria_ruiz_nevado_del
+PASS aria_taupo
+PASS aria_ambrym
+PASS nisar_mount_asama_ascending
+PASS nisar_mount_asama_descending
+PASS nisar_sakurajima_125_a17
+{
+  "all_histories_actual_generated_sequences": [
+    "nisar_dabbahu",
+    "nisar_misti",
+    "nisar_popocatepetl",
+    "nisar_sabancaya",
+    "nisar_ubinas",
+    "aria_coropuna",
+    "aria_cotopaxi",
+    "aria_erta_ale",
+    "aria_kilauea",
+    "aria_reykjanes",
+    "aria_ruiz_nevado_del",
+    "aria_taupo",
+    "aria_ambrym",
+    "nisar_mount_asama_ascending",
+    "nisar_mount_asama_descending",
+    "nisar_sakurajima_125_a17"
+  ],
+  "direct_sequence_reuses_identical_causal_inputs": true,
+  "starting_observation_and_all_generated_frames_visible": true,
+  "playback_has_no_empty_observation_only_dates": true,
+  "shared_colour_scale": true,
+  "automatic_and_reduced_motion_behaviour_checked": true,
+  "recursive_inputs_labelled_and_original_date_preserved": true,
+  "explicit_sparse_slots_checked": true,
+  "future_browsing_cube_cannot_affect_predictions": true,
+  "invalid_target_explained_in_generator_and_map_panel": true,
+  "activity_options": [
+    "eruption",
+    "deformation",
+    "gas",
+    "magma",
+    "slope",
+    "subsidence",
+    "fault",
+    "infrastructure"
+  ],
+  "research_applications_do_not_claim_trained_activity_models": true,
+  "all_four_pages_fit_five_device_widths": true,
+  "browser_errors": [],
+  "external_runtime_requests": [],
+  "preserved_previous_version_and_engine_files": 176
+}

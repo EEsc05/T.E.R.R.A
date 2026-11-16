@@ -1,0 +1,1068 @@
+{
+  "units": "mm",
+  "sensor": "Sentinel-1",
+  "source": "ARIA S1 GUNW via ASF",
+  "polarization": "VV",
+  "volcano_id": "coropuna",
+  "volcano_name": "Coropuna",
+  "country": "Peru",
+  "volcano_number": 354003,
+  "coordinate_source": "https://volcano.si.edu/volcano.cfm?vn=354003",
+  "stack_id": "aria_coropuna_25_DESCENDING_00074W_00018S",
+  "stack": [
+    25,
+    "DESCENDING",
+    "00074W_00018S"
+  ],
+  "grid_convention": "aoi_block_mean32",
+  "grid": {
+    "epsg": 32718,
+    "x0": 737082.6324865769,
+    "x1": 767082.6324865769,
+    "y0": 8267774.554243419,
+    "y1": 8297774.554243419,
+    "H": 32,
+    "W": 32
+  },
+  "spacing_km": [
+    0.9375,
+    0.9375
+  ],
+  "center_lonlat": [
+    -72.65,
+    -15.52
+  ],
+  "half_width_km": 15.0,
+  "aoi_note": null,
+  "geometry_available": false,
+  "geometry_note": "LOS measurements retained; no conversion to vertical or ENU displacement",
+  "phase_to_los_sign": 1,
+  "los_sign_convention": "positive_toward_satellite",
+  "sign_verified_from": "https://hyp3-docs.asf.alaska.edu/guides/gunw_product_guide/",
+  "source_date_order": "reference=newer; secondary=older",
+  "network_date_order": "earlier to later",
+  "wavelength_m": [
+    0.055465761572122574
+  ],
+  "reference_area": "per-pair median over dominant coherent connected component",
+  "reference_caveat": "Relative AOI deformation; changing reference pixels can introduce offsets; broad uniform deformation removed",
+  "coherence_threshold": 0.4,
+  "min_block_valid_fraction": 0.5,
+  "min_pair_valid_fraction": 0.2,
+  "corrections_applied": [],
+  "correction_note": "Raw unwrapped phase; atmospheric, ionospheric and tide corrections not applied, matching existing raw NISAR inputs",
+  "max_epochs_requested": 60,
+  "max_baseline_days": 48,
+  "source_catalog_truncated": false,
+  "causality": "Each input inversion uses only pairs with both acquisitions no later than forecast origin; archive publication latency is not modeled",
+  "pairs": [
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200103_20191222-102342-00074W_00018S-PP-0b0e-v2_0_5.nc",
+      "reference": "2019-12-22",
+      "secondary": "2020-01-03",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200103_20191222-102342-00074W_00018S-PP-0b0e-v2_0_5/S1-GUNW-D-R-025-tops-20200103_20191222-102342-00074W_00018S-PP-0b0e-v2_0_5.nc",
+      "valid_pixel_fraction": 0.294921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201228_20201216-102348-00074W_00018S-PP-f934-v2_0_5.nc",
+      "reference": "2020-12-16",
+      "secondary": "2020-12-28",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201228_20201216-102348-00074W_00018S-PP-f934-v2_0_5/S1-GUNW-D-R-025-tops-20201228_20201216-102348-00074W_00018S-PP-f934-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2939453125,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20211211_20211129-102355-00074W_00018S-PP-1fc7-v2_0_5.nc",
+      "reference": "2021-11-29",
+      "secondary": "2021-12-11",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20211211_20211129-102355-00074W_00018S-PP-1fc7-v2_0_5/S1-GUNW-D-R-025-tops-20211211_20211129-102355-00074W_00018S-PP-1fc7-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200115_20191222-102341-00074W_00018S-PP-fbb7-v2_0_5.nc",
+      "reference": "2019-12-22",
+      "secondary": "2020-01-15",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200115_20191222-102341-00074W_00018S-PP-fbb7-v2_0_5/S1-GUNW-D-R-025-tops-20200115_20191222-102341-00074W_00018S-PP-fbb7-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200115_20200103-102341-00074W_00018S-PP-ecc9-v2_0_5.nc",
+      "reference": "2020-01-03",
+      "secondary": "2020-01-15",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200115_20200103-102341-00074W_00018S-PP-ecc9-v2_0_5/S1-GUNW-D-R-025-tops-20200115_20200103-102341-00074W_00018S-PP-ecc9-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200127_20200103-102341-00074W_00018S-PP-537c-v2_0_5.nc",
+      "reference": "2020-01-03",
+      "secondary": "2020-01-27",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200127_20200103-102341-00074W_00018S-PP-537c-v2_0_5/S1-GUNW-D-R-025-tops-20200127_20200103-102341-00074W_00018S-PP-537c-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200127_20200115-102341-00074W_00018S-PP-e7ec-v2_0_5.nc",
+      "reference": "2020-01-15",
+      "secondary": "2020-01-27",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200127_20200115-102341-00074W_00018S-PP-e7ec-v2_0_5/S1-GUNW-D-R-025-tops-20200127_20200115-102341-00074W_00018S-PP-e7ec-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200208_20200115-102341-00074W_00018S-PP-5f12-v2_0_5.nc",
+      "reference": "2020-01-15",
+      "secondary": "2020-02-08",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200208_20200115-102341-00074W_00018S-PP-5f12-v2_0_5/S1-GUNW-D-R-025-tops-20200208_20200115-102341-00074W_00018S-PP-5f12-v2_0_5.nc",
+      "valid_pixel_fraction": 0.287109375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200208_20200127-102341-00074W_00018S-PP-5f9d-v2_0_5.nc",
+      "reference": "2020-01-27",
+      "secondary": "2020-02-08",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200208_20200127-102341-00074W_00018S-PP-5f9d-v2_0_5/S1-GUNW-D-R-025-tops-20200208_20200127-102341-00074W_00018S-PP-5f9d-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200220_20200127-102341-00074W_00018S-PP-6fa1-v2_0_5.nc",
+      "reference": "2020-01-27",
+      "secondary": "2020-02-20",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200220_20200127-102341-00074W_00018S-PP-6fa1-v2_0_5/S1-GUNW-D-R-025-tops-20200220_20200127-102341-00074W_00018S-PP-6fa1-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200220_20200208-102341-00074W_00018S-PP-2a89-v2_0_5.nc",
+      "reference": "2020-02-08",
+      "secondary": "2020-02-20",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200220_20200208-102341-00074W_00018S-PP-2a89-v2_0_5/S1-GUNW-D-R-025-tops-20200220_20200208-102341-00074W_00018S-PP-2a89-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200303_20200208-102340-00074W_00018S-PP-148f-v2_0_5.nc",
+      "reference": "2020-02-08",
+      "secondary": "2020-03-03",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200303_20200208-102340-00074W_00018S-PP-148f-v2_0_5/S1-GUNW-D-R-025-tops-20200303_20200208-102340-00074W_00018S-PP-148f-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200303_20200220-102340-00074W_00018S-PP-8200-v2_0_5.nc",
+      "reference": "2020-02-20",
+      "secondary": "2020-03-03",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200303_20200220-102340-00074W_00018S-PP-8200-v2_0_5/S1-GUNW-D-R-025-tops-20200303_20200220-102340-00074W_00018S-PP-8200-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200315_20200220-102341-00074W_00018S-PP-a991-v2_0_5.nc",
+      "reference": "2020-02-20",
+      "secondary": "2020-03-15",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200315_20200220-102341-00074W_00018S-PP-a991-v2_0_5/S1-GUNW-D-R-025-tops-20200315_20200220-102341-00074W_00018S-PP-a991-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200315_20200303-102341-00074W_00018S-PP-716a-v2_0_5.nc",
+      "reference": "2020-03-03",
+      "secondary": "2020-03-15",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200315_20200303-102341-00074W_00018S-PP-716a-v2_0_5/S1-GUNW-D-R-025-tops-20200315_20200303-102341-00074W_00018S-PP-716a-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200327_20200303-102341-00074W_00018S-PP-4b7b-v2_0_5.nc",
+      "reference": "2020-03-03",
+      "secondary": "2020-03-27",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200327_20200303-102341-00074W_00018S-PP-4b7b-v2_0_5/S1-GUNW-D-R-025-tops-20200327_20200303-102341-00074W_00018S-PP-4b7b-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200408_20200315-102341-00074W_00018S-PP-0ec9-v2_0_5.nc",
+      "reference": "2020-03-15",
+      "secondary": "2020-04-08",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200408_20200315-102341-00074W_00018S-PP-0ec9-v2_0_5/S1-GUNW-D-R-025-tops-20200408_20200315-102341-00074W_00018S-PP-0ec9-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2939453125,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200408_20200327-102341-00074W_00018S-PP-0f59-v2_0_5.nc",
+      "reference": "2020-03-27",
+      "secondary": "2020-04-08",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200408_20200327-102341-00074W_00018S-PP-0f59-v2_0_5/S1-GUNW-D-R-025-tops-20200408_20200327-102341-00074W_00018S-PP-0f59-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200420_20200327-102342-00074W_00018S-PP-44d2-v2_0_5.nc",
+      "reference": "2020-03-27",
+      "secondary": "2020-04-20",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200420_20200327-102342-00074W_00018S-PP-44d2-v2_0_5/S1-GUNW-D-R-025-tops-20200420_20200327-102342-00074W_00018S-PP-44d2-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2900390625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200420_20200408-102342-00074W_00018S-PP-34d1-v2_0_5.nc",
+      "reference": "2020-04-08",
+      "secondary": "2020-04-20",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200420_20200408-102342-00074W_00018S-PP-34d1-v2_0_5/S1-GUNW-D-R-025-tops-20200420_20200408-102342-00074W_00018S-PP-34d1-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200502_20200408-102342-00074W_00018S-PP-f78c-v2_0_5.nc",
+      "reference": "2020-04-08",
+      "secondary": "2020-05-02",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200502_20200408-102342-00074W_00018S-PP-f78c-v2_0_5/S1-GUNW-D-R-025-tops-20200502_20200408-102342-00074W_00018S-PP-f78c-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200502_20200420-102342-00074W_00018S-PP-ca8d-v2_0_5.nc",
+      "reference": "2020-04-20",
+      "secondary": "2020-05-02",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200502_20200420-102342-00074W_00018S-PP-ca8d-v2_0_5/S1-GUNW-D-R-025-tops-20200502_20200420-102342-00074W_00018S-PP-ca8d-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2939453125,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200514_20200420-102343-00074W_00018S-PP-e89e-v2_0_5.nc",
+      "reference": "2020-04-20",
+      "secondary": "2020-05-14",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200514_20200420-102343-00074W_00018S-PP-e89e-v2_0_5/S1-GUNW-D-R-025-tops-20200514_20200420-102343-00074W_00018S-PP-e89e-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2939453125,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200514_20200502-102343-00074W_00018S-PP-c899-v2_0_5.nc",
+      "reference": "2020-05-02",
+      "secondary": "2020-05-14",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200514_20200502-102343-00074W_00018S-PP-c899-v2_0_5/S1-GUNW-D-R-025-tops-20200514_20200502-102343-00074W_00018S-PP-c899-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2958984375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200526_20200502-102343-00074W_00018S-PP-d470-v2_0_5.nc",
+      "reference": "2020-05-02",
+      "secondary": "2020-05-26",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200526_20200502-102343-00074W_00018S-PP-d470-v2_0_5/S1-GUNW-D-R-025-tops-20200526_20200502-102343-00074W_00018S-PP-d470-v2_0_5.nc",
+      "valid_pixel_fraction": 0.294921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200607_20200514-102344-00074W_00018S-PP-904a-v2_0_5.nc",
+      "reference": "2020-05-14",
+      "secondary": "2020-06-07",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200607_20200514-102344-00074W_00018S-PP-904a-v2_0_5/S1-GUNW-D-R-025-tops-20200607_20200514-102344-00074W_00018S-PP-904a-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2958984375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200619_20200526-102345-00074W_00018S-PP-4fbc-v2_0_5.nc",
+      "reference": "2020-05-26",
+      "secondary": "2020-06-19",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200619_20200526-102345-00074W_00018S-PP-4fbc-v2_0_5/S1-GUNW-D-R-025-tops-20200619_20200526-102345-00074W_00018S-PP-4fbc-v2_0_5.nc",
+      "valid_pixel_fraction": 0.294921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200619_20200607-102345-00074W_00018S-PP-7aec-v2_0_5.nc",
+      "reference": "2020-06-07",
+      "secondary": "2020-06-19",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200619_20200607-102345-00074W_00018S-PP-7aec-v2_0_5/S1-GUNW-D-R-025-tops-20200619_20200607-102345-00074W_00018S-PP-7aec-v2_0_5.nc",
+      "valid_pixel_fraction": 0.294921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200701_20200607-102345-00074W_00018S-PP-fda1-v2_0_5.nc",
+      "reference": "2020-06-07",
+      "secondary": "2020-07-01",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200701_20200607-102345-00074W_00018S-PP-fda1-v2_0_5/S1-GUNW-D-R-025-tops-20200701_20200607-102345-00074W_00018S-PP-fda1-v2_0_5.nc",
+      "valid_pixel_fraction": 0.296875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200713_20200619-102346-00074W_00018S-PP-94ec-v2_0_5.nc",
+      "reference": "2020-06-19",
+      "secondary": "2020-07-13",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200713_20200619-102346-00074W_00018S-PP-94ec-v2_0_5/S1-GUNW-D-R-025-tops-20200713_20200619-102346-00074W_00018S-PP-94ec-v2_0_5.nc",
+      "valid_pixel_fraction": 0.296875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200713_20200701-102346-00074W_00018S-PP-7aca-v2_0_5.nc",
+      "reference": "2020-07-01",
+      "secondary": "2020-07-13",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200713_20200701-102346-00074W_00018S-PP-7aca-v2_0_5/S1-GUNW-D-R-025-tops-20200713_20200701-102346-00074W_00018S-PP-7aca-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2919921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200725_20200701-102347-00074W_00018S-PP-4519-v2_0_5.nc",
+      "reference": "2020-07-01",
+      "secondary": "2020-07-25",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200725_20200701-102347-00074W_00018S-PP-4519-v2_0_5/S1-GUNW-D-R-025-tops-20200725_20200701-102347-00074W_00018S-PP-4519-v2_0_5.nc",
+      "valid_pixel_fraction": 0.29296875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200725_20200713-102347-00074W_00018S-PP-5bef-v2_0_5.nc",
+      "reference": "2020-07-13",
+      "secondary": "2020-07-25",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200725_20200713-102347-00074W_00018S-PP-5bef-v2_0_5/S1-GUNW-D-R-025-tops-20200725_20200713-102347-00074W_00018S-PP-5bef-v2_0_5.nc",
+      "valid_pixel_fraction": 0.29296875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200806_20200713-102348-00074W_00018S-PP-8487-v2_0_5.nc",
+      "reference": "2020-07-13",
+      "secondary": "2020-08-06",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200806_20200713-102348-00074W_00018S-PP-8487-v2_0_5/S1-GUNW-D-R-025-tops-20200806_20200713-102348-00074W_00018S-PP-8487-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2958984375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200806_20200725-102348-00074W_00018S-PP-ce4f-v2_0_5.nc",
+      "reference": "2020-07-25",
+      "secondary": "2020-08-06",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200806_20200725-102348-00074W_00018S-PP-ce4f-v2_0_5/S1-GUNW-D-R-025-tops-20200806_20200725-102348-00074W_00018S-PP-ce4f-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2958984375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200818_20200725-102348-00074W_00018S-PP-964f-v2_0_5.nc",
+      "reference": "2020-07-25",
+      "secondary": "2020-08-18",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200818_20200725-102348-00074W_00018S-PP-964f-v2_0_5/S1-GUNW-D-R-025-tops-20200818_20200725-102348-00074W_00018S-PP-964f-v2_0_5.nc",
+      "valid_pixel_fraction": 0.291015625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200818_20200806-102348-00074W_00018S-PP-50c3-v2_0_5.nc",
+      "reference": "2020-08-06",
+      "secondary": "2020-08-18",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200818_20200806-102348-00074W_00018S-PP-50c3-v2_0_5/S1-GUNW-D-R-025-tops-20200818_20200806-102348-00074W_00018S-PP-50c3-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2919921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200830_20200806-102349-00074W_00018S-PP-b3c2-v2_0_5.nc",
+      "reference": "2020-08-06",
+      "secondary": "2020-08-30",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200830_20200806-102349-00074W_00018S-PP-b3c2-v2_0_5/S1-GUNW-D-R-025-tops-20200830_20200806-102349-00074W_00018S-PP-b3c2-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200830_20200818-102349-00074W_00018S-PP-5e85-v2_0_5.nc",
+      "reference": "2020-08-18",
+      "secondary": "2020-08-30",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200830_20200818-102349-00074W_00018S-PP-5e85-v2_0_5/S1-GUNW-D-R-025-tops-20200830_20200818-102349-00074W_00018S-PP-5e85-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2958984375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200911_20200818-102350-00074W_00018S-PP-5dab-v2_0_5.nc",
+      "reference": "2020-08-18",
+      "secondary": "2020-09-11",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200911_20200818-102350-00074W_00018S-PP-5dab-v2_0_5/S1-GUNW-D-R-025-tops-20200911_20200818-102350-00074W_00018S-PP-5dab-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2958984375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200911_20200830-102350-00074W_00018S-PP-3dfd-v2_0_5.nc",
+      "reference": "2020-08-30",
+      "secondary": "2020-09-11",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200911_20200830-102350-00074W_00018S-PP-3dfd-v2_0_5/S1-GUNW-D-R-025-tops-20200911_20200830-102350-00074W_00018S-PP-3dfd-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200923_20200830-102350-00074W_00018S-PP-5cdd-v2_0_5.nc",
+      "reference": "2020-08-30",
+      "secondary": "2020-09-23",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200923_20200830-102350-00074W_00018S-PP-5cdd-v2_0_5/S1-GUNW-D-R-025-tops-20200923_20200830-102350-00074W_00018S-PP-5cdd-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2880859375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20200923_20200911-102350-00074W_00018S-PP-cbd7-v2_0_5.nc",
+      "reference": "2020-09-11",
+      "secondary": "2020-09-23",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20200923_20200911-102350-00074W_00018S-PP-cbd7-v2_0_5/S1-GUNW-D-R-025-tops-20200923_20200911-102350-00074W_00018S-PP-cbd7-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201005_20200911-102350-00074W_00018S-PP-5ae8-v2_0_5.nc",
+      "reference": "2020-09-11",
+      "secondary": "2020-10-05",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201005_20200911-102350-00074W_00018S-PP-5ae8-v2_0_5/S1-GUNW-D-R-025-tops-20201005_20200911-102350-00074W_00018S-PP-5ae8-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201005_20200923-102350-00074W_00018S-PP-b2aa-v2_0_5.nc",
+      "reference": "2020-09-23",
+      "secondary": "2020-10-05",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201005_20200923-102350-00074W_00018S-PP-b2aa-v2_0_5/S1-GUNW-D-R-025-tops-20201005_20200923-102350-00074W_00018S-PP-b2aa-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201017_20200923-102350-00074W_00018S-PP-3dbf-v2_0_5.nc",
+      "reference": "2020-09-23",
+      "secondary": "2020-10-17",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201017_20200923-102350-00074W_00018S-PP-3dbf-v2_0_5/S1-GUNW-D-R-025-tops-20201017_20200923-102350-00074W_00018S-PP-3dbf-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201017_20201005-102350-00074W_00018S-PP-b1cc-v2_0_5.nc",
+      "reference": "2020-10-05",
+      "secondary": "2020-10-17",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201017_20201005-102350-00074W_00018S-PP-b1cc-v2_0_5/S1-GUNW-D-R-025-tops-20201017_20201005-102350-00074W_00018S-PP-b1cc-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201029_20201005-102350-00074W_00018S-PP-715f-v2_0_5.nc",
+      "reference": "2020-10-05",
+      "secondary": "2020-10-29",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201029_20201005-102350-00074W_00018S-PP-715f-v2_0_5/S1-GUNW-D-R-025-tops-20201029_20201005-102350-00074W_00018S-PP-715f-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201029_20201017-102350-00074W_00018S-PP-205e-v2_0_5.nc",
+      "reference": "2020-10-17",
+      "secondary": "2020-10-29",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201029_20201017-102350-00074W_00018S-PP-205e-v2_0_5/S1-GUNW-D-R-025-tops-20201029_20201017-102350-00074W_00018S-PP-205e-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2880859375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201110_20201017-102350-00074W_00018S-PP-eab3-v2_0_5.nc",
+      "reference": "2020-10-17",
+      "secondary": "2020-11-10",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201110_20201017-102350-00074W_00018S-PP-eab3-v2_0_5/S1-GUNW-D-R-025-tops-20201110_20201017-102350-00074W_00018S-PP-eab3-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201110_20201029-102350-00074W_00018S-PP-9d2b-v2_0_5.nc",
+      "reference": "2020-10-29",
+      "secondary": "2020-11-10",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201110_20201029-102350-00074W_00018S-PP-9d2b-v2_0_5/S1-GUNW-D-R-025-tops-20201110_20201029-102350-00074W_00018S-PP-9d2b-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2958984375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201122_20201029-102350-00074W_00018S-PP-7cc3-v2_0_5.nc",
+      "reference": "2020-10-29",
+      "secondary": "2020-11-22",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201122_20201029-102350-00074W_00018S-PP-7cc3-v2_0_5/S1-GUNW-D-R-025-tops-20201122_20201029-102350-00074W_00018S-PP-7cc3-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2939453125,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201122_20201110-102350-00074W_00018S-PP-4091-v2_0_5.nc",
+      "reference": "2020-11-10",
+      "secondary": "2020-11-22",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201122_20201110-102350-00074W_00018S-PP-4091-v2_0_5/S1-GUNW-D-R-025-tops-20201122_20201110-102350-00074W_00018S-PP-4091-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2939453125,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201204_20201110-102349-00074W_00018S-PP-bb6d-v2_0_5.nc",
+      "reference": "2020-11-10",
+      "secondary": "2020-12-04",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201204_20201110-102349-00074W_00018S-PP-bb6d-v2_0_5/S1-GUNW-D-R-025-tops-20201204_20201110-102349-00074W_00018S-PP-bb6d-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201204_20201122-102349-00074W_00018S-PP-e187-v2_0_5.nc",
+      "reference": "2020-11-22",
+      "secondary": "2020-12-04",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201204_20201122-102349-00074W_00018S-PP-e187-v2_0_5/S1-GUNW-D-R-025-tops-20201204_20201122-102349-00074W_00018S-PP-e187-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201216_20201122-102349-00074W_00018S-PP-182e-v2_0_5.nc",
+      "reference": "2020-11-22",
+      "secondary": "2020-12-16",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201216_20201122-102349-00074W_00018S-PP-182e-v2_0_5/S1-GUNW-D-R-025-tops-20201216_20201122-102349-00074W_00018S-PP-182e-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201216_20201204-102349-00074W_00018S-PP-42e5-v2_0_5.nc",
+      "reference": "2020-12-04",
+      "secondary": "2020-12-16",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201216_20201204-102349-00074W_00018S-PP-42e5-v2_0_5/S1-GUNW-D-R-025-tops-20201216_20201204-102349-00074W_00018S-PP-42e5-v2_0_5.nc",
+      "valid_pixel_fraction": 0.296875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20201228_20201204-102348-00074W_00018S-PP-f8ab-v2_0_5.nc",
+      "reference": "2020-12-04",
+      "secondary": "2020-12-28",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20201228_20201204-102348-00074W_00018S-PP-f8ab-v2_0_5/S1-GUNW-D-R-025-tops-20201228_20201204-102348-00074W_00018S-PP-f8ab-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2919921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210109_20201216-102348-00074W_00018S-PP-9063-v2_0_5.nc",
+      "reference": "2020-12-16",
+      "secondary": "2021-01-09",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210109_20201216-102348-00074W_00018S-PP-9063-v2_0_5/S1-GUNW-D-R-025-tops-20210109_20201216-102348-00074W_00018S-PP-9063-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2919921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210109_20201228-102348-00074W_00018S-PP-b1f5-v2_0_5.nc",
+      "reference": "2020-12-28",
+      "secondary": "2021-01-09",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210109_20201228-102348-00074W_00018S-PP-b1f5-v2_0_5/S1-GUNW-D-R-025-tops-20210109_20201228-102348-00074W_00018S-PP-b1f5-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2939453125,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210121_20201228-102347-00074W_00018S-PP-dd76-v2_0_5.nc",
+      "reference": "2020-12-28",
+      "secondary": "2021-01-21",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210121_20201228-102347-00074W_00018S-PP-dd76-v2_0_5/S1-GUNW-D-R-025-tops-20210121_20201228-102347-00074W_00018S-PP-dd76-v2_0_5.nc",
+      "valid_pixel_fraction": 0.296875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210121_20210109-102347-00074W_00018S-PP-c931-v2_0_5.nc",
+      "reference": "2021-01-09",
+      "secondary": "2021-01-21",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210121_20210109-102347-00074W_00018S-PP-c931-v2_0_5/S1-GUNW-D-R-025-tops-20210121_20210109-102347-00074W_00018S-PP-c931-v2_0_5.nc",
+      "valid_pixel_fraction": 0.296875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210202_20210109-102347-00074W_00018S-PP-4cec-v2_0_5.nc",
+      "reference": "2021-01-09",
+      "secondary": "2021-02-02",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210202_20210109-102347-00074W_00018S-PP-4cec-v2_0_5/S1-GUNW-D-R-025-tops-20210202_20210109-102347-00074W_00018S-PP-4cec-v2_0_5.nc",
+      "valid_pixel_fraction": 0.296875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210202_20210121-102347-00074W_00018S-PP-663b-v2_0_5.nc",
+      "reference": "2021-01-21",
+      "secondary": "2021-02-02",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210202_20210121-102347-00074W_00018S-PP-663b-v2_0_5/S1-GUNW-D-R-025-tops-20210202_20210121-102347-00074W_00018S-PP-663b-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210214_20210121-102346-00074W_00018S-PP-64a7-v2_0_5.nc",
+      "reference": "2021-01-21",
+      "secondary": "2021-02-14",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210214_20210121-102346-00074W_00018S-PP-64a7-v2_0_5/S1-GUNW-D-R-025-tops-20210214_20210121-102346-00074W_00018S-PP-64a7-v2_0_5.nc",
+      "valid_pixel_fraction": 0.294921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210214_20210202-102346-00074W_00018S-PP-bcf0-v2_0_5.nc",
+      "reference": "2021-02-02",
+      "secondary": "2021-02-14",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210214_20210202-102346-00074W_00018S-PP-bcf0-v2_0_5/S1-GUNW-D-R-025-tops-20210214_20210202-102346-00074W_00018S-PP-bcf0-v2_0_5.nc",
+      "valid_pixel_fraction": 0.294921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210226_20210202-102346-00074W_00018S-PP-1ae3-v2_0_5.nc",
+      "reference": "2021-02-02",
+      "secondary": "2021-02-26",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210226_20210202-102346-00074W_00018S-PP-1ae3-v2_0_5/S1-GUNW-D-R-025-tops-20210226_20210202-102346-00074W_00018S-PP-1ae3-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2939453125,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210226_20210214-102346-00074W_00018S-PP-3515-v2_0_5.nc",
+      "reference": "2021-02-14",
+      "secondary": "2021-02-26",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210226_20210214-102346-00074W_00018S-PP-3515-v2_0_5/S1-GUNW-D-R-025-tops-20210226_20210214-102346-00074W_00018S-PP-3515-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210310_20210214-102346-00074W_00018S-PP-b1dd-v2_0_5.nc",
+      "reference": "2021-02-14",
+      "secondary": "2021-03-10",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210310_20210214-102346-00074W_00018S-PP-b1dd-v2_0_5/S1-GUNW-D-R-025-tops-20210310_20210214-102346-00074W_00018S-PP-b1dd-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210310_20210226-102346-00074W_00018S-PP-6b57-v2_0_5.nc",
+      "reference": "2021-02-26",
+      "secondary": "2021-03-10",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210310_20210226-102346-00074W_00018S-PP-6b57-v2_0_5/S1-GUNW-D-R-025-tops-20210310_20210226-102346-00074W_00018S-PP-6b57-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210322_20210226-102346-00074W_00018S-PP-7e96-v2_0_5.nc",
+      "reference": "2021-02-26",
+      "secondary": "2021-03-22",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210322_20210226-102346-00074W_00018S-PP-7e96-v2_0_5/S1-GUNW-D-R-025-tops-20210322_20210226-102346-00074W_00018S-PP-7e96-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2880859375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210322_20210310-102346-00074W_00018S-PP-1094-v2_0_5.nc",
+      "reference": "2021-03-10",
+      "secondary": "2021-03-22",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210322_20210310-102346-00074W_00018S-PP-1094-v2_0_5/S1-GUNW-D-R-025-tops-20210322_20210310-102346-00074W_00018S-PP-1094-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210403_20210310-102347-00074W_00018S-PP-108e-v2_0_5.nc",
+      "reference": "2021-03-10",
+      "secondary": "2021-04-03",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210403_20210310-102347-00074W_00018S-PP-108e-v2_0_5/S1-GUNW-D-R-025-tops-20210403_20210310-102347-00074W_00018S-PP-108e-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2880859375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210403_20210322-102347-00074W_00018S-PP-456d-v2_0_5.nc",
+      "reference": "2021-03-22",
+      "secondary": "2021-04-03",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210403_20210322-102347-00074W_00018S-PP-456d-v2_0_5/S1-GUNW-D-R-025-tops-20210403_20210322-102347-00074W_00018S-PP-456d-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210415_20210322-102347-00074W_00018S-PP-8543-v2_0_5.nc",
+      "reference": "2021-03-22",
+      "secondary": "2021-04-15",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210415_20210322-102347-00074W_00018S-PP-8543-v2_0_5/S1-GUNW-D-R-025-tops-20210415_20210322-102347-00074W_00018S-PP-8543-v2_0_5.nc",
+      "valid_pixel_fraction": 0.294921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210415_20210403-102347-00074W_00018S-PP-b1db-v2_0_5.nc",
+      "reference": "2021-04-03",
+      "secondary": "2021-04-15",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210415_20210403-102347-00074W_00018S-PP-b1db-v2_0_5/S1-GUNW-D-R-025-tops-20210415_20210403-102347-00074W_00018S-PP-b1db-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2958984375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210427_20210403-102348-00074W_00018S-PP-c302-v2_0_5.nc",
+      "reference": "2021-04-03",
+      "secondary": "2021-04-27",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210427_20210403-102348-00074W_00018S-PP-c302-v2_0_5/S1-GUNW-D-R-025-tops-20210427_20210403-102348-00074W_00018S-PP-c302-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2939453125,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210427_20210415-102348-00074W_00018S-PP-c19a-v2_0_5.nc",
+      "reference": "2021-04-15",
+      "secondary": "2021-04-27",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210427_20210415-102348-00074W_00018S-PP-c19a-v2_0_5/S1-GUNW-D-R-025-tops-20210427_20210415-102348-00074W_00018S-PP-c19a-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2939453125,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210509_20210415-102348-00074W_00018S-PP-c2a2-v2_0_5.nc",
+      "reference": "2021-04-15",
+      "secondary": "2021-05-09",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210509_20210415-102348-00074W_00018S-PP-c2a2-v2_0_5/S1-GUNW-D-R-025-tops-20210509_20210415-102348-00074W_00018S-PP-c2a2-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2958984375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210509_20210427-102348-00074W_00018S-PP-c54d-v2_0_5.nc",
+      "reference": "2021-04-27",
+      "secondary": "2021-05-09",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210509_20210427-102348-00074W_00018S-PP-c54d-v2_0_5/S1-GUNW-D-R-025-tops-20210509_20210427-102348-00074W_00018S-PP-c54d-v2_0_5.nc",
+      "valid_pixel_fraction": 0.29296875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210521_20210427-102349-00074W_00018S-PP-c375-v2_0_5.nc",
+      "reference": "2021-04-27",
+      "secondary": "2021-05-21",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210521_20210427-102349-00074W_00018S-PP-c375-v2_0_5/S1-GUNW-D-R-025-tops-20210521_20210427-102349-00074W_00018S-PP-c375-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2939453125,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210521_20210509-102349-00074W_00018S-PP-9fe8-v2_0_5.nc",
+      "reference": "2021-05-09",
+      "secondary": "2021-05-21",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210521_20210509-102349-00074W_00018S-PP-9fe8-v2_0_5/S1-GUNW-D-R-025-tops-20210521_20210509-102349-00074W_00018S-PP-9fe8-v2_0_5.nc",
+      "valid_pixel_fraction": 0.294921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210602_20210509-102350-00074W_00018S-PP-bd6f-v2_0_5.nc",
+      "reference": "2021-05-09",
+      "secondary": "2021-06-02",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210602_20210509-102350-00074W_00018S-PP-bd6f-v2_0_5/S1-GUNW-D-R-025-tops-20210602_20210509-102350-00074W_00018S-PP-bd6f-v2_0_5.nc",
+      "valid_pixel_fraction": 0.294921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210602_20210521-102350-00074W_00018S-PP-5d41-v2_0_5.nc",
+      "reference": "2021-05-21",
+      "secondary": "2021-06-02",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210602_20210521-102350-00074W_00018S-PP-5d41-v2_0_5/S1-GUNW-D-R-025-tops-20210602_20210521-102350-00074W_00018S-PP-5d41-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2939453125,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210614_20210521-102350-00074W_00018S-PP-3469-v2_0_5.nc",
+      "reference": "2021-05-21",
+      "secondary": "2021-06-14",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210614_20210521-102350-00074W_00018S-PP-3469-v2_0_5/S1-GUNW-D-R-025-tops-20210614_20210521-102350-00074W_00018S-PP-3469-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2958984375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210614_20210602-102350-00074W_00018S-PP-a3ba-v2_0_5.nc",
+      "reference": "2021-06-02",
+      "secondary": "2021-06-14",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210614_20210602-102350-00074W_00018S-PP-a3ba-v2_0_5/S1-GUNW-D-R-025-tops-20210614_20210602-102350-00074W_00018S-PP-a3ba-v2_0_5.nc",
+      "valid_pixel_fraction": 0.296875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210626_20210602-102351-00074W_00018S-PP-fe76-v2_0_5.nc",
+      "reference": "2021-06-02",
+      "secondary": "2021-06-26",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210626_20210602-102351-00074W_00018S-PP-fe76-v2_0_5/S1-GUNW-D-R-025-tops-20210626_20210602-102351-00074W_00018S-PP-fe76-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2958984375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210626_20210614-102351-00074W_00018S-PP-7c01-v2_0_5.nc",
+      "reference": "2021-06-14",
+      "secondary": "2021-06-26",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210626_20210614-102351-00074W_00018S-PP-7c01-v2_0_5/S1-GUNW-D-R-025-tops-20210626_20210614-102351-00074W_00018S-PP-7c01-v2_0_5.nc",
+      "valid_pixel_fraction": 0.29296875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210708_20210614-102352-00074W_00018S-PP-d8a2-v2_0_5.nc",
+      "reference": "2021-06-14",
+      "secondary": "2021-07-08",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210708_20210614-102352-00074W_00018S-PP-d8a2-v2_0_5/S1-GUNW-D-R-025-tops-20210708_20210614-102352-00074W_00018S-PP-d8a2-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2939453125,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210708_20210626-102352-00074W_00018S-PP-4cb6-v2_0_5.nc",
+      "reference": "2021-06-26",
+      "secondary": "2021-07-08",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210708_20210626-102352-00074W_00018S-PP-4cb6-v2_0_5/S1-GUNW-D-R-025-tops-20210708_20210626-102352-00074W_00018S-PP-4cb6-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2939453125,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210720_20210626-102352-00074W_00018S-PP-2fa3-v2_0_5.nc",
+      "reference": "2021-06-26",
+      "secondary": "2021-07-20",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210720_20210626-102352-00074W_00018S-PP-2fa3-v2_0_5/S1-GUNW-D-R-025-tops-20210720_20210626-102352-00074W_00018S-PP-2fa3-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2919921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210720_20210708-102352-00074W_00018S-PP-45b4-v2_0_5.nc",
+      "reference": "2021-07-08",
+      "secondary": "2021-07-20",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210720_20210708-102352-00074W_00018S-PP-45b4-v2_0_5/S1-GUNW-D-R-025-tops-20210720_20210708-102352-00074W_00018S-PP-45b4-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2919921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210801_20210708-102353-00074W_00018S-PP-80a4-v2_0_5.nc",
+      "reference": "2021-07-08",
+      "secondary": "2021-08-01",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210801_20210708-102353-00074W_00018S-PP-80a4-v2_0_5/S1-GUNW-D-R-025-tops-20210801_20210708-102353-00074W_00018S-PP-80a4-v2_0_5.nc",
+      "valid_pixel_fraction": 0.29296875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210801_20210720-102353-00074W_00018S-PP-e0cd-v2_0_5.nc",
+      "reference": "2021-07-20",
+      "secondary": "2021-08-01",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210801_20210720-102353-00074W_00018S-PP-e0cd-v2_0_5/S1-GUNW-D-R-025-tops-20210801_20210720-102353-00074W_00018S-PP-e0cd-v2_0_5.nc",
+      "valid_pixel_fraction": 0.29296875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210813_20210720-102354-00074W_00018S-PP-a04c-v2_0_5.nc",
+      "reference": "2021-07-20",
+      "secondary": "2021-08-13",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210813_20210720-102354-00074W_00018S-PP-a04c-v2_0_5/S1-GUNW-D-R-025-tops-20210813_20210720-102354-00074W_00018S-PP-a04c-v2_0_5.nc",
+      "valid_pixel_fraction": 0.296875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210813_20210801-102354-00074W_00018S-PP-1df0-v2_0_5.nc",
+      "reference": "2021-08-01",
+      "secondary": "2021-08-13",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210813_20210801-102354-00074W_00018S-PP-1df0-v2_0_5/S1-GUNW-D-R-025-tops-20210813_20210801-102354-00074W_00018S-PP-1df0-v2_0_5.nc",
+      "valid_pixel_fraction": 0.296875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210825_20210801-102355-00074W_00018S-PP-0091-v2_0_5.nc",
+      "reference": "2021-08-01",
+      "secondary": "2021-08-25",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210825_20210801-102355-00074W_00018S-PP-0091-v2_0_5/S1-GUNW-D-R-025-tops-20210825_20210801-102355-00074W_00018S-PP-0091-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2958984375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210825_20210813-102355-00074W_00018S-PP-df75-v2_0_5.nc",
+      "reference": "2021-08-13",
+      "secondary": "2021-08-25",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210825_20210813-102355-00074W_00018S-PP-df75-v2_0_5/S1-GUNW-D-R-025-tops-20210825_20210813-102355-00074W_00018S-PP-df75-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2958984375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210906_20210813-102355-00074W_00018S-PP-f32d-v2_0_5.nc",
+      "reference": "2021-08-13",
+      "secondary": "2021-09-06",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210906_20210813-102355-00074W_00018S-PP-f32d-v2_0_5/S1-GUNW-D-R-025-tops-20210906_20210813-102355-00074W_00018S-PP-f32d-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210906_20210825-102355-00074W_00018S-PP-3214-v2_0_5.nc",
+      "reference": "2021-08-25",
+      "secondary": "2021-09-06",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210906_20210825-102355-00074W_00018S-PP-3214-v2_0_5/S1-GUNW-D-R-025-tops-20210906_20210825-102355-00074W_00018S-PP-3214-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210918_20210825-102356-00074W_00018S-PP-d2fa-v2_0_5.nc",
+      "reference": "2021-08-25",
+      "secondary": "2021-09-18",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210918_20210825-102356-00074W_00018S-PP-d2fa-v2_0_5/S1-GUNW-D-R-025-tops-20210918_20210825-102356-00074W_00018S-PP-d2fa-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20210918_20210906-102356-00074W_00018S-PP-354a-v2_0_5.nc",
+      "reference": "2021-09-06",
+      "secondary": "2021-09-18",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20210918_20210906-102356-00074W_00018S-PP-354a-v2_0_5/S1-GUNW-D-R-025-tops-20210918_20210906-102356-00074W_00018S-PP-354a-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20211012_20210906-102356-00074W_00018S-PP-99b8-v2_0_5.nc",
+      "reference": "2021-09-06",
+      "secondary": "2021-10-12",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20211012_20210906-102356-00074W_00018S-PP-99b8-v2_0_5/S1-GUNW-D-R-025-tops-20211012_20210906-102356-00074W_00018S-PP-99b8-v2_0_5.nc",
+      "valid_pixel_fraction": 0.294921875,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20211012_20210918-102356-00074W_00018S-PP-435d-v2_0_5.nc",
+      "reference": "2021-09-18",
+      "secondary": "2021-10-12",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20211012_20210918-102356-00074W_00018S-PP-435d-v2_0_5/S1-GUNW-D-R-025-tops-20211012_20210918-102356-00074W_00018S-PP-435d-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20211024_20210918-102356-00074W_00018S-PP-883e-v2_0_5.nc",
+      "reference": "2021-09-18",
+      "secondary": "2021-10-24",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20211024_20210918-102356-00074W_00018S-PP-883e-v2_0_5/S1-GUNW-D-R-025-tops-20211024_20210918-102356-00074W_00018S-PP-883e-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2939453125,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20211024_20211012-102356-00074W_00018S-PP-58f2-v2_0_5.nc",
+      "reference": "2021-10-12",
+      "secondary": "2021-10-24",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20211024_20211012-102356-00074W_00018S-PP-58f2-v2_0_5/S1-GUNW-D-R-025-tops-20211024_20211012-102356-00074W_00018S-PP-58f2-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20211105_20211012-102356-00074W_00018S-PP-1be4-v2_0_5.nc",
+      "reference": "2021-10-12",
+      "secondary": "2021-11-05",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20211105_20211012-102356-00074W_00018S-PP-1be4-v2_0_5/S1-GUNW-D-R-025-tops-20211105_20211012-102356-00074W_00018S-PP-1be4-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20211105_20211024-102356-00074W_00018S-PP-dd27-v2_0_5.nc",
+      "reference": "2021-10-24",
+      "secondary": "2021-11-05",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20211105_20211024-102356-00074W_00018S-PP-dd27-v2_0_5/S1-GUNW-D-R-025-tops-20211105_20211024-102356-00074W_00018S-PP-dd27-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20211117_20211024-102356-00074W_00018S-PP-70cd-v2_0_5.nc",
+      "reference": "2021-10-24",
+      "secondary": "2021-11-17",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20211117_20211024-102356-00074W_00018S-PP-70cd-v2_0_5/S1-GUNW-D-R-025-tops-20211117_20211024-102356-00074W_00018S-PP-70cd-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20211117_20211105-102356-00074W_00018S-PP-e5c7-v2_0_5.nc",
+      "reference": "2021-11-05",
+      "secondary": "2021-11-17",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20211117_20211105-102356-00074W_00018S-PP-e5c7-v2_0_5/S1-GUNW-D-R-025-tops-20211117_20211105-102356-00074W_00018S-PP-e5c7-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20211129_20211105-102355-00074W_00018S-PP-e4fc-v2_0_5.nc",
+      "reference": "2021-11-05",
+      "secondary": "2021-11-29",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20211129_20211105-102355-00074W_00018S-PP-e4fc-v2_0_5/S1-GUNW-D-R-025-tops-20211129_20211105-102355-00074W_00018S-PP-e4fc-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2958984375,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    },
+    {
+      "file": "S1-GUNW-D-R-025-tops-20211129_20211117-102355-00074W_00018S-PP-0b17-v2_0_5.nc",
+      "reference": "2021-11-17",
+      "secondary": "2021-11-29",
+      "source_url": "https://cumulus.asf.earthdatacloud.nasa.gov/ARIA/SENTINEL-1_INTERFEROGRAMS/S1-GUNW-D-R-025-tops-20211129_20211117-102355-00074W_00018S-PP-0b17-v2_0_5/S1-GUNW-D-R-025-tops-20211129_20211117-102355-00074W_00018S-PP-0b17-v2_0_5.nc",
+      "valid_pixel_fraction": 0.2890625,
+      "wavelength_m": 0.055465761572122574,
+      "retained_component": 1
+    }
+  ]
+}

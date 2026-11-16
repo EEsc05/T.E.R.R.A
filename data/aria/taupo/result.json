@@ -1,0 +1,25 @@
+{
+  "site": "taupo",
+  "status": "generated",
+  "epochs": 30,
+  "pairs": 48,
+  "examples": 22,
+  "training_examples": 12,
+  "validation_examples": 3,
+  "history_path": "data/aria/taupo/history.npz",
+  "training_ready": true,
+  "note": null,
+  "country": "New Zealand",
+  "stack": [
+    81,
+    "ASCENDING",
+    "00174E_00040S"
+  ],
+  "catalog_products": 1046,
+  "selected_pairs": 115,
+  "first_date": "2020-12-20",
+  "last_date": "2021-12-03",
+  "sensor": "Sentinel-1 ARIA GUNW",
+  "max_epochs": 60,
+  "mean_pair_valid_fraction": 0.3748372395833333
+}
