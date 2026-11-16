@@ -36,7 +36,6 @@ If the environment already exists, update it with `conda env update -n terra -f 
 - `src/` contains the current preparation, training and forecasting code.
 - `data/` contains downloaded and prepared datasets. Model inputs use NumPy `.npz` files rather than CSV.
 - `outputs/` contains saved models, evaluation results, figures and website versions.
-- `experiments/` keeps separate research trials.
 
 For more instructions, see [src/README.md](src/README.md). Results for the dataset above are in the [evaluation report](outputs/nisar_aria_all_data/REPORT.md).
 
